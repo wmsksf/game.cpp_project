@@ -43,8 +43,6 @@ public:
          int strength, int dexterity,
          int agility);
 
-	const std::string &getCategory() const;
-
 	Inventory &getInventory();
 
 

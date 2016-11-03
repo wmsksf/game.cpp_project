@@ -15,7 +15,7 @@ TheGrid::TheGrid()
 	Items();
 	Spells();
 
-	grid = new Grid(new TileFactory(allItems));
+	grid = new Grid(new TileFactory(allItems, allSpells));
 }
 
 HeroParty* TheGrid::getParty() const
@@ -98,12 +98,13 @@ void TheGrid::Items()
 {
 	getWeapons();
 	getArmors();
+    getPotions();
 }
 
 void TheGrid::getWeapons()
 {
 	//open file
-	std::ifstream infile("Weapons");
+	std::ifstream infile("src/TheGrid/Items/Weapons.txt");
 
 	//check for error
 	if(!infile.is_open())
@@ -126,7 +127,7 @@ void TheGrid::getWeapons()
 void TheGrid::getArmors()
 {
 	//open file
-	std::ifstream infile("Armors");
+	std::ifstream infile("src/TheGrid/Items/Armors.txt");
 
 	//check for error
 	if(!infile.is_open())
@@ -146,10 +147,33 @@ void TheGrid::getArmors()
 	infile.close();
 }
 
+void TheGrid::getPotions()
+{
+    //open file
+    std::ifstream infile("src/TheGrid/Items/Potions.txt");
+
+    //check for error
+    if(!infile.is_open())
+    {
+        std::cout << "failed to open file" << std::endl;
+        exit(1);
+    }
+
+    std::string name;
+    while(std::getline(infile, name))
+    {
+        Item* item = new Armor(name);
+        allItems.push_back(item);
+    }
+
+    //close file
+    infile.close();
+}
+
 void TheGrid::Spells()
 {
 	//open file
-	std::ifstream infile("Spells");
+	std::ifstream infile("src/TheGrid/Items/Spells.txt");
 
 	//check for error
 	if(!infile.is_open())

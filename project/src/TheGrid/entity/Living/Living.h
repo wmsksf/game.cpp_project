@@ -9,6 +9,8 @@ class Living
 {
 protected:
     std::string name;
+    std::string category;
+
     int maxHealthPower;
 	int currentHealthPower;
 
@@ -16,13 +18,16 @@ protected:
     int level;
 
 public:
-    Living(const std::string &name, int healthPower);
+    Living(const std::string &name, const std::string &category,
+           int healthPower);
 
     bool isConscious();
 
     virtual void displayStats();
 
-	const std::string &getName() const;
+    const std::string &getCategory() const;
+
+    const std::string &getName() const;
 
 	void restoreHealth(int healthPoints);
 

@@ -4,7 +4,7 @@
 #include "../../TheGrid.h"
 
 SellCommand::SellCommand(TheGrid *theGrid)
-        :Command("sell", "[sell] Command to sell to Market",
+        :Command("sell", "[sell (item | spell)] Command to sell to Market",
                  theGrid) {}
 
 void SellCommand::execute(std::vector<std::string> &args)
@@ -17,23 +17,17 @@ void SellCommand::execute(std::vector<std::string> &args)
         return ;
     }
 
-    Hero* hero = theGrid->getParty()->chooseHero();
-
-    std::cout << "Do you want to sell an item or a spell? [item/spell]" << std::endl;
-
-    std::string answer;
-    std::cin >> answer;
-
-    while(answer.compare("item") != 0 || answer.compare("spell") != 0 )
+    if(args.size() != 1)
     {
-        std::cout << "Give 'item' to sell an item or 'spell' to sell a spell..." << std::endl;
-
-        std::cin >> answer;
+        std::cout << "Invalid usage : sell (item | spell)" << std::endl;
+        return ;
     }
+
+    Hero* hero = theGrid->getParty()->chooseHero();
 
     hero->printInventory();
 
-    if(answer.compare("item") == 0)
+    if(args[0].compare("item") == 0)
         sellItem(tile, hero);
     else
         sellSpell(tile, hero);

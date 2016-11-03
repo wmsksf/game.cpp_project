@@ -11,11 +11,12 @@ class TileFactory
 {
 private:
 	std::vector<Item*>& allItems;
+	std::vector<Spell*>& spells;
 
 	Market* createMarket();
 
 public:
-	TileFactory(std::vector<Item*> &allItems);
+	TileFactory(std::vector<Item*> &allItems, std::vector<Spell*> &spells);
 
 	Tile* createTile();
 };

@@ -1,21 +1,16 @@
 
 #include "Hero.h"
+#include "../../../manage/Random/Random.h"
 #include "../../Item/Potion/Potion.h"
 
 Hero::Hero(const std::string &name, const std::string &category,
 		   int strength, int dexterity, int agility)
 
-		: Living(name, 1000),
-		  category(category),
+		: Living(name, category, 1000),
 		  currentMagicPower(randomInRange(280, 460)),
-		  strength(strength),
-		  dexterity(dexterity),
-		  agility(agility),
-		  magicRegen(randomInRange(10, 20)),
-		  healthRegen(randomInRange(25, 35)),
-		  money(0),
-		  experience(0),
-		  experienceForLevel(100)
+          strength(strength), agility(agility), dexterity(dexterity),
+          magicRegen(magicRegen), healthRegen(healthRegen),
+          money(0), experience(0), experienceForLevel(100)
 {
 	level = 1;
 }
@@ -241,9 +236,4 @@ void Hero::printInventory()
 Inventory& Hero::getInventory()
 {
 	return inventory;
-}
-
-const std::string &Hero::getCategory() const
-{
-	return category;
 }

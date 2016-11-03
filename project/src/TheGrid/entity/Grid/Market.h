@@ -3,9 +3,10 @@
 #define NONO_MARKET_H
 
 #include <vector>
-#include "Tile.h"
 #include "../Item/Item.h"
 #include "../Spell/Spell.h"
+#include "Tile.h"
+
 
 class Market : public Tile
 {

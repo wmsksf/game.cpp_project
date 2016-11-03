@@ -3,7 +3,7 @@
 #include "../../TheGrid.h"
 
 BuyCommand::BuyCommand(TheGrid *theGrid)
-		:Command("buy", "[buy] Command to buy from Market",
+		:Command("buy", "[buy (item | spell)] Command to buy from Market",
 				 theGrid) {}
 
 void BuyCommand::execute(std::vector<std::string> &args)
@@ -16,21 +16,15 @@ void BuyCommand::execute(std::vector<std::string> &args)
 		return ;
 	}
 
-	Hero* hero = theGrid->getParty()->chooseHero();
-
-	std::cout << "Do you want to buy an item or a spell? [item/spell]" << std::endl;
-
-	std::string answer;
-	std::cin >> answer;
-
-	while(answer.compare("item") != 0 || answer.compare("spell") != 0 )
+	if(args.size() != 1)
 	{
-		std::cout << "Give 'item' to buy an item or 'spell' to buy a spell..." << std::endl;
-
-		std::cin >> answer;
+		std::cout << "Invalid usage : buy (item | spell)" << std::endl;
+		return ;
 	}
 
-	if(answer.compare("item") == 0)
+	Hero* hero = theGrid->getParty()->chooseHero();
+
+	if(args[0].compare("item") == 0)
 		buyItem(tile, hero);
 	else
 		buySpell(tile, hero);

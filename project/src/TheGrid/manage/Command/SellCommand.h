@@ -4,6 +4,7 @@
 
 #include "Command.h"
 #include "../../entity/Grid/Tile.h"
+#include "../../entity/Living/Hero/Hero.h"
 
 class SellCommand  : public Command
 {

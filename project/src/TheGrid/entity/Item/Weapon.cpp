@@ -19,7 +19,7 @@ int Weapon::getDamage() const
 	return damage;
 }
 
-Item* Weapon::clone() const
+Item* Weapon::clone()
 {
     Weapon *weapon = new Weapon(this->getName());
 

@@ -4,7 +4,8 @@
 
 #include <string>
 #include <iostream>
-#include "Market.h"
+
+class Market;
 
 class Tile
 {

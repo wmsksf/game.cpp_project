@@ -29,7 +29,7 @@ public:
 	void setCategory(const std::string &category);
 
 	int getRequiredLevel() const;
-	void setRequiredLevel(int requiredLevel)
+	void setRequiredLevel(int requiredLevel);
 
 	virtual Item* clone() = 0;
 	virtual const std::string& getDescription();

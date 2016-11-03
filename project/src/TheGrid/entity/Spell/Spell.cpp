@@ -1,6 +1,5 @@
 
 #include "Spell.h"
-#include "../../manage/Random/Random.h"
 #include "../../manage/Random/Utils.h"
 
 Spell::Spell(const std::string &name, int price,

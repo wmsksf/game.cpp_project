@@ -42,7 +42,7 @@ void Market::printItems()
 
 void Market::printSpells()
 {
-    std::cout << "Spells:" << std::endl;
+    std::cout << "Spells.txt:" << std::endl;
 
     int i = 0;
     for(std::vector<Spell*>::iterator it = marketofSpells.begin(); it != marketofSpells.end(); it++)

@@ -5,10 +5,11 @@
 #include "../../Spell/Effect/Effect.h"
 
 Monster::Monster(const std::string &name,
+				 const std::string &category,
                  int minDamage, int maxDamage,
                  int defense, double dodgeProbability)
 
-		: Living(name, 1000),
+		: Living(name, category, 1000),
 		  minDamage(minDamage),
 		  maxDamage(maxDamage),
 		  defense(defense),

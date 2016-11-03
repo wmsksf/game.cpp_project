@@ -15,6 +15,7 @@ private:
 
 public:
     Monster(const std::string &name,
+            const std::string &category,
             int minDamage, int maxDamage,
             int defense, double dodgeProbability);
 

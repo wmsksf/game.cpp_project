@@ -1,5 +1,6 @@
 
 #include "Inventory.h"
+#include "../../Spell/Spell.h"
 
 Item *Inventory::getItem(const std::string &name)
 {

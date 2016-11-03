@@ -4,7 +4,8 @@
 
 #include <vector>
 #include "../../Item/Item.h"
-#include "../../Spell/Spell.h"
+
+class Spell;
 
 class Inventory
 {

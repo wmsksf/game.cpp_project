@@ -36,6 +36,7 @@ public:
 	void Items();
 	void getWeapons();
 	void getArmors();
+	void getPotions();
 
 	void Spells();
 };
