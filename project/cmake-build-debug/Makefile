@@ -1095,33 +1095,6 @@ src/TheGrid/main.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/main.cpp.s
 .PHONY : src/TheGrid/main.cpp.s
 
-src/TheGrid/manage/Command/BuyCommand.o: src/TheGrid/manage/Command/BuyCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/BuyCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/BuyCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.o
-
-src/TheGrid/manage/Command/BuyCommand.i: src/TheGrid/manage/Command/BuyCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/BuyCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/BuyCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.i
-
-src/TheGrid/manage/Command/BuyCommand.s: src/TheGrid/manage/Command/BuyCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/BuyCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/BuyCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.s
-
 src/TheGrid/manage/Command/Command.o: src/TheGrid/manage/Command/Command.cpp.o
 
 .PHONY : src/TheGrid/manage/Command/Command.o
@@ -1202,33 +1175,6 @@ src/TheGrid/manage/Command/DisplayMapCommand.s: src/TheGrid/manage/Command/Displ
 src/TheGrid/manage/Command/DisplayMapCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
-
-src/TheGrid/manage/Command/Filght.o: src/TheGrid/manage/Command/Filght.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/Filght.o
-
-# target to build an object file
-src/TheGrid/manage/Command/Filght.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o
-.PHONY : src/TheGrid/manage/Command/Filght.cpp.o
-
-src/TheGrid/manage/Command/Filght.i: src/TheGrid/manage/Command/Filght.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/Filght.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/Filght.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.i
-.PHONY : src/TheGrid/manage/Command/Filght.cpp.i
-
-src/TheGrid/manage/Command/Filght.s: src/TheGrid/manage/Command/Filght.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/Filght.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/Filght.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.s
-.PHONY : src/TheGrid/manage/Command/Filght.cpp.s
 
 src/TheGrid/manage/Command/HelpCommand.o: src/TheGrid/manage/Command/HelpCommand.cpp.o
 
@@ -1311,33 +1257,6 @@ src/TheGrid/manage/Command/QuitGameCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/QuitGameCommand.cpp.s
 
-src/TheGrid/manage/Command/SellCommand.o: src/TheGrid/manage/Command/SellCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/SellCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.o
-
-src/TheGrid/manage/Command/SellCommand.i: src/TheGrid/manage/Command/SellCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/SellCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.i
-
-src/TheGrid/manage/Command/SellCommand.s: src/TheGrid/manage/Command/SellCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/SellCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.s
-
 src/TheGrid/manage/Manager/BattleArena.o: src/TheGrid/manage/Manager/BattleArena.cpp.o
 
 .PHONY : src/TheGrid/manage/Manager/BattleArena.o
@@ -1419,6 +1338,33 @@ src/TheGrid/manage/Manager/HeroParty.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
 .PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
+src/TheGrid/manage/Manager/MarketManager.o: src/TheGrid/manage/Manager/MarketManager.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/MarketManager.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/MarketManager.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o
+.PHONY : src/TheGrid/manage/Manager/MarketManager.cpp.o
+
+src/TheGrid/manage/Manager/MarketManager.i: src/TheGrid/manage/Manager/MarketManager.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/MarketManager.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/MarketManager.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.i
+.PHONY : src/TheGrid/manage/Manager/MarketManager.cpp.i
+
+src/TheGrid/manage/Manager/MarketManager.s: src/TheGrid/manage/Manager/MarketManager.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/MarketManager.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/MarketManager.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.s
+.PHONY : src/TheGrid/manage/Manager/MarketManager.cpp.s
+
 src/TheGrid/manage/Manager/createMonsters.o: src/TheGrid/manage/Manager/createMonsters.cpp.o
 
 .PHONY : src/TheGrid/manage/Manager/createMonsters.o
@@ -1445,6 +1391,60 @@ src/TheGrid/manage/Manager/createMonsters.s: src/TheGrid/manage/Manager/createMo
 src/TheGrid/manage/Manager/createMonsters.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.s
 .PHONY : src/TheGrid/manage/Manager/createMonsters.cpp.s
+
+src/TheGrid/manage/MarketManage/MarketManage.o: src/TheGrid/manage/MarketManage/MarketManage.cpp.o
+
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.o
+
+# target to build an object file
+src/TheGrid/manage/MarketManage/MarketManage.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.cpp.o
+
+src/TheGrid/manage/MarketManage/MarketManage.i: src/TheGrid/manage/MarketManage/MarketManage.cpp.i
+
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.i
+
+# target to preprocess a source file
+src/TheGrid/manage/MarketManage/MarketManage.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.i
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.cpp.i
+
+src/TheGrid/manage/MarketManage/MarketManage.s: src/TheGrid/manage/MarketManage/MarketManage.cpp.s
+
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/MarketManage/MarketManage.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.s
+.PHONY : src/TheGrid/manage/MarketManage/MarketManage.cpp.s
+
+src/TheGrid/manage/MarketManage/Sell.o: src/TheGrid/manage/MarketManage/Sell.cpp.o
+
+.PHONY : src/TheGrid/manage/MarketManage/Sell.o
+
+# target to build an object file
+src/TheGrid/manage/MarketManage/Sell.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o
+.PHONY : src/TheGrid/manage/MarketManage/Sell.cpp.o
+
+src/TheGrid/manage/MarketManage/Sell.i: src/TheGrid/manage/MarketManage/Sell.cpp.i
+
+.PHONY : src/TheGrid/manage/MarketManage/Sell.i
+
+# target to preprocess a source file
+src/TheGrid/manage/MarketManage/Sell.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.i
+.PHONY : src/TheGrid/manage/MarketManage/Sell.cpp.i
+
+src/TheGrid/manage/MarketManage/Sell.s: src/TheGrid/manage/MarketManage/Sell.cpp.s
+
+.PHONY : src/TheGrid/manage/MarketManage/Sell.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/MarketManage/Sell.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.s
+.PHONY : src/TheGrid/manage/MarketManage/Sell.cpp.s
 
 src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
 
@@ -1617,9 +1617,6 @@ help:
 	@echo "... src/TheGrid/main.o"
 	@echo "... src/TheGrid/main.i"
 	@echo "... src/TheGrid/main.s"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.o"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.i"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.s"
 	@echo "... src/TheGrid/manage/Command/Command.o"
 	@echo "... src/TheGrid/manage/Command/Command.i"
 	@echo "... src/TheGrid/manage/Command/Command.s"
@@ -1629,9 +1626,6 @@ help:
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.o"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.i"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.s"
-	@echo "... src/TheGrid/manage/Command/Filght.o"
-	@echo "... src/TheGrid/manage/Command/Filght.i"
-	@echo "... src/TheGrid/manage/Command/Filght.s"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.o"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.i"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.s"
@@ -1641,9 +1635,6 @@ help:
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.o"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.i"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.s"
-	@echo "... src/TheGrid/manage/Command/SellCommand.o"
-	@echo "... src/TheGrid/manage/Command/SellCommand.i"
-	@echo "... src/TheGrid/manage/Command/SellCommand.s"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.o"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.i"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.s"
@@ -1653,9 +1644,18 @@ help:
 	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
+	@echo "... src/TheGrid/manage/Manager/MarketManager.o"
+	@echo "... src/TheGrid/manage/Manager/MarketManager.i"
+	@echo "... src/TheGrid/manage/Manager/MarketManager.s"
 	@echo "... src/TheGrid/manage/Manager/createMonsters.o"
 	@echo "... src/TheGrid/manage/Manager/createMonsters.i"
 	@echo "... src/TheGrid/manage/Manager/createMonsters.s"
+	@echo "... src/TheGrid/manage/MarketManage/MarketManage.o"
+	@echo "... src/TheGrid/manage/MarketManage/MarketManage.i"
+	@echo "... src/TheGrid/manage/MarketManage/MarketManage.s"
+	@echo "... src/TheGrid/manage/MarketManage/Sell.o"
+	@echo "... src/TheGrid/manage/MarketManage/Sell.i"
+	@echo "... src/TheGrid/manage/MarketManage/Sell.s"
 	@echo "... src/TheGrid/manage/Random/Random.o"
 	@echo "... src/TheGrid/manage/Random/Random.i"
 	@echo "... src/TheGrid/manage/Random/Random.s"

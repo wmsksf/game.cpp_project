@@ -1065,33 +1065,9 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o.provides:
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
 
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Command/BuyCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.i
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.requires:
-
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.requires
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.provides.build
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.provides
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o
-
-
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.i: cmake_force
@@ -1115,7 +1091,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o.provides.bui
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Grid/TileFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.i: cmake_force
@@ -1139,7 +1115,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o.provides.build: CM
 
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.o: ../src/TheGrid/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/main.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/main.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.i: cmake_force
@@ -1161,33 +1137,9 @@ CMakeFiles/nono.dir/src/TheGrid/main.cpp.o.provides: CMakeFiles/nono.dir/src/The
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/main.cpp.o
 
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Command/SellCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.requires:
-
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.requires
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.provides.build
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.provides
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
-
-
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o: ../src/TheGrid/manage/Command/CreateHeroCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.i: cmake_force
@@ -1211,7 +1163,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o.provides.
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o: ../src/TheGrid/manage/Command/HelpCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.i: cmake_force
@@ -1235,7 +1187,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/manage/Manager/createMonsters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.i: cmake_force
@@ -1257,28 +1209,76 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o.provides: CM
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o
 
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o: ../src/TheGrid/manage/Command/Filght.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Filght.cpp
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o: ../src/TheGrid/manage/Manager/MarketManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MarketManager.cpp
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Filght.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.i
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MarketManager.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.i
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Filght.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.s
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MarketManager.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.s
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.requires
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.provides.build
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.provides
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o: ../src/TheGrid/manage/MarketManage/MarketManage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/MarketManage.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/MarketManage.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/MarketManage.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o: ../src/TheGrid/manage/MarketManage/Sell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/Sell.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/Sell.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/MarketManage/Sell.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o
 
 
 # Object files for target nono
@@ -1325,15 +1325,15 @@ nono_OBJECTS = \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/main.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o"
+"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o"
 
 # External object files for target nono
 nono_EXTERNAL_OBJECTS =
@@ -1380,15 +1380,15 @@ nono: CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
-nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/main.cpp.o
-nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o
-nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o
 nono: CMakeFiles/nono.dir/build.make
 nono: CMakeFiles/nono.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable nono"
@@ -1441,15 +1441,15 @@ CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Random/Rand
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/main.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MarketManager.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/MarketManage.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/MarketManage/Sell.cpp.o.requires
 
 .PHONY : CMakeFiles/nono.dir/requires
 

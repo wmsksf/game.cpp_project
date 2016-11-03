@@ -1,11 +1,9 @@
 
 #include "CommandManager.h"
 #include "../Command/QuitGameCommand.h"
-#include "../Command/BuyCommand.h"
 #include "../Command/MoveCommand.h"
 #include "../Command/DisplayMapCommand.h"
 #include "../Random/Utils.h"
-#include "../Command/SellCommand.h"
 #include "../Command/CreateHeroCommand.h"
 #include "../Command/HelpCommand.h"
 
@@ -14,8 +12,6 @@ CommandManager::CommandManager(TheGrid *theGrid)
 {
 	commands.push_back(new QuitGameCommand(theGrid));
 	commands.push_back(new MoveCommand(theGrid));
-	commands.push_back(new BuyCommand(theGrid));
-	commands.push_back(new SellCommand(theGrid));
 	commands.push_back(new DisplayMapCommand(theGrid));
 	commands.push_back(new CreateHeroCommand(theGrid));
 	commands.push_back(new HelpCommand(theGrid));

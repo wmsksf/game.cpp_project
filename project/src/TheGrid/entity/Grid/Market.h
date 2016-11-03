@@ -6,6 +6,8 @@
 #include "../Item/Item.h"
 #include "../Spell/Spell.h"
 #include "Tile.h"
+#include "../../manage/Manager/CommandManager.h"
+#include "../../manage/Manager/MarketManager.h"
 
 
 class Market : public Tile
@@ -13,6 +15,8 @@ class Market : public Tile
 private:
     std::vector<Item*> marketofItems;
     std::vector<Spell*> marketofSpells;
+
+    MarketManager* marketManager;
 
 public:
     Market(const std::vector<Item*> &marketofItems,
@@ -32,10 +36,7 @@ public:
     void receiveItem(Item* item);
     void receiveSpell(Spell* spell);
 
-    void enter();
-
-    Market* getMarket();
-
+    void enter(HeroParty* heroParty);
 
     const std::vector<Item*> &getItems() const;
     const std::vector<Spell*> &getSpells() const;

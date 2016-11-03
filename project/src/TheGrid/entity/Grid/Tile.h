@@ -4,8 +4,7 @@
 
 #include <string>
 #include <iostream>
-
-class Market;
+#include "../../manage/Manager/HeroParty.h"
 
 class Tile
 {
@@ -21,8 +20,6 @@ public:
     const std::string& getName() const;
 
 	virtual void enter() = 0;
-
-	virtual Market* getMarket();
 };
 
 #endif //NONO_TILE_H

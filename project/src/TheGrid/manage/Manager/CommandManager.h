@@ -4,6 +4,7 @@
 
 #include <vector>
 #include "../Command/Command.h"
+#include "../../entity/Living/Hero/Hero.h"
 
 class CommandManager
 {

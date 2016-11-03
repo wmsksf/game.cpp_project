@@ -5,7 +5,10 @@ Market::Market(const std::vector<Item*> &marketofItems,
                 const std::vector<Spell*> &marketofSpells)
 
         :Tile("Market"), marketofItems(marketofItems),
-         marketofSpells(marketofSpells) {}
+         marketofSpells(marketofSpells)
+{
+    marketManager = new MarketManager(this);
+}
 
 bool Market::isAccessible()
 {
@@ -74,14 +77,22 @@ void Market::receiveSpell(Spell* spell)
     marketofSpells.push_back(spell->clone());
 }
 
-void Market::enter()
+void Market::enter(HeroParty* heroParty)
 {
     std::cout << "You entered into a market!" << std::endl;
-}
 
-Market* Market::getMarket()
-{
-    return this;
+    std::string line;
+
+    while(true)
+    {
+        /* This loop will only exit when quit() is called. */
+
+        std::cout << "Give your command: ";
+
+        getline(std::cin, line);
+
+        marketManager->execute(line);
+    }
 }
 
 const std::vector<Item*> &Market::getItems() const

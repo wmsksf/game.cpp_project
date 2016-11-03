@@ -8,5 +8,3 @@ const std::string &Tile::getName() const
 
 Tile::Tile(const std::string &name)
     :name(name) {}
-
-Market* getMarket() {}

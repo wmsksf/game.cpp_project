@@ -1,7 +1,11 @@
 
 #include <fstream>
 #include <sstream>
+#include <cstdlib>
 #include "TheGrid.h"
+#include "entity/Spell/LightingSpell.h"
+#include "entity/Spell/IceSpell.h"
+#include "entity/Spell/FireSpell.h"
 
 TheGrid::TheGrid()
 {

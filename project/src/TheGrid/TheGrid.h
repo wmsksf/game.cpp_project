@@ -7,7 +7,6 @@
 #include "manage/Manager/CommandManager.h"
 #include "entity/Spell/Spell.h"
 
-
 class TheGrid
 {
 private:
