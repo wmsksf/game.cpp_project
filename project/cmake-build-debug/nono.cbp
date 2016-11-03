@@ -321,6 +321,12 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Filght.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Filght.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp">
 			<Option target="nono"/>
 		</Unit>

@@ -1203,6 +1203,33 @@ src/TheGrid/manage/Command/DisplayMapCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
 
+src/TheGrid/manage/Command/Filght.o: src/TheGrid/manage/Command/Filght.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Filght.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Filght.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.o
+.PHONY : src/TheGrid/manage/Command/Filght.cpp.o
+
+src/TheGrid/manage/Command/Filght.i: src/TheGrid/manage/Command/Filght.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Filght.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Filght.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.i
+.PHONY : src/TheGrid/manage/Command/Filght.cpp.i
+
+src/TheGrid/manage/Command/Filght.s: src/TheGrid/manage/Command/Filght.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Filght.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Filght.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Filght.cpp.s
+.PHONY : src/TheGrid/manage/Command/Filght.cpp.s
+
 src/TheGrid/manage/Command/HelpCommand.o: src/TheGrid/manage/Command/HelpCommand.cpp.o
 
 .PHONY : src/TheGrid/manage/Command/HelpCommand.o
@@ -1602,6 +1629,9 @@ help:
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.o"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.i"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.s"
+	@echo "... src/TheGrid/manage/Command/Filght.o"
+	@echo "... src/TheGrid/manage/Command/Filght.i"
+	@echo "... src/TheGrid/manage/Command/Filght.s"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.o"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.i"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.s"

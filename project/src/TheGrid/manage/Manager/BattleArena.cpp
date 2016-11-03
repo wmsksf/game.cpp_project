@@ -23,9 +23,9 @@ void BattleArena::displayBattleInfo()
 
 void BattleArena::heroRound(Hero* hero)
 {
-	//on use potion
     std::vector<Item*> potions = hero->getInventory().getItemsByCategory("Potion");
-
+    std::vector<Item*> weapons = hero->getInventory().getItemsByCategory("Weapon");
+    std::vector<Spell*> spells = hero->getInventory().getSpells();
 
 }
 

@@ -20,6 +20,8 @@ public:
     Item* getItem(const std::string& name);
     void addItem(Item* item);
 
+	std::vector<Spell*> getSpells();
+
 	Spell* getSpell(const std::string& name);
 	void addSpell(Spell* spell);
 

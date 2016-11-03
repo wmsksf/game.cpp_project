@@ -46,6 +46,12 @@ std::vector<Item*> Inventory::getItemsByCategory(const std::string &category)
 	return ItemsofCategory;
 }
 
+
+std::vector<Spell*> Inventory::getSpells()
+{
+	return spells;
+}
+
 void Inventory::addItem(Item *item)
 {
 	if(containsItem(item))

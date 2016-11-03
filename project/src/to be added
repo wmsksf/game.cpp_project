@@ -1,7 +1,0 @@
-in BattleArena: add data member CommangManager so methods of one to call specific commands
-    ++ add those commands
-
-in createMonster:
-    well fak
-
-in Commands: add checkInventory
