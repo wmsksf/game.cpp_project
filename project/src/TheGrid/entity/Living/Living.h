@@ -36,6 +36,8 @@ public:
 
 	int getCurrentHealthPower() const;
 	void setCurrentHealthPower(int currentHealthPower);
+
+	int getLevel() const;
 };
 
 #endif //NONO_LIVING_H

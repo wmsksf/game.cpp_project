@@ -48,6 +48,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o"
   "nono.pdb"
   "nono"
 )

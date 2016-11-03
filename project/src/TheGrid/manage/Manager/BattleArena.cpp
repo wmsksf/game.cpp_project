@@ -14,7 +14,8 @@ void BattleArena::displayBattleInfo()
 
 	std::cout << "MONSTERS:" << std::endl;
 
-	for (std::vector<Monster*>::iterator i = monsters.begin(); i != monsters.end(); i++)
+	for (std::vector<Monster*>::iterator i = createMonsters->getMonsters().begin();
+		 i != createMonsters->getMonsters().end(); i++)
 	{
 		(*i)->displayStats();
 	}
@@ -40,7 +41,8 @@ bool BattleArena::isFinished()
 		if(!(*it)->isConscious()) heroCount++;
 	}
 
-	for (std::vector<Monster*>::iterator it = monsters.begin(); it != monsters.end(); it++)
+	for (std::vector<Monster*>::iterator it = createMonsters->getMonsters();
+         it != createMonsters->getMonsters().end(); it++)
 	{
 		if(!(*it)->isConscious()) monsterCount++;
 	}

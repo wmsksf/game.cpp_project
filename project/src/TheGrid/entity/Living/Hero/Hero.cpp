@@ -180,7 +180,7 @@ void Hero::restoreMagicPower(int magicPoints)
 
 void Hero::addItem(Item *item)
 {
-	if(getMoney() < item->getPrice())
+	if(getMoney() < item->getPrice() || getLevel() < item->getRequiredLevel())
 	{
 		std::cout << "You do not have enough money to buy this item!";
 		std::cout << std::endl;
@@ -195,7 +195,7 @@ void Hero::addItem(Item *item)
 
 void Hero::addSpell(Spell *spell)
 {
-	if(getMoney() < spell->getPrice())
+	if(getMoney() < spell->getPrice() || getLevel() < spell->getRequiredLvl())
 	{
 		std::cout << "You do not have enough money to buy this spell!";
 		std::cout << std::endl;

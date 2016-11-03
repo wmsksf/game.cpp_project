@@ -47,7 +47,7 @@ void BuyCommand::buyItem(Tile* tile, Hero* hero)
 		std::cin >> number;
 	}
 
-	Item* item = tile->getMarket()->getItem(number);
+	Item* item = tile->getMarket()->getItem(number - 1);
 
 	hero->addItem(item);
 }
@@ -69,7 +69,7 @@ void BuyCommand::buySpell(Tile* tile, Hero* hero)
 		std::cin >> number;
 	}
 
-	Spell* spell = tile->getMarket()->getSpell(number);
+	Spell* spell = tile->getMarket()->getSpell(number - 1);
 
 	hero->addSpell(spell);
 }

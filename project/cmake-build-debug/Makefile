@@ -1392,6 +1392,33 @@ src/TheGrid/manage/Manager/HeroParty.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
 .PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
+src/TheGrid/manage/Manager/createMonsters.o: src/TheGrid/manage/Manager/createMonsters.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/createMonsters.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/createMonsters.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o
+.PHONY : src/TheGrid/manage/Manager/createMonsters.cpp.o
+
+src/TheGrid/manage/Manager/createMonsters.i: src/TheGrid/manage/Manager/createMonsters.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/createMonsters.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/createMonsters.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.i
+.PHONY : src/TheGrid/manage/Manager/createMonsters.cpp.i
+
+src/TheGrid/manage/Manager/createMonsters.s: src/TheGrid/manage/Manager/createMonsters.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/createMonsters.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/createMonsters.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.s
+.PHONY : src/TheGrid/manage/Manager/createMonsters.cpp.s
+
 src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
 
 .PHONY : src/TheGrid/manage/Random/Random.o
@@ -1596,6 +1623,9 @@ help:
 	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
+	@echo "... src/TheGrid/manage/Manager/createMonsters.o"
+	@echo "... src/TheGrid/manage/Manager/createMonsters.i"
+	@echo "... src/TheGrid/manage/Manager/createMonsters.s"
 	@echo "... src/TheGrid/manage/Random/Random.o"
 	@echo "... src/TheGrid/manage/Random/Random.i"
 	@echo "... src/TheGrid/manage/Random/Random.s"

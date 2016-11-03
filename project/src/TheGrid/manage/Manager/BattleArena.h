@@ -7,13 +7,14 @@
 #include "../../entity/Living/Hero/Hero.h"
 #include "../../entity/Spell/Spell.h"
 
+class createMonsters;
+
 class BattleArena
 {
 private:
 	int rounds;
 
-	void createMonsters();
-    std::vector<Monster*> monsters;
+    createMonsters createMonsters;
 	int monsterCount;
 
     std::vector<Hero*> heroes;

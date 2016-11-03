@@ -2,9 +2,6 @@
 #include <fstream>
 #include <sstream>
 #include "TheGrid.h"
-#include "entity/Spell/FireSpell.h"
-#include "entity/Spell/IceSpell.h"
-#include "entity/Spell/LightingSpell.h"
 
 TheGrid::TheGrid()
 {

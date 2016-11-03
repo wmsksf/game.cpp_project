@@ -60,3 +60,8 @@ const std::string &Living::getCategory() const
 {
     return category;
 }
+
+int Living::getLevel() const
+{
+    return level;
+}

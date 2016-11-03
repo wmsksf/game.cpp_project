@@ -363,6 +363,12 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.cpp">
 			<Option target="nono"/>
 		</Unit>
