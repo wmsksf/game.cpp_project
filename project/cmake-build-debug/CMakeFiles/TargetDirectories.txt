@@ -1,0 +1,3 @@
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir
