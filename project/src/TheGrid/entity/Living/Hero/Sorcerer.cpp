@@ -4,12 +4,11 @@
 
 #include "Sorcerer.h"
 
-Sorcerer::Sorcerer(std::string name, int lvl,
-                   int power, int magic,
-                   int strength, int dexterity,
-                   int agility, int money,
-                   int experience)
+Sorcerer::Sorcerer(const std::string& name, int hp,
+                 int magicPower, int strength,
+                 int dexterity, int agility,
+                 int magicRegen, int healthRegen)
 
-                   :Hero(name, lvl, power, magic,
-                         strength, dexterity,
-                         agility, money, experience) {}
+                 :Hero(name, hp, magicPower, strength,
+                       dexterity, agility, magicRegen,
+                       healthRegen) {}

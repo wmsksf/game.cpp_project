@@ -4,12 +4,15 @@
 
 #include "SpellEffect.h"
 
-int Effect::getTime() {
-    return 0;
+Effect::Effect(int tm, int prior) : time(tm), priority(prior) {}
+
+
+int Effect::getTime() const
+{
+    return time;
 }
 
-int Effect::getPriority() {
-    return 0;
+int Effect::getPriority() const
+{
+    return priority;
 }
-
-Effect::Effect(int time, int priority) : time(time), priority(priority) {}

@@ -9,15 +9,10 @@
 
 class Paladin : public Hero
 {
-    public:
-        Paladin(std::string,
-                int, int, int,
-                int, int, int,
-                int, int);
-
-        void stronGer();
-        void moreAgile();
-        void levelUp(); //override
+public:
+    Paladin(const std::string &,
+            int, int, int, int,
+            int, int, int);
 };
 
 

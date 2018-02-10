@@ -753,6 +753,78 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides: CMakeFi
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
 
 
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Grid/Market.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
+
+
 # Object files for target nono
 nono_OBJECTS = \
 "CMakeFiles/nono.dir/main.cpp.o" \
@@ -783,7 +855,10 @@ nono_OBJECTS = \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
+"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
 
 # External object files for target nono
 nono_EXTERNAL_OBJECTS =
@@ -817,9 +892,12 @@ nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
 nono: CMakeFiles/nono.dir/build.make
 nono: CMakeFiles/nono.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable nono"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable nono"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nono.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -856,6 +934,9 @@ CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Mons
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.requires
 
 .PHONY : CMakeFiles/nono.dir/requires
 

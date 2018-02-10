@@ -9,15 +9,10 @@
 
 class Sorcerer : public Hero
 {
-    public:
-        Sorcerer(std::string,
-                 int, int, int,
-                 int, int, int,
-                 int, int);
-
-        void moreDexterous();
-        void moreAgile();
-        void levelUp(); //override
+public:
+    Sorcerer(const std::string &,
+             int, int, int, int,
+             int, int, int);
 };
 
 #endif //NONO_SORCERER_H

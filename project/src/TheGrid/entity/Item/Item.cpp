@@ -4,7 +4,7 @@
 
 #include "Item.h"
 
-Item::Item(std::string nm,
-           int prc, int lvl)
+Item::Item(const std::string &name,
+           int price, int requiredLvl)
 
-            :name(nm), price(prc), minLvl(lvl) {}
+            :name(name), price(price), requiredLvl(requiredLvl) {}

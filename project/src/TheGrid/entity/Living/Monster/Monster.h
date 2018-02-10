@@ -9,16 +9,22 @@
 
 class Monster : public Living
 {
-    private:
-        int minDamage;
-        int maxDamage;
-        int defenseAmount;
+private:
+    int minDamage;
+    int maxDamage;
+    int defense;
 
-        double dodgeProbability;
+    double dodgeProbability;
 
-    public:
-        Monster(std::string, int,
-                int, int, int, double);
+public:
+    Monster(const std::string &, int, int,
+            int, int, int, double);
+
+    int getMinDamage() const;
+    int getMaxDamage() const;
+    int getDefense() const;
+
+    double getDodgeProbability() const;
 
 };
 

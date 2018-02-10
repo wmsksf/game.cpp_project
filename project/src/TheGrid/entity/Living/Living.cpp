@@ -4,11 +4,19 @@
 
 #include "Living.h"
 
-Living::Living(std::string nm, int power)
+Living::Living(const std::string &name, int healthPower)
 
-               :name(nm), level(1),
-                healthPower(power) {}
+               :name(name), level(1),
+                healthPower(healthPower) {}
 
-bool Living::isConscious() {
-    return healthPower == 0;
+//monsters has certain level from the beginning
+Living::Living(const std::string &name, int level,
+               int healthPower)
+
+                :name(name), level(level),
+                 healthPower(healthPower) {}
+
+bool Living::isConscious()
+{
+    return healthPower != 0;
 }

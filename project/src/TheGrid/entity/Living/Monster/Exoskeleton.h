@@ -10,9 +10,9 @@
 
 class Exoskeleton : public Monster
 {
-    public:
-        Exoskeleton(std::string, int,
-                    int, int, int, double);
+public:
+    Exoskeleton(const std::string &, int,
+                int, int, int, int, double);
 };
 
 

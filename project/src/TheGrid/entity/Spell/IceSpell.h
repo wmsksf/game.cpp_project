@@ -10,9 +10,8 @@
 
 class IceSpell {
     public:
-        IceSpell(std::string nm,
-                 int prc, int lvl,
-                 int damage, int magic);
+        IceSpell(const std::string &, int,
+                 int, int, int, int,);
 
         void useSpell(Hero*); //override
         void reduceRangeofOpponent(Monster*);

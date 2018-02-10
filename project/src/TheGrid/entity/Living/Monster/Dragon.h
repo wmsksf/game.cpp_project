@@ -10,9 +10,9 @@
 
 class Dragon : public Monster
 {
-    public:
-        Dragon(std::string, int,
-               int, int, int, double);
+public:
+    Dragon(const std::string &, int, int,
+           int, int, int, double);
 };
 
 

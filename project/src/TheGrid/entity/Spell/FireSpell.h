@@ -11,9 +11,8 @@
 
 class FireSpell : public Spell {
     public:
-        FireSpell(std::string nm,
-                  int prc, int lvl,
-                  int damage, int magic);
+        FireSpell(const std::string &, int,
+                  int, int, int, int);
 
         void useSpell(Hero*); //override
         void reduceDefenseofOpponent(Monster*);

@@ -4,11 +4,19 @@
 
 #include "MonsterStats.h"
 
-MonsterStats::MonsterStats(int minDamage, int maxDamage, int defenseAmount, double dodgeProbability)
-        : minDamage(minDamage),
-          maxDamage(maxDamage), defenseAmount(defenseAmount), dodgeProbability(dodgeProbability) {}
+MonsterStats::MonsterStats(int minDamage, int maxDamage,
+                           int defense, double dodgeProbability)
+
+                            :minDamage(minDamage),
+                             maxDamage(maxDamage),
+                             defense(defense),
+                             dodgeProbability(dodgeProbability) {}
 
 MonsterStats::MonsterStats(Monster *monster)
 {
-    //TODO implement
+    minDamage = monster->getMinDamage();
+    maxDamage = monster->getMaxDamage();
+    defense = monster->getDefense();
+
+    dodgeProbability = monster->getDodgeProbability();
 }

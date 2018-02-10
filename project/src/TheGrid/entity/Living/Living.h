@@ -16,7 +16,8 @@ class Living
         int healthPower;
 
     public:
-        Living(std::string, int);
+        Living(const std::string &, int);
+        Living(const std::string &, int , int);
 
         bool isConscious();
 };

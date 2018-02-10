@@ -9,15 +9,10 @@
 
 class Warrior : public Hero
 {
-    public:
-        Warrior(std::string,
-                int, int, int,
-                int, int, int,
-                int, int);
-
-        void stronGer();
-        void moreAgile();
-        void levelUp(); //override
+public:
+    Warrior(const std::string &,
+            int, int, int, int,
+            int, int, int);
 };
 
 #endif //NONO_WARRIOR_H

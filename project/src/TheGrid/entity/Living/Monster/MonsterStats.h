@@ -12,16 +12,14 @@ class MonsterStats {
 public:
     int minDamage;
     int maxDamage;
-    int defenseAmount;
+    int defense;
 
     double dodgeProbability;
 
 public:
-    MonsterStats(int minDamage, int maxDamage, int defenseAmount, double dodgeProbability);
+    MonsterStats(int, int, int, double);
 
     MonsterStats(Monster* monster);
-
-
 };
 
 

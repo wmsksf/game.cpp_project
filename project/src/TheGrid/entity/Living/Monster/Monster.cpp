@@ -4,11 +4,32 @@
 
 #include "Monster.h"
 
-Monster::Monster(std::string name, int lvl,
-                 int power, int damage,
-                 int defense, double odd)
+Monster::Monster(const std::string &name, int level,
+                 int hp, int minDamage, int maxDamage,
+                 int defense, double dodgeProbability)
 
-                :Living(name, lvl, power),
-                 damageRange(damage),
-                 defenseAmount(defense),
-                 dodgeProbability(odd) {}
+                :Living(name, level, hp),
+                 minDamage(minDamage),
+                 maxDamage(maxDamage),
+                 defense(defense),
+                 dodgeProbability(dodgeProbability) {}
+
+int Monster::getMinDamage() const
+{
+    return minDamage;
+}
+
+int Monster::getMaxDamage() const
+{
+    return maxDamage;
+}
+
+int Monster::getDefense() const
+{
+    return defense;
+}
+
+double Monster::getDodgeProbability() const
+{
+    return dodgeProbability;
+}

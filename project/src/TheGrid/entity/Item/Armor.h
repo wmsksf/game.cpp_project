@@ -11,9 +11,9 @@
 
 class Armor : public Item
 {
-    public:
-        Armor(std::string,
-            int, int);
+public:
+    Armor(const std::string &,
+          int, int);
 };
 
 

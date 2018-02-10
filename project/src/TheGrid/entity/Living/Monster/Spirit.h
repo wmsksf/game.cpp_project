@@ -9,9 +9,9 @@
 
 class Spirit : public Monster
 {
-    public:
-        Spirit(std::string, int,
-               int, int, int, double);
+public:
+    Spirit(const std::string &, int,
+           int, int, int, int, double);
 };
 
 

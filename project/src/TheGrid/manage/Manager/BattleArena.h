@@ -13,7 +13,6 @@
 
 class BattleArena
 {
-
 private:
     Console* console;
 
@@ -32,9 +31,6 @@ private:
 
 public:
     void start();
-
-
 };
-
 
 #endif //NONO_BATTLEARENA_H

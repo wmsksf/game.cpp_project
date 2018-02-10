@@ -4,7 +4,7 @@
 
 #include "Armor.h"
 
-Armor::Armor(std::string name,
-             int price, int minLvl)
+Armor::Armor(const std::string &name,
+             int price, int requiredLvl)
 
-            :Item(name, price, minLvl) {}
+            :Item(name, price, requiredLvl) {}

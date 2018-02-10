@@ -4,9 +4,11 @@
 
 #include "LightingSpell.h"
 
-LightingSpell::LightingSpell(std::string nm,
-                             int prc, int lvl,
-                             int damage, int magic)
+LightingSpell::LightingSpell(const std::string &name,
+                             int price, int requiredLvl,
+                             int requiredMana, int minDamage,
+                             int maxDamage)
 
-                            :Spell(nm, prc, lvl,
-                                   damage, magic) {}
+                            :Spell(name, price, requiredLvl,
+                                   requiredMana, minDamage,
+                                   maxDamage) {}

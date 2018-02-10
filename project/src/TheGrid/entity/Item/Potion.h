@@ -13,11 +13,11 @@
 
 class Potion : public Item
 {
-    public:
-        Potion(std::string,
-               int, int);
+public:
+    Potion(const std::string &,
+           int, int);
 
-        void boost(Hero* hero);
+    void boost(Hero* hero);
 };
 
 #endif //ROLE_PLAY_GAME_POTION_H

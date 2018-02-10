@@ -11,14 +11,14 @@
 
 class Weapon : public Item
 {
-    private:
-        int damageAmount;
-        bool dualWeild;
+private:
+    int damage;
+    bool dualWeild;
 
-    public:
-        Weapon(std::string,
-               int, int,
-               int, bool);
+public:
+    Weapon(const std::string &,
+           int, int,
+           int, bool);
 };
 
 #endif

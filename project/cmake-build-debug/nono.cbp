@@ -99,10 +99,28 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp">

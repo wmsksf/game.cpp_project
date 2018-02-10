@@ -4,9 +4,9 @@
 
 #include "Dragon.h"
 
-Dragon::Dragon(std::string name, int lvl,
-               int power, int damage,
-               int defense, double odd)
+Dragon::Dragon(const std::string &name, int level,
+               int hp, int minDamage, int maxDamage,
+               int defense, double dodgeProbability)
 
-               :Monster(name, lvl, power,
-                        damage, defense, odd) {}
+               :Monster(name, level, hp, minDamage,
+                        maxDamage, defense, dodgeProbability) {}

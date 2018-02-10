@@ -10,14 +10,14 @@
 
 class Item
 {
-    private:
-        std::string name;
-        int price;
-        int minLvl;
+private:
+    std::string name;
+    int price;
+    int requiredLvl;
 
-    public:
-        Item(std::string,
-            int, int);
+public:
+    Item(const std::string &,
+         int, int);
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

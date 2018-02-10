@@ -14,14 +14,14 @@ class Spell
 private:
     std::string name;
     int price;
-    int minLvl;
+    int requiredLvl;
+    int requiredMana;
 
     int minDamage;
     int maxDamage;
-    int requiredMana;
 
 public:
-    Spell(std::string,
+    Spell(const std::string &,int,
           int, int, int, int);
 };
 

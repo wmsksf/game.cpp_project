@@ -4,11 +4,11 @@
 
 #include "Weapon.h"
 
-Weapon::Weapon(std::string name,
-               int price, int lvl,
+Weapon::Weapon(const std::string &name,
+               int price, int requiredLvl,
                int damage,
-               bool both_hands)
+               bool dualWeild)
 
-               :Item(name, price, lvl),
-                damageAmount(damage),
-                dualWeild(both_hands) {}
+               :Item(name, price, requiredLvl),
+                damage(damage),
+                dualWeild(dualWeild) {}

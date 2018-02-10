@@ -11,9 +11,8 @@
 
 class LightingSpell : public Spell {
     public:
-        LightingSpell(std::string nm,
-                      int prc, int lvl,
-                      int damage, int magic);
+        LightingSpell(const std::string &, int,
+                      int, int, int, int);
 
         void useSpell(Hero*); //override
         void reduceOddtoAvoidAttack(Monster*);

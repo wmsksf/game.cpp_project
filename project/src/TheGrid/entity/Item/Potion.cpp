@@ -4,7 +4,7 @@
 
 #include "Potion.h"
 
-Potion::Potion(std::string name,
-               int price, int minLvl)
+Potion::Potion(const std::string &name,
+               int price, int requiredLvl)
 
-        :Item(name, price, minLvl) {}
+                :Item(name, price, requiredLvl) {}

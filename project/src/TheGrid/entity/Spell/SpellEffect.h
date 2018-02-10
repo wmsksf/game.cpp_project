@@ -6,6 +6,8 @@
 #define NONO_EFFECT_H
 
 
+#include "../Living/Monster/MonsterStats.h"
+
 class Effect
 {
 private:
@@ -13,15 +15,15 @@ private:
     int priority;
 
 public:
-    Effect(int time, int priority);
+    Effect(int, int);
 
     virtual void countDown() = 0 ;
     virtual bool expired() = 0;
-    virtual void apply(Statistics*) = 0;
+    virtual void apply(MonsterStats*) = 0;
 
-    int getPriority();
-    int getTime();
+    //getters
+    int getPriority() const;
+    int getTime() const;
 };
-
 
 #endif //NONO_EFFECT_H

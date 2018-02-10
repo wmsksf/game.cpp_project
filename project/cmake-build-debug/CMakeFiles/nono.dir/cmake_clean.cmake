@@ -28,6 +28,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
   "nono.pdb"
   "nono"
 )

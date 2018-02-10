@@ -204,6 +204,33 @@ src/TheGrid/TheGrid.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.s
 .PHONY : src/TheGrid/TheGrid.cpp.s
 
+src/TheGrid/entity/Grid/CommonTile.o: src/TheGrid/entity/Grid/CommonTile.cpp.o
+
+.PHONY : src/TheGrid/entity/Grid/CommonTile.o
+
+# target to build an object file
+src/TheGrid/entity/Grid/CommonTile.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
+.PHONY : src/TheGrid/entity/Grid/CommonTile.cpp.o
+
+src/TheGrid/entity/Grid/CommonTile.i: src/TheGrid/entity/Grid/CommonTile.cpp.i
+
+.PHONY : src/TheGrid/entity/Grid/CommonTile.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Grid/CommonTile.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.i
+.PHONY : src/TheGrid/entity/Grid/CommonTile.cpp.i
+
+src/TheGrid/entity/Grid/CommonTile.s: src/TheGrid/entity/Grid/CommonTile.cpp.s
+
+.PHONY : src/TheGrid/entity/Grid/CommonTile.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Grid/CommonTile.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.s
+.PHONY : src/TheGrid/entity/Grid/CommonTile.cpp.s
+
 src/TheGrid/entity/Grid/Grid.o: src/TheGrid/entity/Grid/Grid.cpp.o
 
 .PHONY : src/TheGrid/entity/Grid/Grid.o
@@ -230,6 +257,60 @@ src/TheGrid/entity/Grid/Grid.s: src/TheGrid/entity/Grid/Grid.cpp.s
 src/TheGrid/entity/Grid/Grid.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.s
 .PHONY : src/TheGrid/entity/Grid/Grid.cpp.s
+
+src/TheGrid/entity/Grid/Market.o: src/TheGrid/entity/Grid/Market.cpp.o
+
+.PHONY : src/TheGrid/entity/Grid/Market.o
+
+# target to build an object file
+src/TheGrid/entity/Grid/Market.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
+.PHONY : src/TheGrid/entity/Grid/Market.cpp.o
+
+src/TheGrid/entity/Grid/Market.i: src/TheGrid/entity/Grid/Market.cpp.i
+
+.PHONY : src/TheGrid/entity/Grid/Market.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Grid/Market.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.i
+.PHONY : src/TheGrid/entity/Grid/Market.cpp.i
+
+src/TheGrid/entity/Grid/Market.s: src/TheGrid/entity/Grid/Market.cpp.s
+
+.PHONY : src/TheGrid/entity/Grid/Market.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Grid/Market.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.s
+.PHONY : src/TheGrid/entity/Grid/Market.cpp.s
+
+src/TheGrid/entity/Grid/NonAccessibleTile.o: src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
+
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.o
+
+# target to build an object file
+src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
+
+src/TheGrid/entity/Grid/NonAccessibleTile.i: src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i
+
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i
+
+src/TheGrid/entity/Grid/NonAccessibleTile.s: src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s
+
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s
+.PHONY : src/TheGrid/entity/Grid/NonAccessibleTile.cpp.s
 
 src/TheGrid/entity/Grid/Tile.o: src/TheGrid/entity/Grid/Tile.cpp.o
 
@@ -924,9 +1005,18 @@ help:
 	@echo "... src/TheGrid/TheGrid.o"
 	@echo "... src/TheGrid/TheGrid.i"
 	@echo "... src/TheGrid/TheGrid.s"
+	@echo "... src/TheGrid/entity/Grid/CommonTile.o"
+	@echo "... src/TheGrid/entity/Grid/CommonTile.i"
+	@echo "... src/TheGrid/entity/Grid/CommonTile.s"
 	@echo "... src/TheGrid/entity/Grid/Grid.o"
 	@echo "... src/TheGrid/entity/Grid/Grid.i"
 	@echo "... src/TheGrid/entity/Grid/Grid.s"
+	@echo "... src/TheGrid/entity/Grid/Market.o"
+	@echo "... src/TheGrid/entity/Grid/Market.i"
+	@echo "... src/TheGrid/entity/Grid/Market.s"
+	@echo "... src/TheGrid/entity/Grid/NonAccessibleTile.o"
+	@echo "... src/TheGrid/entity/Grid/NonAccessibleTile.i"
+	@echo "... src/TheGrid/entity/Grid/NonAccessibleTile.s"
 	@echo "... src/TheGrid/entity/Grid/Tile.o"
 	@echo "... src/TheGrid/entity/Grid/Tile.i"
 	@echo "... src/TheGrid/entity/Grid/Tile.s"

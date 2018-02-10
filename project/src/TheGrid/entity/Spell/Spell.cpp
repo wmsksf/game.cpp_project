@@ -4,10 +4,13 @@
 
 #include "Spell.h"
 
-Spell::Spell(std::string nm,
-             int prc, int lvl,
-             int damage, int magic)
+Spell::Spell(const std::string &name,
+             int price, int requiredLvl,
+             int requiredMana, int minDamage,
+             int maxDamage)
 
-            :name(nm), price(prc),
-            damageRange(damage),
-            magicPower(magic) {}
+            :name(name), price(price),
+             requiredLvl(requiredLvl),
+             requiredMana(requiredMana),
+             minDamage(minDamage),
+             maxDamage(maxDamage)   {}

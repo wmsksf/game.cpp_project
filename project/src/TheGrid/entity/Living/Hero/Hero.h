@@ -36,14 +36,8 @@ protected:
     virtual void levelUp() = 0;
 
 public:
-    Hero(const std::string &name, int hp,
-    int magicPower,
-    int strength,
-    int dexterity,
-    int agility,
-    int magicRegen,
-    int healthRegen
-    );
+    Hero(const std::string &, int, int, int,
+    int, int, int, int);
 
     void displayStats(Console* console);
 
@@ -58,39 +52,30 @@ public:
     void gainExperience(int experiencePoints);
 
     int getMagicPower() const;
-
     void setMagicPower(int magicPower);
 
     int getStrength() const;
-
     void setStrength(int strength);
 
     int getDexterity() const;
-
     void setDexterity(int dexterity);
 
     int getAgility() const;
-
     void setAgility(int agility);
 
     int getMagicRegen() const;
-
     void setMagicRegen(int magicRegen);
 
     int getHealthRegen() const;
-
     void setHealthRegen(int healthRegen);
 
     int getMoney() const;
-
     void setMoney(int money);
 
     int getExperience() const;
-
     void setExperience(int experience);
 
-
-    Weapon &getEquipedWeapon() const;
+    Weapon& getEquipedWeapon() const;
 };
 
 #endif //NONO_HERO_H
