@@ -81,589 +81,745 @@ CMakeFiles/nono.dir/main.cpp.o.provides: CMakeFiles/nono.dir/main.cpp.o.requires
 CMakeFiles/nono.dir/main.cpp.o.provides.build: CMakeFiles/nono.dir/main.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/manage/Command/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/manage/Command/Command.cpp"
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: ../src/TheGrid/manage/Command/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/manage/Command/Command.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/manage/Command/Command.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Grid/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Tile.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Grid/Tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Tile.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Tile.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Item/Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Item.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o: ../src/TheGrid/entity/Item/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Item.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Item.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Item/Weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Weapon.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o: ../src/TheGrid/entity/Item/Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Weapon.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Weapon.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Item/Armor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Armor.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o: ../src/TheGrid/entity/Item/Armor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Armor.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Armor.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Item/Potion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Potion.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o: ../src/TheGrid/entity/Item/Potion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Potion.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Item/Potion.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Hero/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Hero.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Hero.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Hero.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Monster/Monster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Monster.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Monster.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Monster.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Spell/Spell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/Spell.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o: ../src/TheGrid/entity/Spell/Spell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/Spell.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/Spell.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Spell/IceSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/IceSpell.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o: ../src/TheGrid/entity/Spell/IceSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/IceSpell.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/IceSpell.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Spell/FireSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/FireSpell.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o: ../src/TheGrid/entity/Spell/FireSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/FireSpell.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/FireSpell.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Spell/LightingSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/LightingSpell.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o: ../src/TheGrid/entity/Spell/LightingSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/LightingSpell.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Spell/LightingSpell.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Living.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Living.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o: ../src/TheGrid/entity/Living/Living.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Living.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Living.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Hero/Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Warrior.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o: ../src/TheGrid/entity/Living/Hero/Warrior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Warrior.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Warrior.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Hero/Sorcerer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Sorcerer.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o: ../src/TheGrid/entity/Living/Hero/Sorcerer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Sorcerer.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Sorcerer.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Hero/Paladin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Paladin.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o: ../src/TheGrid/entity/Living/Hero/Paladin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Paladin.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Hero/Paladin.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Monster/Dragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Dragon.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o: ../src/TheGrid/entity/Living/Monster/Dragon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Dragon.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Dragon.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Monster/Exoskeleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Exoskeleton.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o: ../src/TheGrid/entity/Living/Monster/Exoskeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Exoskeleton.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Exoskeleton.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Living/Monster/Spirit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Spirit.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o: ../src/TheGrid/entity/Living/Monster/Spirit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Spirit.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Living/Monster/Spirit.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Game.cpp"
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/TheGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Game.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp > CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Game.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp -o CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/Console.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Console.cpp"
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o: ../src/TheGrid/Console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Console.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.cpp > CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/Console.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/Console.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.cpp -o CMakeFiles/nono.dir/src/TheGrid/Console.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o
 
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o: ../src/game\ (a\ strong\ in:')dependent\ world)/entity/Grid/Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o" -c "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Grid.cpp"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Grid/Grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Grid.cpp" > "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.i
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:')dependent world)/entity/Grid/Grid.cpp" -o "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s"
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.s
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.requires
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.provides: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.provides.build"
-.PHONY : CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.provides
 
-CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.provides.build: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o: ../src/TheGrid/entity/Spell/SpellEffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: ../src/TheGrid/manage/Manager/BattleArena.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o: ../src/TheGrid/manage/Command/MoveCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
+
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
 
 
 # Object files for target nono
 nono_OBJECTS = \
 "CMakeFiles/nono.dir/main.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o" \
-"CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o"
+"CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
 
 # External object files for target nono
 nono_EXTERNAL_OBJECTS =
 
 nono: CMakeFiles/nono.dir/main.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o
-nono: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
 nono: CMakeFiles/nono.dir/build.make
 nono: CMakeFiles/nono.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable nono"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable nono"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nono.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -672,28 +828,34 @@ CMakeFiles/nono.dir/build: nono
 .PHONY : CMakeFiles/nono.dir/build
 
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/main.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.requires
 
 .PHONY : CMakeFiles/nono.dir/requires
 

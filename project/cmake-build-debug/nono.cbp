@@ -87,136 +87,172 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/main.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/Console.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/Console.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/Game.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/Game.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Grid/Grid.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Grid/Grid.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Grid/Tile.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Grid/Tile.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Armor.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Armor.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Item.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Item.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Potion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Potion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Weapon.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Item/Weapon.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Hero.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Hero.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Paladin.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Paladin.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Sorcerer.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Sorcerer.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Warrior.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Hero/Warrior.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Living.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Living.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Dragon.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Dragon.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Exoskeleton.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Exoskeleton.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Monster.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Monster.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Spirit.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Living/Monster/Spirit.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/FireSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/FireSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/IceSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/IceSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/LightingSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/LightingSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/Spell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/entity/Spell/Spell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/manage/Command/Command.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/game (a strong in:&apos;)dependent world)/manage/Command/Command.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/CMakeLists.txt">

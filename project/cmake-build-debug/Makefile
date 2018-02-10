@@ -150,599 +150,761 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/Console.o: src/game_(a_strong_in_')dependent_world)/Console.cpp.o
+src/TheGrid/Console.o: src/TheGrid/Console.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.o
-
-# target to build an object file
-src/game_(a_strong_in_')dependent_world)/Console.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.cpp.o
-
-src/game_(a_strong_in_')dependent_world)/Console.i: src/game_(a_strong_in_')dependent_world)/Console.cpp.i
-
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.i
-
-# target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/Console.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.cpp.i
-
-src/game_(a_strong_in_')dependent_world)/Console.s: src/game_(a_strong_in_')dependent_world)/Console.cpp.s
-
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.s
-
-# target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/Console.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Console.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Console.cpp.s
-
-src/game_(a_strong_in_')dependent_world)/Game.o: src/game_(a_strong_in_')dependent_world)/Game.cpp.o
-
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.o
+.PHONY : src/TheGrid/Console.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/Game.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.cpp.o
+src/TheGrid/Console.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o
+.PHONY : src/TheGrid/Console.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/Game.i: src/game_(a_strong_in_')dependent_world)/Game.cpp.i
+src/TheGrid/Console.i: src/TheGrid/Console.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.i
+.PHONY : src/TheGrid/Console.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/Game.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.cpp.i
+src/TheGrid/Console.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i
+.PHONY : src/TheGrid/Console.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/Game.s: src/game_(a_strong_in_')dependent_world)/Game.cpp.s
+src/TheGrid/Console.s: src/TheGrid/Console.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.s
+.PHONY : src/TheGrid/Console.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/Game.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/Game.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/Game.cpp.s
+src/TheGrid/Console.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.s
+.PHONY : src/TheGrid/Console.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.o: src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o
+src/TheGrid/TheGrid.o: src/TheGrid/TheGrid.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.o
+.PHONY : src/TheGrid/TheGrid.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.o
+src/TheGrid/TheGrid.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o
+.PHONY : src/TheGrid/TheGrid.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.i: src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i
+src/TheGrid/TheGrid.i: src/TheGrid/TheGrid.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.i
+.PHONY : src/TheGrid/TheGrid.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.i
+src/TheGrid/TheGrid.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.i
+.PHONY : src/TheGrid/TheGrid.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.s: src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s
+src/TheGrid/TheGrid.s: src/TheGrid/TheGrid.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.s
+.PHONY : src/TheGrid/TheGrid.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.cpp.s
+src/TheGrid/TheGrid.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.s
+.PHONY : src/TheGrid/TheGrid.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.o: src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o
+src/TheGrid/entity/Grid/Grid.o: src/TheGrid/entity/Grid/Grid.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.o
+.PHONY : src/TheGrid/entity/Grid/Grid.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.o
+src/TheGrid/entity/Grid/Grid.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
+.PHONY : src/TheGrid/entity/Grid/Grid.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.i: src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i
+src/TheGrid/entity/Grid/Grid.i: src/TheGrid/entity/Grid/Grid.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.i
+.PHONY : src/TheGrid/entity/Grid/Grid.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.i
+src/TheGrid/entity/Grid/Grid.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.i
+.PHONY : src/TheGrid/entity/Grid/Grid.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.s: src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s
+src/TheGrid/entity/Grid/Grid.s: src/TheGrid/entity/Grid/Grid.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.s
+.PHONY : src/TheGrid/entity/Grid/Grid.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.cpp.s
+src/TheGrid/entity/Grid/Grid.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.s
+.PHONY : src/TheGrid/entity/Grid/Grid.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.o: src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o
+src/TheGrid/entity/Grid/Tile.o: src/TheGrid/entity/Grid/Tile.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.o
+.PHONY : src/TheGrid/entity/Grid/Tile.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.o
+src/TheGrid/entity/Grid/Tile.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o
+.PHONY : src/TheGrid/entity/Grid/Tile.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.i: src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i
+src/TheGrid/entity/Grid/Tile.i: src/TheGrid/entity/Grid/Tile.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.i
+.PHONY : src/TheGrid/entity/Grid/Tile.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.i
+src/TheGrid/entity/Grid/Tile.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.i
+.PHONY : src/TheGrid/entity/Grid/Tile.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.s: src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s
+src/TheGrid/entity/Grid/Tile.s: src/TheGrid/entity/Grid/Tile.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.s
+.PHONY : src/TheGrid/entity/Grid/Tile.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.cpp.s
+src/TheGrid/entity/Grid/Tile.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.s
+.PHONY : src/TheGrid/entity/Grid/Tile.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.o: src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o
+src/TheGrid/entity/Item/Armor.o: src/TheGrid/entity/Item/Armor.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.o
+.PHONY : src/TheGrid/entity/Item/Armor.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.o
+src/TheGrid/entity/Item/Armor.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o
+.PHONY : src/TheGrid/entity/Item/Armor.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.i: src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i
+src/TheGrid/entity/Item/Armor.i: src/TheGrid/entity/Item/Armor.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.i
+.PHONY : src/TheGrid/entity/Item/Armor.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.i
+src/TheGrid/entity/Item/Armor.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.i
+.PHONY : src/TheGrid/entity/Item/Armor.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.s: src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s
+src/TheGrid/entity/Item/Armor.s: src/TheGrid/entity/Item/Armor.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.s
+.PHONY : src/TheGrid/entity/Item/Armor.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Item.cpp.s
+src/TheGrid/entity/Item/Armor.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.s
+.PHONY : src/TheGrid/entity/Item/Armor.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.o: src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o
+src/TheGrid/entity/Item/Item.o: src/TheGrid/entity/Item/Item.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.o
+.PHONY : src/TheGrid/entity/Item/Item.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.o
+src/TheGrid/entity/Item/Item.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o
+.PHONY : src/TheGrid/entity/Item/Item.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.i: src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i
+src/TheGrid/entity/Item/Item.i: src/TheGrid/entity/Item/Item.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.i
+.PHONY : src/TheGrid/entity/Item/Item.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.i
+src/TheGrid/entity/Item/Item.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.i
+.PHONY : src/TheGrid/entity/Item/Item.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.s: src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s
+src/TheGrid/entity/Item/Item.s: src/TheGrid/entity/Item/Item.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.s
+.PHONY : src/TheGrid/entity/Item/Item.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.cpp.s
+src/TheGrid/entity/Item/Item.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.s
+.PHONY : src/TheGrid/entity/Item/Item.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.o: src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o
+src/TheGrid/entity/Item/Potion.o: src/TheGrid/entity/Item/Potion.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.o
+.PHONY : src/TheGrid/entity/Item/Potion.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.o
+src/TheGrid/entity/Item/Potion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.i: src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i
+src/TheGrid/entity/Item/Potion.i: src/TheGrid/entity/Item/Potion.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.i
+.PHONY : src/TheGrid/entity/Item/Potion.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.i
+src/TheGrid/entity/Item/Potion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.s: src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s
+src/TheGrid/entity/Item/Potion.s: src/TheGrid/entity/Item/Potion.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.s
+.PHONY : src/TheGrid/entity/Item/Potion.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.cpp.s
+src/TheGrid/entity/Item/Potion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o
+src/TheGrid/entity/Item/Weapon.o: src/TheGrid/entity/Item/Weapon.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.o
+.PHONY : src/TheGrid/entity/Item/Weapon.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.o
+src/TheGrid/entity/Item/Weapon.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o
+.PHONY : src/TheGrid/entity/Item/Weapon.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i
+src/TheGrid/entity/Item/Weapon.i: src/TheGrid/entity/Item/Weapon.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.i
+.PHONY : src/TheGrid/entity/Item/Weapon.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.i
+src/TheGrid/entity/Item/Weapon.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.i
+.PHONY : src/TheGrid/entity/Item/Weapon.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s
+src/TheGrid/entity/Item/Weapon.s: src/TheGrid/entity/Item/Weapon.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.s
+.PHONY : src/TheGrid/entity/Item/Weapon.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.cpp.s
+src/TheGrid/entity/Item/Weapon.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.s
+.PHONY : src/TheGrid/entity/Item/Weapon.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o
+src/TheGrid/entity/Living/Hero/Hero.o: src/TheGrid/entity/Living/Hero/Hero.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.o
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.o
+src/TheGrid/entity/Living/Hero/Hero.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i
+src/TheGrid/entity/Living/Hero/Hero.i: src/TheGrid/entity/Living/Hero/Hero.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.i
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.i
+src/TheGrid/entity/Living/Hero/Hero.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s
+src/TheGrid/entity/Living/Hero/Hero.s: src/TheGrid/entity/Living/Hero/Hero.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.s
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.cpp.s
+src/TheGrid/entity/Living/Hero/Hero.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Hero.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o
+src/TheGrid/entity/Living/Hero/Inventory.o: src/TheGrid/entity/Living/Hero/Inventory.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.o
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.o
+src/TheGrid/entity/Living/Hero/Inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i
+src/TheGrid/entity/Living/Hero/Inventory.i: src/TheGrid/entity/Living/Hero/Inventory.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.i
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.i
+src/TheGrid/entity/Living/Hero/Inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s
+src/TheGrid/entity/Living/Hero/Inventory.s: src/TheGrid/entity/Living/Hero/Inventory.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.s
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.cpp.s
+src/TheGrid/entity/Living/Hero/Inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o
+src/TheGrid/entity/Living/Hero/Paladin.o: src/TheGrid/entity/Living/Hero/Paladin.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.o
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.o
+src/TheGrid/entity/Living/Hero/Paladin.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i
+src/TheGrid/entity/Living/Hero/Paladin.i: src/TheGrid/entity/Living/Hero/Paladin.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.i
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.i
+src/TheGrid/entity/Living/Hero/Paladin.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s
+src/TheGrid/entity/Living/Hero/Paladin.s: src/TheGrid/entity/Living/Hero/Paladin.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.s
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.cpp.s
+src/TheGrid/entity/Living/Hero/Paladin.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Paladin.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o
+src/TheGrid/entity/Living/Hero/Sorcerer.o: src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.o
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.o
+src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i
+src/TheGrid/entity/Living/Hero/Sorcerer.i: src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.i
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.i
+src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s
+src/TheGrid/entity/Living/Hero/Sorcerer.s: src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.s
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Living.cpp.s
+src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Sorcerer.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o
+src/TheGrid/entity/Living/Hero/Warrior.o: src/TheGrid/entity/Living/Hero/Warrior.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.o
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.o
+src/TheGrid/entity/Living/Hero/Warrior.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i
+src/TheGrid/entity/Living/Hero/Warrior.i: src/TheGrid/entity/Living/Hero/Warrior.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.i
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.i
+src/TheGrid/entity/Living/Hero/Warrior.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s
+src/TheGrid/entity/Living/Hero/Warrior.s: src/TheGrid/entity/Living/Hero/Warrior.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.s
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.cpp.s
+src/TheGrid/entity/Living/Hero/Warrior.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Warrior.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o
+src/TheGrid/entity/Living/Living.o: src/TheGrid/entity/Living/Living.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.o
+.PHONY : src/TheGrid/entity/Living/Living.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.o
+src/TheGrid/entity/Living/Living.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o
+.PHONY : src/TheGrid/entity/Living/Living.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i
+src/TheGrid/entity/Living/Living.i: src/TheGrid/entity/Living/Living.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.i
+.PHONY : src/TheGrid/entity/Living/Living.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.i
+src/TheGrid/entity/Living/Living.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.i
+.PHONY : src/TheGrid/entity/Living/Living.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s
+src/TheGrid/entity/Living/Living.s: src/TheGrid/entity/Living/Living.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.s
+.PHONY : src/TheGrid/entity/Living/Living.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.cpp.s
+src/TheGrid/entity/Living/Living.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.s
+.PHONY : src/TheGrid/entity/Living/Living.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o
+src/TheGrid/entity/Living/Monster/Dragon.o: src/TheGrid/entity/Living/Monster/Dragon.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.o
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.o
+src/TheGrid/entity/Living/Monster/Dragon.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i
+src/TheGrid/entity/Living/Monster/Dragon.i: src/TheGrid/entity/Living/Monster/Dragon.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.i
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.i
+src/TheGrid/entity/Living/Monster/Dragon.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.i
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s
+src/TheGrid/entity/Living/Monster/Dragon.s: src/TheGrid/entity/Living/Monster/Dragon.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.s
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.cpp.s
+src/TheGrid/entity/Living/Monster/Dragon.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.s
+.PHONY : src/TheGrid/entity/Living/Monster/Dragon.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.o: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o
+src/TheGrid/entity/Living/Monster/Exoskeleton.o: src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.o
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.o
+src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.i: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i
+src/TheGrid/entity/Living/Monster/Exoskeleton.i: src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.i
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.i
+src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.s: src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s
+src/TheGrid/entity/Living/Monster/Exoskeleton.s: src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.s
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.cpp.s
+src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s
+.PHONY : src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.o: src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o
+src/TheGrid/entity/Living/Monster/Monster.o: src/TheGrid/entity/Living/Monster/Monster.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.o
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.o
+src/TheGrid/entity/Living/Monster/Monster.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.i: src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i
+src/TheGrid/entity/Living/Monster/Monster.i: src/TheGrid/entity/Living/Monster/Monster.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.i
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.i
+src/TheGrid/entity/Living/Monster/Monster.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.i
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.s: src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s
+src/TheGrid/entity/Living/Monster/Monster.s: src/TheGrid/entity/Living/Monster/Monster.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.s
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.cpp.s
+src/TheGrid/entity/Living/Monster/Monster.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.s
+.PHONY : src/TheGrid/entity/Living/Monster/Monster.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.o: src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o
+src/TheGrid/entity/Living/Monster/MonsterStats.o: src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.o
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.o
+src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.i: src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i
+src/TheGrid/entity/Living/Monster/MonsterStats.i: src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.i
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.i
+src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.s: src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s
+src/TheGrid/entity/Living/Monster/MonsterStats.s: src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.s
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.cpp.s
+src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s
+.PHONY : src/TheGrid/entity/Living/Monster/MonsterStats.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.o: src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o
+src/TheGrid/entity/Living/Monster/Spirit.o: src/TheGrid/entity/Living/Monster/Spirit.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.o
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.o
+src/TheGrid/entity/Living/Monster/Spirit.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.i: src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i
+src/TheGrid/entity/Living/Monster/Spirit.i: src/TheGrid/entity/Living/Monster/Spirit.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.i
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.i
+src/TheGrid/entity/Living/Monster/Spirit.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.i
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.s: src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s
+src/TheGrid/entity/Living/Monster/Spirit.s: src/TheGrid/entity/Living/Monster/Spirit.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.s
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.cpp.s
+src/TheGrid/entity/Living/Monster/Spirit.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.s
+.PHONY : src/TheGrid/entity/Living/Monster/Spirit.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.o: src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o
+src/TheGrid/entity/Spell/FireSpell.o: src/TheGrid/entity/Spell/FireSpell.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.o
+.PHONY : src/TheGrid/entity/Spell/FireSpell.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.o
+src/TheGrid/entity/Spell/FireSpell.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o
+.PHONY : src/TheGrid/entity/Spell/FireSpell.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.i: src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i
+src/TheGrid/entity/Spell/FireSpell.i: src/TheGrid/entity/Spell/FireSpell.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.i
+.PHONY : src/TheGrid/entity/Spell/FireSpell.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.i
+src/TheGrid/entity/Spell/FireSpell.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.i
+.PHONY : src/TheGrid/entity/Spell/FireSpell.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.s: src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s
+src/TheGrid/entity/Spell/FireSpell.s: src/TheGrid/entity/Spell/FireSpell.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.s
+.PHONY : src/TheGrid/entity/Spell/FireSpell.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.cpp.s
+src/TheGrid/entity/Spell/FireSpell.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.s
+.PHONY : src/TheGrid/entity/Spell/FireSpell.cpp.s
 
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.o: src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o
+src/TheGrid/entity/Spell/IceSpell.o: src/TheGrid/entity/Spell/IceSpell.cpp.o
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.o
+.PHONY : src/TheGrid/entity/Spell/IceSpell.o
 
 # target to build an object file
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o"
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.o
+src/TheGrid/entity/Spell/IceSpell.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o
+.PHONY : src/TheGrid/entity/Spell/IceSpell.cpp.o
 
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.i: src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i
+src/TheGrid/entity/Spell/IceSpell.i: src/TheGrid/entity/Spell/IceSpell.cpp.i
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.i
+.PHONY : src/TheGrid/entity/Spell/IceSpell.i
 
 # target to preprocess a source file
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i"
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.i
+src/TheGrid/entity/Spell/IceSpell.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.i
+.PHONY : src/TheGrid/entity/Spell/IceSpell.cpp.i
 
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.s: src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s
+src/TheGrid/entity/Spell/IceSpell.s: src/TheGrid/entity/Spell/IceSpell.cpp.s
 
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.s
+.PHONY : src/TheGrid/entity/Spell/IceSpell.s
 
 # target to generate assembly for a file
-src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make "CMakeFiles/nono.dir/src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s"
-.PHONY : src/game_(a_strong_in_')dependent_world)/manage/Command/Command.cpp.s
+src/TheGrid/entity/Spell/IceSpell.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.s
+.PHONY : src/TheGrid/entity/Spell/IceSpell.cpp.s
+
+src/TheGrid/entity/Spell/LightingSpell.o: src/TheGrid/entity/Spell/LightingSpell.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/LightingSpell.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.cpp.o
+
+src/TheGrid/entity/Spell/LightingSpell.i: src/TheGrid/entity/Spell/LightingSpell.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/LightingSpell.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.i
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.cpp.i
+
+src/TheGrid/entity/Spell/LightingSpell.s: src/TheGrid/entity/Spell/LightingSpell.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/LightingSpell.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.s
+.PHONY : src/TheGrid/entity/Spell/LightingSpell.cpp.s
+
+src/TheGrid/entity/Spell/Spell.o: src/TheGrid/entity/Spell/Spell.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/Spell.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/Spell.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o
+.PHONY : src/TheGrid/entity/Spell/Spell.cpp.o
+
+src/TheGrid/entity/Spell/Spell.i: src/TheGrid/entity/Spell/Spell.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/Spell.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/Spell.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.i
+.PHONY : src/TheGrid/entity/Spell/Spell.cpp.i
+
+src/TheGrid/entity/Spell/Spell.s: src/TheGrid/entity/Spell/Spell.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/Spell.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/Spell.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.s
+.PHONY : src/TheGrid/entity/Spell/Spell.cpp.s
+
+src/TheGrid/entity/Spell/SpellEffect.o: src/TheGrid/entity/Spell/SpellEffect.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/SpellEffect.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.o
+
+src/TheGrid/entity/Spell/SpellEffect.i: src/TheGrid/entity/Spell/SpellEffect.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/SpellEffect.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.i
+
+src/TheGrid/entity/Spell/SpellEffect.s: src/TheGrid/entity/Spell/SpellEffect.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/SpellEffect.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.s
+.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.s
+
+src/TheGrid/manage/Command/Command.o: src/TheGrid/manage/Command/Command.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Command.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Command.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
+.PHONY : src/TheGrid/manage/Command/Command.cpp.o
+
+src/TheGrid/manage/Command/Command.i: src/TheGrid/manage/Command/Command.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Command.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Command.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i
+.PHONY : src/TheGrid/manage/Command/Command.cpp.i
+
+src/TheGrid/manage/Command/Command.s: src/TheGrid/manage/Command/Command.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Command.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Command.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s
+.PHONY : src/TheGrid/manage/Command/Command.cpp.s
+
+src/TheGrid/manage/Command/MoveCommand.o: src/TheGrid/manage/Command/MoveCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/MoveCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/MoveCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/MoveCommand.cpp.o
+
+src/TheGrid/manage/Command/MoveCommand.i: src/TheGrid/manage/Command/MoveCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/MoveCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/MoveCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/MoveCommand.cpp.i
+
+src/TheGrid/manage/Command/MoveCommand.s: src/TheGrid/manage/Command/MoveCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/MoveCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/MoveCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/MoveCommand.cpp.s
+
+src/TheGrid/manage/Manager/BattleArena.o: src/TheGrid/manage/Manager/BattleArena.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/BattleArena.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/BattleArena.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
+.PHONY : src/TheGrid/manage/Manager/BattleArena.cpp.o
+
+src/TheGrid/manage/Manager/BattleArena.i: src/TheGrid/manage/Manager/BattleArena.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/BattleArena.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/BattleArena.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.i
+.PHONY : src/TheGrid/manage/Manager/BattleArena.cpp.i
+
+src/TheGrid/manage/Manager/BattleArena.s: src/TheGrid/manage/Manager/BattleArena.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/BattleArena.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/BattleArena.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.s
+.PHONY : src/TheGrid/manage/Manager/BattleArena.cpp.s
+
+src/TheGrid/manage/Manager/HeroParty.o: src/TheGrid/manage/Manager/HeroParty.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/HeroParty.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/HeroParty.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
+.PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.o
+
+src/TheGrid/manage/Manager/HeroParty.i: src/TheGrid/manage/Manager/HeroParty.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/HeroParty.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/HeroParty.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.i
+.PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.i
+
+src/TheGrid/manage/Manager/HeroParty.s: src/TheGrid/manage/Manager/HeroParty.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/HeroParty.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/HeroParty.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
+.PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
 # Help Target
 help:
@@ -756,72 +918,90 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Console.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Console.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Console.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Game.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Game.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/Game.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Grid.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Grid/Tile.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Armor.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Item.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Item.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Item.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Potion.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Item/Weapon.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Hero.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Paladin.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Sorcerer.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Hero/Warrior.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Living.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Living.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Living.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Dragon.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Exoskeleton.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Monster.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Living/Monster/Spirit.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/FireSpell.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/IceSpell.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/LightingSpell.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/entity/Spell/Spell.s"
-	@echo "... src/game_(a_strong_in_')dependent_world)/manage/Command/Command.o"
-	@echo "... src/game_(a_strong_in_')dependent_world)/manage/Command/Command.i"
-	@echo "... src/game_(a_strong_in_')dependent_world)/manage/Command/Command.s"
+	@echo "... src/TheGrid/Console.o"
+	@echo "... src/TheGrid/Console.i"
+	@echo "... src/TheGrid/Console.s"
+	@echo "... src/TheGrid/TheGrid.o"
+	@echo "... src/TheGrid/TheGrid.i"
+	@echo "... src/TheGrid/TheGrid.s"
+	@echo "... src/TheGrid/entity/Grid/Grid.o"
+	@echo "... src/TheGrid/entity/Grid/Grid.i"
+	@echo "... src/TheGrid/entity/Grid/Grid.s"
+	@echo "... src/TheGrid/entity/Grid/Tile.o"
+	@echo "... src/TheGrid/entity/Grid/Tile.i"
+	@echo "... src/TheGrid/entity/Grid/Tile.s"
+	@echo "... src/TheGrid/entity/Item/Armor.o"
+	@echo "... src/TheGrid/entity/Item/Armor.i"
+	@echo "... src/TheGrid/entity/Item/Armor.s"
+	@echo "... src/TheGrid/entity/Item/Item.o"
+	@echo "... src/TheGrid/entity/Item/Item.i"
+	@echo "... src/TheGrid/entity/Item/Item.s"
+	@echo "... src/TheGrid/entity/Item/Potion.o"
+	@echo "... src/TheGrid/entity/Item/Potion.i"
+	@echo "... src/TheGrid/entity/Item/Potion.s"
+	@echo "... src/TheGrid/entity/Item/Weapon.o"
+	@echo "... src/TheGrid/entity/Item/Weapon.i"
+	@echo "... src/TheGrid/entity/Item/Weapon.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Hero.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Hero.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Hero.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Paladin.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Paladin.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Paladin.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Sorcerer.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Sorcerer.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Sorcerer.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Warrior.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Warrior.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Warrior.s"
+	@echo "... src/TheGrid/entity/Living/Living.o"
+	@echo "... src/TheGrid/entity/Living/Living.i"
+	@echo "... src/TheGrid/entity/Living/Living.s"
+	@echo "... src/TheGrid/entity/Living/Monster/Dragon.o"
+	@echo "... src/TheGrid/entity/Living/Monster/Dragon.i"
+	@echo "... src/TheGrid/entity/Living/Monster/Dragon.s"
+	@echo "... src/TheGrid/entity/Living/Monster/Exoskeleton.o"
+	@echo "... src/TheGrid/entity/Living/Monster/Exoskeleton.i"
+	@echo "... src/TheGrid/entity/Living/Monster/Exoskeleton.s"
+	@echo "... src/TheGrid/entity/Living/Monster/Monster.o"
+	@echo "... src/TheGrid/entity/Living/Monster/Monster.i"
+	@echo "... src/TheGrid/entity/Living/Monster/Monster.s"
+	@echo "... src/TheGrid/entity/Living/Monster/MonsterStats.o"
+	@echo "... src/TheGrid/entity/Living/Monster/MonsterStats.i"
+	@echo "... src/TheGrid/entity/Living/Monster/MonsterStats.s"
+	@echo "... src/TheGrid/entity/Living/Monster/Spirit.o"
+	@echo "... src/TheGrid/entity/Living/Monster/Spirit.i"
+	@echo "... src/TheGrid/entity/Living/Monster/Spirit.s"
+	@echo "... src/TheGrid/entity/Spell/FireSpell.o"
+	@echo "... src/TheGrid/entity/Spell/FireSpell.i"
+	@echo "... src/TheGrid/entity/Spell/FireSpell.s"
+	@echo "... src/TheGrid/entity/Spell/IceSpell.o"
+	@echo "... src/TheGrid/entity/Spell/IceSpell.i"
+	@echo "... src/TheGrid/entity/Spell/IceSpell.s"
+	@echo "... src/TheGrid/entity/Spell/LightingSpell.o"
+	@echo "... src/TheGrid/entity/Spell/LightingSpell.i"
+	@echo "... src/TheGrid/entity/Spell/LightingSpell.s"
+	@echo "... src/TheGrid/entity/Spell/Spell.o"
+	@echo "... src/TheGrid/entity/Spell/Spell.i"
+	@echo "... src/TheGrid/entity/Spell/Spell.s"
+	@echo "... src/TheGrid/entity/Spell/SpellEffect.o"
+	@echo "... src/TheGrid/entity/Spell/SpellEffect.i"
+	@echo "... src/TheGrid/entity/Spell/SpellEffect.s"
+	@echo "... src/TheGrid/manage/Command/Command.o"
+	@echo "... src/TheGrid/manage/Command/Command.i"
+	@echo "... src/TheGrid/manage/Command/Command.s"
+	@echo "... src/TheGrid/manage/Command/MoveCommand.o"
+	@echo "... src/TheGrid/manage/Command/MoveCommand.i"
+	@echo "... src/TheGrid/manage/Command/MoveCommand.s"
+	@echo "... src/TheGrid/manage/Manager/BattleArena.o"
+	@echo "... src/TheGrid/manage/Manager/BattleArena.i"
+	@echo "... src/TheGrid/manage/Manager/BattleArena.s"
+	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
+	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
+	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
 .PHONY : help
 
 
