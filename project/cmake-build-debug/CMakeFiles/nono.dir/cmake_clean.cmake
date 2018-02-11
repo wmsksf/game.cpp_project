@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/main.cpp.o"
-  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
@@ -31,6 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
   "nono.pdb"
   "nono"
 )

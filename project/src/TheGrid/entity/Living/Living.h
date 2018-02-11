@@ -10,16 +10,16 @@
 
 class Living
 {
-    private:
-        std::string name;
-        int level;
-        int healthPower;
+private:
+    std::string name;
+    int level;
+    int healthPower;
 
-    public:
-        Living(const std::string &, int);
-        Living(const std::string &, int , int);
+public:
+    Living(const std::string &, int);
+    Living(const std::string &, int , int);
 
-        bool isConscious();
+    bool isConscious();
 };
 
 

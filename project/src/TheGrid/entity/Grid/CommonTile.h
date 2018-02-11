@@ -6,8 +6,15 @@
 #define NONO_COMMONTILE_H
 
 
-class CommonTile {
+#include "Tile.h"
 
+class CommonTile : public Tile
+{
+public:
+    CommonTile();
+
+    bool isAccessible();
+    void printTile(Console*);
 };
 
 

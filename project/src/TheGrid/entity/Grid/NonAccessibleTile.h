@@ -6,9 +6,15 @@
 #define NONO_NONACCESSIBLETILE_H
 
 
-class NonAccessibleTile {
+#include "Tile.h"
 
+class NonAccessibleTile : public Tile
+{
+public:
+    NonAccessibleTile();
+
+    bool isAccessible();
+    void printTile(Console*);
 };
-
 
 #endif //NONO_NONACCESSIBLETILE_H

@@ -3,3 +3,10 @@
 //
 
 #include "Tile.h"
+
+Tile::Tile() {}
+
+const std::string &Tile::getName() const
+{
+    return name;
+}

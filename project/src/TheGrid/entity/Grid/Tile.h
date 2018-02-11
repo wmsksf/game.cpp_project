@@ -5,11 +5,20 @@
 #ifndef NONO_TILE_H
 #define NONO_TILE_H
 
+#include <string>
+#include "../../Console.h"
 
 class Tile
 {
-    private:
+protected:
+    std::string name;
+public:
+    Tile();
 
+    virtual bool isAccessible() = 0;
+    virtual void printTile(Console*) = 0;
+
+    const std::string& getName() const;
 };
 
 

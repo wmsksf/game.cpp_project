@@ -81,33 +81,9 @@ CMakeFiles/nono.dir/main.cpp.o.provides: CMakeFiles/nono.dir/main.cpp.o.requires
 CMakeFiles/nono.dir/main.cpp.o.provides.build: CMakeFiles/nono.dir/main.cpp.o
 
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: ../src/TheGrid/manage/Command/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires:
-
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides
-
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
-
-
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Grid/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o: ../src/TheGrid/entity/Item/Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o: ../src/TheGrid/entity/Item/Weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o: ../src/TheGrid/entity/Item/Armor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o: ../src/TheGrid/entity/Item/Potion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o.provides.build: CM
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o.provides.bui
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o: ../src/TheGrid/entity/Spell/Spell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.i: cmake_force
@@ -299,7 +275,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o: ../src/TheGrid/entity/Spell/IceSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.i: cmake_force
@@ -323,7 +299,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/IceSpell.cpp.o.provides.build: CMak
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o: ../src/TheGrid/entity/Spell/FireSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.i: cmake_force
@@ -347,7 +323,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/FireSpell.cpp.o.provides.build: CMa
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o: ../src/TheGrid/entity/Spell/LightingSpell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.i: cmake_force
@@ -371,7 +347,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/LightingSpell.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o: ../src/TheGrid/entity/Living/Living.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.i: cmake_force
@@ -395,7 +371,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Living.cpp.o.provides.build: CMake
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o: ../src/TheGrid/entity/Living/Hero/Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.i: cmake_force
@@ -419,7 +395,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o: ../src/TheGrid/entity/Living/Hero/Sorcerer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.i: cmake_force
@@ -443,7 +419,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o.provides.build
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o: ../src/TheGrid/entity/Living/Hero/Paladin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.i: cmake_force
@@ -467,7 +443,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o: ../src/TheGrid/entity/Living/Monster/Dragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.i: cmake_force
@@ -491,7 +467,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Dragon.cpp.o.provides.buil
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o: ../src/TheGrid/entity/Living/Monster/Exoskeleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.i: cmake_force
@@ -515,7 +491,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp.o.provides
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o: ../src/TheGrid/entity/Living/Monster/Spirit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.i: cmake_force
@@ -539,7 +515,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o.provides.buil
 
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/TheGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.i: cmake_force
@@ -563,7 +539,7 @@ CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.provides.build: CMakeFiles/nono.di
 
 CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o: ../src/TheGrid/Console.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/Console.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i: cmake_force
@@ -587,7 +563,7 @@ CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o.provides.build: CMakeFiles/nono.di
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Grid/Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.i: cmake_force
@@ -611,7 +587,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o: ../src/TheGrid/entity/Spell/SpellEffect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/SpellEffect.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i: cmake_force
@@ -635,7 +611,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o.provides.build: C
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i: cmake_force
@@ -659,7 +635,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides.buil
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.i: cmake_force
@@ -683,7 +659,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.provide
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: ../src/TheGrid/manage/Manager/BattleArena.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.i: cmake_force
@@ -707,7 +683,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o: ../src/TheGrid/manage/Command/MoveCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.i: cmake_force
@@ -731,7 +707,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.provides.build:
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.i: cmake_force
@@ -755,7 +731,7 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o.provides.build: C
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.i: cmake_force
@@ -779,7 +755,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.provides.build: CMa
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.i: cmake_force
@@ -803,7 +779,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.provides.bui
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: CMakeFiles/nono.dir/flags.make
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Grid/Market.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.i: cmake_force
@@ -825,10 +801,33 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides: CMakeFiles/no
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
 
 
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: ../src/TheGrid/manage/Command/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.i
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires:
+
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
+
+
 # Object files for target nono
 nono_OBJECTS = \
 "CMakeFiles/nono.dir/main.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o" \
@@ -858,13 +857,13 @@ nono_OBJECTS = \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
+"CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o"
 
 # External object files for target nono
 nono_EXTERNAL_OBJECTS =
 
 nono: CMakeFiles/nono.dir/main.cpp.o
-nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o
@@ -895,6 +894,7 @@ nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
 nono: CMakeFiles/nono.dir/build.make
 nono: CMakeFiles/nono.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable nono"
@@ -906,7 +906,6 @@ CMakeFiles/nono.dir/build: nono
 .PHONY : CMakeFiles/nono.dir/build
 
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/main.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o.requires
@@ -937,6 +936,7 @@ CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Her
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o.requires
 
 .PHONY : CMakeFiles/nono.dir/requires
 
