@@ -2,7 +2,7 @@
 #define NONO_INVENTORY_H
 
 #include <vector>
-#include "../../entity/Item/Item.h"
+#include "../../Item/Item.h"
 
 class Inventory
 {

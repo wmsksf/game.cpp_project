@@ -5,6 +5,7 @@
 #include "../../Item/Potion/Potion.h"
 #include "../../Item/Weapon.h"
 #include "../../Item/Armor.h"
+#include "Inventory.h"
 
 class Hero : public Living
 {
@@ -28,6 +29,8 @@ protected:
 
 	int experienceForLevel;
 
+	Inventory inventory;
+
 protected:
     virtual void levelUp();
 
@@ -37,7 +40,14 @@ public:
          int dexterity,
          int agility);
 
-    void displayStats();
+	void addItem(Item* item);
+	Item* getItem(const std::string& name);
+
+	void removeItem(Item* item);
+
+	void printInventory();
+
+	void displayStats();
 
     void equipWeapon(Weapon* weapon);
     void equipArmor(Armor* armor);
