@@ -15,30 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0112f585-d84e-4ce6-b815-a13c22937116" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/depend.make" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +30,8 @@
       <file leaf-file-name="HeroParty.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -274,7 +251,7 @@
       <workItem from="1518423362409" duration="8007000" />
       <workItem from="1518438804990" duration="1112000" />
       <workItem from="1518441081202" duration="1172000" />
-      <workItem from="1518442319425" duration="6847000" />
+      <workItem from="1518442319425" duration="7292000" />
     </task>
     <task id="LOCAL-00001" summary="first stage simple stuff... not much done enjoy:(">
       <created>1516267754657</created>
@@ -325,11 +302,25 @@
       <option name="project" value="LOCAL" />
       <updated>1518441889076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="...">
+      <created>1518452206622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1518452206622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="...">
+      <created>1518452484495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518452484495</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78905000" />
+    <option name="totallyTimeSpent" value="79350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,11 +337,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5030303" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424242" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424242" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31415242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -367,10 +358,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="nono" />
     <MESSAGE value="first stage simple stuff... not much done enjoy:(" />
     <MESSAGE value="today was a good day!!" />
@@ -378,7 +396,8 @@
     <MESSAGE value="...." />
     <MESSAGE value="Lots of changes." />
     <MESSAGE value="Merge branch 'master' of https://github.com/wmsksf/wmsk&#10;&#10;# Conflicts:&#10;#&#9;project/.idea/workspace.xml&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/build.make&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/link.txt&#10;#&#9;project/cmake-build-debug/nono.cbp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/wmsksf/wmsk&#10;&#10;# Conflicts:&#10;#&#9;project/.idea/workspace.xml&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/build.make&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/link.txt&#10;#&#9;project/cmake-build-debug/nono.cbp" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
