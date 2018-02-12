@@ -15,7 +15,7 @@ Grid::Grid()
     {
         for( int j = 0; j != width; j++)
         {
-            int rnd = Random(0, 2);
+            int rnd = randomInRange(0, 2);
             switch(rnd)
             {
                 case 0:

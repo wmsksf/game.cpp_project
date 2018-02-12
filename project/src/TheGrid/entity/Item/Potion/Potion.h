@@ -1,7 +1,6 @@
 #ifndef NONO_POTION_H
 #define NONO_POTION_H
 
-#include <iostream>
 #include <string>
 
 #include "../Item.h"
@@ -16,7 +15,7 @@ public:
     void printItem() const;
 
     //boost a stat of the user/hero
-    virtual int boost() const = 0;
+    virtual void boost(Hero* hero) const = 0;
 };
 
 #endif //ROLE_PLAY_GAME_POTION_H

@@ -5,10 +5,14 @@
 
 class DexterityPotion : public Potion
 {
+private:
+	int dexterityPoints;
 public:
     DexterityPotion(const std::string &name);
 
-    int boost() const;
+	virtual const std::string &getDescription();
+
+	virtual void boost(Hero *hero) const;
 };
 
 #endif //NONO_DEXTERITYPOTION_H

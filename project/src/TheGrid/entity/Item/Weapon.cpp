@@ -2,10 +2,12 @@
 
 Weapon::Weapon(const std::string &name)
 
-        :Item(name, Random(150, 350),
-              Random(15, 25)),
-         damage(Random(40,50)),
-         dualWeild((bool)Random(0,1)) {}
+        :Item(name,
+              randomInRange(150, 350),
+              randomInRange(15, 25)),
+         damage(randomInRange(40, 50)),
+         dualWeild(randomBool())
+{}
 
 void Weapon::printItem() const
 {
@@ -14,8 +16,7 @@ void Weapon::printItem() const
 
     Item::printItem();
 
-    std::cout << "amount of damage: ";
-    std::cout << this->getDamage() << std::endl;
+    std::cout << "amount of damage: [" << damage << "]" << std::endl;
 
     if(isDualWeild())
     {
@@ -29,17 +30,13 @@ void Weapon::printItem() const
     }
 }
 
-void Weapon::setDamage(int damage)
-{
-    Weapon::damage = damage;
-}
-
-int Weapon::getDamage() const
-{
-    return damage;
-}
 
 bool Weapon::isDualWeild() const
 {
     return dualWeild;
+}
+
+int Weapon::getDamage() const
+{
+	return damage;
 }

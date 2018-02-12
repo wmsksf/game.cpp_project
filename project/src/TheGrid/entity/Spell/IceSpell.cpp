@@ -2,6 +2,6 @@
 
 IceSpell::IceSpell(const std::string &name)
 
-            :Spell(name, Random(50, 100),
-                   Random(5, 12), Random(10, 20),
-                   Random(8, 15), Random(18, 25)) {}
+            :Spell(name, randomInRange(50, 100),
+                   randomInRange(5, 12), randomInRange(10, 20),
+                   randomInRange(8, 15), randomInRange(18, 25)) {}

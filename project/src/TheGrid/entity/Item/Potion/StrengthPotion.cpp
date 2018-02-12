@@ -1,10 +1,16 @@
 #include "StrengthPotion.h"
+#include "../../../manage/Random/Utils.h"
 
 StrengthPotion::StrengthPotion(const std::string &name)
 
-                :Potion(name, Random(80, 160)) {}
+                :Potion(name, randomInRange(80, 160)), strengthPoints(randomInRange(1, 5)) {}
 
-int StrengthPotion::boost() const
+const std::string &StrengthPotion::getDescription()
 {
-    return 9;
+    return string_format("%s [%d level] : Restores up to %d Magic Power", getName(), getRequiredLevel(), strengthPoints);
+}
+
+void StrengthPotion::boost(Hero *hero) const
+{
+    hero->setStrength(hero->getStrength() + strengthPoints);
 }

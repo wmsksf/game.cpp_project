@@ -1,10 +1,17 @@
 #include "AgilityPotion.h"
+#include "../../../manage/Random/Utils.h"
 
 AgilityPotion::AgilityPotion(const std::string &name)
 
-                :Potion(name, Random(50, 100)){}
+                :Potion(name, randomInRange(50, 100)), agilityPoints(randomInRange(1, 5))
+{}
 
-int AgilityPotion::boost() const
+const std::string &AgilityPotion::getDescription()
 {
-    return 5;
+    return string_format("%s [%d level] : Increases Agility by %d.", getName(), getRequiredLevel(), agilityPoints);
+}
+
+void AgilityPotion::boost(Hero *hero)
+{
+    hero->setAgility(hero->getAgility() + agilityPoints);
 }

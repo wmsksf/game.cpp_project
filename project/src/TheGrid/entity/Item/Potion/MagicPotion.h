@@ -5,10 +5,15 @@
 
 class MagicPotion : public Potion
 {
+private :
+	int magicPoints;
+
 public:
     MagicPotion(const std::string &name);
 
-    int boost() const;
+	void boost(Hero *hero) const override;
+
+	const std::string &getDescription() override;
 };
 
 #endif //NONO_MAGICPOTION_H

@@ -6,6 +6,6 @@
 
 FireSpell::FireSpell(const std::string &name)
 
-        :Spell(name, Random(90, 180),
-               Random(10, 18), Random(12, 22),
-               Random(10, 18), Random(20, 32)) {}
+        :Spell(name, randomInRange(90, 180),
+               randomInRange(10, 18), randomInRange(12, 22),
+               randomInRange(10, 18), randomInRange(20, 32)) {}

@@ -2,6 +2,7 @@
 
 Spirit::Spirit(const std::string &name)
 
-            :Monster(name, Random(5, 20),
-                     Random(25, 30), Random(10, 20),
-                     Random(50, 80)) {}
+            :Monster(name, randomInRange(5, 20),
+                     randomInRange(25, 30),
+                     randomInRange(10, 20),
+                     randomInRange(50, 80)) {}

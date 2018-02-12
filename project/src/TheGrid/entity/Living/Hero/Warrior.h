@@ -9,6 +9,9 @@ public:
     Warrior(const std::string &name);
 
     void displayStats();
+
+protected:
+	virtual void levelUp();
 };
 
 #endif //NONO_WARRIOR_H

@@ -1,10 +1,18 @@
 #include "MagicPotion.h"
+#include "../../../manage/Random/Utils.h"
 
 MagicPotion::MagicPotion(const std::string &name)
 
-            :Potion(name, Random(70, 150)) {}
+            :Potion(name, randomInRange(70, 150)),
+             magicPoints(randomInRange(100, 500))
+{}
 
-int MagicPotion::boost() const
+void MagicPotion::boost(Hero *hero) const
 {
-    return 7;
+    hero->restoreMagicPower(magicPoints);
+}
+
+const std::string &MagicPotion::getDescription()
+{
+    return string_format("%s [%d level] : Restores up to %d Magic Power", getName(), getRequiredLevel(), magicPoints);
 }

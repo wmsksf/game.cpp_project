@@ -2,8 +2,10 @@
 
 Warrior::Warrior(const std::string& name)
 
-            :Hero(name, Random(300, 400),
-                  Random(150, 250), Random(400, 600)) {}
+            :Hero(name,
+                  randomInRange(300, 400),
+                  randomInRange(150, 250),
+                  randomInRange(400, 600)) {}
 
 void Warrior::displayStats()
 {
@@ -11,3 +13,13 @@ void Warrior::displayStats()
 
     Hero::displayStats();
 }
+
+void Warrior::levelUp()
+{
+    Hero::levelUp();
+
+    strength += 10;
+    dexterity += 8;
+    agility += 15;
+}
+

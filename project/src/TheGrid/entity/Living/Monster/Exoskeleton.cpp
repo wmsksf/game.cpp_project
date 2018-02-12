@@ -2,5 +2,5 @@
 
 Exoskeleton::Exoskeleton(const std::string &name)
 
-            :Monster(name, Random(15, 35), Random(40, 50),
-                     Random(80, 100), dodgeProbability(25, 35)) {}
+            :Monster(name, randomInRange(15, 35), randomInRange(40, 50),
+                     randomInRange(80, 100), dodgeProbability(25, 35)) {}

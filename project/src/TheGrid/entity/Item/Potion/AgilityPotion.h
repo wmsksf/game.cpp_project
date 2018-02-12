@@ -5,10 +5,14 @@
 
 class AgilityPotion : Potion
 {
+private:
+	int agilityPoints;
+
 public:
     AgilityPotion(const std::string &name);
 
-    int boost() const;
+	const std::string &getDescription() ;
+	void boost(Hero *hero);
 };
 
 #endif //NONO_AGILITYPOTION_H

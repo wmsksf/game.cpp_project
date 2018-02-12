@@ -2,5 +2,17 @@
 
 Sorcerer::Sorcerer(const std::string& name)
 
-            :Hero(name,Random(250, 150),
-                  Random(400, 600), Random(300, 400)) {}
+            :Hero(name,
+                  randomInRange(250, 150),
+                  randomInRange(400, 600),
+                  randomInRange(300, 400)) {}
+
+
+void Sorcerer::levelUp()
+{
+	Hero::levelUp();
+
+	strength += 7;
+	dexterity += 12;
+	agility += 10;
+}

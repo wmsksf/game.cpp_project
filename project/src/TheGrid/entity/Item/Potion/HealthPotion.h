@@ -5,10 +5,15 @@
 
 class HealthPotion : public Potion
 {
+private:
+	int healthPoints;
+
 public:
     HealthPotion(const std::string &name);
 
-    int boost() const;
+	virtual const std::string &getDescription();
+
+	virtual void boost(Hero *hero) const;
 };
 
 #endif //NONO_HEALTHPOTION_H

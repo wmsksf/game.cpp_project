@@ -4,7 +4,7 @@ Potion::Potion(const std::string &name,
                int price)
 
         :Item(name, price,
-              Random(5, 12)) {}
+              randomInRange(5, 12)) {}
 
 void Potion::printItem() const
 {

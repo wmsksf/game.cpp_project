@@ -7,6 +7,9 @@ class Sorcerer : public Hero
 {
 public:
     Sorcerer(const std::string &name);
+
+protected:
+	virtual void levelUp();
 };
 
 #endif //NONO_SORCERER_H
