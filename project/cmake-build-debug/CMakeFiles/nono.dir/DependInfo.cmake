@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Market.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
+  "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Armor.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Item.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.o"
@@ -21,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o"
+  "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Paladin.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Sorcerer.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Warrior.cpp.o"
@@ -42,7 +44,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o"
-  "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/Inventory.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Random.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o"
   "/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Utils.cpp" "/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o"
   )

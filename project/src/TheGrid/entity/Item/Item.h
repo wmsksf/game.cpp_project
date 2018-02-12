@@ -25,6 +25,8 @@ public:
 	int getRequiredLevel() const;
 
 	virtual const std::string& getDescription();
+
+	virtual Item* clone();
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

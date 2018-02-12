@@ -3,3 +3,13 @@
 //
 
 #include "TheGrid.h"
+
+HeroParty *TheGrid::getParty() const
+{
+	return party;
+}
+
+Grid *TheGrid::getGrid() const
+{
+	return grid;
+}

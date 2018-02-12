@@ -6,7 +6,18 @@
 #define NONO_GAME_H
 
 
-class Game {
+#include "manage/Manager/HeroParty.h"
+#include "entity/Grid/Grid.h"
+
+class TheGrid {
+private:
+	HeroParty* party;
+	Grid* grid;
+
+public:
+	HeroParty *getParty() const;
+
+	Grid *getGrid() const;
 
 };
 

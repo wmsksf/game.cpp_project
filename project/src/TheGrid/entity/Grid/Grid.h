@@ -6,16 +6,15 @@
 #include "NonAccessibleTile.h"
 #include "Market.h"
 #include "../../TheGrid.h"
+#include "TileFactory.h"
 
 class Grid
 {
 private:
     Tile*** grid;
 
-	TheGrid* theGrid;
-
 public:
-    Grid();
+    Grid(TileFactory& tileFactory);
 
     Tile* getTile(int x, int y);
 
