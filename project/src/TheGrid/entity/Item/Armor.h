@@ -7,14 +7,15 @@
 
 class Armor : public Item
 {
+private:
+    int armorPoints;
+
 public:
     Armor(const std::string &name);
 
     void printItem() const;
 
-    //reduces damage of the wearer
-    //caused by the opponent
-    int reduceDamage() const;
+    int getArmorPoints() const;
 };
 
 #endif //ROLE_PLAY_GAME_ARMOR_H

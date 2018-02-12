@@ -8,7 +8,7 @@
 class Weapon : public Item
 {
 private:
-    int damage;
+	int damage;
     bool dualWeild;
 
 public:
@@ -16,14 +16,9 @@ public:
 
     void printItem() const;
 
-    //since strength of hero
-    //is added to its damage
-    void setDamage(int damage);
-
-    //getters
-    int getDamage() const;
-
     bool isDualWeild() const;
+
+	int getDamage() const;
 };
 
 #endif

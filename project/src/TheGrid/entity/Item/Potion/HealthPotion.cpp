@@ -1,10 +1,18 @@
 #include "HealthPotion.h"
+#include "../../../manage/Random/Utils.h"
 
 HealthPotion::HealthPotion(const std::string &name)
 
-                :Potion(name, Random(80, 120)){}
+                :Potion(name, randomInRange(80, 120)),
+                 healthPoints(randomInRange(100, 500))
+{}
 
-int HealthPotion::boost() const
+const std::string &HealthPotion::getDescription()
 {
-    return 10;
+    return string_format("%s [%d level] : Restores up to %d Health points.", getName(), getRequiredLevel(), healthPoints);
+}
+
+void HealthPotion::boost(Hero *hero) const
+{
+    hero->restoreHealth(healthPoints);
 }

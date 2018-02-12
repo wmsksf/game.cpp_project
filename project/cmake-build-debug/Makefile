@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admntiasf/workingdirectory/wmsk/wmsk/project
+CMAKE_SOURCE_DIR = /home/kostas/usr/workspace/repos/wmsk/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -581,33 +581,6 @@ src/TheGrid/entity/Living/Hero/Hero.s: src/TheGrid/entity/Living/Hero/Hero.cpp.s
 src/TheGrid/entity/Living/Hero/Hero.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s
 .PHONY : src/TheGrid/entity/Living/Hero/Hero.cpp.s
-
-src/TheGrid/entity/Living/Hero/Inventory.o: src/TheGrid/entity/Living/Hero/Inventory.cpp.o
-
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.o
-
-# target to build an object file
-src/TheGrid/entity/Living/Hero/Inventory.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.o
-
-src/TheGrid/entity/Living/Hero/Inventory.i: src/TheGrid/entity/Living/Hero/Inventory.cpp.i
-
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.i
-
-# target to preprocess a source file
-src/TheGrid/entity/Living/Hero/Inventory.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.i
-
-src/TheGrid/entity/Living/Hero/Inventory.s: src/TheGrid/entity/Living/Hero/Inventory.cpp.s
-
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.s
-
-# target to generate assembly for a file
-src/TheGrid/entity/Living/Hero/Inventory.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s
-.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.s
 
 src/TheGrid/entity/Living/Hero/Paladin.o: src/TheGrid/entity/Living/Hero/Paladin.cpp.o
 
@@ -1176,6 +1149,33 @@ src/TheGrid/manage/Manager/HeroParty.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
 .PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
+src/TheGrid/manage/Manager/Inventory.o: src/TheGrid/manage/Manager/Inventory.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/Inventory.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/Inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o
+.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.o
+
+src/TheGrid/manage/Manager/Inventory.i: src/TheGrid/manage/Manager/Inventory.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/Inventory.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/Inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.i
+.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.i
+
+src/TheGrid/manage/Manager/Inventory.s: src/TheGrid/manage/Manager/Inventory.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/Inventory.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/Inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.s
+.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.s
+
 src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
 
 .PHONY : src/TheGrid/manage/Random/Random.o
@@ -1202,6 +1202,33 @@ src/TheGrid/manage/Random/Random.s: src/TheGrid/manage/Random/Random.cpp.s
 src/TheGrid/manage/Random/Random.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.s
 .PHONY : src/TheGrid/manage/Random/Random.cpp.s
+
+src/TheGrid/manage/Random/Utils.o: src/TheGrid/manage/Random/Utils.cpp.o
+
+.PHONY : src/TheGrid/manage/Random/Utils.o
+
+# target to build an object file
+src/TheGrid/manage/Random/Utils.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o
+.PHONY : src/TheGrid/manage/Random/Utils.cpp.o
+
+src/TheGrid/manage/Random/Utils.i: src/TheGrid/manage/Random/Utils.cpp.i
+
+.PHONY : src/TheGrid/manage/Random/Utils.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Random/Utils.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.i
+.PHONY : src/TheGrid/manage/Random/Utils.cpp.i
+
+src/TheGrid/manage/Random/Utils.s: src/TheGrid/manage/Random/Utils.cpp.s
+
+.PHONY : src/TheGrid/manage/Random/Utils.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Random/Utils.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.s
+.PHONY : src/TheGrid/manage/Random/Utils.cpp.s
 
 # Help Target
 help:
@@ -1263,9 +1290,6 @@ help:
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.o"
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.i"
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.s"
-	@echo "... src/TheGrid/entity/Living/Hero/Inventory.o"
-	@echo "... src/TheGrid/entity/Living/Hero/Inventory.i"
-	@echo "... src/TheGrid/entity/Living/Hero/Inventory.s"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.o"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.i"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.s"
@@ -1329,9 +1353,15 @@ help:
 	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
+	@echo "... src/TheGrid/manage/Manager/Inventory.o"
+	@echo "... src/TheGrid/manage/Manager/Inventory.i"
+	@echo "... src/TheGrid/manage/Manager/Inventory.s"
 	@echo "... src/TheGrid/manage/Random/Random.o"
 	@echo "... src/TheGrid/manage/Random/Random.i"
 	@echo "... src/TheGrid/manage/Random/Random.s"
+	@echo "... src/TheGrid/manage/Random/Utils.o"
+	@echo "... src/TheGrid/manage/Random/Utils.i"
+	@echo "... src/TheGrid/manage/Random/Utils.s"
 .PHONY : help
 
 

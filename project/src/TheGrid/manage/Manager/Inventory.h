@@ -2,7 +2,7 @@
 #define NONO_INVENTORY_H
 
 #include <vector>
-#include "../../Item/Item.h"
+#include "../../entity/Item/Item.h"
 
 class Inventory
 {
@@ -10,14 +10,14 @@ private:
     std::vector<Item*> items;
 
 public:
-    Item* getItem(std::string name);
+    Item* getItem(const std::string& name);
     void addItem(Item* item);
 
     bool contains(Item* item);
 
     void remove(Item* item);
 
-    void display() const;
+    void display();
 };
 
 #endif //NONO_INVENTORY_H

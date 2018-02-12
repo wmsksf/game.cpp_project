@@ -2,15 +2,17 @@
 #define NONO_HERO_H
 
 #include "../Living.h"
+#include "../../Item/Potion/Potion.h"
 #include "../../Item/Weapon.h"
 #include "../../Item/Armor.h"
-#include "../../Item/Potion/Potion.h"
-#include "Inventory.h"
 
 class Hero : public Living
 {
-private:
-    int magicPower;
+protected:
+
+	int maxMagicPower;
+    int currentMagicPower;
+
     int strength;
     int dexterity;
     int agility;
@@ -21,34 +23,40 @@ private:
     int money;
     int experience;
 
-    Inventory inventory;
-
     Weapon* equipedWeapon;
     Armor* equipedArmor;
 
+	int experienceForLevel;
+
 protected:
-    virtual void levelUp() = 0;
+    virtual void levelUp();
 
 public:
-    Hero(const std::string &name, int strength,
-         int dexterity, int agility);
+    Hero(const std::string &name,
+         int strength,
+         int dexterity,
+         int agility);
 
     void displayStats();
 
-    bool equipWeapon(Weapon& weapon);
-    bool equipArmor(Armor& armor);
+    void equipWeapon(Weapon* weapon);
+    void equipArmor(Armor* armor);
 
-    void addItem(Item& item);
-    void removeItem(Item& item);
-
-    void use(Potion& potion);
+    void use(Potion* potion);
 
     void gainExperience(int experiencePoints);
 
-    int getMagicPower() const;
-    void setMagicPower(int magicPower);
+	void restoreMagicPower(int magicPoints);
 
-    int getStrength() const;
+	int getMaxMagicPower() const;
+
+	void setMaxMagicPower(int maxMagicPower);
+
+	int getCurrentMagicPower() const;
+
+	void setCurrentMagicPower(int currentMagicPower);
+
+	int getStrength() const;
     void setStrength(int strength);
 
     int getDexterity() const;
@@ -69,7 +77,12 @@ public:
     int getExperience() const;
     void setExperience(int experience);
 
-    Weapon& getEquipedWeapon() const;
+    Weapon* getEquipedWeapon() const;
+
+	Armor* getEquipedArmor() const;
+
+
+
 };
 
 #endif //NONO_HERO_H

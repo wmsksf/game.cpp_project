@@ -3,22 +3,28 @@
 
 #include <iostream>
 #include <string>
-#include "../../manage/Random/Random.h"
 
 class Item
 {
 private:
     std::string name;
     int price;
-    int requiredLvl;
+    int requiredLevel;
 
 public:
-    Item(const std::string &name, int price,
-         int requiredLvl);
+    Item(const std::string &name,
+         int price,
+         int requiredLevel);
 
     const std::string& getName() const;
 
     virtual void printItem() const;
+
+	int getPrice() const;
+
+	int getRequiredLevel() const;
+
+	virtual const std::string& getDescription();
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

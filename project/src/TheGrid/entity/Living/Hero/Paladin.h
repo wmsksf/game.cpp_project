@@ -7,6 +7,9 @@ class Paladin : public Hero
 {
 public:
     Paladin(const std::string &name);
+
+protected:
+	virtual void levelUp();
 };
 
 #endif //NONO_PALADIN_H

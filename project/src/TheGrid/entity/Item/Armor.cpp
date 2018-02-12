@@ -1,9 +1,11 @@
 #include "Armor.h"
+#include "../../manage/Random/Utils.h"
 
 Armor::Armor(const std::string &name)
 
-        :Item(name, Random(100,300),
-              Random(5, 20)) {}
+        :Item(name, randomInRange(100, 300), randomInRange(5, 20)),
+         armorPoints(randomInRange(10, 50))
+{}
 
 void Armor::printItem() const
 {
@@ -13,7 +15,7 @@ void Armor::printItem() const
     Item::printItem();
 }
 
-int Armor::reduceDamage() const
+int Armor::getArmorPoints() const
 {
-    return 15;
+    return armorPoints;
 }

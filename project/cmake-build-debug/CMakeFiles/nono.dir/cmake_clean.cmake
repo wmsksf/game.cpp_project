@@ -21,7 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o"
-  "CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o"
@@ -39,6 +39,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o"
   "nono.pdb"
   "nono"
 )

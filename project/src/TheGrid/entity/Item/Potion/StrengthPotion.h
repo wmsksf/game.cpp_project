@@ -5,10 +5,14 @@
 
 class StrengthPotion : Potion
 {
+private:
+	int strengthPoints;
 public:
     StrengthPotion(const std::string &name);
 
-    int boost() const;
+ 	virtual const std::string &getDescription();
+
+	virtual void boost(Hero *hero) const;
 };
 
 #endif //NONO_STRENGTHPOTION_H
