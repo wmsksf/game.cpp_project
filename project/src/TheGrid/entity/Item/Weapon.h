@@ -16,8 +16,6 @@ public:
     bool isDualWeild() const;
 
 	int getDamage() const;
-
-	const std::string& getDescription();
 };
 
 #endif

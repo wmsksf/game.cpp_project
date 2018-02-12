@@ -23,7 +23,7 @@ public:
 
 	int getRequiredLevel() const;
 
-	virtual const std::string& getDescription();
+	const std::string& getDescription();
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

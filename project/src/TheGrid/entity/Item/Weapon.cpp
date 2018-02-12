@@ -18,9 +18,3 @@ int Weapon::getDamage() const
 {
 	return damage;
 }
-
-const std::string &Weapon::getDescription()
-{
-    Item::getDescription();
-    //...
-}

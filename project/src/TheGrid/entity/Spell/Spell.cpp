@@ -1,6 +1,7 @@
 
 #include "Spell.h"
 #include "../../manage/Random/Random.h"
+#include "../../manage/Random/Utils.h"
 
 Spell::Spell(const std::string &name, int price,
              int requiredLvl, int requiredMagicPower,
@@ -9,18 +10,6 @@ Spell::Spell(const std::string &name, int price,
             :name(name), price(price), requiredLvl(requiredLvl),
             requiredMagicPower(requiredMagicPower), minDamage(minDamage),
             maxDamage(maxDamage) {}
-
-
-void Spell::cast(Monster* monster)
-{
-    int damage = randomInRange(minDamage, maxDamage);
-    monster->setCurrentHealthPower(monster->getCurrentHealthPower() - damage);
-}
-
-void Spell::casted(Hero* hero)
-{
-    hero->setCurrentMagicPower(hero->getCurrentMagicPower() - requiredMagicPower);
-}
 
 const std::string& Spell::getName() const
 {
@@ -50,4 +39,13 @@ int Spell::getMinDamage() const
 int Spell::getMaxDamage() const
 {
     return maxDamage;
+}
+
+const std::string& Spell::getDescription()
+{
+    return string_format("%s [%d level] [%d magic power] "
+                                 "[[%d, %d] damage range] ",
+                         name, requiredLvl,
+                         requiredMagicPower,
+                        minDamage, maxDamage);
 }

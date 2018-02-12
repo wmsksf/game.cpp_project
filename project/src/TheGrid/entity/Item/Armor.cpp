@@ -14,9 +14,3 @@ int Armor::getArmorPoints() const
 {
     return armorPoints;
 }
-
-const std::string &Armor::getDescription()
-{
-    Item::getDescription();
-    //...
-}

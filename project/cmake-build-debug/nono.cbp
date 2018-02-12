@@ -8,362 +8,362 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug"/>
+				<Option working_dir="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug"/>
+				<Option working_dir="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug"/>
+				<Option working_dir="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nono">
-				<Option output="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/nono" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug"/>
+				<Option output="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/nono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 nono"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 nono"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nono/fast">
-				<Option output="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/nono" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug"/>
+				<Option output="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/nono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 nono/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 nono/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/TheGrid.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/TheGrid.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Grid.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Market.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Market.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/Tile.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Armor.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Armor.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Item.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Item.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/DexterityPotion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/DexterityPotion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/HealthPotion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/HealthPotion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/HealthPotion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/HealthPotion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/MagicPotion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/MagicPotion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/MagicPotion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/MagicPotion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Item/Weapon.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Living.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Living.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/IceSpellEffect.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/IceSpellEffect.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/entity/Spell/Spell.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/main.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/main.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/Command.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/Command.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Command/SellCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Random.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Random.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Utils.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/src/TheGrid/manage/Random/Utils.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/kostas/usr/workspace/repos/wmsk/project/CMakeLists.txt">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

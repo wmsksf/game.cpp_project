@@ -26,9 +26,6 @@ public:
         int requiredMagicPower, int minDamage,
         int maxDamage);
 
-    void cast(Monster* monster);
-    void casted(Hero* hero);
-
     const std::string& getDescription();
 
     const std::string &getName() const;

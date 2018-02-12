@@ -25,7 +25,6 @@ int Item::getRequiredLevel() const
 
 const std::string &Item::getDescription()
 {
-	//??price
 	return string_format("%s [%d level]",
 						 name, requiredLevel);
 }
