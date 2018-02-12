@@ -5,27 +5,21 @@
 #include "CommonTile.h"
 #include "NonAccessibleTile.h"
 #include "Market.h"
+#include "../../TheGrid.h"
 
 class Grid
 {
 private:
     Tile*** grid;
 
-    int XHeroParty;
-    int YHeroParty;
+	TheGrid* theGrid;
 
 public:
     Grid();
 
     Tile* getTile(int x, int y);
 
-    void displayGrid();
-
-    void setXHeroParty(int XHeroParty);
-    int getXHeroParty() const;
-
-    void setYHeroParty(int YHeroParty);
-    int getYHeroParty() const;
+    void displayGrid(int playerX, int playerY);
 };
 
 #endif //NONO_GRID_H
