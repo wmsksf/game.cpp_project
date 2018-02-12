@@ -1,14 +1,8 @@
-//
-// Created by admntiasf on 10/2/2018.
-//
-
 #ifndef NONO_INVENTORY_H
 #define NONO_INVENTORY_H
 
-
 #include <vector>
 #include "../../Item/Item.h"
-#include "../../../Console.h"
 
 class Inventory
 {
@@ -23,8 +17,7 @@ public:
 
     void remove(Item* item);
 
-    void display(Console* console);
+    void display() const;
 };
-
 
 #endif //NONO_INVENTORY_H

@@ -1,10 +1,5 @@
-//
-// Created by admntiasf on 10/2/2018.
-//
-
 #ifndef NONO_HEROPARTY_H
 #define NONO_HEROPARTY_H
-
 
 #include "../../entity/Living/Hero/Hero.h"
 
@@ -16,7 +11,7 @@ private:
     int y;
 
 public:
-    const std::vector<Hero *>& getHeroes() const;
+    const std::vector<Hero*>& getHeroes() const;
 
     int getX() const;
     void setX(int x);

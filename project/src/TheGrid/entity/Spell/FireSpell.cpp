@@ -4,11 +4,8 @@
 
 #include "FireSpell.h"
 
-FireSpell::FireSpell(const std::string &name,
-                   int price, int requiredLvl,
-                   int requiredMana, int minDamage,
-                   int maxDamage)
+FireSpell::FireSpell(const std::string &name)
 
-                    :Spell(name, price, requiredLvl,
-                           requiredMana, minDamage,
-                           maxDamage) {}
+        :Spell(name, Random(90, 180),
+               Random(10, 18), Random(12, 22),
+               Random(10, 18), Random(20, 32)) {}

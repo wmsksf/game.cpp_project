@@ -1,14 +1,13 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #include "Warrior.h"
 
-Warrior::Warrior(const std::string& name, int hp,
-                 int magicPower, int strength,
-                 int dexterity, int agility,
-                 int magicRegen, int healthRegen)
+Warrior::Warrior(const std::string& name)
 
-                :Hero(name, hp, magicPower, strength,
-                      dexterity, agility, magicRegen,
-                      healthRegen) {}
+            :Hero(name, Random(300, 400),
+                  Random(150, 250), Random(400, 600)) {}
+
+void Warrior::displayStats()
+{
+    std::cout << "WARRIOR..." << std::endl;
+
+    Hero::displayStats();
+}

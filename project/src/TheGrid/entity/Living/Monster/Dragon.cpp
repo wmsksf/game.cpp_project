@@ -1,12 +1,7 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #include "Dragon.h"
 
-Dragon::Dragon(const std::string &name, int level,
-               int hp, int minDamage, int maxDamage,
-               int defense, double dodgeProbability)
+Dragon::Dragon(const std::string &name)
 
-               :Monster(name, level, hp, minDamage,
-                        maxDamage, defense, dodgeProbability) {}
+            :Monster(name, Random(50, 70),
+                     Random(80, 100), Random(30, 40),
+                     Random(10, 20)) {}

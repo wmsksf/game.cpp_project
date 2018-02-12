@@ -1,12 +1,7 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #include "Spirit.h"
 
-Spirit::Spirit(const std::string &name, int level,
-               int hp, int minDamage, int maxDamage
-               int defense, double dodgeProbability)
+Spirit::Spirit(const std::string &name)
 
-               :Monster(name, level, hp, minDamage,
-                        maxDamage, defense, dodgeProbability) {}
+            :Monster(name, Random(5, 20),
+                     Random(25, 30), Random(10, 20),
+                     Random(50, 80)) {}

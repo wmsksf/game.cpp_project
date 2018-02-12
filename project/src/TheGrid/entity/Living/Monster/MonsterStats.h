@@ -1,15 +1,11 @@
-//
-// Created by admntiasf on 10/2/2018.
-//
-
 #ifndef NONO_MONSTERSTATS_H
 #define NONO_MONSTERSTATS_H
 
-
 #include "Monster.h"
 
-class MonsterStats {
-public:
+class MonsterStats
+{
+protected:
     int minDamage;
     int maxDamage;
     int defense;
@@ -21,6 +17,5 @@ public:
 
     MonsterStats(Monster* monster);
 };
-
 
 #endif //NONO_MONSTERSTATS_H

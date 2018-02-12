@@ -1,14 +1,6 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #include "Paladin.h"
 
-Paladin::Paladin(const std::string& name, int hp,
-                 int magicPower, int strength,
-                 int dexterity, int agility,
-                 int magicRegen, int healthRegen)
+Paladin::Paladin(const std::string& name)
 
-                :Hero(name, hp, magicPower, strength,
-                      dexterity, agility, magicRegen,
-                      healthRegen) {}
+        :Hero(name, Random(400, 600),
+              Random(300, 400), Random(250, 150)) {}

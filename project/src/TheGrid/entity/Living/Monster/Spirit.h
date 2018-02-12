@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #ifndef NONO_SPIRIT_H
 #define NONO_SPIRIT_H
 
@@ -10,9 +6,7 @@
 class Spirit : public Monster
 {
 public:
-    Spirit(const std::string &, int,
-           int, int, int, int, double);
+    Spirit(const std::string &name);
 };
-
 
 #endif //NONO_SPIRIT_H

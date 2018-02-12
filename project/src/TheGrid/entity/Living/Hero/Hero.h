@@ -1,17 +1,11 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #ifndef NONO_HERO_H
 #define NONO_HERO_H
-
 
 #include "../Living.h"
 #include "../../Item/Weapon.h"
 #include "../../Item/Armor.h"
-#include "../../Item/Potion.h"
+#include "../../Item/Potion/Potion.h"
 #include "Inventory.h"
-#include "../../../Console.h"
 
 class Hero : public Living
 {
@@ -36,10 +30,10 @@ protected:
     virtual void levelUp() = 0;
 
 public:
-    Hero(const std::string &, int, int, int,
-    int, int, int, int);
+    Hero(const std::string &name, int strength,
+         int dexterity, int agility);
 
-    void displayStats(Console* console);
+    void displayStats();
 
     bool equipWeapon(Weapon& weapon);
     bool equipArmor(Armor& armor);

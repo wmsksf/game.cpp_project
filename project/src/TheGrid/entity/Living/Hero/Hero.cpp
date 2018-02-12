@@ -1,21 +1,32 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
-#include <netinet/in.h>
 #include "Hero.h"
 
-Hero::Hero(const std::string& name, int hp,
-           int magicPower, int strength,
-           int dexterity, int agility,
-           int magicRegen, int healthRegen)
+Hero::Hero(const std::string& name, int strength,
+           int dexterity, int agility)
 
-           :Living(name, hp),
+        :Living(name),level(1),
+         magicPower(Random(280, 460)), strength(strength),
+         dexterity(dexterity), agility(agility),
+         magicRegen(Random(10, 20)), healthRegen(Random(25, 35)),
+         money(0), experience(0) {}
 
-            magicPower(magicPower), strength(strength),
-            dexterity(dexterity), agility(agility),
-            magicRegen(magicRegen), healthRegen(healthRegen),
-            money(0), experience(0) {}
+void Hero::displayStats()
+{
+    Living::displayStats();
+
+    std::cout << "magic power: " << magicPower << std::endl;
+
+    std::cout << "strength: " << strength << std::endl;
+    std::cout << "dexterity: " << dexterity << std::endl;
+    std::cout << "agility: " << agility << std::endl;
+
+    std::cout << "magic regeneration: " << magicRegen << std::endl;
+    std::cout << "health regeneration: " << healthRegen << std::endl;
+
+    std::cout << "total money: " << money << std::endl;
+    std::cout << "exprerience: " << experience << std::endl;
+
+    std::cout << std::endl << "LEVEL: " << level << std::endl;
+}
 
 int Hero::getMagicPower() const
 {

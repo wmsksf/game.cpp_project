@@ -2,9 +2,11 @@
 // Created by admntiasf on 10/2/2018.
 //
 
-#include "SpellEffect.h"
+#include "Effect.h"
 
-Effect::Effect(int tm, int prior) : time(tm), priority(prior) {}
+Effect::Effect(int time, int priority)
+
+                :time(time), priority(priority){}
 
 
 int Effect::getTime() const

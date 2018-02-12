@@ -4,11 +4,8 @@
 
 #include "LightingSpell.h"
 
-LightingSpell::LightingSpell(const std::string &name,
-                             int price, int requiredLvl,
-                             int requiredMana, int minDamage,
-                             int maxDamage)
+LightingSpell::LightingSpell(const std::string &name)
 
-                            :Spell(name, price, requiredLvl,
-                                   requiredMana, minDamage,
-                                   maxDamage) {}
+                :Spell(name, Random(60, 120),
+                       Random(6, 18), Random(12, 20),
+                       Random(10, 20), Random(30, 40)) {}

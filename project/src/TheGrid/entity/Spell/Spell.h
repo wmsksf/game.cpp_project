@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #ifndef NONO_SPELL_H
 #define NONO_SPELL_H
 
@@ -15,14 +11,17 @@ private:
     std::string name;
     int price;
     int requiredLvl;
-    int requiredMana;
+    int requiredMagicPower;
 
+    //range of damage
     int minDamage;
     int maxDamage;
 
 public:
-    Spell(const std::string &,int,
-          int, int, int, int);
+    Spell(const std::string &name
+        int price, int requiredLvl,
+        int requiredMagicPower, int minDamage,
+        int maxDamage);
 };
 
 #endif //NONO_SPELL_H

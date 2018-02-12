@@ -1,14 +1,7 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #include "IceSpell.h"
 
-IceSpell::IceSpell(const std::string &name,
-                   int price, int requiredLvl,
-                   int requiredMana, int minDamage,
-                   int maxDamage)
+IceSpell::IceSpell(const std::string &name)
 
-                    :Spell(name, price, requiredLvl,
-                           requiredMana, minDamage,
-                           maxDamage) {}
+            :Spell(name, Random(50, 100),
+                   Random(5, 12), Random(10, 20),
+                   Random(8, 15), Random(18, 25)) {}

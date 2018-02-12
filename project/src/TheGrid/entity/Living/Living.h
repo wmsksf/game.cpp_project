@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #ifndef NONO_LIVING_H
 #define NONO_LIVING_H
 
@@ -12,15 +8,17 @@ class Living
 {
 private:
     std::string name;
-    int level;
     int healthPower;
 
+protected:
+    int level;
+
 public:
-    Living(const std::string &, int);
-    Living(const std::string &, int , int);
+    Living(const std::string &name);
 
     bool isConscious();
-};
 
+    virtual void displayStats();
+};
 
 #endif //NONO_LIVING_H

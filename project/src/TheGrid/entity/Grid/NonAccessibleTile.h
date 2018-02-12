@@ -14,7 +14,7 @@ public:
     NonAccessibleTile();
 
     bool isAccessible();
-    void printTile(Console*);
+    void printTile();
 };
 
 #endif //NONO_NONACCESSIBLETILE_H

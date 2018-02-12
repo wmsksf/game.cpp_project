@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #ifndef NONO_ARMOR_H
 #define NONO_ARMOR_H
 
@@ -12,9 +8,13 @@
 class Armor : public Item
 {
 public:
-    Armor(const std::string &,
-          int, int);
-};
+    Armor(const std::string &name);
 
+    void printItem() const;
+
+    //reduces damage of the wearer
+    //caused by the opponent
+    int reduceDamage() const;
+};
 
 #endif //ROLE_PLAY_GAME_ARMOR_H

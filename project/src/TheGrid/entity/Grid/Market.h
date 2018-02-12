@@ -1,10 +1,5 @@
-//
-// Created by admntiasf on 10/2/2018.
-//
-
 #ifndef NONO_MARKET_H
 #define NONO_MARKET_H
-
 
 #include <vector>
 #include "Tile.h"
@@ -19,9 +14,9 @@ public:
     Market(const std::vector<Item> &);
 
     bool isAccessible();
-    void printTile(Console*);
+    void printTile();
 
-    void printItems(Console*);
+    void printItems();
     Item* getItem(int);
 
 };

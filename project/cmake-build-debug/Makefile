@@ -150,33 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/TheGrid/Console.o: src/TheGrid/Console.cpp.o
-
-.PHONY : src/TheGrid/Console.o
-
-# target to build an object file
-src/TheGrid/Console.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.o
-.PHONY : src/TheGrid/Console.cpp.o
-
-src/TheGrid/Console.i: src/TheGrid/Console.cpp.i
-
-.PHONY : src/TheGrid/Console.i
-
-# target to preprocess a source file
-src/TheGrid/Console.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.i
-.PHONY : src/TheGrid/Console.cpp.i
-
-src/TheGrid/Console.s: src/TheGrid/Console.cpp.s
-
-.PHONY : src/TheGrid/Console.s
-
-# target to generate assembly for a file
-src/TheGrid/Console.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/Console.cpp.s
-.PHONY : src/TheGrid/Console.cpp.s
-
 src/TheGrid/TheGrid.o: src/TheGrid/TheGrid.cpp.o
 
 .PHONY : src/TheGrid/TheGrid.o
@@ -393,32 +366,167 @@ src/TheGrid/entity/Item/Item.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.s
 .PHONY : src/TheGrid/entity/Item/Item.cpp.s
 
-src/TheGrid/entity/Item/Potion.o: src/TheGrid/entity/Item/Potion.cpp.o
+src/TheGrid/entity/Item/Potion/AgilityPotion.o: src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.o
 
-.PHONY : src/TheGrid/entity/Item/Potion.o
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.o
 
 # target to build an object file
-src/TheGrid/entity/Item/Potion.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.o
-.PHONY : src/TheGrid/entity/Item/Potion.cpp.o
+src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.o
 
-src/TheGrid/entity/Item/Potion.i: src/TheGrid/entity/Item/Potion.cpp.i
+src/TheGrid/entity/Item/Potion/AgilityPotion.i: src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.i
 
-.PHONY : src/TheGrid/entity/Item/Potion.i
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.i
 
 # target to preprocess a source file
-src/TheGrid/entity/Item/Potion.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.i
-.PHONY : src/TheGrid/entity/Item/Potion.cpp.i
+src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.i
 
-src/TheGrid/entity/Item/Potion.s: src/TheGrid/entity/Item/Potion.cpp.s
+src/TheGrid/entity/Item/Potion/AgilityPotion.s: src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.s
 
-.PHONY : src/TheGrid/entity/Item/Potion.s
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.s
 
 # target to generate assembly for a file
-src/TheGrid/entity/Item/Potion.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion.cpp.s
-.PHONY : src/TheGrid/entity/Item/Potion.cpp.s
+src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/AgilityPotion.cpp.s
+
+src/TheGrid/entity/Item/Potion/DexterityPotion.o: src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.o
+
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.o
+
+# target to build an object file
+src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.o
+
+src/TheGrid/entity/Item/Potion/DexterityPotion.i: src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.i
+
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.i
+
+src/TheGrid/entity/Item/Potion/DexterityPotion.s: src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.s
+
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/DexterityPotion.cpp.s
+
+src/TheGrid/entity/Item/Potion/HealthPotion.o: src/TheGrid/entity/Item/Potion/HealthPotion.cpp.o
+
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.o
+
+# target to build an object file
+src/TheGrid/entity/Item/Potion/HealthPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/HealthPotion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.cpp.o
+
+src/TheGrid/entity/Item/Potion/HealthPotion.i: src/TheGrid/entity/Item/Potion/HealthPotion.cpp.i
+
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Item/Potion/HealthPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/HealthPotion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.cpp.i
+
+src/TheGrid/entity/Item/Potion/HealthPotion.s: src/TheGrid/entity/Item/Potion/HealthPotion.cpp.s
+
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Item/Potion/HealthPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/HealthPotion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/HealthPotion.cpp.s
+
+src/TheGrid/entity/Item/Potion/MagicPotion.o: src/TheGrid/entity/Item/Potion/MagicPotion.cpp.o
+
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.o
+
+# target to build an object file
+src/TheGrid/entity/Item/Potion/MagicPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/MagicPotion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.cpp.o
+
+src/TheGrid/entity/Item/Potion/MagicPotion.i: src/TheGrid/entity/Item/Potion/MagicPotion.cpp.i
+
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Item/Potion/MagicPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/MagicPotion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.cpp.i
+
+src/TheGrid/entity/Item/Potion/MagicPotion.s: src/TheGrid/entity/Item/Potion/MagicPotion.cpp.s
+
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Item/Potion/MagicPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/MagicPotion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/MagicPotion.cpp.s
+
+src/TheGrid/entity/Item/Potion/Potion.o: src/TheGrid/entity/Item/Potion/Potion.cpp.o
+
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.o
+
+# target to build an object file
+src/TheGrid/entity/Item/Potion/Potion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/Potion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.cpp.o
+
+src/TheGrid/entity/Item/Potion/Potion.i: src/TheGrid/entity/Item/Potion/Potion.cpp.i
+
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Item/Potion/Potion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/Potion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.cpp.i
+
+src/TheGrid/entity/Item/Potion/Potion.s: src/TheGrid/entity/Item/Potion/Potion.cpp.s
+
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Item/Potion/Potion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/Potion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/Potion.cpp.s
+
+src/TheGrid/entity/Item/Potion/StrengthPotion.o: src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.o
+
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.o
+
+# target to build an object file
+src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.o
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.o
+
+src/TheGrid/entity/Item/Potion/StrengthPotion.i: src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.i
+
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.i
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.i
+
+src/TheGrid/entity/Item/Potion/StrengthPotion.s: src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.s
+
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.s
+.PHONY : src/TheGrid/entity/Item/Potion/StrengthPotion.cpp.s
 
 src/TheGrid/entity/Item/Weapon.o: src/TheGrid/entity/Item/Weapon.cpp.o
 
@@ -744,6 +852,114 @@ src/TheGrid/entity/Living/Monster/Spirit.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.s
 .PHONY : src/TheGrid/entity/Living/Monster/Spirit.cpp.s
 
+src/TheGrid/entity/Spell/Effect/Effect.o: src/TheGrid/entity/Spell/Effect/Effect.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/Effect/Effect.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.cpp.o
+
+src/TheGrid/entity/Spell/Effect/Effect.i: src/TheGrid/entity/Spell/Effect/Effect.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/Effect/Effect.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.i
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.cpp.i
+
+src/TheGrid/entity/Spell/Effect/Effect.s: src/TheGrid/entity/Spell/Effect/Effect.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/Effect/Effect.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.s
+.PHONY : src/TheGrid/entity/Spell/Effect/Effect.cpp.s
+
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.o: src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.o
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.o
+
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.i: src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.i
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.i
+
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.s: src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.s
+.PHONY : src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp.s
+
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.o: src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.o
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.o
+
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.i: src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.i
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.i
+
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.s: src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.s
+.PHONY : src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp.s
+
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.o: src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o
+
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.o
+
+# target to build an object file
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o
+
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.i: src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.i
+
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.i
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.i
+
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.s: src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.s
+
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.s
+.PHONY : src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.s
+
 src/TheGrid/entity/Spell/FireSpell.o: src/TheGrid/entity/Spell/FireSpell.cpp.o
 
 .PHONY : src/TheGrid/entity/Spell/FireSpell.o
@@ -851,33 +1067,6 @@ src/TheGrid/entity/Spell/Spell.s: src/TheGrid/entity/Spell/Spell.cpp.s
 src/TheGrid/entity/Spell/Spell.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Spell.cpp.s
 .PHONY : src/TheGrid/entity/Spell/Spell.cpp.s
-
-src/TheGrid/entity/Spell/SpellEffect.o: src/TheGrid/entity/Spell/SpellEffect.cpp.o
-
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.o
-
-# target to build an object file
-src/TheGrid/entity/Spell/SpellEffect.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.o
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.o
-
-src/TheGrid/entity/Spell/SpellEffect.i: src/TheGrid/entity/Spell/SpellEffect.cpp.i
-
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.i
-
-# target to preprocess a source file
-src/TheGrid/entity/Spell/SpellEffect.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.i
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.i
-
-src/TheGrid/entity/Spell/SpellEffect.s: src/TheGrid/entity/Spell/SpellEffect.cpp.s
-
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.s
-
-# target to generate assembly for a file
-src/TheGrid/entity/Spell/SpellEffect.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Spell/SpellEffect.cpp.s
-.PHONY : src/TheGrid/entity/Spell/SpellEffect.cpp.s
 
 src/TheGrid/manage/Command/Command.o: src/TheGrid/manage/Command/Command.cpp.o
 
@@ -987,6 +1176,33 @@ src/TheGrid/manage/Manager/HeroParty.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
 .PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
+src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
+
+.PHONY : src/TheGrid/manage/Random/Random.o
+
+# target to build an object file
+src/TheGrid/manage/Random/Random.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o
+.PHONY : src/TheGrid/manage/Random/Random.cpp.o
+
+src/TheGrid/manage/Random/Random.i: src/TheGrid/manage/Random/Random.cpp.i
+
+.PHONY : src/TheGrid/manage/Random/Random.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Random/Random.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.i
+.PHONY : src/TheGrid/manage/Random/Random.cpp.i
+
+src/TheGrid/manage/Random/Random.s: src/TheGrid/manage/Random/Random.cpp.s
+
+.PHONY : src/TheGrid/manage/Random/Random.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Random/Random.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.s
+.PHONY : src/TheGrid/manage/Random/Random.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -999,9 +1215,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/TheGrid/Console.o"
-	@echo "... src/TheGrid/Console.i"
-	@echo "... src/TheGrid/Console.s"
 	@echo "... src/TheGrid/TheGrid.o"
 	@echo "... src/TheGrid/TheGrid.i"
 	@echo "... src/TheGrid/TheGrid.s"
@@ -1026,9 +1239,24 @@ help:
 	@echo "... src/TheGrid/entity/Item/Item.o"
 	@echo "... src/TheGrid/entity/Item/Item.i"
 	@echo "... src/TheGrid/entity/Item/Item.s"
-	@echo "... src/TheGrid/entity/Item/Potion.o"
-	@echo "... src/TheGrid/entity/Item/Potion.i"
-	@echo "... src/TheGrid/entity/Item/Potion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/AgilityPotion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/AgilityPotion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/AgilityPotion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/DexterityPotion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/DexterityPotion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/DexterityPotion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/HealthPotion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/HealthPotion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/HealthPotion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/MagicPotion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/MagicPotion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/MagicPotion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/Potion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/Potion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/Potion.s"
+	@echo "... src/TheGrid/entity/Item/Potion/StrengthPotion.o"
+	@echo "... src/TheGrid/entity/Item/Potion/StrengthPotion.i"
+	@echo "... src/TheGrid/entity/Item/Potion/StrengthPotion.s"
 	@echo "... src/TheGrid/entity/Item/Weapon.o"
 	@echo "... src/TheGrid/entity/Item/Weapon.i"
 	@echo "... src/TheGrid/entity/Item/Weapon.s"
@@ -1065,6 +1293,18 @@ help:
 	@echo "... src/TheGrid/entity/Living/Monster/Spirit.o"
 	@echo "... src/TheGrid/entity/Living/Monster/Spirit.i"
 	@echo "... src/TheGrid/entity/Living/Monster/Spirit.s"
+	@echo "... src/TheGrid/entity/Spell/Effect/Effect.o"
+	@echo "... src/TheGrid/entity/Spell/Effect/Effect.i"
+	@echo "... src/TheGrid/entity/Spell/Effect/Effect.s"
+	@echo "... src/TheGrid/entity/Spell/Effect/FireSpellEffect.o"
+	@echo "... src/TheGrid/entity/Spell/Effect/FireSpellEffect.i"
+	@echo "... src/TheGrid/entity/Spell/Effect/FireSpellEffect.s"
+	@echo "... src/TheGrid/entity/Spell/Effect/IceSpellEffect.o"
+	@echo "... src/TheGrid/entity/Spell/Effect/IceSpellEffect.i"
+	@echo "... src/TheGrid/entity/Spell/Effect/IceSpellEffect.s"
+	@echo "... src/TheGrid/entity/Spell/Effect/LightingSpellEffect.o"
+	@echo "... src/TheGrid/entity/Spell/Effect/LightingSpellEffect.i"
+	@echo "... src/TheGrid/entity/Spell/Effect/LightingSpellEffect.s"
 	@echo "... src/TheGrid/entity/Spell/FireSpell.o"
 	@echo "... src/TheGrid/entity/Spell/FireSpell.i"
 	@echo "... src/TheGrid/entity/Spell/FireSpell.s"
@@ -1077,9 +1317,6 @@ help:
 	@echo "... src/TheGrid/entity/Spell/Spell.o"
 	@echo "... src/TheGrid/entity/Spell/Spell.i"
 	@echo "... src/TheGrid/entity/Spell/Spell.s"
-	@echo "... src/TheGrid/entity/Spell/SpellEffect.o"
-	@echo "... src/TheGrid/entity/Spell/SpellEffect.i"
-	@echo "... src/TheGrid/entity/Spell/SpellEffect.s"
 	@echo "... src/TheGrid/manage/Command/Command.o"
 	@echo "... src/TheGrid/manage/Command/Command.i"
 	@echo "... src/TheGrid/manage/Command/Command.s"
@@ -1092,6 +1329,9 @@ help:
 	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
+	@echo "... src/TheGrid/manage/Random/Random.o"
+	@echo "... src/TheGrid/manage/Random/Random.i"
+	@echo "... src/TheGrid/manage/Random/Random.s"
 .PHONY : help
 
 

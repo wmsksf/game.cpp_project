@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
-
 #ifndef NONO_WARRIOR_H
 #define NONO_WARRIOR_H
 
@@ -10,9 +6,9 @@
 class Warrior : public Hero
 {
 public:
-    Warrior(const std::string &,
-            int, int, int, int,
-            int, int, int);
+    Warrior(const std::string &name);
+
+    void displayStats();
 };
 
 #endif //NONO_WARRIOR_H

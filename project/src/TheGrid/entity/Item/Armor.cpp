@@ -1,10 +1,19 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #include "Armor.h"
 
-Armor::Armor(const std::string &name,
-             int price, int requiredLvl)
+Armor::Armor(const std::string &name)
 
-            :Item(name, price, requiredLvl) {}
+        :Item(name, Random(100,300),
+              Random(5, 20)) {}
+
+void Armor::printItem() const
+{
+    std::cout << "Name of armor: " ;
+    std::cout << this->getName() << std::endl;
+
+    Item::printItem();
+}
+
+int Armor::reduceDamage() const
+{
+    return 15;
+}
