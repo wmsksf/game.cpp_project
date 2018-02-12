@@ -12,8 +12,6 @@ public:
     Potion(const std::string &name,
            int price);
 
-    void printItem() const;
-
     //boost a stat of the user/hero
     virtual void boost(Hero* hero) const = 0;
 };

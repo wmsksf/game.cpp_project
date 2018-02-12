@@ -62,6 +62,6 @@ void Inventory::display()
 	for( int i = 0; i < items.size(); i++)
 	{
 		//TODO implement getDescription instead of print Item.
-		std::cout << "[" << i <<"] " << items[i].getDescription() << std::endl;
+		std::cout << "[" << i <<"] " << items[i]->getDescription() << std::endl;
 	}
 }

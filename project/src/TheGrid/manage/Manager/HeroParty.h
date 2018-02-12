@@ -11,6 +11,10 @@ private:
     int x;
     int y;
 
+protected:
+    enum class MOVE{up, down, left, right};
+
+    const MOVE& convert(const std::string& move);
 public:
 
     const std::vector<Hero*>& getHeroes() const;
@@ -20,6 +24,9 @@ public:
 
     int getY() const;
     void setY(int y);
+
+    void move(const MOVE move);
+    void move(const std::string& move);
 };
 
 #endif //NONO_HEROPARTY_H

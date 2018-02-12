@@ -11,9 +11,9 @@ private :
 public:
     MagicPotion(const std::string &name);
 
-	void boost(Hero *hero) const override;
+	const std::string &getDescription();
 
-	const std::string &getDescription() override;
+	void boost(Hero *hero) const;
 };
 
 #endif //NONO_MAGICPOTION_H

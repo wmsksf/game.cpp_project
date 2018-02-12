@@ -3,12 +3,13 @@
 
 DexterityPotion::DexterityPotion(const std::string &name)
 
-                :Potion(name, randomInRange(60, 130)), dexterityPoints(randomInRange(1, 5))
-{ }
+                :Potion(name, randomInRange(60, 130)),
+				 dexterityPoints(randomInRange(1, 5)) {}
 
 const std::string &DexterityPotion::getDescription()
 {
-	return string_format("%s [%d level] : Increases Dexterity by %d.", getName(), getRequiredLevel(), dexterityPoints);
+	return string_format("%s [%d level] : Increases Dexterity by %d.",
+						 getName(), getRequiredLevel(), dexterityPoints);
 }
 
 void DexterityPotion::boost(Hero *hero) const

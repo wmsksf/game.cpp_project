@@ -7,13 +7,6 @@ Item::Item(const std::string &name, int price,
         :name(name), price(price),
          requiredLevel(requiredLevel) {}
 
-void Item::printItem() const
-{
-    std::cout << "price: " << price << std::endl;
-    std::cout << "required minimum level: ";
-    std::cout << requiredLevel << std::endl;
-}
-
 const std::string& Item::getName() const
 {
     return name;

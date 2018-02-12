@@ -14,8 +14,6 @@ private:
 public:
     Weapon(const std::string &name);
 
-    void printItem() const;
-
     bool isDualWeild() const;
 
 	int getDamage() const;

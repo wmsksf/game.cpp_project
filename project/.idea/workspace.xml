@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" line="26" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="nono" targetName="nono" />
@@ -13,6 +16,29 @@
   <component name="ChangeListManager">
     <list default="true" id="0112f585-d84e-4ce6-b815-a13c22937116" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,101 +50,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FireSpell.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/FireSpell.cpp">
+      <file leaf-file-name="HeroParty.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="59">
+              <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IceSpellEffect.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp">
+      <file leaf-file-name="HeroParty.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Effect.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Effect.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FireSpellEffect.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IceSpellEffect.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/IceSpellEffect.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LightingSpellEffect.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LightingSpellEffect.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FireSpellEffect.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FireSpell.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/FireSpell.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -138,10 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/NonAccessibleTile.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.h" />
@@ -151,36 +93,16 @@
         <option value="$PROJECT_DIR$/src/TheGrid/manage/Random/Random.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/Inventory.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/Inventory.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/manage/Random/Utils.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/manage/Random/Utils.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Spirit.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Paladin.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Sorcerer.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Warrior.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/Spell.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.h" />
-        <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.h" />
@@ -189,6 +111,30 @@
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/LightingSpell.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/FireSpell.cpp" />
         <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/FireSpellEffect.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/AgilityPotion.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" />
+        <option value="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" />
       </list>
     </option>
   </component>
@@ -250,31 +196,6 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TheGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="Living" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nono" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TheGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="Spell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nono" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TheGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="Spell" type="462c0819:PsiDirectoryNode" />
-              <item name="Effect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nono" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TheGrid" type="462c0819:PsiDirectoryNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +204,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TheGrid" type="462c0819:PsiDirectoryNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="Random" type="462c0819:PsiDirectoryNode" />
+              <item name="Manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,6 +273,8 @@
       <workItem from="1518380385403" duration="23320000" />
       <workItem from="1518423362409" duration="8007000" />
       <workItem from="1518438804990" duration="1112000" />
+      <workItem from="1518441081202" duration="1172000" />
+      <workItem from="1518442319425" duration="6847000" />
     </task>
     <task id="LOCAL-00001" summary="first stage simple stuff... not much done enjoy:(">
       <created>1516267754657</created>
@@ -395,32 +318,49 @@
       <option name="project" value="LOCAL" />
       <updated>1518439760326</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/wmsksf/wmsk&#10;&#10;# Conflicts:&#10;#&#9;project/.idea/workspace.xml&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/build.make&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/link.txt&#10;#&#9;project/cmake-build-debug/nono.cbp">
+      <created>1518441889073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518441889076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70886000" />
+    <option name="totallyTimeSpent" value="78905000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1368" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21742424" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424242" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31415242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31415242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -437,7 +377,8 @@
     <MESSAGE value="simple stuff done..." />
     <MESSAGE value="...." />
     <MESSAGE value="Lots of changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lots of changes." />
+    <MESSAGE value="Merge branch 'master' of https://github.com/wmsksf/wmsk&#10;&#10;# Conflicts:&#10;#&#9;project/.idea/workspace.xml&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/build.make&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/link.txt&#10;#&#9;project/cmake-build-debug/nono.cbp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/wmsksf/wmsk&#10;&#10;# Conflicts:&#10;#&#9;project/.idea/workspace.xml&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/build.make&#10;#&#9;project/cmake-build-debug/CMakeFiles/nono.dir/link.txt&#10;#&#9;project/cmake-build-debug/nono.cbp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,137 +387,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Paladin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Command/Command.cpp">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Paladin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Random/Random.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Exoskeleton.h">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Sorcerer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Exoskeleton.cpp">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Sorcerer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Warrior.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Warrior.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -588,20 +431,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.h">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="-2928">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,6 +455,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -616,13 +463,279 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.cpp">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Random/Utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/TheGrid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/TheGrid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/NonAccessibleTile.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/NonAccessibleTile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/TileFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Hero.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/MonsterStats.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Item.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Item.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Armor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Spell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Spell.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/LightingSpell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,97 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Spirit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Monster.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Monster/Dragon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#51#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Random/Random.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Spell.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Spell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/LightingSpell.h">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -748,47 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/IceSpell.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/IceSpell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/FireSpell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/FireSpell.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/Effect.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -804,42 +787,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/IceSpellEffect.cpp">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h">
+    <entry file="file://$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/IceSpellEffect.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="59">
+          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding />
         </state>
       </provider>

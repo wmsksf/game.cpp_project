@@ -7,14 +7,6 @@ Armor::Armor(const std::string &name)
          armorPoints(randomInRange(10, 50))
 {}
 
-void Armor::printItem() const
-{
-    std::cout << "Name of armor: " ;
-    std::cout << this->getName() << std::endl;
-
-    Item::printItem();
-}
-
 int Armor::getArmorPoints() const
 {
     return armorPoints;

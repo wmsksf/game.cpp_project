@@ -18,8 +18,6 @@ public:
 
     const std::string& getName() const;
 
-    virtual void printItem() const;
-
 	int getPrice() const;
 
 	int getRequiredLevel() const;

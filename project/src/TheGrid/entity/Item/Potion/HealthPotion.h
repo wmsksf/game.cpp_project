@@ -11,9 +11,9 @@ private:
 public:
     HealthPotion(const std::string &name);
 
-	virtual const std::string &getDescription();
+	const std::string &getDescription();
 
-	virtual void boost(Hero *hero) const;
+	void boost(Hero *hero) const;
 };
 
 #endif //NONO_HEALTHPOTION_H

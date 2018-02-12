@@ -13,8 +13,6 @@ private:
 public:
     Armor(const std::string &name);
 
-    void printItem() const;
-
     int getArmorPoints() const;
 };
 

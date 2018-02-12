@@ -12,6 +12,7 @@ public:
     AgilityPotion(const std::string &name);
 
 	const std::string &getDescription() ;
+
 	void boost(Hero *hero);
 };
 
