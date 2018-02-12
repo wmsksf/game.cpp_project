@@ -1,3 +1,4 @@
+
 #ifndef NONO_WEAPON_H
 #define NONO_WEAPON_H
 
@@ -15,6 +16,8 @@ public:
     bool isDualWeild() const;
 
 	int getDamage() const;
+
+	const std::string& getDescription();
 };
 
 #endif

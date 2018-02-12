@@ -7,8 +7,7 @@ Weapon::Weapon(const std::string &name)
               randomInRange(150, 350),
               randomInRange(15, 25)),
          damage(randomInRange(40, 50)),
-         dualWeild(randomBool())
-{}
+         dualWeild(randomBool()) {}
 
 bool Weapon::isDualWeild() const
 {
@@ -18,4 +17,10 @@ bool Weapon::isDualWeild() const
 int Weapon::getDamage() const
 {
 	return damage;
+}
+
+const std::string &Weapon::getDescription()
+{
+    Item::getDescription();
+    //...
 }

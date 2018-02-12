@@ -1,4 +1,8 @@
+
 #include "BattleArena.h"
+
+BattleArena::BattleArena()
+{}
 
 void BattleArena::displayBattleInfo()
 {

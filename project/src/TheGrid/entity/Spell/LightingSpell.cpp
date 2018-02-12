@@ -1,3 +1,4 @@
+
 #include "LightingSpell.h"
 #include "../../manage/Random/Random.h"
 

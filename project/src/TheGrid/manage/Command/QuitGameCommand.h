@@ -1,10 +1,6 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #ifndef NONO_QUITGAMECOMMAND_H
 #define NONO_QUITGAMECOMMAND_H
-
 
 #include "Command.h"
 #include "../../TheGrid.h"
@@ -16,6 +12,5 @@ public:
 
 	virtual void execute(std::vector<std::string> &args);
 };
-
 
 #endif //NONO_QUITGAMECOMMAND_H

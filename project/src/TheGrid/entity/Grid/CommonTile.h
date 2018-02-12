@@ -1,3 +1,4 @@
+
 #ifndef NONO_COMMONTILE_H
 #define NONO_COMMONTILE_H
 
@@ -10,6 +11,8 @@ public:
 
     bool isAccessible();
     void printTile();
+
+    void enter();
 };
 
 #endif //NONO_COMMONTILE_H

@@ -1,3 +1,4 @@
+
 #ifndef NONO_MARKET_H
 #define NONO_MARKET_H
 
@@ -11,7 +12,7 @@ private:
     std::vector<Item> market;
 
 public:
-    Market(const std::vector<Item> &);
+    Market(const std::vector<Item> &market);
 
     bool isAccessible();
     void printTile();
@@ -19,6 +20,7 @@ public:
     void printItems();
     Item* getItem(int);
 
+    void enter();
 };
 
 #endif //NONO_MARKET_H

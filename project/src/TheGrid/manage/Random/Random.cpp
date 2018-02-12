@@ -1,3 +1,4 @@
+
 #include <cstdlib>
 #include <tgmath.h>
 
@@ -30,4 +31,3 @@ bool randomBool()
 
     return (bool) (int)(randomDouble() + 0.5);
 }
-

@@ -1,10 +1,12 @@
+
 #ifndef NONO_SPELL_H
 #define NONO_SPELL_H
 
 #include <iostream>
 #include <string>
-#include "../Living/Hero/Hero.h"
+#include "../Living/Monster/Monster.h"
 #include "Effect/Effect.h"
+#include "../Living/Hero/Hero.h"
 
 class Spell
 {
@@ -23,6 +25,18 @@ public:
         int price, int requiredLvl,
         int requiredMagicPower, int minDamage,
         int maxDamage);
+
+    void cast(Monster* monster);
+    void casted(Hero* hero);
+
+    const std::string& getDescription();
+
+    const std::string &getName() const;
+    int getPrice() const;
+    int getRequiredLvl() const;
+    int getRequiredMagicPower() const;
+    int getMinDamage() const;
+    int getMaxDamage() const;
 };
 
 #endif //NONO_SPELL_H

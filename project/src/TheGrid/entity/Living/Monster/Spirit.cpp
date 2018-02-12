@@ -1,3 +1,4 @@
+
 #include "Spirit.h"
 #include "../../../manage/Random/Random.h"
 

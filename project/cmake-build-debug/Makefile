@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kostas/usr/workspace/repos/wmsk/project
+CMAKE_SOURCE_DIR = /home/admntiasf/workingdirectory/wmsk/wmsk/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kostas/Desktop/clion-2017.2.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/admntiasf/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kostas/usr/workspace/repos/wmsk/project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1230,6 +1230,33 @@ src/TheGrid/manage/Command/QuitGameCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/QuitGameCommand.cpp.s
 
+src/TheGrid/manage/Command/SellCommand.o: src/TheGrid/manage/Command/SellCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/SellCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/SellCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.o
+
+src/TheGrid/manage/Command/SellCommand.i: src/TheGrid/manage/Command/SellCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/SellCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/SellCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.i
+
+src/TheGrid/manage/Command/SellCommand.s: src/TheGrid/manage/Command/SellCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/SellCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/SellCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.s
+
 src/TheGrid/manage/Manager/BattleArena.o: src/TheGrid/manage/Manager/BattleArena.cpp.o
 
 .PHONY : src/TheGrid/manage/Manager/BattleArena.o
@@ -1497,6 +1524,9 @@ help:
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.o"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.i"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.s"
+	@echo "... src/TheGrid/manage/Command/SellCommand.o"
+	@echo "... src/TheGrid/manage/Command/SellCommand.i"
+	@echo "... src/TheGrid/manage/Command/SellCommand.s"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.o"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.i"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.s"

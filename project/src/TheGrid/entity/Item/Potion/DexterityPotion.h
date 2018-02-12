@@ -1,3 +1,4 @@
+
 #ifndef NONO_DEXTERITYPOTION_H
 #define NONO_DEXTERITYPOTION_H
 
@@ -11,9 +12,9 @@ private:
 public:
     DexterityPotion(const std::string &name);
 
-	const std::string &getDescription();
+	const std::string& getDescription();
 
-	void boost(Hero *hero) const;
+	void boost(Hero* hero) const;
 };
 
 #endif //NONO_DEXTERITYPOTION_H

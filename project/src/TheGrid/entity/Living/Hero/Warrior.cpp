@@ -1,3 +1,4 @@
+
 #include "Warrior.h"
 #include "../../../manage/Random/Random.h"
 

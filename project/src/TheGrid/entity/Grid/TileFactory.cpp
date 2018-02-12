@@ -1,6 +1,3 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #include "TileFactory.h"
 #include "../../manage/Random/Random.h"

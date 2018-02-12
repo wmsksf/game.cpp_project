@@ -1,6 +1,3 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #include "BuyCommand.h"
 #include "../../entity/Grid/Tile.h"
@@ -17,6 +14,4 @@ void BuyCommand::execute(std::vector<std::string> &args)
 		std::cout << "You should be on Market tile to buy." << std::endl;
 		return ;
 	}
-
-
 }

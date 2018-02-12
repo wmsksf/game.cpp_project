@@ -1,20 +1,18 @@
 
-//
-// Created by kostas on 2/12/18.
-//
-
 #include "CommandManager.h"
 #include "../Command/QuitGameCommand.h"
 #include "../Command/BuyCommand.h"
 #include "../Command/MoveCommand.h"
 #include "../Command/DisplayMapCommand.h"
 #include "../Random/Utils.h"
+#include "../Command/SellCommand.h"
 
 CommandManager::CommandManager(TheGrid *theGrid)
 {
 	commands.push_back(new QuitGameCommand(theGrid));
 	commands.push_back(new MoveCommand(theGrid));
 	commands.push_back(new BuyCommand(theGrid));
+	commands.push_back(new SellCommand(theGrid));
 	commands.push_back(new DisplayMapCommand(theGrid));
 }
 

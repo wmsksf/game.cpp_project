@@ -1,3 +1,4 @@
+
 #include "FireSpellEffect.h"
 #include "../../../manage/Random/Random.h"
 

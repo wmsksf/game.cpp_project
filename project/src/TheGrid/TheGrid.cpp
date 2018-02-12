@@ -1,11 +1,14 @@
-//
-// Created by admntiasf on 18/1/2018.
-//
 
 #include "TheGrid.h"
 
+TheGrid::TheGrid()
+{
+	commandManager = new CommandManager(this);
 
-HeroParty *TheGrid::getParty() const
+//	grid = new Grid(new TileFactory(allItems));
+}
+
+HeroParty* TheGrid::getParty() const
 {
 	return party;
 }
@@ -16,12 +19,12 @@ void TheGrid::quit()
 	exit(0);
 }
 
-Grid *TheGrid::getGrid() const
+Grid* TheGrid::getGrid() const
 {
 	return grid;
 }
 
-Tile *TheGrid::getCurrentTile()
+Tile* TheGrid::getCurrentTile()
 {
 	return grid->getTile(party->getX(), party->getY());
 }
@@ -41,12 +44,4 @@ void TheGrid::start()
 
 		commandManager->execute(line);
 	}
-}
-
-TheGrid::TheGrid()
-{
-	commandManager = new CommandManager(this);
-
-//	grid = new Grid(new TileFactory(allItems));
-
 }

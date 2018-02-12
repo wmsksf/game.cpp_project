@@ -45,6 +45,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/main.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o"
   "nono.pdb"
   "nono"
 )

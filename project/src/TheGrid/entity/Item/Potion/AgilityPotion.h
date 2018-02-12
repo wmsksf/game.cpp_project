@@ -11,9 +11,9 @@ private:
 public:
     AgilityPotion(const std::string &name);
 
-	const std::string &getDescription() ;
+	const std::string& getDescription() ;
 
-	void boost(Hero *hero);
+	void boost(Hero* hero);
 };
 
 #endif //NONO_AGILITYPOTION_H

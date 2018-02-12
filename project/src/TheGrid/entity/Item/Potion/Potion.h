@@ -1,3 +1,4 @@
+
 #ifndef NONO_POTION_H
 #define NONO_POTION_H
 
@@ -12,7 +13,7 @@ public:
     Potion(const std::string &name,
            int price);
 
-    //boost a stat of the user/hero
+    virtual const std::string& getDescription() = 0; //??price
     virtual void boost(Hero* hero) const = 0;
 };
 

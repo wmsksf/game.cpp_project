@@ -1,10 +1,6 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #ifndef NONO_DISPLAYGRIDCOMMAND_H
 #define NONO_DISPLAYGRIDCOMMAND_H
-
 
 #include "Command.h"
 #include "../../TheGrid.h"
@@ -15,9 +11,6 @@ public:
 	DisplayMapCommand(TheGrid* theGrid);
 
 	virtual void execute(std::vector<std::string> &args);
-
-
 };
-
 
 #endif //NONO_DISPLAYGRIDCOMMAND_H

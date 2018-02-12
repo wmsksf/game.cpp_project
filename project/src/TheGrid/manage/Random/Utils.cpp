@@ -1,6 +1,3 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #include <string>
 #include <stdarg.h>
@@ -10,7 +7,6 @@
 #include <sstream>
 #include <iostream>
 #include "Utils.h"
-
 
 std::string string_format(const std::string fmt_str, ...)
 {

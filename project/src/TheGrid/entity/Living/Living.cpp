@@ -1,3 +1,4 @@
+
 #include "Living.h"
 
 Living::Living(const std::string &name, int healthPower)

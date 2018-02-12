@@ -1,3 +1,4 @@
+
 #ifndef NONO_SORCERER_H
 #define NONO_SORCERER_H
 
@@ -8,8 +9,10 @@ class Sorcerer : public Hero
 public:
     Sorcerer(const std::string &name);
 
+	void displayStats();
+
 protected:
-	virtual void levelUp();
+	void levelUp();
 };
 
 #endif //NONO_SORCERER_H

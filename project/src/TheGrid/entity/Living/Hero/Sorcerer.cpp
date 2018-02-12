@@ -1,3 +1,4 @@
+
 #include "Sorcerer.h"
 #include "../../../manage/Random/Random.h"
 
@@ -8,6 +9,12 @@ Sorcerer::Sorcerer(const std::string& name)
                   randomInRange(400, 600),
                   randomInRange(300, 400)) {}
 
+void Sorcerer::displayStats()
+{
+	std::cout << "SORCERER..." << std::endl;
+
+	Hero::displayStats();
+}
 
 void Sorcerer::levelUp()
 {

@@ -1,3 +1,4 @@
+
 #ifndef NONO_PALADIN_H
 #define NONO_PALADIN_H
 
@@ -8,8 +9,10 @@ class Paladin : public Hero
 public:
     Paladin(const std::string &name);
 
+	void displayStats();
+
 protected:
-	virtual void levelUp();
+	void levelUp();
 };
 
 #endif //NONO_PALADIN_H

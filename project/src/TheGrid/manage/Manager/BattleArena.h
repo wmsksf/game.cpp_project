@@ -1,3 +1,4 @@
+
 #ifndef NONO_BATTLEARENA_H
 #define NONO_BATTLEARENA_H
 
@@ -21,6 +22,8 @@ private:
     void displayBattleInfo();
 
 public:
+    BattleArena();
+
     void start();
 };
 

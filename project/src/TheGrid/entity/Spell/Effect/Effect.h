@@ -1,3 +1,4 @@
+
 #ifndef NONO_EFFECT_H
 #define NONO_EFFECT_H
 
@@ -15,7 +16,9 @@ public:
     Effect();
 
     void countDown();
+
     bool expired() const;
+
     virtual void apply(MonsterStats* monsterStats) = 0;
 
     int getDuration() const;

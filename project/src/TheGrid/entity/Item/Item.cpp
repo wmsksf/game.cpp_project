@@ -1,3 +1,4 @@
+
 #include "Item.h"
 #include "../../manage/Random/Utils.h"
 
@@ -24,5 +25,7 @@ int Item::getRequiredLevel() const
 
 const std::string &Item::getDescription()
 {
-	return string_format("%s [%d level]", name, requiredLevel);
+	//??price
+	return string_format("%s [%d level]",
+						 name, requiredLevel);
 }

@@ -1,3 +1,4 @@
+
 #include "IceSpellEffect.h"
 #include "../../../manage/Random/Random.h"
 

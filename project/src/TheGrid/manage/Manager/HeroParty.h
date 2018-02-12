@@ -1,8 +1,11 @@
+
 #ifndef NONO_HEROPARTY_H
 #define NONO_HEROPARTY_H
 
 #include "../../entity/Living/Hero/Hero.h"
 #include "../../entity/Living/Hero/Inventory.h"
+#include "../../TheGrid.h"
+
 
 class HeroParty
 {
@@ -11,11 +14,8 @@ private:
     int x;
     int y;
 
-protected:
-    enum class MOVE{up, down, left, right};
-
-    const MOVE& convert(const std::string& move);
 public:
+    enum class direction {up, down, left, right};
 
     const std::vector<Hero*>& getHeroes() const;
 
@@ -25,8 +25,7 @@ public:
     int getY() const;
     void setY(int y);
 
-    void move(const MOVE move);
-    void move(const std::string& move);
+    bool move(direction, TheGrid* theGrid);
 };
 
 #endif //NONO_HEROPARTY_H

@@ -1,3 +1,4 @@
+
 #include "IceSpell.h"
 #include "../../manage/Random/Random.h"
 

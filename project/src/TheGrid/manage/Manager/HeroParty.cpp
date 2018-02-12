@@ -1,3 +1,4 @@
+
 #include "HeroParty.h"
 
 int HeroParty::getX() const
@@ -25,46 +26,59 @@ const std::vector<Hero *>& HeroParty::getHeroes() const
     return heroes;
 }
 
-void HeroParty::move(HeroParty::MOVE move)
+bool HeroParty::move(direction direction, TheGrid* theGrid)
 {
-    switch(move)
+    Tile* tile;
+
+    switch(direction)
     {
-        case MOVE::up:
+        case direction::up:
+            tile  = theGrid->getGrid()->getTile((getX() - 1), getY());
+
+            if(tile == nullptr) return false;
+
+            if(tile->getName().compare("NonAccessibleTile") != 0)
+                setX(getX() - 1);
+
+            tile->enter();
+
             break;
 
-        case MOVE::down:
-            break;
+        case direction::down:
+            tile = theGrid->getGrid()->getTile((getX() + 1), getY());
 
-        case MOVE::left:
-            break;
+            if(tile == nullptr) return false;
 
-        case MOVE::right:
+            if(tile->getName().compare("NonAccessibleTile") != 0)
+                setX(getX() + 1);
+
+            tile->enter();
+
+            break;
+        case direction::left:
+            tile = theGrid->getGrid()->getTile(getX(), (getY() - 1));
+
+            if(tile == nullptr) return false;
+
+            if(tile->getName().compare("NonAccessibleTile") != 0)
+                setY(getY() - 1);
+
+            tile->enter();
+
+            break;
+        case direction::right:
+            tile = theGrid->getGrid()->getTile(getX(), (getY() + 1));
+
+            if(tile == nullptr || tile->getName().compare("NonAccessibleTile") != 0)
+                return false;
+
+            if(tile->getName().compare("NonAccessibleTile") != 0)
+                setY(getY() + 1);
+
+            tile->enter();
+
             break;
     }
-}
 
-void HeroParty::move(std::string &move)
-{
-    this->move(convert(move));
-}
-
-const HeroParty::MOVE &HeroParty::convert(std::string &move)
-{
-   if(move.compare("up") == 0)
-   {
-       return MOVE::up;
-   }
-   else if(move.compare("down") == 0)
-   {
-       return MOVE::down;
-   }
-   else if(move.compare("left") == 0)
-   {
-       return MOVE::left;
-   }
-   else if(move.compare("right") == 0)
-   {
-       return MOVE::right;
-   }
-   else return nullptr;
+    return true;
 }

@@ -1,6 +1,3 @@
-//
-// Created by kostas on 2/12/18.
-//
 
 #ifndef NONO_UTILS_H
 #define NONO_UTILS_H

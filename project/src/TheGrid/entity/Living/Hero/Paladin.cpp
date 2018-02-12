@@ -1,3 +1,4 @@
+
 #include "Paladin.h"
 #include "../../../manage/Random/Random.h"
 
@@ -7,6 +8,13 @@ Paladin::Paladin(const std::string& name)
               randomInRange(400, 600),
               randomInRange(300, 400),
               randomInRange(250, 150)) {}
+
+void Paladin::displayStats()
+{
+	std::cout << "PALADIN..." << std::endl;
+
+	Hero::displayStats();
+}
 
 void Paladin::levelUp()
 {

@@ -1,3 +1,4 @@
+
 #include "FireSpell.h"
 #include "../../manage/Random/Random.h"
 

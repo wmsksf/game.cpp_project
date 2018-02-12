@@ -1,3 +1,4 @@
+
 #ifndef NONO_STRENGTHPOTION_H
 #define NONO_STRENGTHPOTION_H
 
@@ -11,9 +12,9 @@ private:
 public:
     StrengthPotion(const std::string &name);
 
- 	const std::string &getDescription();
+ 	const std::string& getDescription();
 
-	void boost(Hero *hero) const;
+	void boost(Hero* hero) const;
 };
 
 #endif //NONO_STRENGTHPOTION_H
