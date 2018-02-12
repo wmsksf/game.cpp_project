@@ -177,3 +177,23 @@ void Hero::restoreMagicPower(int magicPoints)
 		currentMagicPower = maxMagicPower;
 	}
 }
+
+void Hero::addItem(Item *item)
+{
+	inventory.addItem(item);
+}
+
+Item *Hero::getItem(const std::string &name)
+{
+	return inventory.getItem(name);
+}
+
+void Hero::removeItem(Item *item)
+{
+	inventory.remove(item);
+}
+
+void Hero::printInventory()
+{
+	inventory.display();
+}

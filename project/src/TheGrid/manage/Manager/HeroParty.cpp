@@ -25,22 +25,3 @@ const std::vector<Hero *>& HeroParty::getHeroes() const
     return heroes;
 }
 
-void HeroParty::addItem(Item *item)
-{
-    inventory.addItem(item);
-}
-
-Item *HeroParty::getItem(const std::string &name)
-{
-	return inventory.getItem(name);
-}
-
-void HeroParty::removeItem(Item *item)
-{
-    inventory.remove(item);
-}
-
-void HeroParty::printInventory()
-{
-    inventory.display();
-}
