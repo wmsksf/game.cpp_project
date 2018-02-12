@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0112f585-d84e-4ce6-b815-a13c22937116" name="Default" comment="">
+    <list default="true" id="0112f585-d84e-4ce6-b815-a13c22937116" name="Default" comment="today is a good day 2.0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -322,7 +322,7 @@
       <workItem from="1518242780556" duration="5829000" />
       <workItem from="1518248770820" duration="62000" />
       <workItem from="1518336368991" duration="6951000" />
-      <workItem from="1518380385403" duration="24657000" />
+      <workItem from="1518380385403" duration="24734000" />
     </task>
     <task id="LOCAL-00001" summary="first stage simple stuff... not much done enjoy:(">
       <created>1516267754657</created>
@@ -366,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518429850197</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="today is a good day 2.0">
+      <created>1518429873627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518429873627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62761000" />
+    <option name="totallyTimeSpent" value="62838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
