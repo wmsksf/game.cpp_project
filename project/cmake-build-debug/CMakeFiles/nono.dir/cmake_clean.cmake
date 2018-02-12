@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nono.dir/main.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Item.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/entity/Item/Weapon.cpp.o"
@@ -40,6 +39,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o"
   "CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o"
+  "CMakeFiles/nono.dir/src/TheGrid/main.cpp.o"
   "nono.pdb"
   "nono"
 )

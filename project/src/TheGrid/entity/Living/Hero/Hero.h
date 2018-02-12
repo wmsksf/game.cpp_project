@@ -2,10 +2,11 @@
 #define NONO_HERO_H
 
 #include "../Living.h"
-#include "../../Item/Potion/Potion.h"
 #include "../../Item/Weapon.h"
 #include "../../Item/Armor.h"
 #include "Inventory.h"
+
+class Potion;
 
 class Hero : public Living
 {

@@ -1,25 +1,26 @@
 #include "Warrior.h"
+#include "../../../manage/Random/Random.h"
 
-Warrior::Warrior(const std::string& name)
+Warrior::Warrior(const std::string &name)
 
-            :Hero(name,
-                  randomInRange(300, 400),
-                  randomInRange(150, 250),
-                  randomInRange(400, 600)) {}
+		: Hero(name,
+		       randomInRange(300, 400),
+		       randomInRange(150, 250),
+		       randomInRange(400, 600)) {}
 
 void Warrior::displayStats()
 {
-    std::cout << "WARRIOR..." << std::endl;
+	std::cout << "WARRIOR..." << std::endl;
 
-    Hero::displayStats();
+	Hero::displayStats();
 }
 
 void Warrior::levelUp()
 {
-    Hero::levelUp();
+	Hero::levelUp();
 
-    strength += 10;
-    dexterity += 8;
-    agility += 15;
+	strength += 10;
+	dexterity += 8;
+	agility += 15;
 }
 

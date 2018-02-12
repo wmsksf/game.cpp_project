@@ -1,30 +1,40 @@
 #include "Monster.h"
+#include "../../../manage/Random/Random.h"
 
 Monster::Monster(const std::string &name,
                  int minDamage, int maxDamage,
                  int defense, double dodgeProbability)
 
-            :Living(name, 1000), level(randomInRange(1, 100)),
-             minDamage(minDamage), maxDamage(maxDamage),
-             defense(defense),
-             dodgeProbability(dodgeProbability) {}
+		: Living(name, 1000),
+		  minDamage(minDamage),
+		  maxDamage(maxDamage),
+		  defense(defense),
+		  dodgeProbability(dodgeProbability)
+{
+	level = randomInRange(1, 100);
+}
 
 int Monster::getMinDamage() const
 {
-    return minDamage;
+	return minDamage;
 }
 
 int Monster::getMaxDamage() const
 {
-    return maxDamage;
+	return maxDamage;
 }
 
 int Monster::getDefense() const
 {
-    return defense;
+	return defense;
 }
 
 double Monster::getDodgeProbability() const
 {
-    return dodgeProbability;
+	return dodgeProbability;
+}
+
+const std::vector<Effect *> &Monster::getEffects() const
+{
+	return effects;
 }

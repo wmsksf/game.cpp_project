@@ -2,7 +2,7 @@
 
 Market::Market(const std::vector<Item> &mrkt)
 
-        :Tile(), name("Market"), market(mrkt) {}
+        :Tile("Market"), market(mrkt) {}
 
 bool Market::isAccessible()
 {

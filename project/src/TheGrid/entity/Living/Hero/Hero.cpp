@@ -1,10 +1,11 @@
 #include "Hero.h"
+#include "../../../manage/Random/Random.h"
+#include "../../Item/Potion/Potion.h"
 
 Hero::Hero(const std::string &name, int strength,
            int dexterity, int agility)
 
 		: Living(name, 1000),
-		  level(1),
 		  currentMagicPower(randomInRange(280, 460)),
 		  strength(strength),
 		  dexterity(dexterity),
@@ -13,7 +14,10 @@ Hero::Hero(const std::string &name, int strength,
 		  healthRegen(randomInRange(25, 35)),
 		  money(0),
 		  experience(0),
-		  experienceForLevel(100) {}
+		  experienceForLevel(100)
+{
+	level = 1;
+}
 
 void Hero::displayStats()
 {
@@ -172,7 +176,7 @@ void Hero::restoreMagicPower(int magicPoints)
 {
 	currentMagicPower += magicPoints;
 
-	if(currentMagicPower > maxMagicPower)
+	if (currentMagicPower > maxMagicPower)
 	{
 		currentMagicPower = maxMagicPower;
 	}

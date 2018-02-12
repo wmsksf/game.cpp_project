@@ -1,4 +1,5 @@
 #include "Exoskeleton.h"
+#include "../../../manage/Random/Random.h"
 
 Exoskeleton::Exoskeleton(const std::string &name)
 

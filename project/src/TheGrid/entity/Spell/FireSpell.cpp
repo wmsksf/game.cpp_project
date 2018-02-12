@@ -1,4 +1,5 @@
 #include "FireSpell.h"
+#include "../../manage/Random/Random.h"
 
 FireSpell::FireSpell(const std::string &name)
 

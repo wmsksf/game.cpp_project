@@ -19,7 +19,7 @@ private:
     int maxDamage;
 
 public:
-    Spell(const std::string &name
+    Spell(const std::string &name,
         int price, int requiredLvl,
         int requiredMagicPower, int minDamage,
         int maxDamage);

@@ -1,4 +1,5 @@
 #include "Dragon.h"
+#include "../../../manage/Random/Random.h"
 
 Dragon::Dragon(const std::string &name)
 

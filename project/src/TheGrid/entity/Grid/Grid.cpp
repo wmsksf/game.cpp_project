@@ -4,7 +4,7 @@
 static const int height = 25;
 static const int width = 45;
 
-Grid::Grid()
+Grid::Grid(TileFactory* tileFactory)
 {
 	grid = new Tile **[height];
 
@@ -17,22 +17,7 @@ Grid::Grid()
 	{
 		for (int j = 0; j != width; j++)
 		{
-			int rnd = randomInRange(0, 2);
-
-			switch (rnd)
-			{
-				case 0:
-					grid[i][j] = new CommonTile();
-					break;
-
-				case 1:
-					grid[i][j] = new NonAccessibleTile();
-					break;
-
-				case 2:
-					grid[i][j] = new Market();
-					break;
-			}
+			grid[i][j] = tileFactory->createTile();
 		}
 	}
 }
@@ -67,4 +52,15 @@ void Grid::displayGrid(int playerX, int playerY)
 	}
 
 	std::cout << std::endl;
+}
+
+Tile *Grid::getTile(int x, int y)
+{
+	if(x < 0 || x >= width)
+		return nullptr;
+
+	if(y < 0  || y >= height)
+		return nullptr;
+
+	return grid[x][y];
 }

@@ -1,8 +1,14 @@
 #include "IceSpellEffect.h"
+#include "../../../manage/Random/Random.h"
 
 IceSpellEffect::IceSpellEffect()
 
-        :Effect(), damage(randomInRange(1,5)) {}
+        :Effect()
+
+{
+    damage = ( randomInRange(1,5));
+}
+
 
 void IceSpellEffect::apply(MonsterStats* monsterStats)
 {

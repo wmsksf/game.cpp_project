@@ -1,5 +1,6 @@
 #include "MagicPotion.h"
 #include "../../../manage/Random/Utils.h"
+#include "../../../manage/Random/Random.h"
 
 MagicPotion::MagicPotion(const std::string &name)
 
