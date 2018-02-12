@@ -2,7 +2,6 @@
 #define NONO_EFFECT_H
 
 #include "../../Living/Monster/MonsterStats.h"
-#include "src/TheGrid/manage/Random/Random.h"
 
 class Effect
 {

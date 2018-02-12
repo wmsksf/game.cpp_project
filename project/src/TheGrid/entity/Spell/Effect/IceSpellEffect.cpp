@@ -2,7 +2,7 @@
 
 IceSpellEffect::IceSpellEffect()
 
-        :Effect(), damage(RandomInRange(1,5)) {}
+        :Effect(), damage(randomInRange(1,5)) {}
 
 void IceSpellEffect::apply(MonsterStats* monsterStats)
 {

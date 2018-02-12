@@ -585,28 +585,28 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o.provides: CMake
 CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o
 
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o: CMakeFiles/nono.dir/flags.make
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o: ../src/TheGrid/manage/Manager/Inventory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/Inventory.cpp
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: CMakeFiles/nono.dir/flags.make
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admntiasf/workingdirectory/wmsk/wmsk/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o -c /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/Inventory.cpp > CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.i
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp > CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/Inventory.cpp -o CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.s
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.cpp -o CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.requires:
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires:
 
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.requires
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.requires
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.provides.build
-.PHONY : CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.provides
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides.build
+.PHONY : CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o
+CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.provides.build: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
 
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o: CMakeFiles/nono.dir/flags.make
@@ -1065,7 +1065,7 @@ nono_OBJECTS = \
 "CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o" \
-"CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o" \
+"CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o" \
 "CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o" \
@@ -1110,7 +1110,7 @@ nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Spirit.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o
-nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o
+nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
 nono: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
@@ -1161,7 +1161,7 @@ CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Mons
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Spell/Effect/Effect.cpp.o.requires
-CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o.requires
+CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o.requires
 CMakeFiles/nono.dir/requires: CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o.requires

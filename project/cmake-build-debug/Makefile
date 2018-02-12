@@ -582,6 +582,33 @@ src/TheGrid/entity/Living/Hero/Hero.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.s
 .PHONY : src/TheGrid/entity/Living/Hero/Hero.cpp.s
 
+src/TheGrid/entity/Living/Hero/Inventory.o: src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.o
+
+# target to build an object file
+src/TheGrid/entity/Living/Hero/Inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.o
+
+src/TheGrid/entity/Living/Hero/Inventory.i: src/TheGrid/entity/Living/Hero/Inventory.cpp.i
+
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.i
+
+# target to preprocess a source file
+src/TheGrid/entity/Living/Hero/Inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.i
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.i
+
+src/TheGrid/entity/Living/Hero/Inventory.s: src/TheGrid/entity/Living/Hero/Inventory.cpp.s
+
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.s
+
+# target to generate assembly for a file
+src/TheGrid/entity/Living/Hero/Inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.s
+.PHONY : src/TheGrid/entity/Living/Hero/Inventory.cpp.s
+
 src/TheGrid/entity/Living/Hero/Paladin.o: src/TheGrid/entity/Living/Hero/Paladin.cpp.o
 
 .PHONY : src/TheGrid/entity/Living/Hero/Paladin.o
@@ -1149,33 +1176,6 @@ src/TheGrid/manage/Manager/HeroParty.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.s
 .PHONY : src/TheGrid/manage/Manager/HeroParty.cpp.s
 
-src/TheGrid/manage/Manager/Inventory.o: src/TheGrid/manage/Manager/Inventory.cpp.o
-
-.PHONY : src/TheGrid/manage/Manager/Inventory.o
-
-# target to build an object file
-src/TheGrid/manage/Manager/Inventory.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.o
-.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.o
-
-src/TheGrid/manage/Manager/Inventory.i: src/TheGrid/manage/Manager/Inventory.cpp.i
-
-.PHONY : src/TheGrid/manage/Manager/Inventory.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Manager/Inventory.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.i
-.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.i
-
-src/TheGrid/manage/Manager/Inventory.s: src/TheGrid/manage/Manager/Inventory.cpp.s
-
-.PHONY : src/TheGrid/manage/Manager/Inventory.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Manager/Inventory.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/Inventory.cpp.s
-.PHONY : src/TheGrid/manage/Manager/Inventory.cpp.s
-
 src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
 
 .PHONY : src/TheGrid/manage/Random/Random.o
@@ -1290,6 +1290,9 @@ help:
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.o"
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.i"
 	@echo "... src/TheGrid/entity/Living/Hero/Hero.s"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.o"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.i"
+	@echo "... src/TheGrid/entity/Living/Hero/Inventory.s"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.o"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.i"
 	@echo "... src/TheGrid/entity/Living/Hero/Paladin.s"
@@ -1353,9 +1356,6 @@ help:
 	@echo "... src/TheGrid/manage/Manager/HeroParty.o"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.i"
 	@echo "... src/TheGrid/manage/Manager/HeroParty.s"
-	@echo "... src/TheGrid/manage/Manager/Inventory.o"
-	@echo "... src/TheGrid/manage/Manager/Inventory.i"
-	@echo "... src/TheGrid/manage/Manager/Inventory.s"
 	@echo "... src/TheGrid/manage/Random/Random.o"
 	@echo "... src/TheGrid/manage/Random/Random.i"
 	@echo "... src/TheGrid/manage/Random/Random.s"

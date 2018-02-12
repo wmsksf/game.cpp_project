@@ -1,4 +1,5 @@
 #include "Grid.h"
+#include "../../manage/Random/Random.h"
 
 static const int height = 25;
 static const int width = 45;

@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #include "FireSpell.h"
 
 FireSpell::FireSpell(const std::string &name)

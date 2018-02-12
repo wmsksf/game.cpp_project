@@ -1,7 +1,3 @@
-//
-// Created by admntiasf on 16/1/2018.
-//
-
 #include "LightingSpell.h"
 
 LightingSpell::LightingSpell(const std::string &name)
