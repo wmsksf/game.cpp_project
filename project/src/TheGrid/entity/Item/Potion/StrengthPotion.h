@@ -7,6 +7,7 @@ class StrengthPotion : Potion
 {
 private:
 	int strengthPoints;
+
 public:
     StrengthPotion(const std::string &name);
 

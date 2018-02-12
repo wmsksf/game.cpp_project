@@ -1,20 +1,25 @@
-//
-// Created by admntiasf on 10/2/2018.
-//
-
 #include "Effect.h"
 
-Effect::Effect(int time, int priority)
+Effect::Effect()
 
-                :time(time), priority(priority){}
+        :duration(3) {}
 
-
-int Effect::getTime() const
+void Effect::countDown()
 {
-    return time;
+    duration--;
 }
 
-int Effect::getPriority() const
+bool Effect::expired() const
 {
-    return priority;
+    return duration > 0;
+}
+
+int Effect::getDuration() const
+{
+    return duration;
+}
+
+int Effect::getDamage() const
+{
+    return damage;
 }

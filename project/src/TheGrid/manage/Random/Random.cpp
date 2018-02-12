@@ -1,7 +1,6 @@
 #include <cstdlib>
 #include <tgmath.h>
 
-
 //returns a double number within 0 - 1.
 double randomDouble()
 {

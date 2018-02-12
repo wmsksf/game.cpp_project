@@ -24,11 +24,9 @@ public:
 	void restoreHealth(int healthPoints);
 
 	int getMaxHealthPower() const;
-
 	void setMaxHealthPower(int maxHealthPower);
 
 	int getCurrentHealthPower() const;
-
 	void setCurrentHealthPower(int currentHealthPower);
 };
 

@@ -2,23 +2,25 @@
 #define NONO_EFFECT_H
 
 #include "../../Living/Monster/MonsterStats.h"
+#include "src/TheGrid/manage/Random/Random.h"
 
 class Effect
 {
 private:
-    int time;
-    int priority;
+    int duration;
+
+protected:
+    int damage;
 
 public:
-    Effect(int time, int priority);
+    Effect();
 
-    virtual void countDown() = 0 ;
-    virtual bool expired() = 0;
+    void countDown();
+    bool expired() const;
     virtual void apply(MonsterStats* monsterStats) = 0;
 
-    //getters
-    int getPriority() const;
-    int getTime() const;
+    int getDuration() const;
+    int getDamage() const;
 };
 
 #endif //NONO_EFFECT_H

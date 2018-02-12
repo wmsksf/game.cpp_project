@@ -8,7 +8,8 @@ AgilityPotion::AgilityPotion(const std::string &name)
 
 const std::string &AgilityPotion::getDescription()
 {
-    return string_format("%s [%d level] : Increases Agility by %d.", getName(), getRequiredLevel(), agilityPoints);
+    return string_format("%s [%d level] : Increases Agility by %d.",
+                         getName(), getRequiredLevel(), agilityPoints);
 }
 
 void AgilityPotion::boost(Hero *hero)

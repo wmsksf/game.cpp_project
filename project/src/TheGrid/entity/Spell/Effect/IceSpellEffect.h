@@ -7,6 +7,8 @@ class IceSpellEffect : public Effect
 {
 public:
     IceSpellEffect();
+
+    void apply(MonsterStats* monsterStats);
 };
 
 #endif //NONO_ICESPELLEFFECT_H

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "../Living/Hero/Hero.h"
+#include "Effect/Effect.h"
 
 class Spell
 {

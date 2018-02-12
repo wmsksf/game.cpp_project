@@ -177,4 +177,3 @@ void Hero::restoreMagicPower(int magicPoints)
 		currentMagicPower = maxMagicPower;
 	}
 }
-

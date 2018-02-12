@@ -4,10 +4,7 @@ Living::Living(const std::string &name, int healthPower)
 
                :name(name),
                 maxHealthPower(healthPower),
-                currentHealthPower(healthPower)
-{
-
-}
+                currentHealthPower(healthPower) {}
 
 bool Living::isConscious()
 {
@@ -46,5 +43,7 @@ void Living::restoreHealth(int healthPoints)
     currentHealthPower += healthPoints;
 
     if(currentHealthPower > maxHealthPower)
+    {
         currentHealthPower = maxHealthPower;
+    }
 }
