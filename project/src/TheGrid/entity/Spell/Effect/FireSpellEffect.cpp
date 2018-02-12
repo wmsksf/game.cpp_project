@@ -6,4 +6,10 @@
 
 FireSpellEffect::FireSpellEffect()
 
-                :Effect(time, priority) {}
+                :Effect(), damage(RandomInRange(1,5)) {}
+
+void FireSpellEffect::apply(MonsterStats* monsterStats)
+{
+    monsterStats->setDefense(monsterStats->getDefense()
+                             - getDamage());
+}

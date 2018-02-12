@@ -9,7 +9,8 @@ HealthPotion::HealthPotion(const std::string &name)
 
 const std::string &HealthPotion::getDescription()
 {
-    return string_format("%s [%d level] : Restores up to %d Health points.", getName(), getRequiredLevel(), healthPoints);
+    return string_format("%s [%d level] : Restores up to %d Health points.",
+                         getName(), getRequiredLevel(), healthPoints);
 }
 
 void HealthPotion::boost(Hero *hero) const

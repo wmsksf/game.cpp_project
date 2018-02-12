@@ -4,7 +4,7 @@ Monster::Monster(const std::string &name,
                  int minDamage, int maxDamage,
                  int defense, double dodgeProbability)
 
-            :Living(name), level(randomInRange(1, 100)),
+            :Living(name, 1000), level(randomInRange(1, 100)),
              minDamage(minDamage), maxDamage(maxDamage),
              defense(defense),
              dodgeProbability(dodgeProbability) {}

@@ -10,7 +10,6 @@
 class Hero : public Living
 {
 protected:
-
 	int maxMagicPower;
     int currentMagicPower;
 
@@ -59,11 +58,9 @@ public:
 	void restoreMagicPower(int magicPoints);
 
 	int getMaxMagicPower() const;
-
 	void setMaxMagicPower(int maxMagicPower);
 
 	int getCurrentMagicPower() const;
-
 	void setCurrentMagicPower(int currentMagicPower);
 
 	int getStrength() const;
@@ -90,9 +87,6 @@ public:
     Weapon* getEquipedWeapon() const;
 
 	Armor* getEquipedArmor() const;
-
-
-
 };
 
 #endif //NONO_HERO_H

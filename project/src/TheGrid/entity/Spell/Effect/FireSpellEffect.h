@@ -8,8 +8,6 @@ class FireSpellEffect : public Effect
 public:
     FireSpellEffect();
 
-    void countDown();
-    bool expired();
     void apply(MonsterStats* monsterStats);
 };
 

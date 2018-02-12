@@ -6,4 +6,10 @@
 
 LightningSpellEffect::LightningSpellEffect()
 
-                    :Effect(time, priority) {}
+                    :Effect(), damage(RandomDouble()) {}
+
+void LightningSpellEffect::apply(MonsterStats *monsterStats)
+{
+    monsterStats->setDodgeProbability(monsterStats->getDodgeProbability()
+                                      - getDamage());
+}

@@ -13,9 +13,20 @@ protected:
     double dodgeProbability;
 
 public:
-    MonsterStats(int, int, int, double);
 
     MonsterStats(Monster* monster);
+
+    int getMinDamage() const;
+    void setMinDamage(int minDamage);
+
+    int getMaxDamage() const;
+    void setMaxDamage(int maxDamage);
+
+    int getDefense() const;
+    void setDefense(int defense);
+
+    double getDodgeProbability() const;
+    void setDodgeProbability(double dodgeProbability);
 };
 
 #endif //NONO_MONSTERSTATS_H

@@ -21,7 +21,6 @@ public:
     int getMinDamage() const;
     int getMaxDamage() const;
     int getDefense() const;
-
     double getDodgeProbability() const;
 };
 

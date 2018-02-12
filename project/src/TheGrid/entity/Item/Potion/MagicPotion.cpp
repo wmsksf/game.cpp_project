@@ -14,5 +14,6 @@ void MagicPotion::boost(Hero *hero) const
 
 const std::string &MagicPotion::getDescription()
 {
-    return string_format("%s [%d level] : Restores up to %d Magic Power", getName(), getRequiredLevel(), magicPoints);
+    return string_format("%s [%d level] : Restores up to %d Magic Power",
+                         getName(), getRequiredLevel(), magicPoints);
 }

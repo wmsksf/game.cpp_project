@@ -7,6 +7,7 @@ class DexterityPotion : public Potion
 {
 private:
 	int dexterityPoints;
+
 public:
     DexterityPotion(const std::string &name);
 
