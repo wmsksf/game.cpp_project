@@ -12,6 +12,9 @@ private:
     int price;
     int requiredLevel;
 
+	//TODO set it on constructor
+	std::string category;
+
 public:
     Item(const std::string &name,
          int price,

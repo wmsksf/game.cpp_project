@@ -11,6 +11,9 @@ private:
     std::vector<Item*> items;
 
 public:
+
+	std::vector<Item*> getItemsByCategory(const std::string& category);
+
     Item* getItem(const std::string& name);
     void addItem(Item* item);
 
