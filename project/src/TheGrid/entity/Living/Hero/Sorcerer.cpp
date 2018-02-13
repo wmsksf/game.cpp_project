@@ -4,14 +4,14 @@
 
 Sorcerer::Sorcerer(const std::string& name)
 
-            :Hero(name,
+            :Hero(name,"Sorcerer",
                   randomInRange(250, 150),
                   randomInRange(400, 600),
                   randomInRange(300, 400)) {}
 
 void Sorcerer::displayStats()
 {
-	std::cout << "SORCERER..." << std::endl;
+	std::cout << getCategory() << "..." << std::endl;
 
 	Hero::displayStats();
 }

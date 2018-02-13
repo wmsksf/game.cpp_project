@@ -19,6 +19,18 @@ Item *Inventory::getItem(const std::string &name)
 	return nullptr;
 }
 
+std::vector<Item*> Inventory::getItemsByCategory(const std::string &category)
+{
+	std::vector<Item*> ItemsofCategory;
+
+	for(std::vector<Item*>::iterator it = items.begin(); it != items.end(); it++)
+	{
+		if((*it)->getName().compare(category)) ItemsofCategory.push_back(*it);
+	}
+
+	return ItemsofCategory;
+}
+
 void Inventory::addItem(Item *item)
 {
 	if(contains(item))
@@ -34,7 +46,6 @@ bool Inventory::contains(Item *item)
 		if(items[i] == item)
 			return true;
 	}
-
 
 	return false;
 }
@@ -58,7 +69,7 @@ void Inventory::display()
 
 	for( int i = 0; i < items.size(); i++)
 	{
-		//TODO implement getDescription instead of print Item.
 		std::cout << "[" << i <<"] " << items[i]->getDescription() << std::endl;
+		std::cout << "/t[" << items[i]->getPrice() << " price]" << std::endl;
 	}
 }

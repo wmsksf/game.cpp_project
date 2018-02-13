@@ -17,6 +17,15 @@ Monster::Monster(const std::string &name,
 	level = randomInRange(1, 100);
 }
 
+void Monster::displayStats()
+{
+	Living::displayStats();
+
+	std::cout << "[" << minDamage << ", " << maxDamage << " damage range]" << std::endl;
+	std::cout << "[" << defense << " defense]" << std::endl;
+	std::cout << "[" << dodgeProbability << " dodge probability]" << std::endl;
+}
+
 int Monster::getMinDamage() const
 {
 	return minDamage;

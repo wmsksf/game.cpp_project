@@ -18,6 +18,8 @@ public:
             int minDamage, int maxDamage,
             int defense, double dodgeProbability);
 
+    void displayStats();
+
     int getMinDamage() const;
     int getMaxDamage() const;
     int getDefense() const;

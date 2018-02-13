@@ -9,14 +9,14 @@ class Item
 {
 private:
     std::string name;
+    std::string category;
+
     int price;
     int requiredLevel;
 
-	//TODO set it on constructor
-	std::string category;
-
 public:
     Item(const std::string &name,
+         const std::string &category,
          int price,
          int requiredLevel);
 
@@ -24,9 +24,11 @@ public:
 
 	int getPrice() const;
 
+	const std::string &getCategory() const;
+
 	int getRequiredLevel() const;
 
-	const std::string& getDescription();
+	virtual const std::string& getDescription();
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

@@ -29,6 +29,9 @@ public:
 	Tile* getCurrentTile();
 	HeroParty *getParty() const;
 	Grid *getGrid() const;
+	CommandManager *getCommandManager() const;
+
+	void setHeroParty();
 };
 
 #endif //NONO_GAME_H

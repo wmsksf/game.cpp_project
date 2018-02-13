@@ -8,6 +8,8 @@ class Dragon : public Monster
 {
 public:
     Dragon(const std::string &name);
+
+    void displayStats();
 };
 
 #endif //NONO_DRAGON_H

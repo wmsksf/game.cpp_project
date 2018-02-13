@@ -14,6 +14,8 @@ public:
 	CommandManager(TheGrid* theGrid);
 
 	void execute(const std::string& line);
+
+	const std::vector<Command *> &getCommands() const;
 };
 
 #endif //NONO_COMMANDMANAGER_H

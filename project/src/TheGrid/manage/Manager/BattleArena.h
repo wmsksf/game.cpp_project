@@ -10,8 +10,14 @@
 class BattleArena
 {
 private:
+	int rounds;
+
+	void createMonsters();
     std::vector<Monster*> monsters;
+	int monsterCount;
+
     std::vector<Hero*> heroes;
+	int heroCount;
 
     void heroRound(Hero* hero);
     void monsterRound(Monster* monster);
@@ -19,6 +25,8 @@ private:
     bool isFinished();
 
     void reward();
+	void defeat();
+	int victors();
 
     void displayBattleInfo();
 

@@ -3,7 +3,8 @@
 #include "../../entity/Grid/Tile.h"
 #include "../../TheGrid.h"
 
-BuyCommand::BuyCommand(TheGrid *theGrid) : Command("buy", theGrid) {}
+BuyCommand::BuyCommand(TheGrid *theGrid) :Command("buy", "[buy] Command to buy from Market",
+												  theGrid) {}
 
 void BuyCommand::execute(std::vector<std::string> &args)
 {

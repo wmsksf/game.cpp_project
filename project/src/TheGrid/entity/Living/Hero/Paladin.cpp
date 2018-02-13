@@ -4,14 +4,14 @@
 
 Paladin::Paladin(const std::string& name)
 
-        :Hero(name,
+        :Hero(name, "Paladin",
               randomInRange(400, 600),
               randomInRange(300, 400),
               randomInRange(250, 150)) {}
 
 void Paladin::displayStats()
 {
-	std::cout << "PALADIN..." << std::endl;
+	std::cout << getCategory() << "..." << std::endl;
 
 	Hero::displayStats();
 }

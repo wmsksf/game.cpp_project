@@ -4,7 +4,8 @@
 #include "../../entity/Grid/Tile.h"
 #include "../../TheGrid.h"
 
-SellCommand::SellCommand(TheGrid *theGrid) : Command("sell", theGrid) {}
+SellCommand::SellCommand(TheGrid *theGrid) :Command("sell", "[sell] Command to sell to Market",
+                                                    theGrid) {}
 
 void SellCommand::execute(std::vector<std::string> &args)
 {

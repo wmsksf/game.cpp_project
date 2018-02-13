@@ -12,6 +12,8 @@ class Potion;
 class Hero : public Living
 {
 protected:
+	const std::string category;
+
 	int maxMagicPower;
     int currentMagicPower;
 
@@ -36,10 +38,11 @@ protected:
     virtual void levelUp();
 
 public:
-    Hero(const std::string &name,
-         int strength,
-         int dexterity,
+    Hero(const std::string &name, const std::string &category,
+         int strength, int dexterity,
          int agility);
+
+	const std::string &getCategory() const;
 
 	Inventory &getInventory();
 

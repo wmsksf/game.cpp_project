@@ -1,11 +1,20 @@
 
-#ifndef NONO_CREATEHERO_H
-#define NONO_CREATEHERO_H
+#ifndef NONO_CREATEHEROCOMMAND_H
+#define NONO_CREATEHEROCOMMAND_H
 
 
-class CreateHero {
+#include "Command.h"
+#include "../../TheGrid.h"
 
+class CreateHeroCommand : public Command
+{
+private:
+    void HeroName(std::string &hero);
+
+public:
+    CreateHeroCommand(TheGrid *theGrid);
+
+    void execute(std::vector<std::string> &args);
 };
-
 
 #endif //NONO_CREATEHERO_H

@@ -23,10 +23,16 @@ void HeroParty::setY(int y)
     HeroParty::y = y;
 }
 
-const std::vector<Hero *>& HeroParty::getHeroes() const
+const std::vector<Hero*>& HeroParty::getHeroes() const
 {
     return heroes;
 }
+
+void HeroParty::setHeroes(Hero *hero)
+{
+    heroes.push_back(hero);
+}
+
 
 bool HeroParty::move(direction direction, TheGrid* theGrid)
 {
@@ -37,8 +43,7 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
 	    case up:
             tile  = theGrid->getGrid()->getTile((getX() - 1), getY());
 
-            if(tile == nullptr)
-                return false;
+            if(tile == nullptr) return false;
 
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setX(getX() - 1);
@@ -73,8 +78,7 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
         case right:
             tile = theGrid->getGrid()->getTile(getX(), (getY() + 1));
 
-            if(tile == nullptr || tile->getName().compare("NonAccessibleTile") != 0)
-                return false;
+            if(tile == nullptr) return false;
 
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setY(getY() + 1);

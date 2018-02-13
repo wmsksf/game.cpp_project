@@ -8,3 +8,10 @@ Dragon::Dragon(const std::string &name)
                      randomInRange(80, 100),
                      randomInRange(30, 40),
                      randomDouble()) {}
+
+void Dragon::displayStats()
+{
+    std::cout << "DRAGON..." << std::endl;
+
+    Monster::displayStats();
+}

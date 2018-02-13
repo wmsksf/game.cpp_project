@@ -9,7 +9,7 @@ class SellCommand  : public Command
 public:
     SellCommand(TheGrid *theGrid);
 
-    virtual void execute(std::vector<std::string> &args);
+    void execute(std::vector<std::string> &args);
 };
 
 #endif //NONO_SELLCOMMAND_H

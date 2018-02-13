@@ -8,3 +8,10 @@ Spirit::Spirit(const std::string &name)
                      randomInRange(25, 30),
                      randomInRange(10, 20),
                      randomDouble()) {}
+
+void Spirit::displayStats()
+{
+    std::cout << "SPIRIT..." << std::endl;
+
+    Monster::displayStats();
+}

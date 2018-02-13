@@ -1149,6 +1149,33 @@ src/TheGrid/manage/Command/Command.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.s
 .PHONY : src/TheGrid/manage/Command/Command.cpp.s
 
+src/TheGrid/manage/Command/CreateHeroCommand.o: src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/CreateHeroCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
+
+src/TheGrid/manage/Command/CreateHeroCommand.i: src/TheGrid/manage/Command/CreateHeroCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/CreateHeroCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.cpp.i
+
+src/TheGrid/manage/Command/CreateHeroCommand.s: src/TheGrid/manage/Command/CreateHeroCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/CreateHeroCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/CreateHeroCommand.cpp.s
+
 src/TheGrid/manage/Command/DisplayMapCommand.o: src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
 
 .PHONY : src/TheGrid/manage/Command/DisplayMapCommand.o
@@ -1175,6 +1202,33 @@ src/TheGrid/manage/Command/DisplayMapCommand.s: src/TheGrid/manage/Command/Displ
 src/TheGrid/manage/Command/DisplayMapCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/DisplayMapCommand.cpp.s
+
+src/TheGrid/manage/Command/HelpCommand.o: src/TheGrid/manage/Command/HelpCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/HelpCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/HelpCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/HelpCommand.cpp.o
+
+src/TheGrid/manage/Command/HelpCommand.i: src/TheGrid/manage/Command/HelpCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/HelpCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/HelpCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/HelpCommand.cpp.i
+
+src/TheGrid/manage/Command/HelpCommand.s: src/TheGrid/manage/Command/HelpCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/HelpCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/HelpCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/HelpCommand.cpp.s
 
 src/TheGrid/manage/Command/MoveCommand.o: src/TheGrid/manage/Command/MoveCommand.cpp.o
 
@@ -1515,9 +1569,15 @@ help:
 	@echo "... src/TheGrid/manage/Command/Command.o"
 	@echo "... src/TheGrid/manage/Command/Command.i"
 	@echo "... src/TheGrid/manage/Command/Command.s"
+	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.o"
+	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.i"
+	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.s"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.o"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.i"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.s"
+	@echo "... src/TheGrid/manage/Command/HelpCommand.o"
+	@echo "... src/TheGrid/manage/Command/HelpCommand.i"
+	@echo "... src/TheGrid/manage/Command/HelpCommand.s"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.o"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.i"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.s"

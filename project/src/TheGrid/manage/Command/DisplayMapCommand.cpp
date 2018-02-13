@@ -2,7 +2,7 @@
 #include "DisplayMapCommand.h"
 
 DisplayMapCommand::DisplayMapCommand(TheGrid* theGrid)
-					:Command("displayMap", theGrid) {}
+					:Command("displayMap", "[displayMap] Command to display the map", theGrid) {}
 
 void DisplayMapCommand::execute(std::vector<std::string> &args)
 {

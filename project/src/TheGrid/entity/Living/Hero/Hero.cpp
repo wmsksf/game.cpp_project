@@ -3,10 +3,11 @@
 #include "../../../manage/Random/Random.h"
 #include "../../Item/Potion/Potion.h"
 
-Hero::Hero(const std::string &name, int strength,
-           int dexterity, int agility)
+Hero::Hero(const std::string &name, const std::string &category,
+		   int strength, int dexterity, int agility)
 
 		: Living(name, 1000),
+		  category(category),
 		  currentMagicPower(randomInRange(280, 460)),
 		  strength(strength),
 		  dexterity(dexterity),
@@ -24,20 +25,20 @@ void Hero::displayStats()
 {
 	Living::displayStats();
 
-	std::cout << "magic power: " << currentMagicPower << std::endl;
+	std::cout << "[" << currentMagicPower << " magic power]" << std::endl;
 
-	std::cout << "strength: " << strength << std::endl;
-	std::cout << "dexterity: " << dexterity << std::endl;
-	std::cout << "agility: " << agility << std::endl;
+	std::cout << "[" << strength << " strength]" << std::endl;
+	std::cout << "[" << dexterity << " dexterity]" << std::endl;
+	std::cout << "[" << agility << " agility]" << std::endl;
 
-	std::cout << "magic regeneration: " << magicRegen << std::endl;
-	std::cout << "health regeneration: " << healthRegen << std::endl;
+	std::cout << "[" << magicRegen << " magic regeneration]" << std::endl;
+	std::cout << "[" << healthRegen << " health regeneration]" << std::endl;
 
-	std::cout << "total money: " << money << std::endl;
-	std::cout << "exprerience: " << experience << "/" << experienceForLevel << std::endl;
+	std::cout << "[" << money << " total money]" << std::endl;
+	std::cout << "[" << experience << "/" << experienceForLevel << " experience]" << std::endl;
 
 
-	std::cout << std::endl << "LEVEL: " << level << std::endl;
+	std::cout << std::endl << "[LEVEL: " << level << "]" << std::endl;
 }
 
 int Hero::getStrength() const
@@ -206,4 +207,9 @@ void Hero::printInventory()
 Inventory& Hero::getInventory()
 {
 	return inventory;
+}
+
+const std::string &Hero::getCategory() const
+{
+	return category;
 }

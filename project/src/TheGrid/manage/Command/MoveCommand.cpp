@@ -1,8 +1,9 @@
 
 #include "MoveCommand.h"
-#include "../../TheGrid.h"
 
-MoveCommand::MoveCommand(TheGrid* theGrid) :Command("move", theGrid) {}
+MoveCommand::MoveCommand(TheGrid* theGrid)
+		:Command("move", "[move (up | down | right | left)] Command to move around the grid",
+				 theGrid) {}
 
 void MoveCommand::execute(std::vector<std::string> &args)
 {

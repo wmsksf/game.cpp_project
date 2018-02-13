@@ -3,7 +3,7 @@
 
 Weapon::Weapon(const std::string &name)
 
-        :Item(name,
+        :Item(name, "Weapon",
               randomInRange(150, 350),
               randomInRange(15, 25)),
          damage(randomInRange(40, 50)),

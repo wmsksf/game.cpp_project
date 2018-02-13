@@ -8,6 +8,8 @@ class Exoskeleton : public Monster
 {
 public:
     Exoskeleton(const std::string &name);
+
+    void displayStats();
 };
 
 #endif //NONO_EXOSKELETON_H

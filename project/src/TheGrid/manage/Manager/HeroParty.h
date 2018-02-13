@@ -19,6 +19,7 @@ private:
 public:
 
     const std::vector<Hero*>& getHeroes() const;
+    void setHeroes(Hero *hero);
 
     int getX() const;
     void setX(int x);

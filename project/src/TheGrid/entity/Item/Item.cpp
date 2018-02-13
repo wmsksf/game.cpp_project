@@ -2,10 +2,10 @@
 #include "Item.h"
 #include "../../manage/Random/Utils.h"
 
-Item::Item(const std::string &name, int price,
-           int requiredLevel)
+Item::Item(const std::string &name, const std::string &category,
+           int price, int requiredLevel)
 
-        :name(name), price(price),
+        :name(name), category(category), price(price),
          requiredLevel(requiredLevel) {}
 
 const std::string& Item::getName() const
@@ -27,4 +27,9 @@ const std::string &Item::getDescription()
 {
 	return string_format("%s [%d level]",
 						 name, requiredLevel);
+}
+
+const std::string &Item::getCategory() const
+{
+    return category;
 }

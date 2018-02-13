@@ -14,8 +14,8 @@ bool Living::isConscious()
 
 void Living::displayStats()
 {
-    std::cout << "named: " << name << std::endl;
-    std::cout << "hp points: " << maxHealthPower;
+    std::cout << "[" << name << " ]" << std::endl;
+    std::cout << "[" << maxHealthPower << " hp points]";
     std::cout << std::endl;
 }
 

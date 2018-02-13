@@ -11,13 +11,17 @@ class Command
 {
 protected:
 	std::string name;
+	std::string usage;
 
 	TheGrid* theGrid;
 
 public:
-	Command(const std::string& name, TheGrid* theGrid);
+	Command(const std::string& name, const std::string& usage,
+			TheGrid* theGrid);
 
-    virtual bool matches(const std::string& name);
+	virtual const std::string &getUsage() const;
+
+	virtual bool matches(const std::string& name);
     virtual void execute(std::vector<std::string>& args) = 0;
 };
 

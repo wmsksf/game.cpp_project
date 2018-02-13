@@ -5,7 +5,7 @@
 
 Armor::Armor(const std::string &name)
 
-        :Item(name, randomInRange(100, 300),
+        :Item(name, "Armor", randomInRange(100, 300),
               randomInRange(5, 20)),
          armorPoints(randomInRange(10, 50))
 {}
