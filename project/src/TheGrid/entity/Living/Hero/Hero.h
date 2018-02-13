@@ -41,6 +41,8 @@ public:
          int dexterity,
          int agility);
 
+	Inventory &getInventory();
+
 	void addItem(Item* item);
 	Item* getItem(const std::string& name);
 

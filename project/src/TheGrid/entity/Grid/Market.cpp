@@ -23,7 +23,8 @@ Item* Market::getItem(int number)
 void Market::enter()
 {
     std::cout << "You entered into a market!" << std::endl;
-  /*  std::cout << "Do you want to do access market? [y/n]" << std::endl;
+/*
+    std::cout << "Do you want to do access market? [y/n]" << std::endl;
 
     std::string answer;
     std::cin >> answer;

@@ -202,3 +202,8 @@ void Hero::printInventory()
 {
 	inventory.display();
 }
+
+Inventory& Hero::getInventory()
+{
+	return inventory;
+}
