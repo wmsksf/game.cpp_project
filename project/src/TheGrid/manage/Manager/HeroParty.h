@@ -4,8 +4,10 @@
 
 #include "../../entity/Living/Hero/Hero.h"
 #include "../../entity/Living/Hero/Inventory.h"
-#include "../../TheGrid.h"
 
+class TheGrid;
+
+enum direction {up, down, left, right};
 
 class HeroParty
 {
@@ -15,7 +17,6 @@ private:
     int y;
 
 public:
-    enum class direction {up, down, left, right};
 
     const std::vector<Hero*>& getHeroes() const;
 

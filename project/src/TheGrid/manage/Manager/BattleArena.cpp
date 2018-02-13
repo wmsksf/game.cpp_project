@@ -22,3 +22,28 @@ void BattleArena::displayBattleInfo()
         (*i)->displayStats();
     }
 }
+
+void BattleArena::heroRound()
+{
+
+}
+
+void BattleArena::monsterRound()
+{
+
+}
+
+bool BattleArena::isFinished()
+{
+	return false;
+}
+
+void BattleArena::reward()
+{
+
+}
+
+void BattleArena::start()
+{
+
+}

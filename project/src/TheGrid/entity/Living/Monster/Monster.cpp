@@ -36,6 +36,7 @@ double Monster::getDodgeProbability() const
 {
 	return dodgeProbability;
 }
+
 /*
 const std::vector<Effect *> &Monster::getEffects() const
 {

@@ -1,5 +1,7 @@
 
 #include "HeroParty.h"
+#include "../../entity/Grid/Tile.h"
+#include "../../TheGrid.h"
 
 int HeroParty::getX() const
 {
@@ -32,10 +34,11 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
 
     switch(direction)
     {
-        case direction::up:
+	    case up:
             tile  = theGrid->getGrid()->getTile((getX() - 1), getY());
 
-            if(tile == nullptr) return false;
+            if(tile == nullptr)
+                return false;
 
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setX(getX() - 1);
@@ -44,7 +47,8 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
 
             break;
 
-        case direction::down:
+        case down:
+
             tile = theGrid->getGrid()->getTile((getX() + 1), getY());
 
             if(tile == nullptr) return false;
@@ -55,7 +59,7 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             tile->enter();
 
             break;
-        case direction::left:
+        case left:
             tile = theGrid->getGrid()->getTile(getX(), (getY() - 1));
 
             if(tile == nullptr) return false;
@@ -66,7 +70,7 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             tile->enter();
 
             break;
-        case direction::right:
+        case right:
             tile = theGrid->getGrid()->getTile(getX(), (getY() + 1));
 
             if(tile == nullptr || tile->getName().compare("NonAccessibleTile") != 0)

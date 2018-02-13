@@ -11,28 +11,28 @@ void MoveCommand::execute(std::vector<std::string> &args)
 
 	if(args[0].compare("up") == 0)
 	{
-		if(!theGrid->getParty()->move(HeroParty::direction::up, theGrid))
+		if(!theGrid->getParty()->move(up, theGrid))
 		{
 			std::cout << "Failed to move up!" << std::endl;
 		}
 	}
 	else if(args[0].compare("down") == 0)
 	{
-		if(!theGrid->getParty()->move(HeroParty::direction::down, theGrid))
+		if(!theGrid->getParty()->move(down, theGrid))
 		{
 			std::cout << "Failed to move down!" << std::endl;
 		}
 	}
 	else if(args[0].compare("left") == 0)
 	{
-		if(!theGrid->getParty()->move(HeroParty::direction::left, theGrid))
+		if(!theGrid->getParty()->move(left, theGrid))
 		{
 			std::cout << "Failed to move left!" << std::endl;
 		}
 	}
 	else if(args[0].compare("right") == 0)
 	{
-		if(!theGrid->getParty()->move(HeroParty::direction::right, theGrid))
+		if(!theGrid->getParty()->move(right, theGrid))
 		{
 			std::cout << "Failed to move right!" << std::endl;
 		}
