@@ -1,5 +1,6 @@
 #include "StrengthPotion.h"
 #include "../../../manage/Random/Utils.h"
+#include "../../../manage/Random/Random.h"
 
 StrengthPotion::StrengthPotion(const std::string &name)
 

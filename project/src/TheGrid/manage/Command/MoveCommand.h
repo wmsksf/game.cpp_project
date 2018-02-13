@@ -8,15 +8,15 @@
 
 #include "Command.h"
 #include "../Manager/HeroParty.h"
+#include "../../TheGrid.h"
 
 class MoveCommand : public Command
 {
-private:
-    HeroParty* party;
 
 public:
-    MoveCommand
+    MoveCommand(TheGrid* theGrid);
 
+	virtual void execute(std::vector<std::string> &args);
 };
 
 

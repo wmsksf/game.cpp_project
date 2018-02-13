@@ -1,7 +1,7 @@
 #ifndef NONO_MONSTERSTATS_H
 #define NONO_MONSTERSTATS_H
 
-#include "Monster.h"
+class Monster;
 
 class MonsterStats
 {

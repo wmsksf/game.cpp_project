@@ -1,5 +1,6 @@
 #include "DexterityPotion.h"
 #include "../../../manage/Random/Utils.h"
+#include "../../../manage/Random/Random.h"
 
 DexterityPotion::DexterityPotion(const std::string &name)
 

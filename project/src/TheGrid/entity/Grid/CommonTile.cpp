@@ -1,7 +1,7 @@
 #include "CommonTile.h"
 
 CommonTile::CommonTile()
-            :Tile(), name("CommonTile") {}
+            :Tile("CommonTile"){}
 
 bool CommonTile::isAccessible()
 {

@@ -1,5 +1,6 @@
 #include "HealthPotion.h"
 #include "../../../manage/Random/Utils.h"
+#include "../../../manage/Random/Random.h"
 
 HealthPotion::HealthPotion(const std::string &name)
 

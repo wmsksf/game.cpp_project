@@ -2,8 +2,6 @@
 #define NONO_WEAPON_H
 
 #include "Item.h"
-#include "../Living/Monster/Monster.h"
-#include "../Living/Hero/Hero.h"
 
 class Weapon : public Item
 {

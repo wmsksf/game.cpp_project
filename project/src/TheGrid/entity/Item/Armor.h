@@ -2,8 +2,6 @@
 #define NONO_ARMOR_H
 
 #include "Item.h"
-#include "../Living/Monster/Monster.h"
-#include "../Living/Hero/Hero.h"
 
 class Armor : public Item
 {

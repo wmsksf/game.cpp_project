@@ -1,4 +1,5 @@
 #include "Weapon.h"
+#include "../../manage/Random/Random.h"
 
 Weapon::Weapon(const std::string &name)
 

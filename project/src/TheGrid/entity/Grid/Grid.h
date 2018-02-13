@@ -5,7 +5,9 @@
 #include "CommonTile.h"
 #include "NonAccessibleTile.h"
 #include "Market.h"
-#include "../../TheGrid.h"
+#include "TileFactory.h"
+
+class TheGrid;
 
 class Grid
 {
@@ -15,7 +17,7 @@ private:
 	TheGrid* theGrid;
 
 public:
-    Grid();
+    Grid(TileFactory* tileFactory);
 
     Tile* getTile(int x, int y);
 

@@ -1,7 +1,8 @@
 #include "NonAccessibleTile.h"
 
 NonAccessibleTile::NonAccessibleTile()
-                    :Tile(), name("NonAccessibleTile") {}
+                    :Tile("NonAccessibleTile"){
+}
 
 bool NonAccessibleTile::isAccessible()
 {

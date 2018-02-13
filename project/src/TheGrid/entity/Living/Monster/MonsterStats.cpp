@@ -1,4 +1,5 @@
 #include "MonsterStats.h"
+#include "Monster.h"
 
 MonsterStats::MonsterStats(Monster *monster)
 {

@@ -40,7 +40,7 @@ Market *TileFactory::createMarket()
 	{
 		Item* item = allItems[random(allItems.size())];
 
-		marketItems.push_back(*item->clone());
+//		marketItems.push_back(*item->clone());
 	}
 
 	return new Market(marketItems);

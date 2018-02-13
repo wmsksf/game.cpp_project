@@ -10,7 +10,7 @@ protected:
     std::string name;
 
 public:
-    Tile();
+	Tile(const std::string& name);
 
     virtual bool isAccessible() = 0;
     virtual void printTile() = 0;

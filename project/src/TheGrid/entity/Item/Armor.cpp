@@ -1,5 +1,6 @@
 #include "Armor.h"
 #include "../../manage/Random/Utils.h"
+#include "../../manage/Random/Random.h"
 
 Armor::Armor(const std::string &name)
 

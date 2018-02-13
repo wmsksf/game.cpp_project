@@ -1,4 +1,5 @@
 #include "Spirit.h"
+#include "../../../manage/Random/Random.h"
 
 Spirit::Spirit(const std::string &name)
 
