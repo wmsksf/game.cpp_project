@@ -15,6 +15,11 @@ public:
 	const std::string& getDescription();
 
 	void boost(Hero* hero) const;
+
+	Item* clone();
+
+	int getDexterityPoints() const;
+	void setDexterityPoints(int dexterityPoints);
 };
 
 #endif //NONO_DEXTERITYPOTION_H

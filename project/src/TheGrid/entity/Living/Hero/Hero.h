@@ -6,6 +6,7 @@
 #include "../../Item/Weapon.h"
 #include "../../Item/Armor.h"
 #include "Inventory.h"
+#include "../../Spell/Spell.h"
 
 class Potion;
 
@@ -46,10 +47,15 @@ public:
 
 	Inventory &getInventory();
 
+
 	void addItem(Item* item);
 	Item* getItem(const std::string& name);
 
+	void addSpell(Spell* spell);
+	Spell* getSpell(const std::string& name);
+
 	void removeItem(Item* item);
+	void removeSpell(Spell* spell);
 
 	void printInventory();
 

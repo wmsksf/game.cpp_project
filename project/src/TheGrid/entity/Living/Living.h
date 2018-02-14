@@ -22,6 +22,8 @@ public:
 
     virtual void displayStats();
 
+	const std::string &getName() const;
+
 	void restoreHealth(int healthPoints);
 
 	int getMaxHealthPower() const;

@@ -18,3 +18,26 @@ void AgilityPotion::boost(Hero* hero)
 {
     hero->setAgility(hero->getAgility() + agilityPoints);
 }
+
+Item* AgilityPotion::clone()
+{
+    AgilityPotion* agilityPotion = new AgilityPotion(this->getName());
+
+    agilityPotion->setPrice(this->getPrice());
+    agilityPotion->setRequiredLevel(this->getRequiredLevel());
+    agilityPotion->setCategory(this->getCategory());
+
+    agilityPotion->setAgilityPoints(this->getAgilityPoints());
+
+    return (Item*)agilityPotion;
+}
+
+int AgilityPotion::getAgilityPoints() const
+{
+    return agilityPoints;
+}
+
+void AgilityPotion::setAgilityPoints(int agilityPoints)
+{
+    AgilityPotion::agilityPoints = agilityPoints;
+}

@@ -18,3 +18,26 @@ void HealthPotion::boost(Hero* hero) const
 {
     hero->restoreHealth(healthPoints);
 }
+
+Item* HealthPotion::clone()
+{
+    HealthPotion* healthPotion = new HealthPotion(this->getName());
+
+    healthPotion->setPrice(this->getPrice());
+    healthPotion->setRequiredLevel(this->getRequiredLevel());
+    healthPotion->setCategory(this->getCategory());
+
+    healthPotion->setHealthPoints(this->getHealthPoints());
+
+    return (Item*)healthPotion;
+}
+
+int HealthPotion::getHealthPoints() const
+{
+    return healthPoints;
+}
+
+void HealthPotion::setHealthPoints(int healthPoints)
+{
+    HealthPotion::healthPoints = healthPoints;
+}

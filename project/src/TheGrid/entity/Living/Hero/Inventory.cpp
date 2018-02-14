@@ -3,15 +3,29 @@
 
 Item *Inventory::getItem(const std::string &name)
 {
-	std::vector<Item*>::iterator it = items.begin();
+	std::vector<Item *>::iterator it = items.begin();
 
-	while(it != items.end())
-	{
-		Item* item = *it;
+	while (it != items.end()) {
+		Item *item = *it;
 
-		if(item->getName().compare(name) == 0)
-		{
+		if (item->getName().compare(name) == 0) {
 			return item;
+		}
+		it++;
+	}
+
+	return nullptr;
+}
+
+Spell *Inventory::getSpell(const std::string &name)
+{
+	std::vector<Spell*>::iterator it = spells.begin();
+
+	while (it != spells.end()) {
+		Spell *spell = *it;
+
+		if (spell->getName().compare(name) == 0) {
+			return spell;
 		}
 		it++;
 	}
@@ -33,13 +47,31 @@ std::vector<Item*> Inventory::getItemsByCategory(const std::string &category)
 
 void Inventory::addItem(Item *item)
 {
-	if(contains(item))
-		return ;
+	if(containsItem(item))
+	{
+		std::cout << "You have already purchased this item!";
+		std::cout << std::endl;
 
-	items.push_back(item);
+		return ;
+	}
+
+	items.push_back(item->clone());
 }
 
-bool Inventory::contains(Item *item)
+void Inventory::addSpell(Spell *spell)
+{
+	if(containsSpell(spell))
+	{
+		std::cout << "You have already purchased this item!";
+		std::cout << std::endl;
+
+		return ;
+	}
+
+	spells.push_back(spell->clone());
+}
+
+bool Inventory::containsItem(Item *item)
 {
 	for(int i = 0; i < items.size(); i++)
 	{
@@ -50,13 +82,37 @@ bool Inventory::contains(Item *item)
 	return false;
 }
 
-void Inventory::remove(Item *item)
+bool Inventory::containsSpell(Spell *spell)
+{
+	for(int i = 0; i < spells.size(); i++)
+	{
+		if(spells[i] == spell)
+			return true;
+	}
+
+	return false;
+}
+
+void Inventory::removeItem(Item *item)
 {
 	for(int i = 0; i < items.size(); i++)
 	{
 		if(items[i] == item)
 		{
 			items.erase(items.begin() + i);
+
+			return ;
+		}
+	}
+}
+
+void Inventory::removeSpell(Spell *spell)
+{
+	for(int i = 0; i < spells.size(); i++)
+	{
+		if(spells[i] == spell)
+		{
+			spells.erase(spells.begin() + i);
 
 			return ;
 		}
@@ -71,5 +127,13 @@ void Inventory::display()
 	{
 		std::cout << "[" << i <<"] " << items[i]->getDescription() << std::endl;
 		std::cout << "/t[" << items[i]->getPrice() << " price]" << std::endl;
+	}
+
+	std::cout << "Inventory [" << spells.size() << " spells]" << std::endl;
+
+	for( int i = 0; i < spells.size(); i++)
+	{
+		std::cout << "[" << i <<"] " << spells[i]->getDescription() << std::endl;
+		std::cout << "/t[" << spells[i]->getPrice() << " price]" << std::endl;
 	}
 }

@@ -3,6 +3,8 @@
 #include "../../entity/Grid/Tile.h"
 #include "../../TheGrid.h"
 
+HeroParty::HeroParty() {}
+
 int HeroParty::getX() const
 {
     return x;
@@ -89,4 +91,34 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
     }
 
     return true;
+}
+
+void HeroParty::displayParty()
+{
+    int i = 0;
+    for (std::vector<Hero*>::iterator it = heroes.begin(); it != heroes.end(); it++)
+    {
+        i++;
+        std::cout << "[" << i << "]" << (*it)->getName() << std::endl;
+    }
+}
+
+Hero* HeroParty::chooseHero()
+{
+    std::cout << "Choose hero -give a number-..." << std::endl;
+
+    displayParty();
+
+    int hero;
+    std::cin >> hero;
+
+    while(hero < 0 || hero > heroes.size())
+    {
+        std::cout << "Choose one of your heroes..." << std::endl;
+        displayParty();
+
+        std::cin >> hero;
+    }
+
+    return heroes[hero - 1];
 }

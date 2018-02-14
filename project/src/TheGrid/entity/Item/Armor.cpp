@@ -14,3 +14,21 @@ int Armor::getArmorPoints() const
 {
     return armorPoints;
 }
+
+void Armor::setArmorPoints(int armorPoints)
+{
+    Armor::armorPoints = armorPoints;
+}
+
+Item* Armor::clone()
+{
+    Armor* armor = new Armor(this->getName());
+
+    armor->setPrice(this->getPrice());
+    armor->setRequiredLevel(this->getRequiredLevel());
+    armor->setCategory(this->getCategory());
+
+    armor->setArmorPoints(this->getArmorPoints());
+
+    return (Item*)armor;
+}

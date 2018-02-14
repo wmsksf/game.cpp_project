@@ -32,6 +32,12 @@ public:
 	CommandManager *getCommandManager() const;
 
 	void setHeroParty();
+
+	void Items();
+	void getWeapons();
+	void getArmors();
+
+	void Spells();
 };
 
 #endif //NONO_GAME_H

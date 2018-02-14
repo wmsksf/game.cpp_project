@@ -17,6 +17,7 @@ private:
     int y;
 
 public:
+    HeroParty();
 
     const std::vector<Hero*>& getHeroes() const;
     void setHeroes(Hero *hero);
@@ -28,6 +29,10 @@ public:
     void setY(int y);
 
     bool move(direction, TheGrid* theGrid);
+
+    void displayParty();
+
+    Hero* chooseHero();
 };
 
 #endif //NONO_HEROPARTY_H

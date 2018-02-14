@@ -15,6 +15,11 @@ public:
 	const std::string& getDescription();
 
 	void boost(Hero* hero) const;
+
+	Item* clone();
+
+	int getHealthPoints() const;
+	void setHealthPoints(int healthPoints);
 };
 
 #endif //NONO_HEALTHPOTION_H

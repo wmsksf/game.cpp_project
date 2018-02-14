@@ -23,11 +23,15 @@ public:
     const std::string& getName() const;
 
 	int getPrice() const;
+	void setPrice(int price);
 
 	const std::string &getCategory() const;
+	void setCategory(const std::string &category);
 
 	int getRequiredLevel() const;
+	void setRequiredLevel(int requiredLevel)
 
+	virtual Item* clone() = 0;
 	virtual const std::string& getDescription();
 };
 

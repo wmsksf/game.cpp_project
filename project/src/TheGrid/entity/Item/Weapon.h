@@ -14,8 +14,12 @@ public:
     Weapon(const std::string &name);
 
     bool isDualWeild() const;
+	void setDualWeild(bool dualWeild);
 
 	int getDamage() const;
+	void setDamage(int damage);
+
+	Item* clone();
 };
 
 #endif

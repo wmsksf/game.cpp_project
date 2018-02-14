@@ -27,17 +27,17 @@ Tile *TileFactory::createTile()
 	return commonTile;
 }
 
-Market *TileFactory::createMarket()
+Market* TileFactory::createMarket()
 {
 	int numberOfItem = 3 + randomInRange(0, 7);
 
-	std::vector<Item> marketItems;
+	std::vector<Item*> marketItems;
 
 	while(numberOfItem--)
 	{
-		Item* item = allItems[random(allItems.size())];
+		Item *item = allItems[random(allItems.size())];
 
-//		marketItems.push_back(*item->clone());
+		marketItems.push_back(item->clone());
 	}
 
 	return new Market(marketItems);

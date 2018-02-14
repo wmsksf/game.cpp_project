@@ -1,5 +1,10 @@
 
+#include <fstream>
+#include <sstream>
 #include "TheGrid.h"
+#include "entity/Spell/FireSpell.h"
+#include "entity/Spell/IceSpell.h"
+#include "entity/Spell/LightingSpell.h"
 
 TheGrid::TheGrid()
 {
@@ -7,8 +12,10 @@ TheGrid::TheGrid()
 
 	party = new HeroParty();
 
-//first set-methods of this class calling fopen-items and spells then create grid
-//	grid = new Grid(new TileFactory(allItems));
+	Items();
+	Spells();
+
+	grid = new Grid(new TileFactory(allItems));
 }
 
 HeroParty* TheGrid::getParty() const
@@ -85,4 +92,89 @@ void TheGrid::setHeroParty()
 
 		commandManager->execute("create " + hero);
 	}
+}
+
+void TheGrid::Items()
+{
+	getWeapons();
+	getArmors();
+}
+
+void TheGrid::getWeapons()
+{
+	//open file
+	std::ifstream infile("Weapons");
+
+	//check for error
+	if(!infile.is_open())
+	{
+		std::cout << "failed to open file" << std::endl;
+		exit(1);
+	}
+
+	std::string name;
+	while(std::getline(infile, name))
+	{
+		Item* item = new Weapon(name);
+		allItems.push_back(item);
+	}
+
+	//close file
+	infile.close();
+}
+
+void TheGrid::getArmors()
+{
+	//open file
+	std::ifstream infile("Armors");
+
+	//check for error
+	if(!infile.is_open())
+	{
+		std::cout << "failed to open file" << std::endl;
+		exit(1);
+	}
+
+	std::string name;
+	while(std::getline(infile, name))
+	{
+		Item* item = new Armor(name);
+		allItems.push_back(item);
+	}
+
+	//close file
+	infile.close();
+}
+
+void TheGrid::Spells()
+{
+	//open file
+	std::ifstream infile("Spells");
+
+	//check for error
+	if(!infile.is_open())
+	{
+		std::cout << "failed to open file" << std::endl;
+		exit(1);
+	}
+
+	std::string name;
+	for (int i = 0; std::getline(infile, name); i++)
+	{
+		Spell* spell;
+
+		if(i < 10)
+			spell = new FireSpell(name);
+
+		else if(i < 20)
+			spell = new IceSpell(name);
+
+		else
+			spell = new LightingSpell(name);
+
+		allSpells.push_back(spell);
+	}
+
+	//close file
+	infile.close();
 }

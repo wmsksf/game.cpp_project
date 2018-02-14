@@ -18,6 +18,9 @@ CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Living/Livi
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Spell/FireSpell.h
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Spell/IceSpell.h
+CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Spell/LightingSpell.h
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/manage/Command/Command.h
 CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h

@@ -15,7 +15,7 @@ private:
 	Market* createMarket();
 
 public:
-	TileFactory(std::vector<Item *> &allItems);
+	TileFactory(std::vector<Item*> &allItems);
 
 	Tile* createTile();
 };

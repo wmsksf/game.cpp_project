@@ -12,9 +12,14 @@ private:
 public:
     StrengthPotion(const std::string &name);
 
- 	const std::string& getDescription();
+	const std::string& getDescription();
 
 	void boost(Hero* hero) const;
+
+	Item* clone();
+
+	int getStrengthPoints() const;
+	void setStrengthPoints(int strengthPoints);
 };
 
 #endif //NONO_STRENGTHPOTION_H

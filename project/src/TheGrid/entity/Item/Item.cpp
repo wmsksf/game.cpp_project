@@ -18,18 +18,33 @@ int Item::getPrice() const
 	return price;
 }
 
+void Item::setPrice(int price)
+{
+	Item::price = price;
+}
+
 int Item::getRequiredLevel() const
 {
 	return requiredLevel;
 }
 
+void Item::setRequiredLevel(int requiredLevel)
+{
+	Item::requiredLevel = requiredLevel;
+}
+
 const std::string &Item::getDescription()
 {
-	return string_format("%s [%d level]",
-						 name, requiredLevel);
+	return string_format("%s [%] [%d level]",
+						 name, category, requiredLevel);
 }
 
 const std::string &Item::getCategory() const
 {
     return category;
+}
+
+void Item::setCategory(const std::string &category)
+{
+	Item::category = category;
 }

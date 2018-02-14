@@ -4,6 +4,7 @@
 
 #include <string>
 #include <iostream>
+#include "Market.h"
 
 class Tile
 {
@@ -19,6 +20,8 @@ public:
     const std::string& getName() const;
 
 	virtual void enter() = 0;
+
+	virtual Market* getMarket();
 };
 
 #endif //NONO_TILE_H

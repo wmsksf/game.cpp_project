@@ -18,3 +18,27 @@ int Weapon::getDamage() const
 {
 	return damage;
 }
+
+Item* Weapon::clone() const
+{
+    Weapon *weapon = new Weapon(this->getName());
+
+    weapon->setPrice(this->getPrice());
+    weapon->setRequiredLevel(this->getRequiredLevel());
+    weapon->setCategory(this->getCategory());
+
+    weapon->setDamage(this->getDamage());
+    weapon->setDualWeild(this->isDualWeild());
+
+    return (Item*)weapon;
+}
+
+void Weapon::setDamage(int damage)
+{
+    Weapon::damage = damage;
+}
+
+void Weapon::setDualWeild(bool dualWeild)
+{
+    Weapon::dualWeild = dualWeild;
+}

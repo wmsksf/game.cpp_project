@@ -15,6 +15,11 @@ public:
 	const std::string& getDescription();
 
 	void boost(Hero* hero) const;
+
+	Item* clone();
+
+	int getMagicPoints() const;
+	void setMagicPoints(int magicPoints);
 };
 
 #endif //NONO_MAGICPOTION_H

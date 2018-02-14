@@ -4,11 +4,13 @@
 
 #include <vector>
 #include "../../Item/Item.h"
+#include "../../Spell/Spell.h"
 
 class Inventory
 {
 private:
     std::vector<Item*> items;
+	std::vector<Spell*> spells;
 
 public:
 
@@ -17,9 +19,14 @@ public:
     Item* getItem(const std::string& name);
     void addItem(Item* item);
 
-    bool contains(Item* item);
+	Spell* getSpell(const std::string& name);
+	void addSpell(Spell* spell);
 
-    void remove(Item* item);
+    bool containsItem(Item* item);
+	bool containsSpell(Spell* spell);
+
+    void removeItem(Item* item);
+	void removeSpell(Spell* spell);
 
     void display();
 };

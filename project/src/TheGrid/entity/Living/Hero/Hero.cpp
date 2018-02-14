@@ -1,6 +1,5 @@
 
 #include "Hero.h"
-#include "../../../manage/Random/Random.h"
 #include "../../Item/Potion/Potion.h"
 
 Hero::Hero(const std::string &name, const std::string &category,
@@ -186,7 +185,32 @@ void Hero::restoreMagicPower(int magicPoints)
 
 void Hero::addItem(Item *item)
 {
+	if(getMoney() < item->getPrice())
+	{
+		std::cout << "You do not have enough money to buy this item!";
+		std::cout << std::endl;
+
+		return ;
+	}
+
 	inventory.addItem(item);
+
+	std::cout << "Successful purchase!" << std::endl;
+}
+
+void Hero::addSpell(Spell *spell)
+{
+	if(getMoney() < spell->getPrice())
+	{
+		std::cout << "You do not have enough money to buy this spell!";
+		std::cout << std::endl;
+
+		return ;
+	}
+
+	inventory.addSpell(spell);
+
+	std::cout << "Successful purchase!" << std::endl;
 }
 
 Item *Hero::getItem(const std::string &name)
@@ -194,9 +218,19 @@ Item *Hero::getItem(const std::string &name)
 	return inventory.getItem(name);
 }
 
+Spell* Hero::getSpell(const std::string &name)
+{
+	return inventory.getSpell(name);
+}
+
 void Hero::removeItem(Item *item)
 {
-	inventory.remove(item);
+	inventory.removeItem(item);
+}
+
+void Hero::removeSpell(Spell* spell)
+{
+	inventory.removeSpell(spell);
 }
 
 void Hero::printInventory()

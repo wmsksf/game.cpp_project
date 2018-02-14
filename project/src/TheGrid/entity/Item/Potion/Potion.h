@@ -14,7 +14,9 @@ public:
            int price);
 
     virtual const std::string& getDescription() = 0;
-    virtual void boost(Hero* hero) const = 0;
+
+    virtual void boost(Hero* hero);
+    virtual Item* clone();
 };
 
 #endif //ROLE_PLAY_GAME_POTION_H

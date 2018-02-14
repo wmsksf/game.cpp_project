@@ -18,3 +18,26 @@ void MagicPotion::boost(Hero* hero) const
 {
     hero->restoreMagicPower(magicPoints);
 }
+
+Item* MagicPotion::clone()
+{
+    MagicPotion* magicPotion = new MagicPotion(this->getName());
+
+    magicPotion->setPrice(this->getPrice());
+    magicPotion->setRequiredLevel(this->getRequiredLevel());
+    magicPotion->setCategory(this->getCategory());
+
+    magicPotion->setMagicPoints(this->getMagicPoints());
+
+    return (Item*)magicPotion;
+}
+
+int MagicPotion::getMagicPoints() const
+{
+    return magicPoints;
+}
+
+void MagicPotion::setMagicPoints(int magicPoints)
+{
+    MagicPotion::magicPoints = magicPoints;
+}

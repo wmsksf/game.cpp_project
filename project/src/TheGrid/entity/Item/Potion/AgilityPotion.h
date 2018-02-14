@@ -14,6 +14,12 @@ public:
 	const std::string& getDescription() ;
 
 	void boost(Hero* hero);
+
+	Item* clone();
+
+	int getAgilityPoints() const;
+
+	void setAgilityPoints(int agilityPoints);
 };
 
 #endif //NONO_AGILITYPOTION_H

@@ -18,3 +18,26 @@ void DexterityPotion::boost(Hero* hero) const
 {
 	hero->setDexterity(hero->getDexterity() + dexterityPoints);
 }
+
+Item* DexterityPotion::clone()
+{
+	DexterityPotion* dexterityPotion = new DexterityPotion(this->getName());
+
+	dexterityPotion->setPrice(this->getPrice());
+	dexterityPotion->setRequiredLevel(this->getRequiredLevel());
+	dexterityPotion->setCategory(this->getCategory());
+
+	dexterityPotion->setDexterityPoints(this->getDexterityPoints());
+
+	return (Item*)dexterityPotion;
+}
+
+int DexterityPotion::getDexterityPoints() const
+{
+	return dexterityPoints;
+}
+
+void DexterityPotion::setDexterityPoints(int dexterityPoints)
+{
+	DexterityPotion::dexterityPoints = dexterityPoints;
+}

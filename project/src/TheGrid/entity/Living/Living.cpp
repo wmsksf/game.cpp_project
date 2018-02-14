@@ -48,3 +48,8 @@ void Living::restoreHealth(int healthPoints)
         currentHealthPower = maxHealthPower;
     }
 }
+
+const std::string &Living::getName() const
+{
+    return name;
+}

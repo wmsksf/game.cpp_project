@@ -13,6 +13,10 @@ public:
     Armor(const std::string &name);
 
     int getArmorPoints() const;
+
+    void setArmorPoints(int armorPoints);
+
+    Item* clone();
 };
 
 #endif //ROLE_PLAY_GAME_ARMOR_H
