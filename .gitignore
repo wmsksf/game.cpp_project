@@ -1,0 +1,4 @@
+
+*.o
+
+project/cmake-build-debug/nono
