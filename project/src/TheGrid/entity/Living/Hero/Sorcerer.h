@@ -9,8 +9,6 @@ class Sorcerer : public Hero
 public:
     Sorcerer(const std::string &name);
 
-	void displayStats();
-
 protected:
 	void levelUp();
 };

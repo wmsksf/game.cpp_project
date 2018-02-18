@@ -12,7 +12,8 @@ public:
     bool isAccessible();
     void printTile();
 
-    void enter();
+    void enter(TheGrid* theGrid);
+    void leave(TheGrid *theGrid);
 };
 
 #endif //NONO_NONACCESSIBLETILE_H

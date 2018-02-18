@@ -1,13 +1,18 @@
 
 #include "Market.h"
+#include "../../TheGrid.h"
+#include "../../manage/Command/BuyCommand.h"
+#include "../../manage/Command/SellCommand.h"
+#include "../../manage/Command/MarketListCommand.h"
 
 Market::Market(const std::vector<Item*> &marketofItems,
                 const std::vector<Spell*> &marketofSpells)
 
-        :Tile("Market"), marketofItems(marketofItems),
+        :Tile("Market"),
+         marketofItems(marketofItems),
          marketofSpells(marketofSpells)
 {
-    marketManager = new MarketManager(this);
+    initMarketManager();
 }
 
 bool Market::isAccessible()
@@ -77,24 +82,6 @@ void Market::receiveSpell(Spell* spell)
     marketofSpells.push_back(spell->clone());
 }
 
-void Market::enter(HeroParty* heroParty)
-{
-    std::cout << "You entered into a market!" << std::endl;
-
-    std::string line;
-
-    while(true)
-    {
-        /* This loop will only exit when quit() is called. */
-
-        std::cout << "Give your command: ";
-
-        getline(std::cin, line);
-
-        marketManager->execute(line);
-    }
-}
-
 const std::vector<Item*> &Market::getItems() const
 {
     return marketofItems;
@@ -103,4 +90,27 @@ const std::vector<Item*> &Market::getItems() const
 const std::vector<Spell*> &Market::getSpells() const
 {
     return marketofSpells;
+}
+
+void Market::enter(TheGrid *theGrid)
+{
+    std::cout << "Welcome to the Market mighty Hero party !!" << std::endl;
+
+    theGrid->getCommandManager()->registerManager(marketManager);
+}
+
+void Market::leave(TheGrid *theGrid)
+{
+    theGrid->getCommandManager()->unregisterManager(marketManager);
+}
+
+void Market::initMarketManager()
+{
+    std::vector<Command*>* commands = new std::vector<Command*>();
+
+    commands->push_back(new BuyCommand(this));
+    commands->push_back(new SellCommand(this));
+    commands->push_back(new MarketListCommand(this));
+
+    marketManager = new CommandManager(commands);
 }

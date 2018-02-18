@@ -9,9 +9,9 @@
 class MoveCommand : public Command
 {
 public:
-    MoveCommand(TheGrid* theGrid);
+    MoveCommand();
 
-	virtual void execute(std::vector<std::string> &args);
+	virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_MOVECOMMAND_H

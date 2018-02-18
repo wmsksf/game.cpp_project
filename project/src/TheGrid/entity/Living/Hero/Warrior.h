@@ -9,8 +9,6 @@ class Warrior : public Hero
 public:
     Warrior(const std::string &name);
 
-    void displayStats();
-
 protected:
 	virtual void levelUp();
 };

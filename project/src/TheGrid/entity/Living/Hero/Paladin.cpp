@@ -4,21 +4,25 @@
 
 Paladin::Paladin(const std::string& name)
 
-        :Hero(name, "Paladin",
-              randomInRange(400, 600),
-              randomInRange(300, 400),
-              randomInRange(250, 150)) {}
-
-void Paladin::displayStats()
+        :Hero(name)
 {
-	std::cout << getCategory() << "..." << std::endl;
+	maxHealthPower = 1000;
+	currentHealthPower = 1000;
 
-	Hero::displayStats();
+	maxMagicPower = 100;
+	currentMagicPower = 100;
+
+	strength = 120;
+	dexterity = 100;
+	agility = 70;
 }
 
 void Paladin::levelUp()
 {
 	Hero::levelUp();
+
+	maxHealthPower += 100;
+	maxMagicPower += 10;
 
 	strength += 12;
 	dexterity += 10;

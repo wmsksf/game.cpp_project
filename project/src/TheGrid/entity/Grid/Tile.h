@@ -19,7 +19,8 @@ public:
 
     const std::string& getName() const;
 
-	virtual void enter() = 0;
+	virtual void enter(TheGrid* theGrid) = 0;
+	virtual void leave(TheGrid* theGrid) = 0;
 };
 
 #endif //NONO_TILE_H

@@ -4,7 +4,7 @@
 
 #include "Potion.h"
 
-class StrengthPotion : Potion
+class StrengthPotion : public Potion
 {
 private:
 	int strengthPoints;

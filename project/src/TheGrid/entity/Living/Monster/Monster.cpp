@@ -3,20 +3,12 @@
 #include "Monster.h"
 #include "../../../manage/Random/Random.h"
 #include "../../Spell/Effect/Effect.h"
+#include "../../../manage/Random/Utils.h"
 
-Monster::Monster(const std::string &name,
-				 const std::string &category,
-                 int minDamage, int maxDamage,
-                 int defense, double dodgeProbability)
+Monster::Monster(const std::string &name, int level)
 
-		: Living(name, category, 1000),
-		  minDamage(minDamage),
-		  maxDamage(maxDamage),
-		  defense(defense),
-		  dodgeProbability(dodgeProbability)
-{
-	level = randomInRange(1, 100);
-}
+		: Living(name, level)
+{ }
 
 void Monster::displayStats()
 {
@@ -47,8 +39,12 @@ double Monster::getDodgeProbability() const
 	return dodgeProbability;
 }
 
-/*
-const std::vector<Effect *> &Monster::getEffects() const
+int Monster::getExperienceWorth()
 {
-	return effects;
-}*/
+    return 0.10 * experienceForLevelUp(level + 1);
+}
+
+int Monster::getMoneyReward()
+{
+	return 100 + (level * 12);
+}

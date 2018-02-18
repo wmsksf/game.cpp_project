@@ -25,19 +25,9 @@ void HeroParty::setY(int y)
     HeroParty::y = y;
 }
 
-const std::vector<Hero*>& HeroParty::getHeroes() const
+bool HeroParty::move(MovingDirection direction, TheGrid* theGrid)
 {
-    return heroes;
-}
-
-void HeroParty::setHeroes(Hero *hero)
-{
-    heroes.push_back(hero);
-}
-
-
-bool HeroParty::move(direction direction, TheGrid* theGrid)
-{
+    Tile* currentTile = theGrid->getCurrentTile();
     Tile* tile;
 
     switch(direction)
@@ -50,7 +40,8 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setX(getX() - 1);
 
-            tile->enter();
+            currentTile->leave(theGrid);
+            tile->enter(theGrid);
 
             break;
 
@@ -63,7 +54,8 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setX(getX() + 1);
 
-            tile->enter();
+            currentTile->leave(theGrid);
+            tile->enter(theGrid);
 
             break;
         case left:
@@ -74,7 +66,8 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setY(getY() - 1);
 
-            tile->enter();
+            currentTile->leave(theGrid);
+            tile->enter(theGrid);
 
             break;
         case right:
@@ -85,7 +78,8 @@ bool HeroParty::move(direction direction, TheGrid* theGrid)
             if(tile->getName().compare("NonAccessibleTile") != 0)
                 setY(getY() + 1);
 
-            tile->enter();
+            currentTile->leave(theGrid);
+            tile->enter(theGrid);
 
             break;
     }
@@ -103,22 +97,40 @@ void HeroParty::displayParty()
     }
 }
 
-Hero* HeroParty::chooseHero()
+double HeroParty::getAverageLevel()
 {
-    std::cout << "Choose hero -give a number-..." << std::endl;
+    int sum = 0;
 
-    displayParty();
-
-    int hero;
-    std::cin >> hero;
-
-    while(hero < 0 || hero > heroes.size())
+    for( int i = 0; i < heroes.size(); i++)
     {
-        std::cout << "Choose one of your heroes..." << std::endl;
-        displayParty();
-
-        std::cin >> hero;
+        sum += heroes[i]->getLevel();
     }
 
-    return heroes[hero - 1];
+    return (double) sum / (double) heroes.size();
+}
+
+void HeroParty::addHero(Hero *hero)
+{
+    heroes.push_back(hero);
+}
+
+int HeroParty::getPartySize()
+{
+    return heroes.size();
+}
+
+Hero *HeroParty::getHero(int index)
+{
+    return heroes[index - 1];
+}
+
+Hero *HeroParty::getHero(const std::string &name)
+{
+    for(int i = 0; i < heroes.size(); i++)
+    {
+        if(heroes[i]->getName().compare(name) == 0)
+            return heroes[i];
+    }
+
+    return nullptr;
 }

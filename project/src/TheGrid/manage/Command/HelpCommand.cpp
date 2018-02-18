@@ -1,16 +1,22 @@
 
 #include "HelpCommand.h"
 
-HelpCommand::HelpCommand(TheGrid *theGrid)
-        :Command("help", "[help] List of all commands",
-                 theGrid), commands(theGrid->getCommandManager()->getCommands()) {}
+HelpCommand::HelpCommand()
+        :Command("help", "[help] List of all commands")
+{
 
-void HelpCommand::execute(std::vector<std::string> &args)
+}
+
+void HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     std::cout << "All commands :" << std::endl;
 
-    for (std::vector<Command*>::iterator it = commands.begin(); it != commands.end(); it++)
+    std::vector<Command*>* commands = theGrid->getCommandManager()->getCommands();
+
+    for (std::vector<Command*>::iterator it = commands->begin(); it != commands->end(); it++)
     {
         std::cout << (*it)->getUsage() << std::endl;
     }
+
+    delete commands ;
 }

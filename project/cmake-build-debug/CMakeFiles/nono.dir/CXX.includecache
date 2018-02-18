@@ -11,14 +11,16 @@ fstream
 -
 sstream
 -
+cstdlib
+-
 TheGrid.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
-entity/Spell/FireSpell.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
-entity/Spell/IceSpell.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
 entity/Spell/LightingSpell.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h
+entity/Spell/IceSpell.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
+entity/Spell/FireSpell.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
 manage/Manager/HeroParty.h
@@ -73,6 +75,8 @@ vector
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
 Tile.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+../../manage/Manager/CommandManager.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp
 NonAccessibleTile.h
@@ -91,6 +95,8 @@ string
 -
 iostream
 -
+../../manage/Manager/HeroParty.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp
 TileFactory.h
@@ -436,20 +442,6 @@ Effect/Effect.h
 TheGrid.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
 
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp
-BuyCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h
-../../TheGrid.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
-
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h
-Command.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
-../../entity/Living/Hero/Hero.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
-../../entity/Grid/Tile.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
-
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
 Command.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
@@ -520,22 +512,6 @@ Command.h
 ../../TheGrid.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
 
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp
-iostream
--
-SellCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h
-../../TheGrid.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
-
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h
-Command.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
-../../entity/Grid/Tile.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
-../../entity/Living/Hero/Hero.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
-
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp
 BattleArena.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
@@ -555,16 +531,12 @@ CommandManager.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
 ../Command/QuitGameCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
-../Command/BuyCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h
 ../Command/MoveCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
 ../Command/DisplayMapCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
 ../Random/Utils.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
-../Command/SellCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h
 ../Command/CreateHeroCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
 ../Command/HelpCommand.h
@@ -575,6 +547,8 @@ vector
 -
 ../Command/Command.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+../../entity/Living/Hero/Hero.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp
 HeroParty.h
@@ -589,6 +563,14 @@ HeroParty.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
 ../../entity/Living/Hero/Inventory.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.cpp
+createMonsters.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.h
+
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.h
+HeroParty.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.cpp
 cstdlib

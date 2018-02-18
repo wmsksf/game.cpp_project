@@ -6,7 +6,7 @@
 
 class Monster : public Living
 {
-private:
+protected:
     int minDamage;
     int maxDamage;
     int defense;
@@ -14,10 +14,7 @@ private:
     double dodgeProbability;
 
 public:
-    Monster(const std::string &name,
-            const std::string &category,
-            int minDamage, int maxDamage,
-            int defense, double dodgeProbability);
+    Monster(const std::string &name, int level);
 
     void displayStats();
 
@@ -25,6 +22,9 @@ public:
     int getMaxDamage() const;
     int getDefense() const;
     double getDodgeProbability() const;
+
+    int getExperienceWorth();
+    int getMoneyReward();
 };
 
 #endif //NONO_MONSTER_H

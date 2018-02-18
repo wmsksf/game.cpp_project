@@ -1,12 +1,17 @@
 
 #include "MoveCommand.h"
 
-MoveCommand::MoveCommand(TheGrid* theGrid)
-		:Command("move", "[move (up | down | right | left)] Command to move around the grid",
-				 theGrid) {}
+MoveCommand::MoveCommand()
+		:Command("move", "[move (up | down | right | left)] Command to move around the grid") {}
 
-void MoveCommand::execute(std::vector<std::string> &args)
+void MoveCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+	if(theGrid->getParty()->getPartySize() == 0)
+	{
+		std::cout << "You must create heroes first!!" << std::endl;
+		return ;
+	}
+
 	if(args.size() != 1)
 		std::cout << "Invalid usage : move (up | down | right | left)" << std::endl;
 

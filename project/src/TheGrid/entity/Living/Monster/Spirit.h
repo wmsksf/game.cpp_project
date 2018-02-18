@@ -7,7 +7,7 @@
 class Spirit : public Monster
 {
 public:
-    Spirit(const std::string &name);
+    Spirit(const std::string &name, int level);
 
     void displayStats();
 };

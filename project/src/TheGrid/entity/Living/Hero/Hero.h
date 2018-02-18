@@ -13,8 +13,6 @@ class Potion;
 class Hero : public Living
 {
 protected:
-	const std::string category;
-
 	int maxMagicPower;
     int currentMagicPower;
 
@@ -39,9 +37,7 @@ protected:
     virtual void levelUp();
 
 public:
-    Hero(const std::string &name, const std::string &category,
-         int strength, int dexterity,
-         int agility);
+    Hero(const std::string &name);
 
 	Inventory &getInventory();
 
@@ -56,6 +52,8 @@ public:
 	void removeSpell(Spell* spell);
 
 	void printInventory();
+	void printItemsofInventory(const std::string &category);
+	void printSpellsofInventory();
 
 	void displayStats();
 
@@ -93,7 +91,6 @@ public:
     void setMoney(int money);
 
     int getExperience() const;
-    void setExperience(int experience);
 
     Weapon* getEquipedWeapon() const;
 

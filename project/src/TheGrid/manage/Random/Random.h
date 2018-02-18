@@ -6,7 +6,7 @@ double randomDouble();
 
 int randomInRange(int min, int max);
 
-int random(int max);
+int randomInt(int max);
 
 double randomDouble(double min, double max);
 

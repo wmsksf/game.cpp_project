@@ -6,17 +6,17 @@
 #include "Tile.h"
 #include "../Item/Item.h"
 #include "Market.h"
+#include "../../manage/Manager/ItemFactory.h"
 
 class TileFactory
 {
 private:
-	std::vector<Item*>& allItems;
-	std::vector<Spell*>& spells;
+	ItemFactory* itemFactory;
 
 	Market* createMarket();
 
 public:
-	TileFactory(std::vector<Item*> &allItems, std::vector<Spell*> &spells);
+	TileFactory(ItemFactory* itemFactory);
 
 	Tile* createTile();
 };

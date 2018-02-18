@@ -6,9 +6,13 @@ Spell::Spell(const std::string &name, int price,
              int requiredLvl, int requiredMagicPower,
              int minDamage, int maxDamage)
 
-            :name(name), category("Spell"), price(price), requiredLvl(requiredLvl),
-            requiredMagicPower(requiredMagicPower), minDamage(minDamage),
-            maxDamage(maxDamage) {}
+            :name(name),
+             category("Spell"),
+             price(price),
+             requiredLvl(requiredLvl),
+             requiredMagicPower(requiredMagicPower),
+             minDamage(minDamage),
+             maxDamage(maxDamage) {}
 
 Spell* Spell::clone()
 {

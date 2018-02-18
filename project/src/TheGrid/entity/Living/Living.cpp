@@ -1,13 +1,9 @@
 
 #include "Living.h"
 
-Living::Living(const std::string &name, const std::string &category,
-               int healthPower)
-
+Living::Living(const std::string &name, int level)
                :name(name),
-                maxHealthPower(healthPower),
-                currentHealthPower(healthPower),
-                category(category) {}
+                level(level) {}
 
 bool Living::isConscious()
 {
@@ -54,11 +50,6 @@ void Living::restoreHealth(int healthPoints)
 const std::string &Living::getName() const
 {
     return name;
-}
-
-const std::string &Living::getCategory() const
-{
-    return category;
 }
 
 int Living::getLevel() const

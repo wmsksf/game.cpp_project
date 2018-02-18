@@ -41,6 +41,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/ent
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/manage/Manager/BattleArena.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.h
@@ -60,6 +61,9 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Li
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/manage/Command/Command.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Grid/Market.cpp
@@ -75,14 +79,41 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/manage/Command/Command.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.cpp
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Grid/Tile.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Item/Armor.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Item/Item.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Living/Living.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Grid/Tile.cpp
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Grid/Tile.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Item/Armor.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Item/Item.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Living/Living.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Grid/Market.h
@@ -100,6 +131,9 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/en
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/manage/Command/Command.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
+CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o: ../src/TheGrid/entity/Item/Armor.cpp
@@ -415,30 +449,6 @@ CMakeFiles/nono.dir/src/TheGrid/main.cpp.o: ../src/TheGrid/manage/Manager/Comman
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/main.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/TheGrid.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/Grid.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/Market.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/Tile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Grid/TileFactory.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Item/Armor.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Item/Item.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Living/Living.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Command/BuyCommand.cpp
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Command/BuyCommand.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Command/Command.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o: ../src/TheGrid/manage/Random/Random.h
-
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: ../src/TheGrid/manage/Command/Command.cpp
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o: ../src/TheGrid/manage/Command/Command.h
 
@@ -565,30 +575,6 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o: ../src/The
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/TheGrid.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/CommonTile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/Grid.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/Market.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/NonAccessibleTile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/Tile.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Grid/TileFactory.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Item/Armor.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Item/Item.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Living/Living.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Command/Command.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Command/SellCommand.cpp
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Command/SellCommand.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o: ../src/TheGrid/manage/Random/Random.h
-
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: ../src/TheGrid/entity/Item/Armor.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: ../src/TheGrid/entity/Item/Item.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
@@ -620,14 +606,12 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheG
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/BuyCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/Command.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/CreateHeroCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/DisplayMapCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/HelpCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/MoveCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/QuitGameCommand.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Command/SellCommand.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.cpp
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Manager/CommandManager.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
@@ -656,6 +640,21 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/m
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.cpp
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o: ../src/TheGrid/manage/Random/Random.h
+
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Item/Armor.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Item/Item.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Item/Weapon.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Living/Hero/Hero.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Living/Hero/Inventory.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Living/Living.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Living/Monster/Monster.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Living/Monster/MonsterStats.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Spell/Effect/Effect.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/entity/Spell/Spell.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/manage/Manager/HeroParty.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/manage/Manager/createMonsters.cpp
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/manage/Manager/createMonsters.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o: ../src/TheGrid/manage/Random/Random.h
 
 CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o: ../src/TheGrid/manage/Random/Random.cpp
 

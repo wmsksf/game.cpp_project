@@ -6,19 +6,20 @@
 #include "../../entity/Living/Monster/Monster.h"
 #include "../../entity/Living/Hero/Hero.h"
 #include "../../entity/Spell/Spell.h"
+#include "MonsterFactory.h"
+#include "CommandManager.h"
 
-class createMonsters;
+class TheGrid;
 
 class BattleArena
 {
 private:
-	int rounds;
+    CommandManager* commandManager;
+    TheGrid* theGrid;
 
-    createMonsters createMonsters;
-	int monsterCount;
+    HeroParty* party;
 
-    std::vector<Hero*> heroes;
-	int heroCount;
+	std::vector<Monster*>* monsters;
 
     void heroRound(Hero* hero);
     void monsterRound(Monster* monster);
@@ -27,7 +28,7 @@ private:
 
     void reward();
 	void defeat();
-	int victors();
+	bool victors();
 
     void displayBattleInfo();
 
@@ -38,9 +39,22 @@ private:
 	void usePotion(Hero* hero, Potion* potion);
 
 public:
-    BattleArena();
+    BattleArena(TheGrid *pGrid);
 
     void start();
+
+private:
+	void showMonsters();
+
+	Monster* monsterDialog();
+
+	Spell *spellDialog(Hero *hero);
+
+	Potion *potionDialog(Hero *hero);
+
+    void initCommandManager();
+
+    MonsterStats *calculateStats(Monster *monster);
 };
 
 #endif //NONO_BATTLEARENA_H

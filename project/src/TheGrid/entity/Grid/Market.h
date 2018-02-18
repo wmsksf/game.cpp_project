@@ -7,7 +7,6 @@
 #include "../Spell/Spell.h"
 #include "Tile.h"
 #include "../../manage/Manager/CommandManager.h"
-#include "../../manage/Manager/MarketManager.h"
 
 
 class Market : public Tile
@@ -16,7 +15,7 @@ private:
     std::vector<Item*> marketofItems;
     std::vector<Spell*> marketofSpells;
 
-    MarketManager* marketManager;
+    CommandManager* marketManager;
 
 public:
     Market(const std::vector<Item*> &marketofItems,
@@ -27,19 +26,23 @@ public:
 
     void printMarket();
 
-    void printItems();
-    void printSpells();
-
     Item* getItem(int) const;
     Spell* getSpell(int) const;
 
     void receiveItem(Item* item);
     void receiveSpell(Spell* spell);
 
-    void enter(HeroParty* heroParty);
+    void enter(TheGrid* theGrid);
+    void leave(TheGrid* theGrid);
 
     const std::vector<Item*> &getItems() const;
     const std::vector<Spell*> &getSpells() const;
+
+private:
+    void initMarketManager();
+
+    void printItems();
+    void printSpells();
 };
 
 #endif //NONO_MARKET_H

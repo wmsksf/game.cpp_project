@@ -13,7 +13,7 @@ int randomInRange(int min, int max)
     return min + ((max - min) * randomDouble());
 }
 
-int random(int max)
+int randomInt(int max)
 {
     return randomDouble() * max;
 }

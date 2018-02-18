@@ -5,6 +5,7 @@
 
 #include "Command.h"
 #include "../../TheGrid.h"
+#include "../Manager/HeroFactory.h"
 
 class CreateHeroCommand : public Command
 {
@@ -12,9 +13,9 @@ private:
     void HeroName(std::string &hero);
 
 public:
-    CreateHeroCommand(TheGrid *theGrid);
+    CreateHeroCommand();
 
-    void execute(std::vector<std::string> &args);
+    void execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_CREATEHERO_H

@@ -8,9 +8,9 @@
 class QuitGameCommand : public Command
 {
 public:
-	QuitGameCommand(TheGrid* theGrid);
+	QuitGameCommand();
 
-	virtual void execute(std::vector<std::string> &args);
+	virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_QUITGAMECOMMAND_H

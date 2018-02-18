@@ -2,10 +2,18 @@
 #include "Exoskeleton.h"
 #include "../../../manage/Random/Random.h"
 
-Exoskeleton::Exoskeleton(const std::string &name)
+Exoskeleton::Exoskeleton(const std::string &name, int level)
 
-            :Monster(name, "Exoskeleton",randomInRange(15, 35), randomInRange(40, 50),
-                     randomInRange(80, 100), randomDouble()) {}
+            :Monster(name, level)
+{
+    maxHealthPower = 300 * level;
+    currentHealthPower = maxHealthPower;
+
+    minDamage = 25 * level;
+    maxDamage = 50  * level;
+    dodgeProbability = 0.08;
+    defense = 5 * level;
+}
 
 void Exoskeleton::displayStats()
 {

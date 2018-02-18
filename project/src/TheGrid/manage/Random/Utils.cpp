@@ -7,6 +7,7 @@
 #include <sstream>
 #include <iostream>
 #include "Utils.h"
+#include "Random.h"
 
 std::string string_format(const std::string fmt_str, ...)
 {
@@ -46,3 +47,21 @@ std::vector<std::string> split(const std::string &str, const std::string &delim)
 	while (pos < str.length() && prev < str.length());
 	return tokens;
 }
+
+int experienceForLevelUp(int level)
+{
+	return 100 * ( level * level + 2 * level);
+}
+
+int max(int a, int b)
+{
+	if(a > b)
+		return a;
+	return b;
+}
+
+int monsterLevel(double averageHeroLevel)
+{
+	return randomInRange(max(averageHeroLevel - 5, 1), averageHeroLevel + 5);
+}
+

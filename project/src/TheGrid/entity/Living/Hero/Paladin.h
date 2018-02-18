@@ -9,8 +9,6 @@ class Paladin : public Hero
 public:
     Paladin(const std::string &name);
 
-	void displayStats();
-
 protected:
 	void levelUp();
 };

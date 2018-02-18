@@ -4,7 +4,7 @@
 Command::Command(const std::string &name, const std::string &usage,
 				 TheGrid* theGrid)
 
-	:name(name), usage(usage), theGrid(theGrid) {}
+	:name(name), usage(usage) {}
 
 bool Command::matches(const std::string& name)
 {

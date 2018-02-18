@@ -2,18 +2,14 @@
 #include "Hero.h"
 #include "../../../manage/Random/Random.h"
 #include "../../Item/Potion/Potion.h"
+#include "../../../manage/Random/Utils.h"
 
-Hero::Hero(const std::string &name, const std::string &category,
-		   int strength, int dexterity, int agility)
+Hero::Hero(const std::string &name)
 
-		: Living(name, category, 1000),
-		  currentMagicPower(randomInRange(280, 460)),
-          strength(strength), agility(agility), dexterity(dexterity),
-          magicRegen(magicRegen), healthRegen(healthRegen),
-          money(0), experience(0), experienceForLevel(100)
-{
-	level = 1;
-}
+		: Living(name, 1),
+          money(1000),
+		  experience(0),
+		  experienceForLevel(experienceForLevelUp(2)) {}
 
 void Hero::displayStats()
 {
@@ -100,11 +96,6 @@ int Hero::getExperience() const
 	return experience;
 }
 
-void Hero::setExperience(int experience)
-{
-	Hero::experience = experience;
-}
-
 Weapon *Hero::getEquipedWeapon() const
 {
 	return equipedWeapon;
@@ -134,12 +125,13 @@ void Hero::gainExperience(int experiencePoints)
 {
 	experience += experiencePoints;
 
-	if (experiencePoints > experienceForLevel)
+	while (experiencePoints > experienceForLevel)
 	{
 		experience = experience % experienceForLevel;
-		experienceForLevel *= 2;
 
 		levelUp();
+
+		experienceForLevel = experienceForLevelUp(level + 1);
 	}
 }
 
@@ -180,32 +172,12 @@ void Hero::restoreMagicPower(int magicPoints)
 
 void Hero::addItem(Item *item)
 {
-	if(getMoney() < item->getPrice() || getLevel() < item->getRequiredLevel())
-	{
-		std::cout << "You do not have enough money to buy this item!";
-		std::cout << std::endl;
-
-		return ;
-	}
-
 	inventory.addItem(item);
-
-	std::cout << "Successful purchase!" << std::endl;
 }
 
 void Hero::addSpell(Spell *spell)
 {
-	if(getMoney() < spell->getPrice() || getLevel() < spell->getRequiredLvl())
-	{
-		std::cout << "You do not have enough money to buy this spell!";
-		std::cout << std::endl;
-
-		return ;
-	}
-
 	inventory.addSpell(spell);
-
-	std::cout << "Successful purchase!" << std::endl;
 }
 
 Item *Hero::getItem(const std::string &name)
@@ -233,7 +205,27 @@ void Hero::printInventory()
 	inventory.display();
 }
 
+void Hero::printItemsofInventory(const std::string &category)
+{
+	std::vector<Item*> items = inventory.getItemsByCategory(category);
+
+	for(int i = 0; i < items.size(); i++)
+	{
+		std::cout << "[ " << i << "]" << items[i]->getDescription() << std::endl;
+	}
+}
+
 Inventory& Hero::getInventory()
 {
 	return inventory;
+}
+
+void Hero::printSpellsofInventory()
+{
+	std::vector<Spell*> spells = inventory.getSpells();
+
+	for(int i = 0; i < spells.size(); i++)
+	{
+		std::cout << "[ " << i << "]" << spells[i]->getDescription() << std::endl;
+	}
 }

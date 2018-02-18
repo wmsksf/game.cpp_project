@@ -8,12 +8,12 @@
 static Tile* blockTile = new NonAccessibleTile();
 static Tile* commonTile = new CommonTile();
 
-TileFactory::TileFactory(std::vector<Item *> &allItems, std::vector<Spell*> &spells)
-		:allItems(allItems), spells(spells) {}
+TileFactory::TileFactory(ItemFactory* itemFactory)
+		:itemFactory(itemFactory) {}
 
 Tile *TileFactory::createTile()
 {
-	int rnd = random(1000);
+	int rnd = randomInt(1000);
 
 	if(rnd < 75)
 	{
@@ -30,18 +30,20 @@ Tile *TileFactory::createTile()
 
 Market* TileFactory::createMarket()
 {
-	int numberOfItem = 3 + randomInRange(0, 7);
+	int numberOfItems = 3 + randomInRange(0, 7);
+	int numberOfSpells = randomInRange(0, 2);
 
 	std::vector<Item*> marketItems;
 	std::vector<Spell*> marketSpells;
 
-	while(numberOfItem--)
+	while(numberOfItems--)
 	{
-		Item *item = allItems[random(allItems.size())];
-		Spell *spell = spells[random(spells.size())];
+		marketItems.push_back(itemFactory->createItem());
+	}
 
-		marketItems.push_back(item->clone());
-		marketSpells.push_back(spell->clone());
+	while(numberOfSpells--)
+	{
+		marketSpells.push_back(itemFactory->createSpell());
 	}
 
 	return new Market(marketItems, marketSpells);

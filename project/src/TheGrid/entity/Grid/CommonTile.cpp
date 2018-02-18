@@ -16,14 +16,15 @@ void CommonTile::printTile()
     std::cout << ' ';
 }
 
-void CommonTile::enter()
+void CommonTile::leave(TheGrid *theGrid) {}
+
+void CommonTile::enter(TheGrid* theGrid)
 {
     double probability = randomDouble();
 
     if(probability < 0.7)
     {
-        //constructor!!?
-        BattleArena battle;
+        BattleArena battle = new BattleArena(theGrid);
 
         battle.start();
     }

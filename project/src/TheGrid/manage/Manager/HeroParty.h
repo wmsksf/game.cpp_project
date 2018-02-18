@@ -7,7 +7,7 @@
 
 class TheGrid;
 
-enum direction {up, down, left, right};
+enum MovingDirection {up, down, left, right};
 
 class HeroParty
 {
@@ -19,8 +19,10 @@ private:
 public:
     HeroParty();
 
-    const std::vector<Hero*>& getHeroes() const;
-    void setHeroes(Hero *hero);
+    int getPartySize();
+    Hero* getHero(const std::string& name);
+    Hero* getHero(int index);
+    void addHero(Hero *hero);
 
     int getX() const;
     void setX(int x);
@@ -28,11 +30,12 @@ public:
     int getY() const;
     void setY(int y);
 
-    bool move(direction, TheGrid* theGrid);
+    bool move(MovingDirection direction, TheGrid* theGrid);
 
     void displayParty();
 
-    Hero* chooseHero();
+    double getAverageLevel();
+
 };
 
 #endif //NONO_HEROPARTY_H

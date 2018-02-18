@@ -4,21 +4,26 @@
 
 Warrior::Warrior(const std::string &name)
 
-		: Hero(name,"Warrior",
-		       randomInRange(300, 400),
-		       randomInRange(150, 250),
-		       randomInRange(400, 600)) {}
-
-void Warrior::displayStats()
+		: Hero(name)
 {
-	std::cout << getCategory() << "..." << std::endl;
+	maxHealthPower = 1200;
+	currentHealthPower = 1200;
 
-	Hero::displayStats();
+	maxMagicPower = 80;
+	currentMagicPower = 80;
+
+	strength = 100;
+	dexterity = 80;
+	agility = 150;
+
 }
 
 void Warrior::levelUp()
 {
 	Hero::levelUp();
+
+	maxHealthPower += 120;
+	maxMagicPower += 8;
 
 	strength += 10;
 	dexterity += 8;

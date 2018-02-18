@@ -8,9 +8,9 @@
 class DisplayMapCommand : public Command
 {
 public:
-	DisplayMapCommand(TheGrid* theGrid);
+	DisplayMapCommand();
 
-	virtual void execute(std::vector<std::string> &args);
+	virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_DISPLAYGRIDCOMMAND_H

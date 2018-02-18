@@ -7,7 +7,7 @@
 class Dragon : public Monster
 {
 public:
-    Dragon(const std::string &name);
+    Dragon(const std::string &name, int level);
 
     void displayStats();
 };

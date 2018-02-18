@@ -9,14 +9,18 @@
 class CommandManager
 {
 private:
-	std::vector<Command*> commands;
+	std::vector<Command*>* commands;
+	std::vector<CommandManager*> managers;
 
 public:
-	CommandManager(TheGrid* theGrid);
+	CommandManager(std::vector<Command*>* commands);
 
-	void execute(const std::string& line);
+	bool execute(TheGrid *theGrid, const std::string& line);
 
-	const std::vector<Command*> &getCommands() const;
+	std::vector<Command*> * getCommands();
+
+	void registerManager(CommandManager* manager);
+	void unregisterManager(CommandManager* manager);
 };
 
 #endif //NONO_COMMANDMANAGER_H

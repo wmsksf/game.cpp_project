@@ -6,10 +6,16 @@
 #include "entity/Spell/LightingSpell.h"
 #include "entity/Spell/IceSpell.h"
 #include "entity/Spell/FireSpell.h"
+#include "manage/Command/QuitGameCommand.h"
+#include "manage/Command/MoveCommand.h"
+#include "manage/Command/DisplayMapCommand.h"
+#include "manage/Command/CreateHeroCommand.h"
+#include "manage/Command/HelpCommand.h"
+#include "manage/Command/InventoryListCommand.h"
 
 TheGrid::TheGrid()
 {
-	commandManager = new CommandManager(this);
+	initCommandManager();
 
 	party = new HeroParty();
 
@@ -60,7 +66,7 @@ void TheGrid::start()
 
 		getline(std::cin, line);
 
-		commandManager->execute(line);
+		commandManager->execute(this, line);
 	}
 }
 
@@ -202,4 +208,18 @@ void TheGrid::Spells()
 
 	//close file
 	infile.close();
+}
+
+void TheGrid::initCommandManager()
+{
+	std::vector<Command*>* commands = new std::vector<Command*>();
+
+	commands->push_back(new QuitGameCommand());
+	commands->push_back(new MoveCommand());
+	commands->push_back(new DisplayMapCommand());
+	commands->push_back(new CreateHeroCommand());
+	commands->push_back(new HelpCommand());
+    commands->push_back(new InventoryListCommand());
+
+	commandManager = new CommandManager(commands);
 }

@@ -7,7 +7,7 @@
 class Exoskeleton : public Monster
 {
 public:
-    Exoskeleton(const std::string &name);
+    Exoskeleton(const std::string &name, int level);
 
     void displayStats();
 };

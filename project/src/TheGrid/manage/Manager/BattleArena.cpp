@@ -1,32 +1,88 @@
 
 #include "BattleArena.h"
+#include "../../TheGrid.h"
 
-BattleArena::BattleArena() {}
+
+BattleArena::BattleArena(TheGrid *theGrid)
+	:theGrid(theGrid)
+{
+	monsters = theGrid->getMonsterFactory()->createMonsters(theGrid->getParty());
+	initCommandManager();
+}
 
 void BattleArena::displayBattleInfo()
 {
 	std::cout << "HEROES:" << std::endl;
 
-	for (std::vector<Hero*>::iterator i = heroes.begin(); i != heroes.end(); i++)
+	for(int i =0; i < party->getPartySize(); i++)
 	{
-		(*i)->displayStats();
+		party->getHero(i)->displayStats();
 	}
 
 	std::cout << "MONSTERS:" << std::endl;
 
-	for (std::vector<Monster*>::iterator i = createMonsters->getMonsters().begin();
-		 i != createMonsters->getMonsters().end(); i++)
+	for(int i = 0; i < monsters->size(); i++)
 	{
-		(*i)->displayStats();
+		(*monsters)[i]->displayStats();
 	}
 }
 
 void BattleArena::heroRound(Hero* hero)
 {
-    std::vector<Item*> potions = hero->getInventory().getItemsByCategory("Potion");
-    std::vector<Item*> weapons = hero->getInventory().getItemsByCategory("Weapon");
-    std::vector<Spell*> spells = hero->getInventory().getSpells();
+	while(true)
+	{
+		std::cout << "Mighty hero " << hero->getName() << ", what is your command ?" << std::endl;
+		std::cout << "You may attack, castSpell or usePotion..." << std::endl;
 
+		std::string line;
+		std::getline(std::cin, line);
+
+		if(commandManager->execute(theGrid, line))
+			return ;
+
+//		if(line.compare("attack") == 0)
+//		{
+//			Monster* monster = monsterDialog();
+//
+//
+//			if(monster == nullptr)
+//				continue;
+//
+//			attack(hero, monster);
+//			return ;
+//		}
+//		else if ( line.compare("castSpell") == 0)
+//		{
+//			Monster* monster = monsterDialog();
+//
+//			if(monster == nullptr)
+//				continue;
+//
+//			Spell* spell = spellDialog(hero);
+//
+//			if(spell == nullptr)
+//				continue;
+//
+//			spellCast(hero, spell, monster);
+//			return ;
+//		}
+//		else if(line.compare("usePotion") == 0)
+//		{
+//			Potion* potion = potionDialog(hero);
+//
+//			if(potion == nullptr)
+//				continue;
+//
+//			usePotion(hero, potion);
+//			return ;
+//		}
+//		else
+//		{
+//			std::cout << "Unknown command" << std::endl;
+//			continue;
+//		}
+
+	}
 }
 
 void BattleArena::monsterRound(Monster* monster)
@@ -36,48 +92,53 @@ void BattleArena::monsterRound(Monster* monster)
 
 bool BattleArena::isFinished()
 {
-	for (std::vector<Hero*>::iterator it = heroes.begin(); it != heroes.end(); it++)
+	int heroCount = 0;
+
+	for(int i = 0; i < party->getPartySize(); i++)
 	{
-		if(!(*it)->isConscious()) heroCount++;
+		if(!party->getHero(i)->isConscious())
+			heroCount++;
 	}
 
-	for (std::vector<Monster*>::iterator it = createMonsters->getMonsters();
-         it != createMonsters->getMonsters().end(); it++)
-	{
-		if(!(*it)->isConscious()) monsterCount++;
-	}
-
-	if(heroCount == heroes.size() || monsterCount == monsters.size())
+	if(heroCount == 0)
 		return true;
-	else
-		return false;
+
+	if(monsters->size() == 0)
+		return true;
 }
 
 void BattleArena::start()
 {
 	while(!isFinished())
 	{
-		for (std::vector<Hero*>::iterator it = heroes.begin(); it != heroes.end(); it++)
+		for(int i = 0; i < party->getPartySize(); i++)
 		{
-			heroRound(*it);
+			Hero* hero = party->getHero(i);
+
+			if(hero->isConscious())
+			{
+				heroRound(hero);
+			}
 		}
 
-		for (std::vector<Monster*>::iterator it = monsters.begin(); it != monsters.end(); it++)
+		for(int i = 0; i < monsters->size(); i++)
 		{
-			monsterRound(*it);
+			monsterRound((*monsters)[i]);
 		}
-
-		rounds++;
 	}
 
-	if (!victors()) defeat();
-	else reward();
+	if (victors())
+	{
+		reward();
+	} else
+	{
+		defeat();
+	}
 }
 
-int BattleArena::victors()
+bool BattleArena::victors()
 {
-	if(heroCount == heroes.size()) return 0;
-	else return 1;
+	return monsters->size() == 0;
 }
 
 void BattleArena::defeat()
@@ -88,4 +149,106 @@ void BattleArena::defeat()
 void BattleArena::reward()
 {
 
+}
+
+void BattleArena::showMonsters()
+{
+
+}
+
+Monster* BattleArena::monsterDialog()
+{
+	std::cout << "Which monster to attack <monster_id>?" << std::endl;
+
+	showMonsters();
+
+	int monster_index;
+	std::cin >> monster_index;
+	if(monster_index < 0 || monster_index > monsters->size())
+	{
+		std::cout << "Unknown monster" << std::endl;
+		return nullptr;
+	}
+
+	return (*monsters)[monster_index];
+
+}
+
+Spell *BattleArena::spellDialog(Hero *hero)
+{
+	std::cout << "Which spell to cast <spell_name>?" << std::endl;
+
+	hero->printSpellsofInventory();
+
+	std::string name;
+	std::cin >> name;
+
+	Spell* spell = hero->getSpell(name);
+	if(spell == nullptr)
+		std::cout << "Unknown spell" << std::endl;
+
+	return spell;
+}
+
+Potion *BattleArena::potionDialog(Hero *hero)
+{
+	std::cout << "Which potion to use <potion_name>?" << std::endl;
+
+	hero->printItemsofInventory("Potion");
+
+	std::string name;
+	std::cin >> name;
+
+	Item* item = hero->getItem(name);
+
+	if(item == nullptr)
+	{
+		std::cout << "Unknown potion" << std::endl;
+		return nullptr;
+	}
+
+	if(item->getDescription().compare("Potion") != 0)
+	{
+		std::cout << "Please select a potion" << std::endl;
+		return nullptr;
+	}
+
+
+	return (Potion*) item;
+}
+
+void BattleArena::initCommandManager()
+{
+	//TODO init command manager.
+}
+
+
+void BattleArena::spellCast(Hero *hero, Spell *spell, Monster *monster)
+{
+	/// TODO calculate damage
+
+	MonsterStats* stats = calculateStats(monster);
+
+
+	//add effect
+	monster.addEffect(spell.getEffect());
+
+
+}
+
+MonsterStats *BattleArena::calculateStats(Monster *monster)
+{
+	MonsterStats* stats = new MonsterStats(monster);
+
+	std::vector<Effect*> effects = monster.getEffects();
+
+	for(int i = 0; i < )
+	{
+		Effect* effect;
+
+		effect->apply(stats);
+	}
+
+	//apply all monster effects
+	return stats;
 }

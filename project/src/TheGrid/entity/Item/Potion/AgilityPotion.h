@@ -3,7 +3,7 @@
 
 #include "Potion.h"
 
-class AgilityPotion : Potion
+class AgilityPotion : public Potion
 {
 private:
 	int agilityPoints;

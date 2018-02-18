@@ -5,42 +5,35 @@
 #include "../../entity/Living/Hero/Sorcerer.h"
 #include "../../entity/Living/Hero/Warrior.h"
 
-CreateHeroCommand::CreateHeroCommand(TheGrid *theGrid)
-        :Command("create", "[create (Paladin | Sorcerer | Warrior)] Command to create a hero", theGrid) {}
+CreateHeroCommand::CreateHeroCommand()
+        :Command("create", "[create (Paladin | Sorcerer | Warrior)] Command to create a hero")
+{}
 
-void CreateHeroCommand::execute(std::vector<std::string> &args)
+void CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    if(theGrid->getParty()->getHeroes().size() == 3)
+    HeroFactory* heroFactory = theGrid->getHeroFactory();
+
+    if(theGrid->getParty()->getPartySize() == 3)
     {
-        std::cout << "You can create up to three heroes per game!" << std::endl;
+        std::cout << "Worthy player you can create up to three heroes!" << std::endl;
         return;
     }
 
     std::string name;
 
+    HeroName(name);
+
     if(args[0].compare("Paladin") == 0)
     {
-        HeroName(name);
-
-        Hero* hero = new Paladin(name);
-
-        theGrid->getParty()->setHeroes(hero);
+        theGrid->getParty()->addHero(heroFactory->createPaladin(name));
     }
     else if(args[0].compare("Sorcerer") == 0)
     {
-        HeroName(name);
-
-        Hero* hero = new Sorcerer(name);
-
-        theGrid->getParty()->setHeroes(hero);
+        theGrid->getParty()->addHero(heroFactory->createSorcerer(name));
     }
     else if(args[0].compare("Warrior") == 0)
     {
-        HeroName(name);
-
-        Hero *hero = new Warrior(name);
-
-        theGrid->getParty()->setHeroes(hero);
+        theGrid->getParty()->addHero(heroFactory->createWarrior(name));
     }
 }
 

@@ -6,6 +6,8 @@
 #include "entity/Grid/Grid.h"
 #include "manage/Manager/CommandManager.h"
 #include "entity/Spell/Spell.h"
+#include "manage/Manager/HeroFactory.h"
+#include "manage/Manager/MonsterFactory.h"
 
 class TheGrid
 {
@@ -26,9 +28,9 @@ public:
 	void quit();
 
 	Tile* getCurrentTile();
-	HeroParty *getParty() const;
-	Grid *getGrid() const;
-	CommandManager *getCommandManager() const;
+	HeroParty* getParty() const;
+	Grid* getGrid() const;
+	CommandManager* getCommandManager() const;
 
 	void setHeroParty();
 
@@ -38,6 +40,12 @@ public:
 	void getPotions();
 
 	void Spells();
+
+    HeroFactory* getHeroFactory();
+
+    MonsterFactory* getMonsterFactory();
+
+	void initCommandManager();
 };
 
 #endif //NONO_GAME_H

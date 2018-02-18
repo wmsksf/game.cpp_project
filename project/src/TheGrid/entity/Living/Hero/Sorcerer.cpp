@@ -4,21 +4,25 @@
 
 Sorcerer::Sorcerer(const std::string& name)
 
-            :Hero(name,"Sorcerer",
-                  randomInRange(250, 150),
-                  randomInRange(400, 600),
-                  randomInRange(300, 400)) {}
-
-void Sorcerer::displayStats()
+            :Hero(name)
 {
-	std::cout << getCategory() << "..." << std::endl;
+	maxHealthPower = 800;
+	currentHealthPower = 800;
 
-	Hero::displayStats();
+	maxMagicPower = 150;
+	currentMagicPower = 150;
+
+	strength = 70;
+	dexterity = 120;
+	agility = 100;
 }
 
 void Sorcerer::levelUp()
 {
 	Hero::levelUp();
+
+	maxHealthPower += 80;
+	maxMagicPower += 15;
 
 	strength += 7;
 	dexterity += 12;

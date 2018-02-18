@@ -11,13 +11,11 @@
 
 class HelpCommand : public Command
 {
-private:
-    std::vector<Command*> commands;
 
 public:
-    HelpCommand(TheGrid* theGrid);
+    HelpCommand();
 
-    virtual void execute(std::vector<std::string> &args);
+    virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 
