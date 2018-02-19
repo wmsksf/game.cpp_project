@@ -1,10 +1,8 @@
 
 #include "Command.h"
 
-Command::Command(const std::string &name, const std::string &usage,
-				 TheGrid* theGrid)
-
-	:name(name), usage(usage) {}
+Command::Command(const std::string &name, const std::string &usage)
+		:name(name), usage(usage) {}
 
 bool Command::matches(const std::string& name)
 {

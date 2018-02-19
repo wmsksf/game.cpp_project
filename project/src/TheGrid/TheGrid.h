@@ -16,11 +16,9 @@ private:
 	Grid* grid;
 	CommandManager* commandManager;
 
-	std::vector<Item*> allItems;
-	std::vector<Spell*> allSpells;
+	HeroFactory* heroFactory;
 
 public:
-
 	TheGrid();
 
 	void start();
@@ -32,18 +30,7 @@ public:
 	Grid* getGrid() const;
 	CommandManager* getCommandManager() const;
 
-	void setHeroParty();
-
-	void Items();
-	void getWeapons();
-	void getArmors();
-	void getPotions();
-
-	void Spells();
-
     HeroFactory* getHeroFactory();
-
-    MonsterFactory* getMonsterFactory();
 
 	void initCommandManager();
 };

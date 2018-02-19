@@ -8,7 +8,6 @@
 #include "Tile.h"
 #include "../../manage/Manager/CommandManager.h"
 
-
 class Market : public Tile
 {
 private:

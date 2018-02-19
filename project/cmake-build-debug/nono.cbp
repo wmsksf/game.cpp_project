@@ -120,12 +120,6 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp">
-			<Option target="nono"/>
-		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h">
-			<Option target="nono"/>
-		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.cpp">
 			<Option target="nono"/>
 		</Unit>
@@ -297,10 +291,22 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/main.cpp">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/AttackCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/AttackCommand.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp">
@@ -357,16 +363,16 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h">
-			<Option target="nono"/>
-		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleManager.cpp">
-			<Option target="nono"/>
-		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleManager.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp">
@@ -409,6 +415,12 @@
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.cpp">

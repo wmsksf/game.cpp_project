@@ -1,12 +1,18 @@
 
 #include "BattleArena.h"
 #include "../../TheGrid.h"
+#include "../Command/AttackCommand.h"
+#include "../Command/CastSpellCommand.h"
+#include "../Command/UsePotionCommand.h"
 
 
 BattleArena::BattleArena(TheGrid *theGrid)
 	:theGrid(theGrid)
 {
-	monsters = theGrid->getMonsterFactory()->createMonsters(theGrid->getParty());
+	MonsterFactory* monsterFactory = new MonsterFactory();
+
+	monsters = monsterFactory->createMonsters(theGrid->getParty());
+
 	initCommandManager();
 }
 
@@ -31,57 +37,19 @@ void BattleArena::heroRound(Hero* hero)
 {
 	while(true)
 	{
-		std::cout << "Mighty hero " << hero->getName() << ", what is your command ?" << std::endl;
-		std::cout << "You may attack, castSpell or usePotion..." << std::endl;
+		std::cout << "Mighty hero " << hero->getName() << ", what is your command ?";
+		std::cout << std::endl;
+		std::cout << "You may either attack, castSpell, usePotion..." << std::endl;
+		std::cout << "Or equip an armor, getWeapon..." << std::endl;
+
 
 		std::string line;
 		std::getline(std::cin, line);
 
-		if(commandManager->execute(theGrid, line))
+		std::string name = hero->getName();
+
+		if(BattleManager->execute(theGrid, line + name))
 			return ;
-
-//		if(line.compare("attack") == 0)
-//		{
-//			Monster* monster = monsterDialog();
-//
-//
-//			if(monster == nullptr)
-//				continue;
-//
-//			attack(hero, monster);
-//			return ;
-//		}
-//		else if ( line.compare("castSpell") == 0)
-//		{
-//			Monster* monster = monsterDialog();
-//
-//			if(monster == nullptr)
-//				continue;
-//
-//			Spell* spell = spellDialog(hero);
-//
-//			if(spell == nullptr)
-//				continue;
-//
-//			spellCast(hero, spell, monster);
-//			return ;
-//		}
-//		else if(line.compare("usePotion") == 0)
-//		{
-//			Potion* potion = potionDialog(hero);
-//
-//			if(potion == nullptr)
-//				continue;
-//
-//			usePotion(hero, potion);
-//			return ;
-//		}
-//		else
-//		{
-//			std::cout << "Unknown command" << std::endl;
-//			continue;
-//		}
-
 	}
 }
 
@@ -111,7 +79,7 @@ void BattleArena::start()
 {
 	while(!isFinished())
 	{
-		for(int i = 0; i < party->getPartySize(); i++)
+        for(int i = 0; i < party->getPartySize(); i++)
 		{
 			Hero* hero = party->getHero(i);
 
@@ -128,12 +96,9 @@ void BattleArena::start()
 	}
 
 	if (victors())
-	{
 		reward();
-	} else
-	{
+	else
 		defeat();
-	}
 }
 
 bool BattleArena::victors()
@@ -164,62 +129,32 @@ Monster* BattleArena::monsterDialog()
 
 	int monster_index;
 	std::cin >> monster_index;
-	if(monster_index < 0 || monster_index > monsters->size())
+
+	while(monster_index < 0 || monster_index > monsters->size())
 	{
-		std::cout << "Unknown monster" << std::endl;
-		return nullptr;
+		std::cout << "Unknown monster.." << std::endl;
+		std::cout << "You may have given the index wrong..." << std::endl;
+		std::cout << "Give an index of one of the monsters below." << std::endl;
+
+		showMonsters();
+
+		std::cin >> monster_index;
 	}
 
 	return (*monsters)[monster_index];
-
-}
-
-Spell *BattleArena::spellDialog(Hero *hero)
-{
-	std::cout << "Which spell to cast <spell_name>?" << std::endl;
-
-	hero->printSpellsofInventory();
-
-	std::string name;
-	std::cin >> name;
-
-	Spell* spell = hero->getSpell(name);
-	if(spell == nullptr)
-		std::cout << "Unknown spell" << std::endl;
-
-	return spell;
-}
-
-Potion *BattleArena::potionDialog(Hero *hero)
-{
-	std::cout << "Which potion to use <potion_name>?" << std::endl;
-
-	hero->printItemsofInventory("Potion");
-
-	std::string name;
-	std::cin >> name;
-
-	Item* item = hero->getItem(name);
-
-	if(item == nullptr)
-	{
-		std::cout << "Unknown potion" << std::endl;
-		return nullptr;
-	}
-
-	if(item->getDescription().compare("Potion") != 0)
-	{
-		std::cout << "Please select a potion" << std::endl;
-		return nullptr;
-	}
-
-
-	return (Potion*) item;
 }
 
 void BattleArena::initCommandManager()
 {
-	//TODO init command manager.
+	std::vector<Command*>* commands = new std::vector<Command*>();
+
+	commands->push_back(new AttackCommand(this));
+	commands->push_back(new CastSpellCommand(this));
+	commands->push_back(new UsePotionCommand(this));
+	commands->push_back(new EquipArmorCommand(this));
+	commands->push_back(new GetWeaponCommand(this));
+
+	BattleManager = new CommandManager(commands);
 }
 
 
@@ -251,4 +186,14 @@ MonsterStats *BattleArena::calculateStats(Monster *monster)
 
 	//apply all monster effects
 	return stats;
+}
+
+HeroParty* BattleArena::getParty() const
+{
+    return party;
+}
+
+std::vector<Monster *>* BattleArena::getMonsters() const
+{
+    return monsters;
 }

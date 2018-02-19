@@ -17,6 +17,6 @@ void NonAccessibleTile::leave(TheGrid *theGrid) {}
 
 void NonAccessibleTile::enter(TheGrid *theGrid)
 {
-    std::cout << "The tile you tried to enter into is nonaccessible!";
+    std::cout << "The tile you tried to enter into is nonaccessible!" << std::endl;
     std::cout << "Try moving to an other direction..." << std::endl;
 }

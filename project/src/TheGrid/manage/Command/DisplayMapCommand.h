@@ -10,7 +10,7 @@ class DisplayMapCommand : public Command
 public:
 	DisplayMapCommand();
 
-	virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
+	virtual bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_DISPLAYGRIDCOMMAND_H

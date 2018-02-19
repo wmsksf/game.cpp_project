@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include "NameFactory.h"
+#include <cstdlib>
 #include "../Random/Utils.h"
 #include "../Random/Random.h"
 

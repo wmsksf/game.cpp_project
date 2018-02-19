@@ -144,3 +144,35 @@ void Inventory::display()
 		std::cout << "/t[" << spells[i]->getPrice() << " price]" << std::endl;
 	}
 }
+
+bool Inventory::noSpells()
+{
+	if(spells.empty())
+		return true;
+	else
+		return false;
+}
+
+bool Inventory::noPotions()
+{
+	if(getItemsByCategory("Potion").empty())
+		return true;
+	else
+		return false;
+}
+
+bool Inventory::noArmors()
+{
+	if(getItemsByCategory("Armor").empty())
+		return true;
+	else
+		return false;
+}
+
+bool Inventory::noWeapons()
+{
+	if(getItemsByCategory("Weapon").empty())
+		return true;
+	else
+		return false;
+}

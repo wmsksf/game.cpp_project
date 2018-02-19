@@ -2,7 +2,6 @@
 #ifndef NONO_CREATEHEROCOMMAND_H
 #define NONO_CREATEHEROCOMMAND_H
 
-
 #include "Command.h"
 #include "../../TheGrid.h"
 #include "../Manager/HeroFactory.h"

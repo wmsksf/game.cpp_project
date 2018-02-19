@@ -4,16 +4,19 @@
 MoveCommand::MoveCommand()
 		:Command("move", "[move (up | down | right | left)] Command to move around the grid") {}
 
-void MoveCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
+bool MoveCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
 	if(theGrid->getParty()->getPartySize() == 0)
 	{
 		std::cout << "You must create heroes first!!" << std::endl;
-		return ;
+		return false;
 	}
 
 	if(args.size() != 1)
+	{
 		std::cout << "Invalid usage : move (up | down | right | left)" << std::endl;
+		return false;
+	}
 
 	if(args[0].compare("up") == 0)
 	{

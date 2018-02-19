@@ -9,14 +9,15 @@
 #include "Command.h"
 #include "../../entity/Grid/Market.h"
 
-class BuyCommand : public Command{
+class BuyCommand : public Command
+{
 private:
     Market* market;
 
 public:
     BuyCommand(Market* market);
 
-    void execute(TheGrid *theGrid, std::vector<std::string> &args);
+    bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 

@@ -15,6 +15,7 @@ private:
     std::map<const std::string&, int> frequencyMap;
 
     void read(const std::string& filename);
+
 public:
     NameFactory(const std::string& filename);
 

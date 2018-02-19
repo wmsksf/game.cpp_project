@@ -14,7 +14,7 @@ const std::string& MagicPotion::getDescription()
                          getName(), getRequiredLevel(), magicPoints);
 }
 
-void MagicPotion::boost(Hero* hero) const
+void MagicPotion::boost(Hero* hero)
 {
     hero->restoreMagicPower(magicPoints);
 }

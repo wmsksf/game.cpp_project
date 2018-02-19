@@ -15,9 +15,9 @@ private:
 public:
 	CommandManager(std::vector<Command*>* commands);
 
-	bool execute(TheGrid *theGrid, const std::string& line);
+	bool execute(TheGrid* theGrid, const std::string& line);
 
-	std::vector<Command*> * getCommands();
+	std::vector<Command*>* getCommands();
 
 	void registerManager(CommandManager* manager);
 	void unregisterManager(CommandManager* manager);

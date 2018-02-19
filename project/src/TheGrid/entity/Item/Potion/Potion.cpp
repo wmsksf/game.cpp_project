@@ -8,5 +8,6 @@ Potion::Potion(const std::string &name,
         :Item(name, "Potion", price,
               randomInRange(5, 12)) {}
 
-void Potion::boost(Hero *hero) {}
+//void Potion::boost(Hero *hero) {}
+
 Item* Potion::clone() {}

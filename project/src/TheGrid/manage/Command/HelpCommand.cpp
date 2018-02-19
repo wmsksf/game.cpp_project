@@ -2,12 +2,9 @@
 #include "HelpCommand.h"
 
 HelpCommand::HelpCommand()
-        :Command("help", "[help] List of all commands")
-{
+        :Command("help", "[help] List of all commands") {}
 
-}
-
-void HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
+bool HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     std::cout << "All commands :" << std::endl;
 
@@ -18,5 +15,7 @@ void HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         std::cout << (*it)->getUsage() << std::endl;
     }
 
-    delete commands ;
+    delete commands;
+
+    return true;
 }

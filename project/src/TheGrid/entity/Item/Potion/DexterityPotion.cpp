@@ -14,7 +14,7 @@ const std::string& DexterityPotion::getDescription()
 						 getName(), getRequiredLevel(), dexterityPoints);
 }
 
-void DexterityPotion::boost(Hero* hero) const
+void DexterityPotion::boost(Hero* hero)
 {
 	hero->setDexterity(hero->getDexterity() + dexterityPoints);
 }

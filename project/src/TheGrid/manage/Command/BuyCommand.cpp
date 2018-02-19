@@ -1,22 +1,17 @@
-//
-// Created by admntiasf on 18/2/2018.
-//
 
 #include "BuyCommand.h"
-#include "../../entity/Living/Hero/Hero.h"
 #include "../../TheGrid.h"
 
 BuyCommand::BuyCommand(Market* market)
     :Command("buy", "buy <hero_name> (item | spell) ( <item_id> | <spell_id> )Command to buy an item or spell"),
-    market(market)
-{ }
+    market(market) {}
 
-void BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
+bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     if(args.size() != 3)
     {
         std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return ;
+        return false;
     }
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
@@ -70,4 +65,3 @@ void BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         std::cout << "Invalid Usage : " << getUsage() << std::endl;
     }
 }
-

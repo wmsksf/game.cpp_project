@@ -6,7 +6,7 @@
 #include "CommonTile.h"
 #include "NonAccessibleTile.h"
 #include "Market.h"
-#include "TileFactory.h"
+#include "../../manage/Manager/TileFactory.h"
 
 class TheGrid;
 

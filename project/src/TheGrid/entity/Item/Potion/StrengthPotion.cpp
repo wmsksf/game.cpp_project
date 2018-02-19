@@ -14,7 +14,7 @@ const std::string& StrengthPotion::getDescription()
                          getName(), getRequiredLevel(), strengthPoints);
 }
 
-void StrengthPotion::boost(Hero* hero) const
+void StrengthPotion::boost(Hero* hero)
 {
     hero->setStrength(hero->getStrength() + strengthPoints);
 }

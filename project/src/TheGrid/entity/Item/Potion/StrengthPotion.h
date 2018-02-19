@@ -14,7 +14,7 @@ public:
 
 	const std::string& getDescription();
 
-	void boost(Hero* hero) const;
+	void boost(Hero* hero);
 
 	Item* clone();
 

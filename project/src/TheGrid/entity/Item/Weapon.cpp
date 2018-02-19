@@ -21,7 +21,7 @@ int Weapon::getDamage() const
 
 Item* Weapon::clone()
 {
-    Weapon *weapon = new Weapon(this->getName());
+    Weapon* weapon = new Weapon(this->getName());
 
     weapon->setPrice(this->getPrice());
     weapon->setRequiredLevel(this->getRequiredLevel());

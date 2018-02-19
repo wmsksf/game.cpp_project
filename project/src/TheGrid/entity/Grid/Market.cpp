@@ -35,13 +35,11 @@ void Market::printMarket()
 
 void Market::printItems()
 {
-    std::cout << "Items:" << std::endl;
+    std::cout << " Items:" << std::endl;
 
-    int i = 0;
-    for(std::vector<Item*>::iterator it = marketofItems.begin(); it != marketofItems.end(); it++)
+    for(int i = 0; i < marketofItems.size(); i++)
     {
-        i++;
-        std::cout << "[" << i << "]" << (*it)->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << marketofItems[i]->getDescription() << std::endl;
     }
 
     std::cout << std::endl;
@@ -50,13 +48,11 @@ void Market::printItems()
 
 void Market::printSpells()
 {
-    std::cout << "Spells.txt:" << std::endl;
+    std::cout << " Spells" << std::endl;
 
-    int i = 0;
-    for(std::vector<Spell*>::iterator it = marketofSpells.begin(); it != marketofSpells.end(); it++)
+    for(int i = 0; i < marketofSpells.size(); i++)
     {
-        i++;
-        std::cout << "[" << i << "]" << (*it)->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << marketofSpells[i]->getDescription() << std::endl;
     }
 
     std::cout << std::endl;
@@ -92,14 +88,14 @@ const std::vector<Spell*> &Market::getSpells() const
     return marketofSpells;
 }
 
-void Market::enter(TheGrid *theGrid)
+void Market::enter(TheGrid* theGrid)
 {
-    std::cout << "Welcome to the Market mighty Hero party !!" << std::endl;
+    std::cout << "Welcome to the Market mighty Hero party!" << std::endl;
 
     theGrid->getCommandManager()->registerManager(marketManager);
 }
 
-void Market::leave(TheGrid *theGrid)
+void Market::leave(TheGrid* theGrid)
 {
     theGrid->getCommandManager()->unregisterManager(marketManager);
 }

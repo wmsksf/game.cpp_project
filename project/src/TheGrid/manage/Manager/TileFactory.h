@@ -3,10 +3,10 @@
 #define NONO_TILEFACTORY_H
 
 #include <vector>
-#include "Tile.h"
-#include "../Item/Item.h"
-#include "Market.h"
-#include "../../manage/Manager/ItemFactory.h"
+#include "../../entity/Grid/Tile.h"
+#include "../../entity/Item/Item.h"
+#include "../../entity/Grid/Market.h"
+#include "ItemFactory.h"
 
 class TileFactory
 {

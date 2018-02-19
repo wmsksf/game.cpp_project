@@ -14,7 +14,8 @@ class TheGrid;
 class BattleArena
 {
 private:
-    CommandManager* commandManager;
+    CommandManager* BattleManager;
+
     TheGrid* theGrid;
 
     HeroParty* party;
@@ -30,6 +31,7 @@ private:
 	void defeat();
 	bool victors();
 
+public:
     void displayBattleInfo();
 
 	void spellCast(Hero* hero, Spell* spell, Monster* monster);
@@ -38,23 +40,22 @@ private:
 
 	void usePotion(Hero* hero, Potion* potion);
 
-public:
-    BattleArena(TheGrid *pGrid);
+    BattleArena(TheGrid *theGrid);
 
     void start();
 
-private:
 	void showMonsters();
 
 	Monster* monsterDialog();
 
-	Spell *spellDialog(Hero *hero);
+    HeroParty* getParty() const;
 
-	Potion *potionDialog(Hero *hero);
+    std::vector<Monster *>* getMonsters() const;
 
+private:
     void initCommandManager();
 
-    MonsterStats *calculateStats(Monster *monster);
+    MonsterStats* calculateStats(Monster* monster);
 };
 
 #endif //NONO_BATTLEARENA_H

@@ -4,7 +4,7 @@
 #include "../../manage/Manager/BattleArena.h"
 
 CommonTile::CommonTile()
-            :Tile("CommonTile"){}
+            :Tile("CommonTile") {}
 
 bool CommonTile::isAccessible()
 {
@@ -24,8 +24,8 @@ void CommonTile::enter(TheGrid* theGrid)
 
     if(probability < 0.7)
     {
-        BattleArena battle = new BattleArena(theGrid);
+        BattleArena* battle = new BattleArena(theGrid);
 
-        battle.start();
+        battle->start();
     }
 }

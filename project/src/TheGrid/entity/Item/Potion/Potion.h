@@ -15,7 +15,8 @@ public:
 
     virtual const std::string& getDescription() = 0;
 
-    virtual void boost(Hero* hero);
+    virtual void boost(Hero* hero) = 0;
+
     virtual Item* clone();
 };
 

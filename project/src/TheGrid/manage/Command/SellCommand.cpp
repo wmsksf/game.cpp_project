@@ -1,22 +1,20 @@
-//
-// Created by admntiasf on 3/11/2016.
 
 #include "SellCommand.h"
 #include "../../TheGrid.h"
 
 SellCommand::SellCommand(Market *market)
-    :Command("sell", "sell <hero_name> (item | spell) (<item_name> | <spell_name>)  Command to sell an item or spell."),
+    :Command("sell", "[sell <hero_name> (item | spell) (<item_name> | <spell_name>)]  Command to sell an item or spell"),
      market(market)
 {
 
 }
 
-void SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
+bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     if(args.size() != 3)
     {
         std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return ;
+        return false;
     }
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
@@ -24,6 +22,7 @@ void SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     if(hero == nullptr)
     {
         std::cout << "Unknown hero " << args[0] << std::endl;
+        return false;
     }
 
     if(args[1].compare("item") == 0)
@@ -34,6 +33,7 @@ void SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         if(item == nullptr)
         {
             std::cout << "Unable to find item." << std::endl;
+            return false;
         }
 
         hero->removeItem(item);
@@ -46,6 +46,7 @@ void SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         if(spell == nullptr)
         {
             std::cout << "Unable to find spell." << std::endl;
+            return false;
         }
 
         hero->removeSpell(spell);
@@ -54,5 +55,8 @@ void SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     else
     {
         std::cout << "Invalid Usage : " << getUsage() << std::endl;
+        return false;
     }
+
+    return true;
 }

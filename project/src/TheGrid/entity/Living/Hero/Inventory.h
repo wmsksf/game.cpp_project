@@ -32,6 +32,11 @@ public:
 	void removeSpell(Spell* spell);
 
     void display();
+
+	bool noSpells();
+	bool noPotions();
+	bool noArmors();
+	bool noWeapons();
 };
 
 #endif //NONO_INVENTORY_H

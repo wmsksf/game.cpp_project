@@ -2,13 +2,12 @@
 #include "MonsterFactory.h"
 #include "../Random/Utils.h"
 
-MonsterFactory::MonsterFactory(NameFactory* nameFactory)
-    : nameFactory(nameFactory)
+MonsterFactory::MonsterFactory()
 {
-
+    nameFactory = new NameFactory("Resources/Monsters.txt");
 }
 
-std::vector<Monster *>* MonsterFactory::createMonsters(HeroParty *party)
+std::vector<Monster*>* MonsterFactory::createMonsters(HeroParty *party)
 {
     std::vector<Monster*>* monsters = new std::vector<Monster*>();
     int numberOfMonsters = randomInRange(2, 5);
@@ -34,17 +33,17 @@ std::vector<Monster *>* MonsterFactory::createMonsters(HeroParty *party)
     return monsters;
 }
 
-Exoskeleton *MonsterFactory::createExoskeleton(HeroParty *party)
+Exoskeleton* MonsterFactory::createExoskeleton(HeroParty* party)
 {
     return new Exoskeleton(nameFactory->createName("Exoskeleton"), monsterLevel(party->getAverageLevel()));
 }
 
-Spirit *MonsterFactory::createSpirit(HeroParty *party)
+Spirit* MonsterFactory::createSpirit(HeroParty* party)
 {
     return new Spirit(nameFactory->createName("Spirit"), monsterLevel(party->getAverageLevel()));
 }
 
-Dragon *MonsterFactory::createDragon(HeroParty *party)
+Dragon* MonsterFactory::createDragon(HeroParty* party)
 {
     return new Dragon(nameFactory->createName("Dragon"), monsterLevel(party->getAverageLevel()));
 }

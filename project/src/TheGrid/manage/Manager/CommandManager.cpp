@@ -7,15 +7,10 @@
 #include "../Command/CreateHeroCommand.h"
 #include "../Command/HelpCommand.h"
 
-CommandManager::CommandManager(std::vector<Command *> *commands)
-	:commands(commands), managers()
-{
+CommandManager::CommandManager(std::vector<Command *>* commands)
+	:commands(commands), managers() {}
 
-}
-
-
-
-bool CommandManager::execute(TheGrid *theGrid, const std::string &line)
+bool CommandManager::execute(TheGrid* theGrid, const std::string &line)
 {
 	for(int i =0; i < managers.size(); i++)
 	{
@@ -66,12 +61,12 @@ std::vector<Command *>* CommandManager::getCommands()
 	return allCommands;
 }
 
-void CommandManager::registerManager(CommandManager *manager)
+void CommandManager::registerManager(CommandManager* manager)
 {
 	managers.push_back(manager);
 }
 
-void CommandManager::unregisterManager(CommandManager *manager)
+void CommandManager::unregisterManager(CommandManager* manager)
 {
 	for(int i =0; i < managers.size(); i++)
 	{

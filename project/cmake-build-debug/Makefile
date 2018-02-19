@@ -285,33 +285,6 @@ src/TheGrid/entity/Grid/Tile.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.s
 .PHONY : src/TheGrid/entity/Grid/Tile.cpp.s
 
-src/TheGrid/entity/Grid/TileFactory.o: src/TheGrid/entity/Grid/TileFactory.cpp.o
-
-.PHONY : src/TheGrid/entity/Grid/TileFactory.o
-
-# target to build an object file
-src/TheGrid/entity/Grid/TileFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o
-.PHONY : src/TheGrid/entity/Grid/TileFactory.cpp.o
-
-src/TheGrid/entity/Grid/TileFactory.i: src/TheGrid/entity/Grid/TileFactory.cpp.i
-
-.PHONY : src/TheGrid/entity/Grid/TileFactory.i
-
-# target to preprocess a source file
-src/TheGrid/entity/Grid/TileFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.i
-.PHONY : src/TheGrid/entity/Grid/TileFactory.cpp.i
-
-src/TheGrid/entity/Grid/TileFactory.s: src/TheGrid/entity/Grid/TileFactory.cpp.s
-
-.PHONY : src/TheGrid/entity/Grid/TileFactory.s
-
-# target to generate assembly for a file
-src/TheGrid/entity/Grid/TileFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.s
-.PHONY : src/TheGrid/entity/Grid/TileFactory.cpp.s
-
 src/TheGrid/entity/Item/Armor.o: src/TheGrid/entity/Item/Armor.cpp.o
 
 .PHONY : src/TheGrid/entity/Item/Armor.o
@@ -1095,6 +1068,33 @@ src/TheGrid/main.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/main.cpp.s
 .PHONY : src/TheGrid/main.cpp.s
 
+src/TheGrid/manage/Command/AttackCommand.o: src/TheGrid/manage/Command/AttackCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/AttackCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/AttackCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.o
+
+src/TheGrid/manage/Command/AttackCommand.i: src/TheGrid/manage/Command/AttackCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/AttackCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/AttackCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.i
+
+src/TheGrid/manage/Command/AttackCommand.s: src/TheGrid/manage/Command/AttackCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/AttackCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/AttackCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.s
+
 src/TheGrid/manage/Command/BuyCommand.o: src/TheGrid/manage/Command/BuyCommand.cpp.o
 
 .PHONY : src/TheGrid/manage/Command/BuyCommand.o
@@ -1121,6 +1121,33 @@ src/TheGrid/manage/Command/BuyCommand.s: src/TheGrid/manage/Command/BuyCommand.c
 src/TheGrid/manage/Command/BuyCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.s
+
+src/TheGrid/manage/Command/CastSpellCommand.o: src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/CastSpellCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+
+src/TheGrid/manage/Command/CastSpellCommand.i: src/TheGrid/manage/Command/CastSpellCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/CastSpellCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.i
+
+src/TheGrid/manage/Command/CastSpellCommand.s: src/TheGrid/manage/Command/CastSpellCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/CastSpellCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.s
 
 src/TheGrid/manage/Command/Command.o: src/TheGrid/manage/Command/Command.cpp.o
 
@@ -1365,6 +1392,33 @@ src/TheGrid/manage/Command/SellCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/SellCommand.cpp.s
 
+src/TheGrid/manage/Command/UsePotionCommand.o: src/TheGrid/manage/Command/UsePotionCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/UsePotionCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/UsePotionCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.cpp.o
+
+src/TheGrid/manage/Command/UsePotionCommand.i: src/TheGrid/manage/Command/UsePotionCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/UsePotionCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/UsePotionCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.cpp.i
+
+src/TheGrid/manage/Command/UsePotionCommand.s: src/TheGrid/manage/Command/UsePotionCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/UsePotionCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/UsePotionCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/UsePotionCommand.cpp.s
+
 src/TheGrid/manage/Manager/BattleArena.o: src/TheGrid/manage/Manager/BattleArena.cpp.o
 
 .PHONY : src/TheGrid/manage/Manager/BattleArena.o
@@ -1391,33 +1445,6 @@ src/TheGrid/manage/Manager/BattleArena.s: src/TheGrid/manage/Manager/BattleArena
 src/TheGrid/manage/Manager/BattleArena.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.s
 .PHONY : src/TheGrid/manage/Manager/BattleArena.cpp.s
-
-src/TheGrid/manage/Manager/BattleManager.o: src/TheGrid/manage/Manager/BattleManager.cpp.o
-
-.PHONY : src/TheGrid/manage/Manager/BattleManager.o
-
-# target to build an object file
-src/TheGrid/manage/Manager/BattleManager.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleManager.cpp.o
-.PHONY : src/TheGrid/manage/Manager/BattleManager.cpp.o
-
-src/TheGrid/manage/Manager/BattleManager.i: src/TheGrid/manage/Manager/BattleManager.cpp.i
-
-.PHONY : src/TheGrid/manage/Manager/BattleManager.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Manager/BattleManager.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleManager.cpp.i
-.PHONY : src/TheGrid/manage/Manager/BattleManager.cpp.i
-
-src/TheGrid/manage/Manager/BattleManager.s: src/TheGrid/manage/Manager/BattleManager.cpp.s
-
-.PHONY : src/TheGrid/manage/Manager/BattleManager.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Manager/BattleManager.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleManager.cpp.s
-.PHONY : src/TheGrid/manage/Manager/BattleManager.cpp.s
 
 src/TheGrid/manage/Manager/CommandManager.o: src/TheGrid/manage/Manager/CommandManager.cpp.o
 
@@ -1608,6 +1635,33 @@ src/TheGrid/manage/Manager/NameFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/NameFactory.cpp.s
 .PHONY : src/TheGrid/manage/Manager/NameFactory.cpp.s
 
+src/TheGrid/manage/Manager/TileFactory.o: src/TheGrid/manage/Manager/TileFactory.cpp.o
+
+.PHONY : src/TheGrid/manage/Manager/TileFactory.o
+
+# target to build an object file
+src/TheGrid/manage/Manager/TileFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/TileFactory.cpp.o
+.PHONY : src/TheGrid/manage/Manager/TileFactory.cpp.o
+
+src/TheGrid/manage/Manager/TileFactory.i: src/TheGrid/manage/Manager/TileFactory.cpp.i
+
+.PHONY : src/TheGrid/manage/Manager/TileFactory.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Manager/TileFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/TileFactory.cpp.i
+.PHONY : src/TheGrid/manage/Manager/TileFactory.cpp.i
+
+src/TheGrid/manage/Manager/TileFactory.s: src/TheGrid/manage/Manager/TileFactory.cpp.s
+
+.PHONY : src/TheGrid/manage/Manager/TileFactory.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Manager/TileFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Manager/TileFactory.cpp.s
+.PHONY : src/TheGrid/manage/Manager/TileFactory.cpp.s
+
 src/TheGrid/manage/Random/Random.o: src/TheGrid/manage/Random/Random.cpp.o
 
 .PHONY : src/TheGrid/manage/Random/Random.o
@@ -1689,9 +1743,6 @@ help:
 	@echo "... src/TheGrid/entity/Grid/Tile.o"
 	@echo "... src/TheGrid/entity/Grid/Tile.i"
 	@echo "... src/TheGrid/entity/Grid/Tile.s"
-	@echo "... src/TheGrid/entity/Grid/TileFactory.o"
-	@echo "... src/TheGrid/entity/Grid/TileFactory.i"
-	@echo "... src/TheGrid/entity/Grid/TileFactory.s"
 	@echo "... src/TheGrid/entity/Item/Armor.o"
 	@echo "... src/TheGrid/entity/Item/Armor.i"
 	@echo "... src/TheGrid/entity/Item/Armor.s"
@@ -1779,9 +1830,15 @@ help:
 	@echo "... src/TheGrid/main.o"
 	@echo "... src/TheGrid/main.i"
 	@echo "... src/TheGrid/main.s"
+	@echo "... src/TheGrid/manage/Command/AttackCommand.o"
+	@echo "... src/TheGrid/manage/Command/AttackCommand.i"
+	@echo "... src/TheGrid/manage/Command/AttackCommand.s"
 	@echo "... src/TheGrid/manage/Command/BuyCommand.o"
 	@echo "... src/TheGrid/manage/Command/BuyCommand.i"
 	@echo "... src/TheGrid/manage/Command/BuyCommand.s"
+	@echo "... src/TheGrid/manage/Command/CastSpellCommand.o"
+	@echo "... src/TheGrid/manage/Command/CastSpellCommand.i"
+	@echo "... src/TheGrid/manage/Command/CastSpellCommand.s"
 	@echo "... src/TheGrid/manage/Command/Command.o"
 	@echo "... src/TheGrid/manage/Command/Command.i"
 	@echo "... src/TheGrid/manage/Command/Command.s"
@@ -1809,12 +1866,12 @@ help:
 	@echo "... src/TheGrid/manage/Command/SellCommand.o"
 	@echo "... src/TheGrid/manage/Command/SellCommand.i"
 	@echo "... src/TheGrid/manage/Command/SellCommand.s"
+	@echo "... src/TheGrid/manage/Command/UsePotionCommand.o"
+	@echo "... src/TheGrid/manage/Command/UsePotionCommand.i"
+	@echo "... src/TheGrid/manage/Command/UsePotionCommand.s"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.o"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.i"
 	@echo "... src/TheGrid/manage/Manager/BattleArena.s"
-	@echo "... src/TheGrid/manage/Manager/BattleManager.o"
-	@echo "... src/TheGrid/manage/Manager/BattleManager.i"
-	@echo "... src/TheGrid/manage/Manager/BattleManager.s"
 	@echo "... src/TheGrid/manage/Manager/CommandManager.o"
 	@echo "... src/TheGrid/manage/Manager/CommandManager.i"
 	@echo "... src/TheGrid/manage/Manager/CommandManager.s"
@@ -1836,6 +1893,9 @@ help:
 	@echo "... src/TheGrid/manage/Manager/NameFactory.o"
 	@echo "... src/TheGrid/manage/Manager/NameFactory.i"
 	@echo "... src/TheGrid/manage/Manager/NameFactory.s"
+	@echo "... src/TheGrid/manage/Manager/TileFactory.o"
+	@echo "... src/TheGrid/manage/Manager/TileFactory.i"
+	@echo "... src/TheGrid/manage/Manager/TileFactory.s"
 	@echo "... src/TheGrid/manage/Random/Random.o"
 	@echo "... src/TheGrid/manage/Random/Random.i"
 	@echo "... src/TheGrid/manage/Random/Random.s"

@@ -14,7 +14,7 @@ const std::string& HealthPotion::getDescription()
                          getName(), getRequiredLevel(), healthPoints);
 }
 
-void HealthPotion::boost(Hero* hero) const
+void HealthPotion::boost(Hero* hero)
 {
     hero->restoreHealth(healthPoints);
 }

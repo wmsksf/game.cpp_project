@@ -1,8 +1,8 @@
 
 #include "TileFactory.h"
-#include "../../manage/Random/Random.h"
-#include "CommonTile.h"
-#include "NonAccessibleTile.h"
+#include "../Random/Random.h"
+#include "../../entity/Grid/CommonTile.h"
+#include "../../entity/Grid/NonAccessibleTile.h"
 
 /* Implementing Flyweight pattern */
 static Tile* blockTile = new NonAccessibleTile();

@@ -1,10 +1,6 @@
-//
-// Created by admntiasf on 18/2/2018.
-//
 
 #ifndef NONO_HEROFACTORY_H
 #define NONO_HEROFACTORY_H
-
 
 #include "../../entity/Living/Hero/Hero.h"
 #include "../../entity/Living/Hero/Paladin.h"
@@ -13,8 +9,6 @@
 
 class HeroFactory
 {
-private:
-
 public:
     Paladin* createPaladin(const std::string& name);
 
@@ -22,6 +16,5 @@ public:
 
     Warrior* createWarrior(const std::string& name);
 };
-
 
 #endif //NONO_HEROFACTORY_H

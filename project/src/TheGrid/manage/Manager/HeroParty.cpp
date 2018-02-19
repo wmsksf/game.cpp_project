@@ -46,7 +46,6 @@ bool HeroParty::move(MovingDirection direction, TheGrid* theGrid)
             break;
 
         case down:
-
             tile = theGrid->getGrid()->getTile((getX() + 1), getY());
 
             if(tile == nullptr) return false;
@@ -58,6 +57,7 @@ bool HeroParty::move(MovingDirection direction, TheGrid* theGrid)
             tile->enter(theGrid);
 
             break;
+
         case left:
             tile = theGrid->getGrid()->getTile(getX(), (getY() - 1));
 
@@ -70,6 +70,7 @@ bool HeroParty::move(MovingDirection direction, TheGrid* theGrid)
             tile->enter(theGrid);
 
             break;
+
         case right:
             tile = theGrid->getGrid()->getTile(getX(), (getY() + 1));
 
@@ -89,14 +90,11 @@ bool HeroParty::move(MovingDirection direction, TheGrid* theGrid)
 
 void HeroParty::displayParty()
 {
-    int i = 0;
-    for (std::vector<Hero*>::iterator it = heroes.begin(); it != heroes.end(); it++)
+    for (int i = 0; i < heroes.size(); i++)
     {
-        i++;
-        std::cout << "[" << i << "]" << (*it)->getName() << std::endl;
+        std::cout << "[" << i + 1 << "]" << heroes[i]->getName() << std::endl;
     }
 }
-
 double HeroParty::getAverageLevel()
 {
     int sum = 0;
@@ -119,12 +117,12 @@ int HeroParty::getPartySize()
     return heroes.size();
 }
 
-Hero *HeroParty::getHero(int index)
+Hero* HeroParty::getHero(int index)
 {
     return heroes[index - 1];
 }
 
-Hero *HeroParty::getHero(const std::string &name)
+Hero* HeroParty::getHero(const std::string &name)
 {
     for(int i = 0; i < heroes.size(); i++)
     {

@@ -10,7 +10,7 @@ class QuitGameCommand : public Command
 public:
 	QuitGameCommand();
 
-	virtual void execute(TheGrid *theGrid, std::vector<std::string> &args);
+	bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_QUITGAMECOMMAND_H

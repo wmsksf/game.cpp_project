@@ -16,7 +16,7 @@ private:
 public :
     SellCommand(Market* market);
 
-    void execute(TheGrid *theGrid, std::vector<std::string> &args);
+    bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 
 };
 
