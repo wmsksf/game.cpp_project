@@ -15,83 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0112f585-d84e-4ce6-b815-a13c22937116" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/AttackCommand.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/AttackCommand.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/CastSpellCommand.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/CastSpellCommand.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/UsePotionCommand.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/UsePotionCommand.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleManager.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleManager.h" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/TileFactory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/TileFactory.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/TileFactory.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/TileFactory.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/nono.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/nono.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/nono.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/TheGrid.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/TheGrid.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/TheGrid.h" afterPath="$PROJECT_DIR$/src/TheGrid/TheGrid.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/CommonTile.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Grid.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Market.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/NonAccessibleTile.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/NonAccessibleTile.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Grid/Tile.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/DexterityPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/HealthPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/MagicPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/Potion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Potion/StrengthPotion.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Item/Weapon.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.h" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Hero/Inventory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/entity/Living/Living.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/BuyCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/BuyCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/BuyCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/BuyCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/Command.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/Command.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/CreateHeroCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/CreateHeroCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/DisplayMapCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/DisplayMapCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/DisplayMapCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/DisplayMapCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/HelpCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/HelpCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/HelpCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/HelpCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/InventoryListCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/InventoryListCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/InventoryListCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/InventoryListCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/MarketListCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/MarketListCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/MarketListCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/MarketListCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/MoveCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/QuitGameCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/QuitGameCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/QuitGameCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/QuitGameCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/SellCommand.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/SellCommand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Command/SellCommand.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Command/SellCommand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleArena.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleArena.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleArena.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/BattleArena.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/CommandManager.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/CommandManager.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/CommandManager.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/CommandManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/EntityName.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/EntityName.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/EntityName.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/EntityName.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroFactory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroFactory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroFactory.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroFactory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/HeroParty.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/ItemFactory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/ItemFactory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/ItemFactory.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/ItemFactory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/MonsterFactory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/MonsterFactory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/MonsterFactory.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/MonsterFactory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/NameFactory.cpp" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/NameFactory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TheGrid/manage/Manager/NameFactory.h" afterPath="$PROJECT_DIR$/src/TheGrid/manage/Manager/NameFactory.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -367,7 +291,7 @@
       <workItem from="1518962618300" duration="5161000" />
       <workItem from="1478193474003" duration="6201000" />
       <workItem from="1518983771621" duration="58000" />
-      <workItem from="1518983885538" duration="16743000" />
+      <workItem from="1518983885538" duration="16825000" />
     </task>
     <task id="LOCAL-00001" summary="first stage simple stuff... not much done enjoy:(">
       <created>1516267754657</created>
@@ -509,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518984672519</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="almost there!!">
+      <created>1519045426594</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1519045426598</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190410000" />
+    <option name="totallyTimeSpent" value="190492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +537,8 @@
     <MESSAGE value="a lot of stuff done" />
     <MESSAGE value="a lot of stuff done 2.0" />
     <MESSAGE value="almost there!" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost there!" />
+    <MESSAGE value="almost there!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost there!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
