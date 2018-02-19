@@ -11,30 +11,18 @@ bool InventoryListCommand::execute(TheGrid *theGrid, std::vector<std::string> &a
 {
     if(args.size() != 1)
     {
-        std::cout << getUsage() << std::endl;
+        std::cout << "Invalid Usage :" << getUsage() << std::endl;
 
         return false;
     }
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
 
-    do
+    if(hero == nullptr)
     {
-        if(hero == nullptr)
-        {
-            std::cout << "Unknown hero" << std::endl;
-            std::cout << "You may have given the name wrong..." << std::endl;
-            std::cout << "Please choose a name of one of your heroes below." << std::endl;
-
-            theGrid->getParty()->displayParty();
-        }
-
-        std::string name;
-        std::cin >> name;
-
-        hero = theGrid->getParty()->getHero(name);
-
-    } while(hero != nullptr);
+        std::cout << "Unknown hero " << args[0] << std::endl;
+        return false;
+    }
 
     hero->printInventory();
 }

@@ -9,14 +9,14 @@ CreateHeroCommand::CreateHeroCommand()
         :Command("create", "[create (Paladin | Sorcerer | Warrior)] Command to create a hero")
 {}
 
-void CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
+bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     HeroFactory* heroFactory = theGrid->getHeroFactory();
 
     if(theGrid->getParty()->getPartySize() == 3)
     {
         std::cout << "Worthy player you can create up to three heroes!" << std::endl;
-        return;
+        return false;
     }
 
     std::string name;
@@ -35,6 +35,8 @@ void CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
     {
         theGrid->getParty()->addHero(heroFactory->createWarrior(name));
     }
+
+    return true;
 }
 
 void CreateHeroCommand::HeroName(std::string &hero)

@@ -14,7 +14,7 @@ private:
 public:
     CreateHeroCommand();
 
-    void execute(TheGrid *theGrid, std::vector<std::string> &args);
+    bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 #endif //NONO_CREATEHERO_H

@@ -321,16 +321,64 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayArenaCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayArenaCommand.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h">
 			<Option target="nono"/>
 		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h">
+			<Option target="nono"/>
+		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinArenaCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinArenaCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.cpp">
@@ -343,6 +391,12 @@
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MarketListCommand.h">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp">
+			<Option target="nono"/>
+		</Unit>
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoneyofHeroCommand.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp">

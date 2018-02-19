@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 Spirit::Spirit(const std::string &name, int level)
-
             :Monster(name, level)
 {
     maxHealthPower = 280 * level;

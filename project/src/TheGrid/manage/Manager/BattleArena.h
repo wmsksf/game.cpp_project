@@ -52,6 +52,8 @@ public:
 
     std::vector<Monster *>* getMonsters() const;
 
+	CommandManager* getBattleManager() const;
+
 private:
     void initCommandManager();
 

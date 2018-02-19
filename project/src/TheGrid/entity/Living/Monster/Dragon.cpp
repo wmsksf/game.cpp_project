@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 Dragon::Dragon(const std::string &name, int level)
-
             :Monster(name, level)
 {
     maxHealthPower = 500 * level;

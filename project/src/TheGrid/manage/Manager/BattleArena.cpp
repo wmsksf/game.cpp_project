@@ -4,6 +4,10 @@
 #include "../Command/AttackCommand.h"
 #include "../Command/CastSpellCommand.h"
 #include "../Command/UsePotionCommand.h"
+#include "../Command/GetWeaponCommand.h"
+#include "../Command/EquipArmorCommand.h"
+#include "../Command/DisplayArenaCommand.h"
+#include "../Command/HelpinArenaCommand.h"
 
 
 BattleArena::BattleArena(TheGrid *theGrid)
@@ -39,8 +43,9 @@ void BattleArena::heroRound(Hero* hero)
 	{
 		std::cout << "Mighty hero " << hero->getName() << ", what is your command ?";
 		std::cout << std::endl;
+
 		std::cout << "You may either attack, castSpell, usePotion..." << std::endl;
-		std::cout << "Or equip an armor, getWeapon..." << std::endl;
+		std::cout << "Or equipArmor, getWeapon..." << std::endl;
 
 
 		std::string line;
@@ -103,7 +108,7 @@ void BattleArena::start()
 
 bool BattleArena::victors()
 {
-	return monsters->size() == 0;
+	return monsters->empty();
 }
 
 void BattleArena::defeat()
@@ -151,41 +156,57 @@ void BattleArena::initCommandManager()
 	commands->push_back(new AttackCommand(this));
 	commands->push_back(new CastSpellCommand(this));
 	commands->push_back(new UsePotionCommand(this));
-	commands->push_back(new EquipArmorCommand(this));
-	commands->push_back(new GetWeaponCommand(this));
+	commands->push_back(new EquipArmorCommand());
+	commands->push_back(new GetWeaponCommand());
+	commands->push_back(new DisplayArenaCommand(this));
+    commands->push_back(new HelpinArenaCommand(this));
 
 	BattleManager = new CommandManager(commands);
 }
 
+CommandManager* BattleArena::getBattleManager() const
+{
+    return BattleManager;
+}
 
 void BattleArena::spellCast(Hero *hero, Spell *spell, Monster *monster)
 {
-	/// TODO calculate damage
+//	/// TODO calculate damage
+//
+//	MonsterStats* stats = calculateStats(monster);
+//
+//
+//	//add effect
+//	monster.addEffect(spell.getEffect());
 
-	MonsterStats* stats = calculateStats(monster);
 
+}
 
-	//add effect
-	monster.addEffect(spell.getEffect());
+void BattleArena::attack(Hero *hero, Monster *monster)
+{
 
+}
+
+void BattleArena::usePotion(Hero *hero, Potion *potion)
+{
 
 }
 
 MonsterStats *BattleArena::calculateStats(Monster *monster)
 {
-	MonsterStats* stats = new MonsterStats(monster);
-
-	std::vector<Effect*> effects = monster.getEffects();
-
-	for(int i = 0; i < )
-	{
-		Effect* effect;
-
-		effect->apply(stats);
-	}
-
-	//apply all monster effects
-	return stats;
+//	MonsterStats* stats = new MonsterStats(monster);
+//
+//	std::vector<Effect*> effects = monster.getEffects();
+//
+//	for(int i = 0; i < )
+//	{
+//		Effect* effect;
+//
+//		effect->apply(stats);
+//	}
+//
+//	//apply all monster effects
+//	return stats;
 }
 
 HeroParty* BattleArena::getParty() const

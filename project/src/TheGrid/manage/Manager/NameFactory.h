@@ -12,7 +12,7 @@ class NameFactory
 private:
     std::vector<EntityName*> entityNames;
 
-    std::map<const std::string&, int> frequencyMap;
+    std::map<const std::string, int> frequencyMap;
 
     void read(const std::string& filename);
 

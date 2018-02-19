@@ -6,9 +6,7 @@
 #include "../../../manage/Random/Utils.h"
 
 Monster::Monster(const std::string &name, int level)
-
-		: Living(name, level)
-{ }
+		:Living(name, level) {}
 
 void Monster::displayStats()
 {

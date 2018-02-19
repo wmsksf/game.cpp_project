@@ -14,7 +14,7 @@ bool MoveCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
 	if(args.size() != 1)
 	{
-		std::cout << "Invalid usage : move (up | down | right | left)" << std::endl;
+		std::cout << "Invalid usage : " << getUsage() << std::endl;
 		return false;
 	}
 

@@ -132,3 +132,8 @@ Hero* HeroParty::getHero(const std::string &name)
 
     return nullptr;
 }
+
+const std::vector<Hero*> &HeroParty::getHeroes()
+{
+    return heroes;
+}

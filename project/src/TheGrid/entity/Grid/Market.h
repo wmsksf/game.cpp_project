@@ -37,6 +37,8 @@ public:
     const std::vector<Item*> &getItems() const;
     const std::vector<Spell*> &getSpells() const;
 
+    CommandManager *getMarketManager() const;
+
 private:
     void initMarketManager();
 

@@ -5,7 +5,6 @@
 #include "../../../manage/Random/Utils.h"
 
 Hero::Hero(const std::string &name)
-
 		: Living(name, 1),
           money(1000),
 		  experience(0),

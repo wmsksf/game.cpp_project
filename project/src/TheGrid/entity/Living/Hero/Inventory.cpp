@@ -2,7 +2,7 @@
 #include "Inventory.h"
 #include "../../Spell/Spell.h"
 
-Item *Inventory::getItem(const std::string &name)
+Item* Inventory::getItem(const std::string &name)
 {
 	std::vector<Item *>::iterator it = items.begin();
 
@@ -12,13 +12,14 @@ Item *Inventory::getItem(const std::string &name)
 		if (item->getName().compare(name) == 0) {
 			return item;
 		}
+
 		it++;
 	}
 
 	return nullptr;
 }
 
-Spell *Inventory::getSpell(const std::string &name)
+Spell* Inventory::getSpell(const std::string &name)
 {
 	std::vector<Spell*>::iterator it = spells.begin();
 
@@ -28,6 +29,7 @@ Spell *Inventory::getSpell(const std::string &name)
 		if (spell->getName().compare(name) == 0) {
 			return spell;
 		}
+
 		it++;
 	}
 

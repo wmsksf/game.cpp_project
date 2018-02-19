@@ -62,7 +62,7 @@ void NameFactory::read(const std::string &filename)
 
         entityNames.push_back(name);
 
-        std::map<const std::string&, int>::iterator it = frequencyMap.find(name->getType());
+        std::map<const std::string, int>::iterator it = frequencyMap.find(name->getType());
         if(it == frequencyMap.end())
         {
             frequencyMap[name->getType()] = name->getFrequency();

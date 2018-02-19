@@ -4,7 +4,7 @@
 
 FireSpellEffect::FireSpellEffect()
 
-		: Effect()
+		:Effect()
 {
 	damage = randomInRange(1, 5);
 }

@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 Exoskeleton::Exoskeleton(const std::string &name, int level)
-
             :Monster(name, level)
 {
     maxHealthPower = 300 * level;

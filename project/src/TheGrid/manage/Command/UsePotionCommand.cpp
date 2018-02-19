@@ -11,6 +11,9 @@ bool UsePotionCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     Potion* potion = getPotion(hero);
 
+    if(potion == nullptr)
+        return false;
+
     battleArena->usePotion(hero, potion);
 
     return true;
@@ -21,7 +24,7 @@ Potion* UsePotionCommand::getPotion(Hero* hero)
     if(hero->getInventory().noPotions())
     {
         std::cout << "Your inventory is empty... Cannot use any potion." << std::endl;
-        return false;
+        return nullptr;
     }
 
     std::cout << "Which potion to use <potion_name>?" << std::endl;

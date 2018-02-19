@@ -13,6 +13,9 @@ bool CastSpellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     Spell* spell = getSpell(hero);
 
+    if(spell == nullptr)
+        return false;
+
     battleArena->spellCast(hero, spell, monster);
 
     return true;
@@ -23,7 +26,7 @@ Spell* CastSpellCommand::getSpell(Hero* hero)
     if(hero->getInventory().noSpells())
     {
         std::cout << "Your inventory is empty... Cannot cast any spell." << std::endl;
-        return false;
+        return nullptr;
     }
 
     std::cout << "Which spell to cast <spell_name>?" << std::endl;

@@ -9,23 +9,41 @@ CMakeFiles/nono.dir/src/TheGrid/TheGrid.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.cpp
@@ -37,12 +55,20 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/CommonTile.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
@@ -51,9 +77,9 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
@@ -64,25 +90,54 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Grid.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.cpp
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MarketListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoneyofHeroCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Grid/NonAccessibleTile.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.cpp
@@ -113,27 +168,6 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Tile.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/entity/Grid/TileFactory.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Item/Armor.cpp.o
@@ -259,6 +293,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Hero.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Hero/Inventory.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
@@ -336,6 +371,7 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/Monster.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
 CMakeFiles/nono.dir/src/TheGrid/entity/Living/Monster/MonsterStats.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
@@ -433,21 +469,117 @@ CMakeFiles/nono.dir/src/TheGrid/main.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/main.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/main.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/AttackCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/AttackCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/BuyCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Command/Command.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
@@ -459,7 +591,633 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayArenaCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayArenaCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayArenaCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/EquipArmorCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/ExitMarketCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/GetWeaponCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinArenaCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinArenaCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinArenaCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinMarketCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/HeroPartyListCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/HeroStatsCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/InventoryListCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MarketListCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MarketListCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MarketListCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoneyofHeroCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/SellCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Command/UsePotionCommand.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/AttackCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayArenaCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinArenaCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/EntityName.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroFactory.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
@@ -473,151 +1231,9 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoveCommand.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/BattleArena.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/CommandManager.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Grid.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CreateHeroCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/DisplayMapCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MoveCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
@@ -625,9 +1241,94 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Paladin.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Sorcerer.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Warrior.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/ItemFactory.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/AgilityPotion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/DexterityPotion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/HealthPotion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/MagicPotion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/StrengthPotion.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/MonsterFactory.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Dragon.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Exoskeleton.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Spirit.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/MonsterFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/NameFactory.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h
+CMakeFiles/nono.dir/src/TheGrid/manage/Manager/TileFactory.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/CommonTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/NonAccessibleTile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Tile.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Potion/Potion.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
@@ -638,26 +1339,16 @@ CMakeFiles/nono.dir/src/TheGrid/manage/Manager/HeroParty.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
-CMakeFiles/nono.dir/src/TheGrid/manage/Manager/createMonsters.cpp.o
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Armor.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Item.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Item/Weapon.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Inventory.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/Monster.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroParty.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.cpp
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/createMonsters.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/ItemFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/NameFactory.h
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.cpp
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/TileFactory.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
 CMakeFiles/nono.dir/src/TheGrid/manage/Random/Random.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.cpp
 CMakeFiles/nono.dir/src/TheGrid/manage/Random/Utils.cpp.o
+ /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.cpp
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Utils.h

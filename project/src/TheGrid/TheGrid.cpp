@@ -9,6 +9,9 @@
 #include "manage/Command/CreateHeroCommand.h"
 #include "manage/Command/HelpCommand.h"
 #include "manage/Command/InventoryListCommand.h"
+#include "manage/Command/GetWeaponCommand.h"
+#include "manage/Command/EquipArmorCommand.h"
+#include "manage/Command/HeroStatsCommand.h"
 
 TheGrid::TheGrid()
 {
@@ -40,7 +43,7 @@ Tile* TheGrid::getCurrentTile()
 	return grid->getTile(party->getX(), party->getY());
 }
 
-CommandManager *TheGrid::getCommandManager() const
+CommandManager* TheGrid::getCommandManager() const
 {
 	return commandManager;
 }
@@ -66,11 +69,14 @@ void TheGrid::initCommandManager()
 {
 	std::vector<Command*>* commands = new std::vector<Command*>();
 
-	commands->push_back(new QuitGameCommand());
+	commands->push_back(new CreateHeroCommand());
 	commands->push_back(new MoveCommand());
 	commands->push_back(new DisplayMapCommand());
-	commands->push_back(new CreateHeroCommand());
     commands->push_back(new InventoryListCommand());
+	commands->push_back(new HeroStatsCommand());
+	commands->push_back(new EquipArmorCommand());
+	commands->push_back(new GetWeaponCommand());
+	commands->push_back(new QuitGameCommand());
 	commands->push_back(new HelpCommand());
 
 	commandManager = new CommandManager(commands);

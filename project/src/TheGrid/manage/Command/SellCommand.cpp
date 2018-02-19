@@ -4,10 +4,7 @@
 
 SellCommand::SellCommand(Market *market)
     :Command("sell", "[sell <hero_name> (item | spell) (<item_name> | <spell_name>)]  Command to sell an item or spell"),
-     market(market)
-{
-
-}
+     market(market) {}
 
 bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {

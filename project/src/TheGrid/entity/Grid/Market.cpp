@@ -4,6 +4,11 @@
 #include "../../manage/Command/BuyCommand.h"
 #include "../../manage/Command/SellCommand.h"
 #include "../../manage/Command/MarketListCommand.h"
+#include "../../manage/Command/HelpinMarketCommand.h"
+#include "../../manage/Command/ExitMarketCommand.h"
+#include "../../manage/Command/HeroPartyListCommand.h"
+#include "../../manage/Command/MoneyofHeroCommand.h"
+#include "../../manage/Command/InventoryListCommand.h"
 
 Market::Market(const std::vector<Item*> &marketofItems,
                 const std::vector<Spell*> &marketofSpells)
@@ -93,6 +98,33 @@ void Market::enter(TheGrid* theGrid)
     std::cout << "Welcome to the Market mighty Hero party!" << std::endl;
 
     theGrid->getCommandManager()->registerManager(marketManager);
+
+    std::cout << "Do you want to stay and access market or leave? [stay/leave]" << std::endl;
+
+    std::string answer;
+    std::cin >> answer;
+
+    while(answer.compare("stay") != 0 || answer.compare("leave") != 0 )
+    {
+        std::cout << "You either stay or leave Market! Please choose..." << std::endl;
+
+        std::cin >> answer;
+    }
+
+    if(answer.compare("stay") == 0)
+    {
+        std::string line;
+        marketManager->execute(theGrid, "help");
+
+        while(true)
+        {
+            getline(std::cin, line);
+            marketManager->execute(theGrid, line);
+
+            if(line.compare("exitMarket"))
+                return;
+        }
+    }
 }
 
 void Market::leave(TheGrid* theGrid)
@@ -107,6 +139,16 @@ void Market::initMarketManager()
     commands->push_back(new BuyCommand(this));
     commands->push_back(new SellCommand(this));
     commands->push_back(new MarketListCommand(this));
+    commands->push_back(new HeroPartyListCommand());
+    commands->push_back(new InventoryListCommand());
+    commands->push_back(new MoneyofHeroCommand());
+    commands->push_back(new ExitMarketCommand());
+    commands->push_back(new HelpinMarketCommand(this));
 
     marketManager = new CommandManager(commands);
+}
+
+CommandManager* Market::getMarketManager() const
+{
+    return marketManager;
 }

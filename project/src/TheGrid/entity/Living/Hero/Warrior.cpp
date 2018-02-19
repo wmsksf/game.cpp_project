@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 Warrior::Warrior(const std::string &name)
-
 		: Hero(name)
 {
 	maxHealthPower = 1200;

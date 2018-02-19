@@ -32,6 +32,7 @@ public:
 
     HeroFactory* getHeroFactory();
 
+private:
 	void initCommandManager();
 };
 

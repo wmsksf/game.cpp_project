@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout << "Initiliazing TheGrid ..." << std::endl;
+	std::cout << "Initializing TheGrid ..." << std::endl;
 
 	TheGrid theGrid;
 

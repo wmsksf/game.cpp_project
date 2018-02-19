@@ -4,7 +4,7 @@
 
 LightningSpellEffect::LightningSpellEffect()
 
-                    :Effect()
+            :Effect()
 {
     damage = randomDouble();
 }
