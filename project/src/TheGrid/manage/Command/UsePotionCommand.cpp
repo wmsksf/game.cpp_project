@@ -29,7 +29,7 @@ Potion* UsePotionCommand::getPotion(Hero* hero)
 
     std::cout << "Which potion to use <potion_name>?" << std::endl;
 
-    hero->printItemsofInventory("Potion");
+    hero->printItemsByCategory("Potion");
 
     std::string name;
     std::cin >> name;
@@ -42,7 +42,7 @@ Potion* UsePotionCommand::getPotion(Hero* hero)
         std::cout << "You may have given the name wrong..." << std::endl;
         std::cout << "Please check your inventory once again." << std::endl;
 
-        hero->printItemsofInventory("Potion");
+        hero->printItemsByCategory("Potion");
 
         std::cin >> name;
         item = hero->getItem(name);

@@ -6,7 +6,7 @@ IceSpellEffect::IceSpellEffect()
 
         :Effect()
 {
-    damage = ( randomInRange(1,5));
+    damage = (randomInRange(1,5));
 }
 
 

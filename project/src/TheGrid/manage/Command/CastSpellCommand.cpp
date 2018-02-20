@@ -9,12 +9,19 @@ bool CastSpellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     Hero* hero = battleArena->getParty()->getHero(args[0]);
 
-    Monster* monster = battleArena->monsterDialog();
+    Spell* spell =  getSpell(hero);
 
-    Spell* spell = getSpell(hero);
+    Monster* monster = battleArena->monsterDialog();
 
     if(spell == nullptr)
         return false;
+
+    if(hero->getLevel() < spell->getRequiredLvl())
+    {
+        std::cout << "Level too low" << std::endl;
+        return false;
+    }
+
 
     battleArena->spellCast(hero, spell, monster);
 
@@ -31,7 +38,7 @@ Spell* CastSpellCommand::getSpell(Hero* hero)
 
     std::cout << "Which spell to cast <spell_name>?" << std::endl;
 
-    hero->printSpellsofInventory();
+    hero->printSpells();
 
     std::string name;
     std::cin >> name;
@@ -44,7 +51,7 @@ Spell* CastSpellCommand::getSpell(Hero* hero)
         std::cout << "You may have given the name wrong..." << std::endl;
         std::cout << "Please check your inventory once again." << std::endl;
 
-        hero->printSpellsofInventory();
+        hero->printSpells();
 
         std::cin >> name;
         spell = hero->getSpell(name);

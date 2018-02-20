@@ -13,7 +13,7 @@ public:
     Potion(const std::string &name,
            int price);
 
-    virtual const std::string& getDescription() = 0;
+    virtual std::string getDescription() = 0;
 
     virtual void boost(Hero* hero) = 0;
 

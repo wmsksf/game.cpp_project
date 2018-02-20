@@ -2,14 +2,14 @@
 #include "LightingSpellEffect.h"
 #include "../../../manage/Random/Random.h"
 
-LightningSpellEffect::LightningSpellEffect()
+LightingSpellEffect::LightingSpellEffect()
 
             :Effect()
 {
     damage = randomDouble();
 }
 
-void LightningSpellEffect::apply(MonsterStats *monsterStats)
+void LightingSpellEffect::apply(MonsterStats *monsterStats)
 {
     monsterStats->setDodgeProbability(monsterStats->getDodgeProbability()
                                       - getDamage());

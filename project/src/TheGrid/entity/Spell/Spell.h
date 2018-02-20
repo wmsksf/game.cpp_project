@@ -27,9 +27,9 @@ public:
         int requiredMagicPower, int minDamage,
         int maxDamage);
 
-    const std::string& getDescription();
+    std::string getDescription();
 
-    Spell* clone();
+    virtual Spell* clone() = 0;
 
     const std::string &getName() const;
     void setName(const std::string &name);
@@ -48,6 +48,8 @@ public:
 
     int getMaxDamage() const;
     void setMaxDamage(int maxDamage);
+
+    virtual Effect *getEffect() = 0;
 };
 
 #endif //NONO_SPELL_H

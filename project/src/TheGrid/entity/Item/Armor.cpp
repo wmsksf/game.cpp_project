@@ -6,7 +6,7 @@
 Armor::Armor(const std::string &name)
 
         :Item(name, "Armor", randomInRange(100, 300),
-              randomInRange(5, 20)),
+              randomInRange(2, 15)),
          armorPoints(randomInRange(10, 50))
 {}
 
@@ -22,13 +22,5 @@ void Armor::setArmorPoints(int armorPoints)
 
 Item* Armor::clone()
 {
-    Armor* armor = new Armor(this->getName());
-
-    armor->setPrice(this->getPrice());
-    armor->setRequiredLevel(this->getRequiredLevel());
-    armor->setCategory(this->getCategory());
-
-    armor->setArmorPoints(this->getArmorPoints());
-
-    return (Item*)armor;
+    return new Armor(*this);
 }

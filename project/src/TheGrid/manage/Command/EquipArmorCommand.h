@@ -7,9 +7,6 @@
 
 class EquipArmorCommand : public Command
 {
-private:
-    Armor* getArmor(Hero* hero);
-
 public:
     EquipArmorCommand();
 

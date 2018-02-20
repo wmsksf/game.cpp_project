@@ -15,7 +15,8 @@ bool CommandManager::execute(TheGrid* theGrid, const std::string &line)
 	for(int i =0; i < managers.size(); i++)
 	{
 		bool result = managers[i]->execute(theGrid, line);
-        if(result)
+
+		if(result)
             return true;
 	}
 
@@ -33,7 +34,6 @@ bool CommandManager::execute(TheGrid* theGrid, const std::string &line)
 		}
 	}
 
-	std::cout << "Unable to find command with name " << name  << std::endl;
     return false;
 }
 

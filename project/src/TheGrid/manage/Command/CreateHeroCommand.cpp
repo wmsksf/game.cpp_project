@@ -6,22 +6,26 @@
 #include "../../entity/Living/Hero/Warrior.h"
 
 CreateHeroCommand::CreateHeroCommand()
-        :Command("create", "[create (Paladin | Sorcerer | Warrior)] Command to create a hero")
+        :Command("create", "[create (Paladin | Sorcerer | Warrior) <hero_name>] Command to create a hero, name CANNOT contain spaces!")
 {}
 
 bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+    if(args.size() != 2)
+    {
+        std::cout << "Invalid Usage :" << getUsage() << std::endl;
+        return false;
+    }
+
     HeroFactory* heroFactory = theGrid->getHeroFactory();
 
-    if(theGrid->getParty()->getPartySize() == 3)
+    if(theGrid->getParty()->getPartySize() >= 3)
     {
         std::cout << "Worthy player you can create up to three heroes!" << std::endl;
         return false;
     }
 
-    std::string name;
-
-    HeroName(name);
+    std::string name = args[1];
 
     if(args[0].compare("Paladin") == 0)
     {
@@ -37,13 +41,4 @@ bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
     }
 
     return true;
-}
-
-void CreateHeroCommand::HeroName(std::string &hero)
-{
-    std::cout << "Give a name for your hero..." << std::endl;
-
-    std::cin >> hero;
-
-    std::cout<< "You named your hero: " << hero << std::endl;
 }

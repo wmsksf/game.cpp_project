@@ -20,6 +20,8 @@ public:
 
 	virtual bool matches(const std::string& name);
     virtual bool execute(TheGrid* theGrid, std::vector<std::string>& args) = 0;
+
+	bool invalidUsage();
 };
 
 #endif //NONO_COMMAND_H

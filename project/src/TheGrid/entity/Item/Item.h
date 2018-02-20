@@ -7,7 +7,7 @@
 
 class Item
 {
-private:
+protected:
     std::string name;
     std::string category;
 
@@ -32,7 +32,7 @@ public:
 	void setRequiredLevel(int requiredLevel);
 
 	virtual Item* clone() = 0;
-	virtual const std::string& getDescription();
+	virtual std::string getDescription();
 };
 
 #endif //ROLE_PLAY_GAME_ITEM_H

@@ -31,6 +31,12 @@ private:
 	void defeat();
 	bool victors();
 
+	int totalContribution;
+    int* heroContribution;
+
+    int moneyReward;
+    int experienceReward;
+
 public:
     void displayBattleInfo();
 
@@ -40,7 +46,7 @@ public:
 
 	void usePotion(Hero* hero, Potion* potion);
 
-    BattleArena(TheGrid *theGrid);
+    BattleArena(TheGrid* theGrid);
 
     void start();
 
@@ -58,6 +64,14 @@ private:
     void initCommandManager();
 
     MonsterStats* calculateStats(Monster* monster);
+
+	void killMonster(Monster *monster);
+
+	void countDownMonsterEffects();
+
+	void regenerate();
+
+    void contribute(Hero *hero, int damage);
 };
 
 #endif //NONO_BATTLEARENA_H

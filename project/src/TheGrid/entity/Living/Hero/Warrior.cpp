@@ -7,9 +7,11 @@ Warrior::Warrior(const std::string &name)
 {
 	maxHealthPower = 1200;
 	currentHealthPower = 1200;
+	healthRegen = 15;
 
 	maxMagicPower = 80;
 	currentMagicPower = 80;
+	magicRegen = 5;
 
 	strength = 100;
 	dexterity = 80;

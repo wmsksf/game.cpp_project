@@ -13,6 +13,8 @@ protected:
     int maxHealthPower;
 	int currentHealthPower;
 
+	int healthRegen;
+
 protected:
     int level;
 
@@ -34,6 +36,10 @@ public:
 	void setCurrentHealthPower(int currentHealthPower);
 
 	int getLevel() const;
+
+	int getHealthRegen() const;
+
+	void setHealthRegen(int healthRegen);
 };
 
 #endif //NONO_LIVING_H

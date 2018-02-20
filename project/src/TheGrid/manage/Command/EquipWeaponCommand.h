@@ -5,13 +5,10 @@
 #include "Command.h"
 #include "../../entity/Living/Hero/Hero.h"
 
-class GetWeaponCommand : public Command
+class EquipWeaponCommand : public Command
 {
-private:
-    Weapon* getWeapon(Hero* hero);
-
 public:
-    GetWeaponCommand();
+    EquipWeaponCommand();
 
     bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };

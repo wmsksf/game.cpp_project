@@ -41,7 +41,7 @@ void Grid::displayGrid(int playerX, int playerY)
 				std::cout << 'P';
 			} else
 			{
-				std::cout << grid[i][j];
+				grid[i][j]->printTile();
 			}
 		}
 		std::cout << '*' << std::endl;

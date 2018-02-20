@@ -5,7 +5,7 @@ Weapon::Weapon(const std::string &name)
 
         :Item(name, "Weapon",
               randomInRange(150, 350),
-              randomInRange(15, 25)),
+              randomInRange(2, 15)),
          damage(randomInRange(40, 50)),
          dualWeild(randomBool()) {}
 
@@ -21,16 +21,7 @@ int Weapon::getDamage() const
 
 Item* Weapon::clone()
 {
-    Weapon* weapon = new Weapon(this->getName());
-
-    weapon->setPrice(this->getPrice());
-    weapon->setRequiredLevel(this->getRequiredLevel());
-    weapon->setCategory(this->getCategory());
-
-    weapon->setDamage(this->getDamage());
-    weapon->setDualWeild(this->isDualWeild());
-
-    return (Item*)weapon;
+    return new Weapon(*this);
 }
 
 void Weapon::setDamage(int damage)

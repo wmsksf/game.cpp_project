@@ -17,6 +17,9 @@ private:
 	CommandManager* commandManager;
 
 	HeroFactory* heroFactory;
+	ItemFactory *itemFactory;
+	TileFactory *tileFactory;
+	NameFactory *nameFactory;
 
 public:
 	TheGrid();
@@ -32,8 +35,11 @@ public:
 
     HeroFactory* getHeroFactory();
 
+	NameFactory* getNameFactory();
+
 private:
 	void initCommandManager();
+
 };
 
 #endif //NONO_GAME_H

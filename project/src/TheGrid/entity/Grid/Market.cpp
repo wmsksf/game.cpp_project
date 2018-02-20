@@ -5,13 +5,12 @@
 #include "../../manage/Command/SellCommand.h"
 #include "../../manage/Command/MarketListCommand.h"
 #include "../../manage/Command/HelpinMarketCommand.h"
-#include "../../manage/Command/ExitMarketCommand.h"
 #include "../../manage/Command/HeroPartyListCommand.h"
 #include "../../manage/Command/MoneyofHeroCommand.h"
 #include "../../manage/Command/InventoryListCommand.h"
 
-Market::Market(const std::vector<Item*> &marketofItems,
-                const std::vector<Spell*> &marketofSpells)
+Market::Market(std::vector<Item*>* marketofItems,
+                std::vector<Spell*>* marketofSpells)
 
         :Tile("Market"),
          marketofItems(marketofItems),
@@ -42,9 +41,9 @@ void Market::printItems()
 {
     std::cout << " Items:" << std::endl;
 
-    for(int i = 0; i < marketofItems.size(); i++)
+    for(int i = 0; i < marketofItems->size(); i++)
     {
-        std::cout << "[" << i + 1 << "]" << marketofItems[i]->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << (*marketofItems)[i]->getDescription() << std::endl;
     }
 
     std::cout << std::endl;
@@ -55,9 +54,9 @@ void Market::printSpells()
 {
     std::cout << " Spells" << std::endl;
 
-    for(int i = 0; i < marketofSpells.size(); i++)
+    for(int i = 0; i < marketofSpells->size(); i++)
     {
-        std::cout << "[" << i + 1 << "]" << marketofSpells[i]->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << (*marketofSpells)[i]->getDescription() << std::endl;
     }
 
     std::cout << std::endl;
@@ -65,32 +64,22 @@ void Market::printSpells()
 
 Item* Market::getItem(int number) const
 {
-    return marketofItems[number - 1];
+    return (*marketofItems)[number - 1];
 }
 
 Spell* Market::getSpell(int number) const
 {
-    return marketofSpells[number - 1];
+    return (*marketofSpells)[number - 1];
 }
 
 void Market::receiveItem(Item* item)
 {
-    marketofItems.push_back(item->clone());
+    marketofItems->push_back(item->clone());
 }
 
 void Market::receiveSpell(Spell* spell)
 {
-    marketofSpells.push_back(spell->clone());
-}
-
-const std::vector<Item*> &Market::getItems() const
-{
-    return marketofItems;
-}
-
-const std::vector<Spell*> &Market::getSpells() const
-{
-    return marketofSpells;
+    marketofSpells->push_back(spell->clone());
 }
 
 void Market::enter(TheGrid* theGrid)
@@ -98,33 +87,6 @@ void Market::enter(TheGrid* theGrid)
     std::cout << "Welcome to the Market mighty Hero party!" << std::endl;
 
     theGrid->getCommandManager()->registerManager(marketManager);
-
-    std::cout << "Do you want to stay and access market or leave? [stay/leave]" << std::endl;
-
-    std::string answer;
-    std::cin >> answer;
-
-    while(answer.compare("stay") != 0 || answer.compare("leave") != 0 )
-    {
-        std::cout << "You either stay or leave Market! Please choose..." << std::endl;
-
-        std::cin >> answer;
-    }
-
-    if(answer.compare("stay") == 0)
-    {
-        std::string line;
-        marketManager->execute(theGrid, "help");
-
-        while(true)
-        {
-            getline(std::cin, line);
-            marketManager->execute(theGrid, line);
-
-            if(line.compare("exitMarket"))
-                return;
-        }
-    }
 }
 
 void Market::leave(TheGrid* theGrid)
@@ -142,7 +104,6 @@ void Market::initMarketManager()
     commands->push_back(new HeroPartyListCommand());
     commands->push_back(new InventoryListCommand());
     commands->push_back(new MoneyofHeroCommand());
-    commands->push_back(new ExitMarketCommand());
     commands->push_back(new HelpinMarketCommand(this));
 
     marketManager = new CommandManager(commands);

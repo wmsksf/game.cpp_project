@@ -36,7 +36,7 @@ public:
 
     double getAverageLevel();
 
-    const std::vector<Hero*> &getHeroes();
+    void showHeroesStats();
 };
 
 #endif //NONO_HEROPARTY_H

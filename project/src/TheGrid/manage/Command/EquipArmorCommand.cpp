@@ -3,50 +3,46 @@
 #include "../../TheGrid.h"
 
 EquipArmorCommand::EquipArmorCommand()
-                :Command("equipArmor", "[equipArmor] Command to equip armor"){}
+                :Command("equipArmor", "[equipArmor <hero_name> <armor_name>] Command to equip armor"){}
 
 bool EquipArmorCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+    if(args.size() < 1)
+    {
+        return invalidUsage();
+    }
+
     Hero* hero = theGrid->getParty()->getHero(args[0]);
 
-    Armor* armor = getArmor(hero);
-
-    if(armor == nullptr)
+    if(args.size() == 1)
+    {
+        std::cout << "You should pick an armor!" << std::endl;
+        hero->printItemsByCategory("Armor");
         return false;
-    else
-        hero->equipArmor(armor);
+    }
 
+    std::string armorName = args[1];
+
+    Item* item = hero->getItem(armorName);
+
+    if(item == nullptr)
+    {
+        std::cout << "Unable to find armor, please try another..." << std::endl;
+        return false;
+    }
+
+    if(item->getCategory().compare("Armor") != 0)
+    {
+        std::cout << "Please pick an Armor!!" << std::endl;
+        return false;
+    }
+
+    if(hero->getLevel() < item->getRequiredLevel())
+    {
+        std::cout << "Level too low" << std::endl;
+        return false;
+    }
+
+    hero->equipArmor((Armor*)item);
     return true;
-}
-
-Armor* EquipArmorCommand::getArmor(Hero* hero)
-{
-    if(hero->getInventory().noArmors())
-    {
-        std::cout << "Your inventory is empty... Cannot get any armor." << std::endl;
-        return nullptr;
-    }
-
-    std::cout << "Which armor do you want to equip <armor_name>?" << std::endl;
-
-    hero->printItemsofInventory("Armor");
-
-    std::string name;
-    std::cin >> name;
-
-    Item* item = hero->getItem(name);
-
-    while(item == nullptr)
-    {
-        std::cout << "Unknown armor..." << std::endl;
-        std::cout << "You may have given the name wrong..." << std::endl;
-        std::cout << "Please check your inventory once again." << std::endl;
-
-        hero->printItemsofInventory("Armor");
-
-        std::cin >> name;
-        item = hero->getItem(name);
-    }
-
-    return (Armor*)item;
 }

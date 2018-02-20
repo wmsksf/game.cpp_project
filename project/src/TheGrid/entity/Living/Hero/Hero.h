@@ -21,7 +21,6 @@ protected:
     int agility;
 
     int magicRegen;
-    int healthRegen;
 
     int money;
     int experience;
@@ -41,7 +40,6 @@ public:
 
 	Inventory &getInventory();
 
-
 	void addItem(Item* item);
 	Item* getItem(const std::string& name);
 
@@ -52,8 +50,8 @@ public:
 	void removeSpell(Spell* spell);
 
 	void printInventory();
-	void printItemsofInventory(const std::string &category);
-	void printSpellsofInventory();
+	void printItemsByCategory(const std::string &category);
+	void printSpells();
 
 	void displayStats();
 
@@ -83,9 +81,6 @@ public:
 
     int getMagicRegen() const;
     void setMagicRegen(int magicRegen);
-
-    int getHealthRegen() const;
-    void setHealthRegen(int healthRegen);
 
     int getMoney() const;
     void setMoney(int money);

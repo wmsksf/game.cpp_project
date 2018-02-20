@@ -2,10 +2,8 @@
 #include "MonsterFactory.h"
 #include "../Random/Utils.h"
 
-MonsterFactory::MonsterFactory()
-{
-    nameFactory = new NameFactory("Resources/Monsters.txt");
-}
+MonsterFactory::MonsterFactory(NameFactory* nameFactory)
+    :nameFactory(nameFactory) {}
 
 std::vector<Monster*>* MonsterFactory::createMonsters(HeroParty *party)
 {

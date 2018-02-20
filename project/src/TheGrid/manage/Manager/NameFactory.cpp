@@ -6,10 +6,16 @@
 #include "../Random/Utils.h"
 #include "../Random/Random.h"
 
+NameFactory::NameFactory()
+        : entityNames(), frequencyMap()
+{
+
+}
+
 NameFactory::NameFactory(const std::string &filename)
     : entityNames(), frequencyMap()
 {
-    read(filename);
+    load(filename);
 }
 
 std::string NameFactory::createName(const std::string &type)
@@ -33,7 +39,7 @@ std::string NameFactory::createName(const std::string &type)
     return type;
 }
 
-void NameFactory::read(const std::string &filename)
+void NameFactory::load(const std::string &filename)
 {
     //open file
     std::ifstream infile(filename);
@@ -75,3 +81,4 @@ void NameFactory::read(const std::string &filename)
     //close file
     infile.close();
 }
+

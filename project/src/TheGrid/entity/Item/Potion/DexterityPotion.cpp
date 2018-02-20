@@ -8,10 +8,10 @@ DexterityPotion::DexterityPotion(const std::string &name)
                 :Potion(name, randomInRange(60, 130)),
 				 dexterityPoints(randomInRange(1, 5)) {}
 
-const std::string& DexterityPotion::getDescription()
+std::string DexterityPotion::getDescription()
 {
-	return string_format("%s [%d level] : Increases Dexterity by %d.",
-						 getName(), getRequiredLevel(), dexterityPoints);
+	return string_format("%s [%d level] [%d coins] : Increases Dexterity by %d.",
+						 getName().c_str(), getRequiredLevel(), getPrice(), dexterityPoints);
 }
 
 void DexterityPotion::boost(Hero* hero)
@@ -21,15 +21,7 @@ void DexterityPotion::boost(Hero* hero)
 
 Item* DexterityPotion::clone()
 {
-	DexterityPotion* dexterityPotion = new DexterityPotion(this->getName());
-
-	dexterityPotion->setPrice(this->getPrice());
-	dexterityPotion->setRequiredLevel(this->getRequiredLevel());
-	dexterityPotion->setCategory(this->getCategory());
-
-	dexterityPotion->setDexterityPoints(this->getDexterityPoints());
-
-	return (Item*)dexterityPotion;
+	return new DexterityPotion(*this);
 }
 
 int DexterityPotion::getDexterityPoints() const

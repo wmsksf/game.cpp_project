@@ -8,10 +8,10 @@ AgilityPotion::AgilityPotion(const std::string &name)
                 :Potion(name, randomInRange(50, 100)), agilityPoints(randomInRange(1, 5))
 {}
 
-const std::string& AgilityPotion::getDescription()
+std::string AgilityPotion::getDescription()
 {
-    return string_format("%s [%d level] : Increases Agility by %d.",
-                         getName(), getRequiredLevel(), agilityPoints);
+    return string_format("%s [%d level] [%d coins] : Increases Agility by %d.",
+                         getName().c_str(), getRequiredLevel(), getPrice(), agilityPoints);
 }
 
 void AgilityPotion::boost(Hero* hero)
@@ -21,15 +21,7 @@ void AgilityPotion::boost(Hero* hero)
 
 Item* AgilityPotion::clone()
 {
-    AgilityPotion* agilityPotion = new AgilityPotion(this->getName());
-
-    agilityPotion->setPrice(this->getPrice());
-    agilityPotion->setRequiredLevel(this->getRequiredLevel());
-    agilityPotion->setCategory(this->getCategory());
-
-    agilityPotion->setAgilityPoints(this->getAgilityPoints());
-
-    return (Item*)agilityPotion;
+    return new AgilityPotion(*this);
 }
 
 int AgilityPotion::getAgilityPoints() const

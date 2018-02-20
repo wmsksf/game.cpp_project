@@ -4,10 +4,10 @@
 
 #include "Effect.h"
 
-class LightningSpellEffect : public Effect
+class LightingSpellEffect : public Effect
 {
 public:
-    LightningSpellEffect();
+    LightingSpellEffect();
 
     void apply(MonsterStats* monsterStats);
 };

@@ -33,17 +33,17 @@ Market* TileFactory::createMarket()
 	int numberOfItems = 3 + randomInRange(0, 7);
 	int numberOfSpells = randomInRange(0, 2);
 
-	std::vector<Item*> marketItems;
-	std::vector<Spell*> marketSpells;
+	std::vector<Item*>* marketItems = new std::vector<Item*>();
+	std::vector<Spell*>* marketSpells = new std::vector<Spell*>();
 
 	while(numberOfItems--)
 	{
-		marketItems.push_back(itemFactory->createItem());
+		marketItems->push_back(itemFactory->createItem());
 	}
 
 	while(numberOfSpells--)
 	{
-		marketSpells.push_back(itemFactory->createSpell());
+		marketSpells->push_back(itemFactory->createSpell());
 	}
 
 	return new Market(marketItems, marketSpells);

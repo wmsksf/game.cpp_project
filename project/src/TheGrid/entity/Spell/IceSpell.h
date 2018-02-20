@@ -8,6 +8,10 @@ class IceSpell : public Spell
 {
 public:
     IceSpell(const std::string &name);
+
+    Effect *getEffect();
+
+    Spell *clone() override;
 };
 
 #endif //NONO_ICESPELL_H

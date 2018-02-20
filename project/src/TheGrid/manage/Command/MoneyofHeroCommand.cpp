@@ -3,7 +3,7 @@
 #include "../../TheGrid.h"
 
 MoneyofHeroCommand::MoneyofHeroCommand()
-                    :Command("moneyof <hero_name>", "[moneyof <hero_name>] Command showing the amount of money a hero has") {}
+                    :Command("moneyof", "[moneyof <hero_name>] Command showing the amount of money a hero has") {}
 
 bool MoneyofHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {

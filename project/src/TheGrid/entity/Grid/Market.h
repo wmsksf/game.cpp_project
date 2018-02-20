@@ -11,14 +11,14 @@
 class Market : public Tile
 {
 private:
-    std::vector<Item*> marketofItems;
-    std::vector<Spell*> marketofSpells;
+    std::vector<Item*>* marketofItems;
+    std::vector<Spell*>* marketofSpells;
 
     CommandManager* marketManager;
 
 public:
-    Market(const std::vector<Item*> &marketofItems,
-           const std::vector<Spell*> &marketofSpells);
+    Market(std::vector<Item*>* marketofItems,
+           std::vector<Spell*>* marketofSpells);
 
     bool isAccessible();
     void printTile();
@@ -33,9 +33,6 @@ public:
 
     void enter(TheGrid* theGrid);
     void leave(TheGrid* theGrid);
-
-    const std::vector<Item*> &getItems() const;
-    const std::vector<Spell*> &getSpells() const;
 
     CommandManager *getMarketManager() const;
 

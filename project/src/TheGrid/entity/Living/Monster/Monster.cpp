@@ -12,9 +12,9 @@ void Monster::displayStats()
 {
 	Living::displayStats();
 
-	std::cout << "[" << minDamage << ", " << maxDamage << " damage range]" << std::endl;
-	std::cout << "[" << defense << " defense]" << std::endl;
-	std::cout << "[" << dodgeProbability << " dodge probability]" << std::endl;
+	std::cout << "\t" << minDamage << ", " << maxDamage << " [damage range]" << std::endl;
+	std::cout << "\t" << defense << " [defense]" << std::endl;
+	std::cout << "\t" << dodgeProbability << " [dodge probability]" << std::endl;
 }
 
 int Monster::getMinDamage() const
@@ -45,4 +45,24 @@ int Monster::getExperienceWorth()
 int Monster::getMoneyReward()
 {
 	return 100 + (level * 12);
+}
+
+const std::vector<Effect *> &Monster::getEffects() {
+    return effects;
+}
+
+void Monster::applyEffect(Effect *effect) {
+	effects.push_back(effect);
+}
+
+void Monster::countDownEffects()
+{
+	for(auto it = effects.begin(); it != effects.end(); it++)
+	{
+        Effect* effect = *it;
+        effect->countDown();
+
+        if(effect->expired())
+            effects.erase(it);
+	}
 }

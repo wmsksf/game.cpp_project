@@ -2,14 +2,18 @@
 #include "Inventory.h"
 #include "../../Spell/Spell.h"
 
+Inventory::Inventory() {}
+
 Item* Inventory::getItem(const std::string &name)
 {
 	std::vector<Item *>::iterator it = items.begin();
 
-	while (it != items.end()) {
+	while (it != items.end())
+	{
 		Item *item = *it;
 
-		if (item->getName().compare(name) == 0) {
+		if (item->getName().compare(name) == 0)
+		{
 			return item;
 		}
 
@@ -23,10 +27,12 @@ Spell* Inventory::getSpell(const std::string &name)
 {
 	std::vector<Spell*>::iterator it = spells.begin();
 
-	while (it != spells.end()) {
+	while (it != spells.end())
+	{
 		Spell *spell = *it;
 
-		if (spell->getName().compare(name) == 0) {
+		if (spell->getName().compare(name) == 0)
+		{
 			return spell;
 		}
 
@@ -54,7 +60,7 @@ std::vector<Spell*> Inventory::getSpells()
 	return spells;
 }
 
-void Inventory::addItem(Item *item)
+void Inventory::addItem(Item* item)
 {
 	if(containsItem(item))
 	{
@@ -67,7 +73,7 @@ void Inventory::addItem(Item *item)
 	items.push_back(item->clone());
 }
 
-void Inventory::addSpell(Spell *spell)
+void Inventory::addSpell(Spell* spell)
 {
 	if(containsSpell(spell))
 	{
@@ -80,7 +86,7 @@ void Inventory::addSpell(Spell *spell)
 	spells.push_back(spell->clone());
 }
 
-bool Inventory::containsItem(Item *item)
+bool Inventory::containsItem(Item* item)
 {
 	for(int i = 0; i < items.size(); i++)
 	{
@@ -91,7 +97,7 @@ bool Inventory::containsItem(Item *item)
 	return false;
 }
 
-bool Inventory::containsSpell(Spell *spell)
+bool Inventory::containsSpell(Spell* spell)
 {
 	for(int i = 0; i < spells.size(); i++)
 	{
@@ -102,7 +108,7 @@ bool Inventory::containsSpell(Spell *spell)
 	return false;
 }
 
-void Inventory::removeItem(Item *item)
+void Inventory::removeItem(Item* item)
 {
 	for(int i = 0; i < items.size(); i++)
 	{
@@ -115,7 +121,7 @@ void Inventory::removeItem(Item *item)
 	}
 }
 
-void Inventory::removeSpell(Spell *spell)
+void Inventory::removeSpell(Spell* spell)
 {
 	for(int i = 0; i < spells.size(); i++)
 	{

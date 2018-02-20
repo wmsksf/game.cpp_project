@@ -14,14 +14,6 @@ Spell::Spell(const std::string &name, int price,
              minDamage(minDamage),
              maxDamage(maxDamage) {}
 
-Spell* Spell::clone()
-{
-    Spell* spell = new Spell(this->getName(), this->getPrice(), this->getRequiredLvl(),
-            this->getRequiredMagicPower(), this->getMinDamage(), this->getMaxDamage());
-
-    return spell;
-}
-
 const std::string& Spell::getName() const
 {
     return name;
@@ -82,11 +74,11 @@ void Spell::setMaxDamage(int maxDamage)
     Spell::maxDamage = maxDamage;
 }
 
-const std::string& Spell::getDescription()
+std::string Spell::getDescription()
 {
     return string_format("%s [%s] [%d level] [%d magic power] "
                                  "[[%d, %d] damage range] ",
-                         name, category, requiredLvl,
+                         name.c_str(), category.c_str(), requiredLvl,
                          requiredMagicPower,
                         minDamage, maxDamage);
 }

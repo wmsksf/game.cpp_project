@@ -9,6 +9,9 @@
 #include "../../entity/Spell/LightingSpell.h"
 #include "../../entity/Spell/IceSpell.h"
 
+ItemFactory::ItemFactory(NameFactory* nameFactory)
+    :nameFactory(nameFactory) {}
+
 Item* ItemFactory::createItem()
 {
     int itemType = randomInt(3);
@@ -28,12 +31,12 @@ Item* ItemFactory::createItem()
 
 Weapon* ItemFactory::createWeapon()
 {
-    return new Weapon(ItemNameFactory->createName("Weapon"));
+    return new Weapon(nameFactory->createName("Weapon"));
 }
 
 Armor* ItemFactory::createArmor()
 {
-    return new Armor(ItemNameFactory->createName("Armor"));
+    return new Armor(nameFactory->createName("Armor"));
 }
 
 Potion* ItemFactory::createPotion()
@@ -43,15 +46,15 @@ Potion* ItemFactory::createPotion()
     switch(potionType)
     {
         case 0:
-            return new AgilityPotion(ItemNameFactory->createName("Agility Potion"));
+            return new AgilityPotion(nameFactory->createName("Agility Potion"));
         case 1:
-            return new DexterityPotion(ItemNameFactory->createName("Dexterity Potion"));
+            return new DexterityPotion(nameFactory->createName("Dexterity Potion"));
         case 2:
-            return new HealthPotion(ItemNameFactory->createName("Health Potion"));
+            return new HealthPotion(nameFactory->createName("Health Potion"));
         case 3:
-            return new MagicPotion(ItemNameFactory->createName("Magic Potion"));
+            return new MagicPotion(nameFactory->createName("Magic Potion"));
         case 4:
-            return new StrengthPotion(ItemNameFactory->createName("Strength Potion"));
+            return new StrengthPotion(nameFactory->createName("Strength Potion"));
     }
 
     return nullptr;
@@ -64,19 +67,12 @@ Spell* ItemFactory::createSpell()
     switch(spellType)
     {
         case 0:
-            return new FireSpell(SpellNameFactory->createName("Fire Spell"));
+            return new FireSpell(nameFactory->createName("Fire Spell"));
         case 1:
-            return new IceSpell(SpellNameFactory->createName("Ice Spell"));
+            return new IceSpell(nameFactory->createName("Ice Spell"));
         case 2:
-            return new LightingSpell(SpellNameFactory->createName("Lighting Spell"));
+            return new LightingSpell(nameFactory->createName("Lighting Spell"));
     }
 
     return nullptr;
-}
-
-ItemFactory::ItemFactory()
-{
-    ItemNameFactory = new NameFactory("Resources/Items.txt");
-
-    SpellNameFactory = new NameFactory("Resources/Spells.txt");
 }

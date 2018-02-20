@@ -14,6 +14,7 @@ private:
 	std::vector<Spell*> spells;
 
 public:
+	Inventory();
 
 	std::vector<Item*> getItemsByCategory(const std::string& category);
 

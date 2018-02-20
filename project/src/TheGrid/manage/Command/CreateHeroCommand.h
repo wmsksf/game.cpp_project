@@ -8,9 +8,6 @@
 
 class CreateHeroCommand : public Command
 {
-private:
-    void HeroName(std::string &hero);
-
 public:
     CreateHeroCommand();
 

@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout << "Initializing TheGrid ..." << std::endl;
+	srand(time(NULL));
 
 	TheGrid theGrid;
 

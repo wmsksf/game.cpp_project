@@ -21,7 +21,7 @@ private:
     Dragon* createDragon(HeroParty *party);
 
 public:
-    MonsterFactory();
+    MonsterFactory(NameFactory *nameFactory);
 
     std::vector<Monster*>* createMonsters(HeroParty* party);
 };

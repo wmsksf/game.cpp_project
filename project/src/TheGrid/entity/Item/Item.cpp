@@ -33,10 +33,10 @@ void Item::setRequiredLevel(int requiredLevel)
 	Item::requiredLevel = requiredLevel;
 }
 
-const std::string &Item::getDescription()
+std::string Item::getDescription()
 {
-	return string_format("%s [%] [%d level]",
-						 name, category, requiredLevel);
+	return string_format("%s [%s] [%d level] [%d coins]",
+						 name.c_str(), category.c_str(), requiredLevel, getPrice());
 }
 
 const std::string &Item::getCategory() const

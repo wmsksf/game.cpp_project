@@ -9,17 +9,28 @@
 #include "manage/Command/CreateHeroCommand.h"
 #include "manage/Command/HelpCommand.h"
 #include "manage/Command/InventoryListCommand.h"
-#include "manage/Command/GetWeaponCommand.h"
+#include "manage/Command/EquipWeaponCommand.h"
 #include "manage/Command/EquipArmorCommand.h"
 #include "manage/Command/HeroStatsCommand.h"
 
 TheGrid::TheGrid()
 {
+	std::cout << "Initializing TheGrid ... " << std::endl;
+
+	nameFactory = new NameFactory();
+
+	nameFactory->load("../resources/Items.txt");
+	nameFactory->load("../resources/Spells.txt");
+	nameFactory->load("../resources/Monsters.txt");
+
 	initCommandManager();
 
 	party = new HeroParty();
 
-	grid = new Grid(new TileFactory(new ItemFactory));
+	itemFactory = new ItemFactory(nameFactory);
+	tileFactory = new TileFactory(itemFactory);
+
+	grid = new Grid(tileFactory);
 }
 
 HeroParty* TheGrid::getParty() const
@@ -50,7 +61,10 @@ CommandManager* TheGrid::getCommandManager() const
 
 void TheGrid::start()
 {
-	std::cout << "Starting..." << std::endl;
+	std::cout << "First check your commands..." << std::endl;
+
+	commandManager->execute(this,"help");
+
 	std::string line;
 
 	while(true)
@@ -75,7 +89,7 @@ void TheGrid::initCommandManager()
     commands->push_back(new InventoryListCommand());
 	commands->push_back(new HeroStatsCommand());
 	commands->push_back(new EquipArmorCommand());
-	commands->push_back(new GetWeaponCommand());
+	commands->push_back(new EquipWeaponCommand());
 	commands->push_back(new QuitGameCommand());
 	commands->push_back(new HelpCommand());
 
@@ -85,4 +99,8 @@ void TheGrid::initCommandManager()
 HeroFactory* TheGrid::getHeroFactory()
 {
 	return heroFactory;
+}
+
+NameFactory *TheGrid::getNameFactory() {
+	return nameFactory;
 }

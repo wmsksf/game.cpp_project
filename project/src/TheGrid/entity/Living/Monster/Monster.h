@@ -3,6 +3,8 @@
 
 #include "../Living.h"
 #include "../../../manage/Random/Random.h"
+#include "../../Spell/Effect/Effect.h"
+#include <vector>
 
 class Monster : public Living
 {
@@ -12,6 +14,8 @@ protected:
     int defense;
 
     double dodgeProbability;
+
+    std::vector<Effect*> effects;
 
 public:
     Monster(const std::string &name, int level);
@@ -25,6 +29,12 @@ public:
 
     int getExperienceWorth();
     int getMoneyReward();
+
+    const std::vector<Effect *> &getEffects();
+
+    void applyEffect(Effect* effect);
+
+    void countDownEffects();
 };
 
 #endif //NONO_MONSTER_H

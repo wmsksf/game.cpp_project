@@ -14,12 +14,14 @@ private:
 
     std::map<const std::string, int> frequencyMap;
 
-    void read(const std::string& filename);
 
 public:
+    NameFactory();
     NameFactory(const std::string& filename);
 
     std::string createName(const std::string& type);
+
+    void load(const std::string &filename);
 };
 
 #endif //NONO_NAMEFACTORY_H

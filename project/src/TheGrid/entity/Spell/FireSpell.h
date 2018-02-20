@@ -8,6 +8,10 @@ class FireSpell : public Spell
 {
 public:
     FireSpell(const std::string &name);
+
+    Effect *getEffect();
+
+    Spell *clone() override;
 };
 
 #endif //NONO_FIRESPELL_H

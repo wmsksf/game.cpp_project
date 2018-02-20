@@ -14,20 +14,16 @@ void Hero::displayStats()
 {
 	Living::displayStats();
 
-	std::cout << "[" << currentMagicPower << " magic power]" << std::endl;
+	std::cout << "\t" << currentMagicPower << " [magic power]" << std::endl;
 
-	std::cout << "[" << strength << " strength]" << std::endl;
-	std::cout << "[" << dexterity << " dexterity]" << std::endl;
-	std::cout << "[" << agility << " agility]" << std::endl;
+	std::cout << "\t" << strength << " [strength]" << std::endl;
+	std::cout << "\t" << dexterity << " [dexterity]" << std::endl;
+	std::cout << "\t" << agility << " [agility]" << std::endl;
 
-	std::cout << "[" << magicRegen << " magic regeneration]" << std::endl;
-	std::cout << "[" << healthRegen << " health regeneration]" << std::endl;
+	std::cout << "\t" << magicRegen << " [magic regeneration]" << std::endl;
 
-	std::cout << "[" << money << " total money]" << std::endl;
-	std::cout << "[" << experience << "/" << experienceForLevel << " experience]" << std::endl;
-
-
-	std::cout << std::endl << "[LEVEL: " << level << "]" << std::endl;
+	std::cout << "\t" << money << " [money]" << std::endl;
+	std::cout << "\t" << experience << "/" << experienceForLevel << " [experience]" << std::endl;
 }
 
 int Hero::getStrength() const
@@ -70,16 +66,6 @@ void Hero::setMagicRegen(int magicRegen)
 	Hero::magicRegen = magicRegen;
 }
 
-int Hero::getHealthRegen() const
-{
-	return healthRegen;
-}
-
-void Hero::setHealthRegen(int healthRegen)
-{
-	Hero::healthRegen = healthRegen;
-}
-
 int Hero::getMoney() const
 {
 	return money;
@@ -95,27 +81,27 @@ int Hero::getExperience() const
 	return experience;
 }
 
-Weapon *Hero::getEquipedWeapon() const
+Weapon* Hero::getEquipedWeapon() const
 {
 	return equipedWeapon;
 }
 
-Armor *Hero::getEquipedArmor() const
+Armor* Hero::getEquipedArmor() const
 {
 	return equipedArmor;
 }
 
-void Hero::equipWeapon(Weapon *weapon)
+void Hero::equipWeapon(Weapon* weapon)
 {
 	equipedWeapon = weapon;
 }
 
-void Hero::equipArmor(Armor *armor)
+void Hero::equipArmor(Armor* armor)
 {
 	equipedArmor = armor;
 }
 
-void Hero::use(Potion *potion)
+void Hero::use(Potion* potion)
 {
 	potion->boost(this);
 }
@@ -169,17 +155,17 @@ void Hero::restoreMagicPower(int magicPoints)
 	}
 }
 
-void Hero::addItem(Item *item)
+void Hero::addItem(Item* item)
 {
 	inventory.addItem(item);
 }
 
-void Hero::addSpell(Spell *spell)
+void Hero::addSpell(Spell* spell)
 {
 	inventory.addSpell(spell);
 }
 
-Item *Hero::getItem(const std::string &name)
+Item* Hero::getItem(const std::string &name)
 {
 	return inventory.getItem(name);
 }
@@ -189,7 +175,7 @@ Spell* Hero::getSpell(const std::string &name)
 	return inventory.getSpell(name);
 }
 
-void Hero::removeItem(Item *item)
+void Hero::removeItem(Item* item)
 {
 	inventory.removeItem(item);
 }
@@ -204,9 +190,10 @@ void Hero::printInventory()
 	inventory.display();
 }
 
-void Hero::printItemsofInventory(const std::string &category)
+void Hero::printItemsByCategory(const std::string &category)
 {
 	std::vector<Item*> items = inventory.getItemsByCategory(category);
+	std::cout << "[" << category << "] " << items.size() << " items" << std::endl;
 
 	for(int i = 0; i < items.size(); i++)
 	{
@@ -219,7 +206,7 @@ Inventory& Hero::getInventory()
 	return inventory;
 }
 
-void Hero::printSpellsofInventory()
+void Hero::printSpells()
 {
 	std::vector<Spell*> spells = inventory.getSpells();
 

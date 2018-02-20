@@ -14,4 +14,6 @@ int max(int a, int b);
 
 int monsterLevel(double averageHeroLevel);
 
+std::string join(std::vector<std::string> args, std::string separator);
+
 #endif //NONO_UTILS_H

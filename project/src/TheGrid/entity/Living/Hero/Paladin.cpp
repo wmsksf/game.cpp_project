@@ -7,9 +7,11 @@ Paladin::Paladin(const std::string& name)
 {
 	maxHealthPower = 1000;
 	currentHealthPower = 1000;
+	healthRegen = 12;
 
 	maxMagicPower = 100;
 	currentMagicPower = 100;
+	healthRegen = 10;
 
 	strength = 120;
 	dexterity = 100;

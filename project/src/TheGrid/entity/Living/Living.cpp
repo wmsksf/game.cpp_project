@@ -12,8 +12,9 @@ bool Living::isConscious()
 
 void Living::displayStats()
 {
-    std::cout << "[" << name << " ]" << std::endl;
-    std::cout << "[" << maxHealthPower << " hp points]";
+    std::cout << "[" << name << "] " << level << " level" << std::endl;
+    std::cout << "\t" << maxHealthPower << " [hp points]";
+    std::cout << "\t" << healthRegen<< " [health regeneration]";
     std::cout << std::endl;
 }
 
@@ -55,4 +56,12 @@ const std::string &Living::getName() const
 int Living::getLevel() const
 {
     return level;
+}
+
+int Living::getHealthRegen() const {
+    return healthRegen;
+}
+
+void Living::setHealthRegen(int healthRegen) {
+    Living::healthRegen = healthRegen;
 }

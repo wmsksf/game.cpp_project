@@ -10,15 +10,15 @@
 class ItemFactory
 {
 private:
-    NameFactory* ItemNameFactory;
-    NameFactory* SpellNameFactory;
+
+    NameFactory* nameFactory;
 
     Weapon* createWeapon();
     Armor* createArmor();
     Potion* createPotion();
 
 public:
-    ItemFactory();
+    ItemFactory(NameFactory *nameFactory);
 
     Item* createItem();
     Spell* createSpell();

@@ -339,16 +339,10 @@
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.cpp">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.cpp">
 			<Option target="nono"/>
 		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h">
-			<Option target="nono"/>
-		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.cpp">
-			<Option target="nono"/>
-		</Unit>
-		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h">
+		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.h">
 			<Option target="nono"/>
 		</Unit>
 		<Unit filename="/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.cpp">

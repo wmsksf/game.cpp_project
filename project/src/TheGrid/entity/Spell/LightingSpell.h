@@ -8,6 +8,10 @@ class LightingSpell : public Spell
 {
 public:
     LightingSpell(const std::string &name);
+
+    Spell *clone() override;
+
+    Effect *getEffect();
 };
 
 #endif //NONO_LIGHTINGSPELL_H

@@ -1,0 +1,30 @@
+Flame,Fire Spell
+Torch,Fire Spell
+Eruption,Fire Spell
+Flare,Fire Spell
+Blaze,Fire Spell
+Inferno,Fire Spell
+Fireball,Fire Spell
+Explosion,Fire Spell
+Meteor,Fire Spell
+Salamander’s Blade,Fire Spell
+Avalanche,Ice Spell
+Chill,Ice Spell
+Freeze,Ice Spell
+Frostbite,Ice Spell
+Douse,Ice Spell
+Deluge,Ice Spell
+Flood,Ice Spell
+Wave,Ice Spell
+Surge,Ice Spell
+Tsunami,Ice Spell
+Bolt,Lighting Spell
+Plasma,Lighting Spell
+Gust,Lighting Spell
+Gale,Lighting Spell
+Tempest,Lighting Spell
+Whirlwhind,Lighting Spell
+Cyclone,Lighting Spell
+Vortex,Lighting Spell
+Wyvern’s Wings,Lighting Spell
+Daze,Lighting Spell

@@ -3,15 +3,14 @@
 #include "../../TheGrid.h"
 
 BuyCommand::BuyCommand(Market* market)
-    :Command("buy", "buy <hero_name> (item | spell) ( <item_id> | <spell_id> )Command to buy an item or spell"),
+    :Command("buy", "[buy <hero_name>] (item | spell) ( <item_id> | <spell_id> )Command to buy an item or spell"),
     market(market) {}
 
 bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     if(args.size() != 3)
     {
-        std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return false;
+        return invalidUsage();
     }
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
@@ -25,7 +24,7 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     if(args[1].compare("item") == 0)
     {
 
-        Item* item = market->getItem(stoi(args[1]));
+        Item* item = market->getItem(stoi(args[2]));
 
         if(item == nullptr)
         {

@@ -1284,59 +1284,32 @@ src/TheGrid/manage/Command/EquipArmorCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/EquipArmorCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/EquipArmorCommand.cpp.s
 
-src/TheGrid/manage/Command/ExitMarketCommand.o: src/TheGrid/manage/Command/ExitMarketCommand.cpp.o
+src/TheGrid/manage/Command/EquipWeaponCommand.o: src/TheGrid/manage/Command/EquipWeaponCommand.cpp.o
 
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/ExitMarketCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/ExitMarketCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.cpp.o
-
-src/TheGrid/manage/Command/ExitMarketCommand.i: src/TheGrid/manage/Command/ExitMarketCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/ExitMarketCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/ExitMarketCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.cpp.i
-
-src/TheGrid/manage/Command/ExitMarketCommand.s: src/TheGrid/manage/Command/ExitMarketCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/ExitMarketCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/ExitMarketCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/ExitMarketCommand.cpp.s
-
-src/TheGrid/manage/Command/GetWeaponCommand.o: src/TheGrid/manage/Command/GetWeaponCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.o
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.o
 
 # target to build an object file
-src/TheGrid/manage/Command/GetWeaponCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/GetWeaponCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.cpp.o
+src/TheGrid/manage/Command/EquipWeaponCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/EquipWeaponCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.cpp.o
 
-src/TheGrid/manage/Command/GetWeaponCommand.i: src/TheGrid/manage/Command/GetWeaponCommand.cpp.i
+src/TheGrid/manage/Command/EquipWeaponCommand.i: src/TheGrid/manage/Command/EquipWeaponCommand.cpp.i
 
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.i
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.i
 
 # target to preprocess a source file
-src/TheGrid/manage/Command/GetWeaponCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/GetWeaponCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.cpp.i
+src/TheGrid/manage/Command/EquipWeaponCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/EquipWeaponCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.cpp.i
 
-src/TheGrid/manage/Command/GetWeaponCommand.s: src/TheGrid/manage/Command/GetWeaponCommand.cpp.s
+src/TheGrid/manage/Command/EquipWeaponCommand.s: src/TheGrid/manage/Command/EquipWeaponCommand.cpp.s
 
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.s
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.s
 
 # target to generate assembly for a file
-src/TheGrid/manage/Command/GetWeaponCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/GetWeaponCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/GetWeaponCommand.cpp.s
+src/TheGrid/manage/Command/EquipWeaponCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/EquipWeaponCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/EquipWeaponCommand.cpp.s
 
 src/TheGrid/manage/Command/HelpCommand.o: src/TheGrid/manage/Command/HelpCommand.cpp.o
 
@@ -2097,12 +2070,9 @@ help:
 	@echo "... src/TheGrid/manage/Command/EquipArmorCommand.o"
 	@echo "... src/TheGrid/manage/Command/EquipArmorCommand.i"
 	@echo "... src/TheGrid/manage/Command/EquipArmorCommand.s"
-	@echo "... src/TheGrid/manage/Command/ExitMarketCommand.o"
-	@echo "... src/TheGrid/manage/Command/ExitMarketCommand.i"
-	@echo "... src/TheGrid/manage/Command/ExitMarketCommand.s"
-	@echo "... src/TheGrid/manage/Command/GetWeaponCommand.o"
-	@echo "... src/TheGrid/manage/Command/GetWeaponCommand.i"
-	@echo "... src/TheGrid/manage/Command/GetWeaponCommand.s"
+	@echo "... src/TheGrid/manage/Command/EquipWeaponCommand.o"
+	@echo "... src/TheGrid/manage/Command/EquipWeaponCommand.i"
+	@echo "... src/TheGrid/manage/Command/EquipWeaponCommand.s"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.o"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.i"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.s"

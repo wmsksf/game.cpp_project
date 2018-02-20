@@ -27,8 +27,8 @@ manage/Command/HelpCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpCommand.h
 manage/Command/InventoryListCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
-manage/Command/GetWeaponCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+manage/Command/EquipWeaponCommand.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.h
 manage/Command/EquipArmorCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h
 manage/Command/HeroStatsCommand.h
@@ -91,8 +91,6 @@ Market.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/MarketListCommand.h
 ../../manage/Command/HelpinMarketCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HelpinMarketCommand.h
-../../manage/Command/ExitMarketCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h
 ../../manage/Command/HeroPartyListCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroPartyListCommand.h
 ../../manage/Command/MoneyofHeroCommand.h
@@ -351,6 +349,10 @@ Monster.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Living.h
 ../../../manage/Random/Random.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+../../Spell/Effect/Effect.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
+vector
+-
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Monster/MonsterStats.cpp
 MonsterStats.h
@@ -413,6 +415,8 @@ FireSpell.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
 ../../manage/Random/Random.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+Effect/FireSpellEffect.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/FireSpellEffect.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/FireSpell.h
 Spell.h
@@ -423,6 +427,8 @@ IceSpell.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
 ../../manage/Random/Random.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+Effect/IceSpellEffect.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/IceSpellEffect.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/IceSpell.h
 Spell.h
@@ -433,6 +439,8 @@ LightingSpell.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h
 ../../manage/Random/Random.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Random/Random.h
+Effect/LightingSpellEffect.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/LightingSpellEffect.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/LightingSpell.h
 Spell.h
@@ -493,6 +501,8 @@ Command.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/BattleArena.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.cpp
+iostream
+-
 Command.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
 
@@ -554,21 +564,13 @@ Command.h
 ../../entity/Living/Hero/Hero.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Living/Hero/Hero.h
 
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.cpp
-ExitMarketCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h
-
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/ExitMarketCommand.h
-Command.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
-
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.cpp
-GetWeaponCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.cpp
+EquipWeaponCommand.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.h
 ../../TheGrid.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/TheGrid.h
 
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.h
 Command.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
 ../../entity/Living/Hero/Hero.h
@@ -709,8 +711,8 @@ BattleArena.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/CastSpellCommand.h
 ../Command/UsePotionCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/UsePotionCommand.h
-../Command/GetWeaponCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/GetWeaponCommand.h
+../Command/EquipWeaponCommand.h
+/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipWeaponCommand.h
 ../Command/EquipArmorCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/EquipArmorCommand.h
 ../Command/DisplayArenaCommand.h

@@ -7,9 +7,11 @@ Sorcerer::Sorcerer(const std::string& name)
 {
 	maxHealthPower = 800;
 	currentHealthPower = 800;
+	healthRegen = 8;
 
 	maxMagicPower = 150;
 	currentMagicPower = 150;
+	magicRegen = 18;
 
 	strength = 70;
 	dexterity = 120;

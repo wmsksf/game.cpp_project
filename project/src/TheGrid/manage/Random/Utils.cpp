@@ -65,3 +65,17 @@ int monsterLevel(double averageHeroLevel)
 	return randomInRange(max(averageHeroLevel - 5, 1), averageHeroLevel + 5);
 }
 
+std::string join(std::vector<std::string> args, std::string separator)
+{
+	std::string str = "";
+	if(args.size() > 0)
+		str = args[0];
+
+	for(int i = 1; i < args.size(); i++)
+	{
+		str = str + separator + args[i];
+	}
+
+	return str;
+}
+

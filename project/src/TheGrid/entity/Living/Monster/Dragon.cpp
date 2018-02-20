@@ -7,6 +7,7 @@ Dragon::Dragon(const std::string &name, int level)
 {
     maxHealthPower = 500 * level;
     currentHealthPower = maxHealthPower;
+    healthRegen = 30;
 
     minDamage = 10 * level;
     maxDamage = 100 * level;

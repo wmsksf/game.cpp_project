@@ -7,6 +7,7 @@ Exoskeleton::Exoskeleton(const std::string &name, int level)
 {
     maxHealthPower = 300 * level;
     currentHealthPower = maxHealthPower;
+    healthRegen= 20;
 
     minDamage = 25 * level;
     maxDamage = 50  * level;

@@ -8,10 +8,10 @@ MagicPotion::MagicPotion(const std::string &name)
             :Potion(name, randomInRange(70, 150)),
              magicPoints(randomInRange(100, 500)) {}
 
-const std::string& MagicPotion::getDescription()
+std::string MagicPotion::getDescription()
 {
-    return string_format("%s [%d level] : Restores up to %d Magic Power",
-                         getName(), getRequiredLevel(), magicPoints);
+    return string_format("%s [%d level] [%d coins] : Restores up to %d Magic Power",
+                         getName().c_str(), getRequiredLevel(), getPrice(), magicPoints);
 }
 
 void MagicPotion::boost(Hero* hero)
@@ -21,15 +21,7 @@ void MagicPotion::boost(Hero* hero)
 
 Item* MagicPotion::clone()
 {
-    MagicPotion* magicPotion = new MagicPotion(this->getName());
-
-    magicPotion->setPrice(this->getPrice());
-    magicPotion->setRequiredLevel(this->getRequiredLevel());
-    magicPotion->setCategory(this->getCategory());
-
-    magicPotion->setMagicPoints(this->getMagicPoints());
-
-    return (Item*)magicPotion;
+    return new MagicPotion(*this);
 }
 
 int MagicPotion::getMagicPoints() const

@@ -1,0 +1,150 @@
+Vendetta,Weapon
+Avenger,Weapon
+Prism Steel,Weapon
+Mirage Sword,Weapon
+Lifesaver,Weapon
+Sonic Steel,Weapon
+Vigilante,Weapon
+Dance Macabre,Weapon
+Largamente,Weapon
+Gravestone,Weapon
+Sidewinder,Weapon
+Nightmare,Weapon
+Mage Masher,Weapon
+Nightbringer,Weapon
+Knight Sword,Weapon
+Wizard Sword,Weapon
+Double-Edge,Weapon
+Razzmatazz,Weapon
+Deathbringer,Weapon
+Stunning Steel,Weapon
+Basilisk Steel,Weapon
+Poison Steel,Weapon
+Lullaby Steel,Weapon
+Muted Steel,Weapon
+Twilight Steel,Weapon
+Hunter's Sword,Weapon
+Flametongue,Weapon
+Ice Brand,Weapon
+Lightning Steel,Weapon
+Force Saber,Weapon
+Conductor,Weapon
+Punisher,Weapon
+Calcite Staff,Weapon
+Bizarre Staff,Weapon
+Staff of Thorns,Weapon
+Reticent Staff,Weapon
+Darkness Staff,Weapon
+Monk Staff,Weapon
+Mage's Staff,Weapon
+Dual Rod,Weapon
+Ominous Rod,Weapon
+Death Wand,Weapon
+Entangling Rod,Weapon
+Break Rod,Weapon
+Belladonna Wand,Weapon
+Lullaby Rod,Weapon
+Rod of Silence,Weapon
+Rod of Darkness,Weapon
+Rod of Wisdom,Weapon
+Rod of Fire,Weapon
+Crystal Shield,Armor
+Aegis Shield,Armor
+Golem Shield,Armor
+Revive Shield,Armor
+Rescue Shield,Armor
+Paladin Shield,Armor
+Diamond Shield,Armor
+Ruby Shield,Armor
+Dynasty Shield,Armor
+Magister Shield,Armor
+Collector's Shield,Armor
+Treasure Shield,Armor
+Shield of Hope,Armor
+Assault Shield,Armor
+Phantom Shield,Armor
+Recovery Shield,Armor
+Spiritual Shield,Armor
+Phoenix Shield,Armor
+Curative Shield,Armor
+Rainbow Shield,Armor
+Shining Shield,Armor
+Faerie Shield,Armor
+Peaceful Shield,Armor
+Shaman Shield,Armor
+Barrier Shield,Armor
+Star Shield,Armor
+Marching Shield,Armor
+Moon Shield,Armor
+Regen Shield,Armor
+Haste Shield,Armor
+Reflect Shield,Armor
+Protect Shield,Armor
+Shell Shield,Armor
+Red Shield,Armor
+White Shield,Armor
+Yellow Shield,Armor
+Blue Shield,Armor
+NulTide Shield,Armor
+NulBlaze Shield,Armor
+NulFrost Shield,Armor
+Adept's Shield,Armor
+Tetra Shield,Armor
+Mythril Shield,Armor
+Gold Shield,Armor
+Emerald Shield,Armor
+Soldier's Shield,Armor
+Mage's Shield,Armor
+Silver Shield,Armor
+Onyx Shield,Armor
+Sorcery Shield,Armor
+Hi-Potion,Strength Potion
+X-Potion,Strength Potion
+Mega-Potion,Strength Potion
+Ether,Strength Potion
+Turbo Ether,Strength Potion
+Elixir,Strength Potion
+Megalixir,Strength Potion
+Phoenix Down,Strength Potion
+Mega Phoenix,Strength Potion
+Antidote,Strength Potion
+Echo Screen,Agility Potion
+Eye Drops,Agility Potion
+Holy Water,Agility Potion
+Remedy,Agility Potion
+Soft,Agility Potion
+Al Bhed Potion,Agility Potion
+Healing Water,Agility Potion
+Tetra Elemental,Agility Potion
+Candle of Life,Agility Potion
+Dream Powder,Agility Potion
+Farplane Shadow,Dexterity Potion
+Farplane Wind,Dexterity Potion
+Frag Grenade,Dexterity Potion
+Silence Grenade,Dexterity Potion
+Sleeping Powder,Dexterity Potion
+Smoke Bomb,Dexterity Potion
+Petrify Grenade,Dexterity Potion
+Poison Fang,Dexterity Potion
+Blessed Gem,Dexterity Potion
+Dark Matter,Dexterity Potion
+Supreme Gem,Magic Potion
+Gold Hourglass,Magic Potion
+Healing Spring,Magic Potion
+Light Curtain,Magic Potion
+Lunar Curtain,Magic Potion
+Mana Spring,Magic Potion
+Mana Tablet,Magic Potion
+Mana Tonic,Magic Potion
+Purifying Salt,Magic Potion
+Silver Hourglass,Magic Potion
+Star Curtain,Health Potion
+Three Stars,Health Potion
+Twin Stars,Health Potion
+Ability Distiller,Health Potion
+Amulet,Health Potion
+Designer Wallet,Health Potion
+Door to Tomorrow,Health Potion
+Gambler's Spirit,Health Potion
+Hypello Potion,Health Potion
+Pendulum,Health Potion

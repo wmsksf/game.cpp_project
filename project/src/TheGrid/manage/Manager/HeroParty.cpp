@@ -3,7 +3,8 @@
 #include "../../entity/Grid/Tile.h"
 #include "../../TheGrid.h"
 
-HeroParty::HeroParty() {}
+HeroParty::HeroParty()
+    : heroes(), x(3), y(8) {}
 
 int HeroParty::getX() const
 {
@@ -95,6 +96,8 @@ void HeroParty::displayParty()
         std::cout << "[" << i + 1 << "]" << heroes[i]->getName() << std::endl;
     }
 }
+
+
 double HeroParty::getAverageLevel()
 {
     int sum = 0;
@@ -119,7 +122,7 @@ int HeroParty::getPartySize()
 
 Hero* HeroParty::getHero(int index)
 {
-    return heroes[index - 1];
+    return heroes[index];
 }
 
 Hero* HeroParty::getHero(const std::string &name)
@@ -133,7 +136,10 @@ Hero* HeroParty::getHero(const std::string &name)
     return nullptr;
 }
 
-const std::vector<Hero*> &HeroParty::getHeroes()
+void HeroParty::showHeroesStats()
 {
-    return heroes;
+    for(int i = 0; i < heroes.size(); i++)
+    {
+        heroes[i]->displayStats();
+    }
 }

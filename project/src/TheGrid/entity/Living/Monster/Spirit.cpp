@@ -7,6 +7,7 @@ Spirit::Spirit(const std::string &name, int level)
 {
     maxHealthPower = 280 * level;
     currentHealthPower = maxHealthPower;
+    healthRegen = 10;
 
     minDamage = 10 * level;
     maxDamage = 15 * level;
