@@ -7,10 +7,7 @@
 #include "../Random/Random.h"
 
 NameFactory::NameFactory()
-        : entityNames(), frequencyMap()
-{
-
-}
+        : entityNames(), frequencyMap() {}
 
 NameFactory::NameFactory(const std::string &filename)
     : entityNames(), frequencyMap()
@@ -81,4 +78,3 @@ void NameFactory::load(const std::string &filename)
     //close file
     infile.close();
 }
-

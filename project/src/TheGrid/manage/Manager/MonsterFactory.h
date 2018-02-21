@@ -16,12 +16,11 @@ private:
     std::vector<Monster*> monsters;
 
     Exoskeleton* createExoskeleton(HeroParty *party);
-    Spirit* createSpirit(HeroParty *party);
-
-    Dragon* createDragon(HeroParty *party);
+    Spirit* createSpirit(HeroParty* party);
+    Dragon* createDragon(HeroParty* party);
 
 public:
-    MonsterFactory(NameFactory *nameFactory);
+    MonsterFactory(NameFactory* nameFactory);
 
     std::vector<Monster*>* createMonsters(HeroParty* party);
 };

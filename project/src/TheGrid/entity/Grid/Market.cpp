@@ -1,13 +1,14 @@
 
 #include "Market.h"
 #include "../../TheGrid.h"
-#include "../../manage/Command/BuyCommand.h"
-#include "../../manage/Command/SellCommand.h"
-#include "../../manage/Command/MarketListCommand.h"
-#include "../../manage/Command/HelpinMarketCommand.h"
-#include "../../manage/Command/HeroPartyListCommand.h"
-#include "../../manage/Command/MoneyofHeroCommand.h"
+#include "../../manage/Command/Market/BuyCommand.h"
+#include "../../manage/Command/Market/SellCommand.h"
+#include "../../manage/Command/Market/MarketListCommand.h"
+#include "../../manage/Command/Market/HeroPartyListCommand.h"
+#include "../../manage/Command/Market/MoneyofHeroCommand.h"
 #include "../../manage/Command/InventoryListCommand.h"
+#include "../../manage/Command/QuitGameCommand.h"
+#include "../../manage/Command/HeroStatsCommand.h"
 
 Market::Market(std::vector<Item*>* marketofItems,
                 std::vector<Spell*>* marketofSpells)
@@ -62,14 +63,28 @@ void Market::printSpells()
     std::cout << std::endl;
 }
 
-Item* Market::getItem(int number) const
+Item* Market::getItem(const std::string &name)
 {
-    return (*marketofItems)[number - 1];
+
+    for (int i = 0; i < marketofItems->size(); i++)
+    {
+        if((*marketofItems)[i]->getName().compare(name) == 0)
+            return (*marketofItems)[i];
+    }
+
+    return nullptr;
 }
 
-Spell* Market::getSpell(int number) const
+Spell* Market::getSpell(const std::string &name)
 {
-    return (*marketofSpells)[number - 1];
+
+    for (int i = 0; i < marketofSpells->size(); i++)
+    {
+        if((*marketofSpells)[i]->getName().compare(name) == 0)
+            return (*marketofSpells)[i];
+    }
+
+    return nullptr;
 }
 
 void Market::receiveItem(Item* item)
@@ -102,9 +117,7 @@ void Market::initMarketManager()
     commands->push_back(new SellCommand(this));
     commands->push_back(new MarketListCommand(this));
     commands->push_back(new HeroPartyListCommand());
-    commands->push_back(new InventoryListCommand());
     commands->push_back(new MoneyofHeroCommand());
-    commands->push_back(new HelpinMarketCommand(this));
 
     marketManager = new CommandManager(commands);
 }

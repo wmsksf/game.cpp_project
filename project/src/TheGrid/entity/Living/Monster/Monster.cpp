@@ -6,7 +6,7 @@
 #include "../../../manage/Random/Utils.h"
 
 Monster::Monster(const std::string &name, int level)
-		:Living(name, level) {}
+		:Living(name, level), effects() {}
 
 void Monster::displayStats()
 {
@@ -39,7 +39,7 @@ double Monster::getDodgeProbability() const
 
 int Monster::getExperienceWorth()
 {
-    return 0.10 * experienceForLevelUp(level + 1);
+    return 0.25 * experienceForLevelUp(level + 1);
 }
 
 int Monster::getMoneyReward()
@@ -57,12 +57,12 @@ void Monster::applyEffect(Effect *effect) {
 
 void Monster::countDownEffects()
 {
-	for(auto it = effects.begin(); it != effects.end(); it++)
+	for(int i = effects.size() - 1; i >= 0; i--)
 	{
-        Effect* effect = *it;
+        Effect* effect = effects[i];
         effect->countDown();
 
         if(effect->expired())
-            effects.erase(it);
+            effects.erase(effects.begin() + i);
 	}
 }

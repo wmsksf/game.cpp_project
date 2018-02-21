@@ -44,7 +44,7 @@ Bannik,Exoskeleton
 Fae,Exoskeleton
 Clurichaun,Exoskeleton
 Diwata,Exoskeleton
-Dökkálfar,Exoskeleton
+Dokkalfar,Exoskeleton
 Domovoi,Exoskeleton
 Dryad,Exoskeleton
 Dullahan,Exoskeleton

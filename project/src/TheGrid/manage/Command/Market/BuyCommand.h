@@ -2,8 +2,8 @@
 #ifndef NONO_BUYCOMMAND_H
 #define NONO_BUYCOMMAND_H
 
-#include "Command.h"
-#include "../../entity/Grid/Market.h"
+#include "../Command.h"
+#include "../../../entity/Grid/Market.h"
 
 class BuyCommand : public Command
 {

@@ -11,9 +11,7 @@ bool InventoryListCommand::execute(TheGrid *theGrid, std::vector<std::string> &a
 {
     if(args.size() != 1)
     {
-        std::cout << "Invalid Usage :" << getUsage() << std::endl;
-
-        return false;
+        return invalidUsage();
     }
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
@@ -24,5 +22,6 @@ bool InventoryListCommand::execute(TheGrid *theGrid, std::vector<std::string> &a
         return false;
     }
 
+    std::cout << std::endl;
     hero->printInventory();
 }

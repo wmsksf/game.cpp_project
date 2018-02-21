@@ -17,12 +17,12 @@ private:
 	CommandManager* commandManager;
 
 	HeroFactory* heroFactory;
-	ItemFactory *itemFactory;
-	TileFactory *tileFactory;
-	NameFactory *nameFactory;
+	ItemFactory* itemFactory;
+	TileFactory* tileFactory;
+	NameFactory* nameFactory;
 
 public:
-	TheGrid();
+	TheGrid(const std::string& resourceFolder);
 
 	void start();
 
@@ -34,12 +34,10 @@ public:
 	CommandManager* getCommandManager() const;
 
     HeroFactory* getHeroFactory();
-
 	NameFactory* getNameFactory();
 
 private:
 	void initCommandManager();
-
 };
 
 #endif //NONO_GAME_H

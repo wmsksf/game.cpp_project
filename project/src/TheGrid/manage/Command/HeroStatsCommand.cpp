@@ -3,7 +3,7 @@
 #include "../../TheGrid.h"
 
 HeroStatsCommand::HeroStatsCommand()
-                :Command("heroStats", "[heroStats <hero_name>] Command to display the stats of the heroes'") {}
+                :Command("heroStats", "[heroStats (<hero_name>)] Command to display the stats of the heroes'") {}
 
 bool HeroStatsCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
@@ -15,16 +15,18 @@ bool HeroStatsCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
         if(hero == nullptr)
         {
-            std::cout << "Uknown hero...Try again" << std::endl;
+            std::cout << "Uknown hero!" << std::endl;
             return false;
         }
 
+        std::cout << std::endl;
         hero->displayStats();
 
         return true;
     }
 
-
+    std::cout << std::endl;
     theGrid->getParty()->showHeroesStats();
+
     return true;
 }

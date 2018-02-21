@@ -11,7 +11,7 @@ Paladin::Paladin(const std::string& name)
 
 	maxMagicPower = 100;
 	currentMagicPower = 100;
-	healthRegen = 10;
+	magicRegen = 10;
 
 	strength = 120;
 	dexterity = 100;

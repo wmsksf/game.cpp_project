@@ -18,10 +18,9 @@ bool CastSpellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(hero->getLevel() < spell->getRequiredLvl())
     {
-        std::cout << "Level too low" << std::endl;
+        std::cout << "Level too low!" << std::endl;
         return false;
     }
-
 
     battleArena->spellCast(hero, spell, monster);
 

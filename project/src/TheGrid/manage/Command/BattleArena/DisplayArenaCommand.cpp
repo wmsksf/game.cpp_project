@@ -7,7 +7,9 @@ DisplayArenaCommand::DisplayArenaCommand(BattleArena *battleArena)
 
 bool DisplayArenaCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+    std::cout << std::endl;
+
     battleArena->displayBattleInfo();
 
-    return true;
+    return false;
 }

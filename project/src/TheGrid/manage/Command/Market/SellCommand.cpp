@@ -1,6 +1,7 @@
 
 #include "SellCommand.h"
-#include "../../TheGrid.h"
+#include "../../../TheGrid.h"
+#include "../../Random/Utils.h"
 
 SellCommand::SellCommand(Market *market)
     :Command("sell", "[sell <hero_name> (item | spell) (<item_name> | <spell_name>)]  Command to sell an item or spell"),
@@ -8,24 +9,26 @@ SellCommand::SellCommand(Market *market)
 
 bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    if(args.size() != 3)
+    if(args.size() < 3)
     {
-        std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return false;
+        return invalidUsage();
     }
+
+    std::vector<std::string> tobeSold(args.begin() + 2, args.end());
+    std::string name = join(tobeSold, " ");
 
     Hero* hero = theGrid->getParty()->getHero(args[0]);
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero " << args[0] << std::endl;
+        std::cout << "Unknown hero!" << args[0] << std::endl;
         return false;
     }
 
     if(args[1].compare("item") == 0)
     {
 
-        Item* item = hero->getItem(args[2]);
+        Item* item = hero->getItem(name);
 
         if(item == nullptr)
         {
@@ -38,7 +41,7 @@ bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     }
     else if(args[1].compare("spell") == 0)
     {
-        Spell* spell = hero->getSpell(args[2]);
+        Spell* spell = hero->getSpell(name);
 
         if(spell == nullptr)
         {
@@ -51,8 +54,7 @@ bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     }
     else
     {
-        std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return false;
+        return invalidUsage();
     }
 
     return true;

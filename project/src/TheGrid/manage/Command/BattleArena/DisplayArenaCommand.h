@@ -2,8 +2,8 @@
 #ifndef NONO_DISPLAYARENACOMMAND_H
 #define NONO_DISPLAYARENACOMMAND_H
 
-#include "Command.h"
-#include "../Manager/BattleArena.h"
+#include "../Command.h"
+#include "../../Manager/BattleArena.h"
 
 class DisplayArenaCommand : public Command
 {

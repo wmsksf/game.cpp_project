@@ -44,8 +44,6 @@ public:
 
 	void attack(Hero* hero, Monster* monster);
 
-	void usePotion(Hero* hero, Potion* potion);
-
     BattleArena(TheGrid* theGrid);
 
     void start();
@@ -59,6 +57,8 @@ public:
     std::vector<Monster *>* getMonsters() const;
 
 	CommandManager* getBattleManager() const;
+
+    Monster *getMonster(int index);
 
 private:
     void initCommandManager();

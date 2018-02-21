@@ -14,7 +14,7 @@ void Hero::displayStats()
 {
 	Living::displayStats();
 
-	std::cout << "\t" << currentMagicPower << " [magic power]" << std::endl;
+	std::cout << "\t" << maxMagicPower << " [magic power]" << std::endl;
 
 	std::cout << "\t" << strength << " [strength]" << std::endl;
 	std::cout << "\t" << dexterity << " [dexterity]" << std::endl;

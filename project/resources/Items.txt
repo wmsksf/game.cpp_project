@@ -36,7 +36,7 @@ Staff of Thorns,Weapon
 Reticent Staff,Weapon
 Darkness Staff,Weapon
 Monk Staff,Weapon
-Mage's Staff,Weapon
+Mage Staff,Weapon
 Dual Rod,Weapon
 Ominous Rod,Weapon
 Death Wand,Weapon
@@ -58,8 +58,8 @@ Diamond Shield,Armor
 Ruby Shield,Armor
 Dynasty Shield,Armor
 Magister Shield,Armor
-Collector's Shield,Armor
 Treasure Shield,Armor
+Fanthom Shield,Armor
 Shield of Hope,Armor
 Assault Shield,Armor
 Phantom Shield,Armor
@@ -88,19 +88,19 @@ Blue Shield,Armor
 NulTide Shield,Armor
 NulBlaze Shield,Armor
 NulFrost Shield,Armor
-Adept's Shield,Armor
+Adept Shield,Armor
 Tetra Shield,Armor
 Mythril Shield,Armor
 Gold Shield,Armor
 Emerald Shield,Armor
-Soldier's Shield,Armor
-Mage's Shield,Armor
+Soldier Shield,Armor
+Mage Shield,Armor
 Silver Shield,Armor
 Onyx Shield,Armor
 Sorcery Shield,Armor
-Hi-Potion,Strength Potion
-X-Potion,Strength Potion
-Mega-Potion,Strength Potion
+Hi Potion,Strength Potion
+X Potion,Strength Potion
+Mega Potion,Strength Potion
 Ether,Strength Potion
 Turbo Ether,Strength Potion
 Elixir,Strength Potion
@@ -117,7 +117,6 @@ Al Bhed Potion,Agility Potion
 Healing Water,Agility Potion
 Tetra Elemental,Agility Potion
 Candle of Life,Agility Potion
-Dream Powder,Agility Potion
 Farplane Shadow,Dexterity Potion
 Farplane Wind,Dexterity Potion
 Frag Grenade,Dexterity Potion
@@ -145,6 +144,6 @@ Ability Distiller,Health Potion
 Amulet,Health Potion
 Designer Wallet,Health Potion
 Door to Tomorrow,Health Potion
-Gambler's Spirit,Health Potion
+Gambler Spirit,Health Potion
 Hypello Potion,Health Potion
 Pendulum,Health Potion

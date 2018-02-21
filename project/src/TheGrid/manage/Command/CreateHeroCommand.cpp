@@ -13,8 +13,7 @@ bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 {
     if(args.size() != 2)
     {
-        std::cout << "Invalid Usage :" << getUsage() << std::endl;
-        return false;
+        return invalidUsage();
     }
 
     HeroFactory* heroFactory = theGrid->getHeroFactory();
@@ -27,18 +26,24 @@ bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 
     std::string name = args[1];
 
+    Hero* hero;
+
     if(args[0].compare("Paladin") == 0)
     {
-        theGrid->getParty()->addHero(heroFactory->createPaladin(name));
+        hero = heroFactory->createPaladin(name);
     }
     else if(args[0].compare("Sorcerer") == 0)
     {
-        theGrid->getParty()->addHero(heroFactory->createSorcerer(name));
+        hero = heroFactory->createSorcerer(name);
     }
     else if(args[0].compare("Warrior") == 0)
     {
-        theGrid->getParty()->addHero(heroFactory->createWarrior(name));
+        hero = heroFactory->createWarrior(name);
+    }else{
+        return invalidUsage();
     }
+
+    theGrid->getParty()->addHero(hero);
 
     return true;
 }

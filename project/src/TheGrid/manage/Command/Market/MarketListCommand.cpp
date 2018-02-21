@@ -8,6 +8,8 @@ MarketListCommand::MarketListCommand(Market *market)
 
 bool MarketListCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+    std::cout << std::endl;
+
     market->printMarket();
 
     return true;

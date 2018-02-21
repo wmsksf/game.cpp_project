@@ -1,52 +1,50 @@
 
 #include "UsePotionCommand.h"
+#include "../../TheGrid.h"
+#include "../Random/Utils.h"
 
-UsePotionCommand::UsePotionCommand(BattleArena *battleArena)
-                :Command("usePotion", "[usePotion] Command to use potion"),
-                battleArena(battleArena) {}
+UsePotionCommand::UsePotionCommand()
+                :Command("usePotion", "[usePotion <potion_name>] Command to use potion") {}
 
 bool UsePotionCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    Hero* hero = battleArena->getParty()->getHero(args[0]);
-
-    Potion* potion = getPotion(hero);
-
-    if(potion == nullptr)
-        return false;
-
-    battleArena->usePotion(hero, potion);
-
-    return true;
-}
-
-Potion* UsePotionCommand::getPotion(Hero* hero)
-{
-    if(hero->getInventory().noPotions())
+    if(args.size() < 1)
     {
-        std::cout << "Your inventory is empty... Cannot use any potion." << std::endl;
-        return nullptr;
+        return invalidUsage();
     }
 
-    std::cout << "Which potion to use <potion_name>?" << std::endl;
+    std::string potionName;
 
-    hero->printItemsByCategory("Potion");
+    Hero* hero = theGrid->getParty()->getHero(args[0]);
 
-    std::string name;
-    std::cin >> name;
-
-    Item* item = hero->getItem(name);
-
-    while(item == nullptr)
+    if(hero == nullptr)
     {
-        std::cout << "Unknown potion..." << std::endl;
-        std::cout << "You may have given the name wrong..." << std::endl;
-        std::cout << "Please check your inventory once again." << std::endl;
+        std::vector<std::string> ppotion(args.begin(), args.end() - 1);
+        hero = theGrid->getParty()->getHero(*(args.end() - 1));
+
+        potionName = join(ppotion, " ");
+    }
+    else
+    {
+        std::vector<std::string> potionn(args.begin() + 1, args.end());
+
+        potionName = join(potionn, " ");
+    }
+
+    Item* potion = hero->getItem(potionName);
+
+    if(potion == nullptr)
+    {
+        std::cout << "Could not find potion." << std::endl;
+        std::cout << "Check your potions once again..." << std::endl;
 
         hero->printItemsByCategory("Potion");
 
-        std::cin >> name;
-        item = hero->getItem(name);
+        return false;
     }
 
-    return (Potion*)item;
+    hero->use((Potion*)potion);
+    hero->removeItem(potion);
+
+    return true;
 }

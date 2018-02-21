@@ -1,6 +1,6 @@
 
 #include "HeroPartyListCommand.h"
-#include "../../TheGrid.h"
+#include "../../../TheGrid.h"
 
 
 HeroPartyListCommand::HeroPartyListCommand()
@@ -8,6 +8,8 @@ HeroPartyListCommand::HeroPartyListCommand()
 
 bool HeroPartyListCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
+    std::cout << std::endl;
+
     theGrid->getParty()->displayParty();
 
     return true;

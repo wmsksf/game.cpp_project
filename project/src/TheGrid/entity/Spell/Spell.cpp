@@ -76,9 +76,8 @@ void Spell::setMaxDamage(int maxDamage)
 
 std::string Spell::getDescription()
 {
-    return string_format("%s [%s] [%d level] [%d magic power] "
+    return string_format("%s [%s] [%d level] [%d coins] [%d magic power] "
                                  "[[%d, %d] damage range] ",
-                         name.c_str(), category.c_str(), requiredLvl,
-                         requiredMagicPower,
-                        minDamage, maxDamage);
+                         name.c_str(), category.c_str(), requiredLvl, price,
+                         requiredMagicPower, minDamage, maxDamage);
 }

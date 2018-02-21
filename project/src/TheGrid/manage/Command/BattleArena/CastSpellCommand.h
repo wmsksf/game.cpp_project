@@ -2,8 +2,8 @@
 #ifndef NONO_CASTSPELLCOMMAND_H
 #define NONO_CASTSPELLCOMMAND_H
 
-#include "Command.h"
-#include "../Manager/BattleArena.h"
+#include "../Command.h"
+#include "../../Manager/BattleArena.h"
 
 class CastSpellCommand : public Command
 {

@@ -10,10 +10,8 @@ class UsePotionCommand : public Command
 private:
     BattleArena* battleArena;
 
-    Potion* getPotion(Hero* hero);
-
 public:
-    UsePotionCommand(BattleArena* battleArena);
+    UsePotionCommand();
 
     bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };

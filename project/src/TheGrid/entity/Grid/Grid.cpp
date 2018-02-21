@@ -18,7 +18,14 @@ Grid::Grid(TileFactory* tileFactory)
 	{
 		for (int j = 0; j != width; j++)
 		{
-			grid[i][j] = tileFactory->createTile();
+			if(i == 0 && j == 0)
+			{
+				grid[0][0] = tileFactory->createMarket();
+			}
+			else
+			{
+				grid[i][j] = tileFactory->createTile();
+			}
 		}
 	}
 }

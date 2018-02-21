@@ -2,7 +2,7 @@
 #ifndef NONO_SELLCOMMAND_H
 #define NONO_SELLCOMMAND_H
 
-#include "../../entity/Grid/Market.h"
+#include "../../../entity/Grid/Market.h"
 
 class SellCommand : public Command
 {

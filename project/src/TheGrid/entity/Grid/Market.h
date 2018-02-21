@@ -25,8 +25,8 @@ public:
 
     void printMarket();
 
-    Item* getItem(int) const;
-    Spell* getSpell(int) const;
+    Item* getItem(const std::string &name);
+    Spell* getSpell(const std::string &name);
 
     void receiveItem(Item* item);
     void receiveSpell(Spell* spell);

@@ -1,7 +1,8 @@
 #include "Weapon.h"
 #include "../../manage/Random/Random.h"
 
-Weapon::Weapon(const std::string &name)
+
+Weapon::Weapon(const std::string& name)
 
         :Item(name, "Weapon",
               randomInRange(150, 350),
@@ -9,6 +10,12 @@ Weapon::Weapon(const std::string &name)
          damage(randomInRange(40, 50)),
          dualWeild(randomBool()) {}
 
+
+Weapon::Weapon(const std::string &name, int requiredLevel, int price, int damage, bool dualWeild)
+    : Item(name, "Weapon", price, requiredLevel), damage(damage), dualWeild(dualWeild)
+{
+
+}
 bool Weapon::isDualWeild() const
 {
     return dualWeild;

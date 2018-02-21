@@ -16,4 +16,6 @@ int monsterLevel(double averageHeroLevel);
 
 std::string join(std::vector<std::string> args, std::string separator);
 
+bool is_number(const std::string& str);
+
 #endif //NONO_UTILS_H

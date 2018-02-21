@@ -1,14 +1,15 @@
 
 #include "BuyCommand.h"
-#include "../../TheGrid.h"
+#include "../../../TheGrid.h"
+#include "../../Random/Utils.h"
 
 BuyCommand::BuyCommand(Market* market)
-    :Command("buy", "[buy <hero_name>] (item | spell) ( <item_id> | <spell_id> )Command to buy an item or spell"),
+    :Command("buy", "[buy <hero_name>] (item | spell) ( <item_name> | <spell_name> )Command to buy an item or spell"),
     market(market) {}
 
 bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    if(args.size() != 3)
+    if(args.size() < 3)
     {
         return invalidUsage();
     }
@@ -17,14 +18,18 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero " << args[0] << std::endl;
+        std::cout << "Unknown hero!" << args[0] << std::endl;
         return false;
     }
+
+    std::vector<std::string> tobeBought(args.begin() + 2, args.end());
+
+    std::string name = join(tobeBought, " ");
 
     if(args[1].compare("item") == 0)
     {
 
-        Item* item = market->getItem(stoi(args[2]));
+        Item* item = market->getItem(name);
 
         if(item == nullptr)
         {
@@ -39,13 +44,13 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         }
         else
         {
-            std::cout << "You don't have enough money to buy the item" << std::endl;
+            std::cout << "You don't have enough money to buy the item." << std::endl;
             return false;
         }
     }
     else if(args[1].compare("spell") == 0)
     {
-        Spell* spell = market->getSpell(stoi(args[2]));
+        Spell* spell = market->getSpell(name);
 
         if(spell == nullptr)
         {
@@ -60,14 +65,13 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         }
         else
         {
-            std::cout << "You don't have enough money to buy the spell" << std::endl;
+            std::cout << "You don't have enough money to buy the spell." << std::endl;
             return false;
         }
     }
     else
     {
-        std::cout << "Invalid Usage : " << getUsage() << std::endl;
-        return false;
+        return invalidUsage();
     }
 
     return true;

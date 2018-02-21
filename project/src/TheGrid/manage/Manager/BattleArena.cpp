@@ -1,14 +1,13 @@
 
 #include "BattleArena.h"
 #include "../../TheGrid.h"
-#include "../Command/AttackCommand.h"
-#include "../Command/CastSpellCommand.h"
+#include "../Command/BattleArena/AttackCommand.h"
+#include "../Command/BattleArena/CastSpellCommand.h"
 #include "../Command/UsePotionCommand.h"
 #include "../Command/EquipWeaponCommand.h"
 #include "../Command/EquipArmorCommand.h"
-#include "../Command/DisplayArenaCommand.h"
-#include "../Command/HelpinArenaCommand.h"
-
+#include "../Command/BattleArena/DisplayArenaCommand.h"
+#include "../Command/QuitGameCommand.h"
 
 BattleArena::BattleArena(TheGrid* theGrid)
 	:theGrid(theGrid),
@@ -20,6 +19,9 @@ BattleArena::BattleArena(TheGrid* theGrid)
 
 	initCommandManager();
 
+    moneyReward = 0;
+    experienceReward = 0;
+    totalContribution = 0.0;
     heroContribution = new int[party->getPartySize()];
 
     for(int i = 0; i < party->getPartySize(); i++)
@@ -45,11 +47,46 @@ void BattleArena::displayBattleInfo()
 	}
 }
 
+void BattleArena::showMonsters()
+{
+    for(int i = 0; i < monsters->size(); i++)
+    {
+        std::cout << "[" << i + 1 << "] ";
+
+        (*monsters)[i]->displayStats();
+
+        std::cout << std::endl;
+    }
+}
+
+Monster* BattleArena::monsterDialog()
+{
+    std::cout << "Which monster to attack <monster_id>?" << std::endl;
+
+    showMonsters();
+
+    int monster_index;
+    std::cin >> monster_index;
+
+    while(monster_index < 0 || monster_index > monsters->size())
+    {
+        std::cout << "Unknown monster.." << std::endl;
+        std::cout << "You may have given the index wrong..." << std::endl;
+        std::cout << "Give an index of one of the monsters below." << std::endl;
+
+        showMonsters();
+
+        std::cin >> monster_index;
+    }
+
+    return getMonster(monster_index);
+}
+
 void BattleArena::heroRound(Hero* hero)
 {
 	while(true)
 	{
-		std::cout << "Mighty hero " << hero->getName() << ", what is your command ?";
+		std::cout << "Mighty hero " << hero->getName() << " what is your command ?";
 		std::cout << std::endl;
 
 		std::cout << "You may either attack, castSpell, usePotion..." << std::endl;
@@ -88,7 +125,7 @@ void BattleArena::monsterRound(Monster* monster)
     if(dodgeChance < dodgeProbability)
     {
         std::cout << "Monster " << monster->getName() << " tried to attack but player "
-                  << hero->getName() << " dodged the attack" << std::endl;
+                  << hero->getName() << " dodged the attack!" << std::endl;
         return;
     }
 
@@ -104,6 +141,7 @@ void BattleArena::monsterRound(Monster* monster)
 
     std::cout << "Monster " << monster->getName() << " inflicted "<< damage
               << " to hero " << hero->getName() << std::endl;
+
     if(!hero->isConscious())
     {
         std::cout << "Hero " << hero->getName() << " has fainted!" << std::endl;
@@ -112,26 +150,9 @@ void BattleArena::monsterRound(Monster* monster)
     contribute(hero, damage);
  }
 
-bool BattleArena::isFinished()
-{
-	int heroCount = 0;
-
-	for(int i = 0; i < party->getPartySize(); i++)
-	{
-		if(party->getHero(i)->isConscious())
-			heroCount++;
-	}
-
-	if(heroCount == 0)
-		return true;
-
-	if(monsters->size() == 0)
-		return true;
-}
-
 void BattleArena::start()
 {
-    std::cout << "Mighty heroes you have entered a battle" << std::endl;
+    std::cout << "Mighty heroes you have entered a battle!!" << std::endl;
 
     showMonsters();
 
@@ -163,6 +184,23 @@ void BattleArena::start()
 		defeat();
 }
 
+bool BattleArena::isFinished()
+{
+    int heroCount = 0;
+
+    for(int i = 0; i < party->getPartySize(); i++)
+    {
+        if(party->getHero(i)->isConscious())
+            heroCount++;
+    }
+
+    if(heroCount == 0)
+        return true;
+
+    if(monsters->size() == 0)
+        return true;
+}
+
 bool BattleArena::victors()
 {
 	return monsters->empty();
@@ -184,52 +222,17 @@ void BattleArena::reward()
     {
         Hero* hero = party->getHero(i);
 
-        double contr = (double)heroContribution[i] / (double)totalContribution;
+        double contr = (double)(heroContribution[i]) / (double)totalContribution;
 
         int heroMoneyReward = moneyReward * contr;
         int heroExperienceReward = experienceReward * contr;
 
-        std::cout << "Hero " << hero->getName() << " rewarded " << heroMoneyReward << " coins and"
-                   << heroExperienceReward << " experience points" << std::endl;
+        std::cout << "Hero " << hero->getName() << " rewarded with " << heroMoneyReward
+                  << " coins and " << heroExperienceReward << " experience points" << std::endl;
 
         hero->setMoney(hero->getMoney() + heroMoneyReward);
         hero->gainExperience(heroExperienceReward);
     }
-}
-
-void BattleArena::showMonsters()
-{
-	for(int i = 0; i < monsters->size(); i++)
-	{
-		std::cout << "[" << i + 1 << "] ";
-
-		(*monsters)[i]->displayStats();
-
-		std::cout << std::endl;
-	}
-}
-
-Monster* BattleArena::monsterDialog()
-{
-	std::cout << "Which monster to attack <monster_id>?" << std::endl;
-
-	showMonsters();
-
-	int monster_index;
-	std::cin >> monster_index;
-
-	while(monster_index < 0 || monster_index > monsters->size())
-	{
-		std::cout << "Unknown monster.." << std::endl;
-		std::cout << "You may have given the index wrong..." << std::endl;
-		std::cout << "Give an index of one of the monsters below." << std::endl;
-
-		showMonsters();
-
-		std::cin >> monster_index;
-	}
-
-	return (*monsters)[monster_index - 1];
 }
 
 void BattleArena::initCommandManager()
@@ -238,11 +241,11 @@ void BattleArena::initCommandManager()
 
 	commands->push_back(new AttackCommand(this));
 	commands->push_back(new CastSpellCommand(this));
-	commands->push_back(new UsePotionCommand(this));
+    commands->push_back(new UsePotionCommand());
 	commands->push_back(new EquipArmorCommand());
 	commands->push_back(new EquipWeaponCommand());
 	commands->push_back(new DisplayArenaCommand(this));
-    commands->push_back(new HelpinArenaCommand(this));
+    commands->push_back(new QuitGameCommand());
 
 	BattleManager = new CommandManager(commands);
 }
@@ -250,6 +253,16 @@ void BattleArena::initCommandManager()
 CommandManager* BattleArena::getBattleManager() const
 {
     return BattleManager;
+}
+
+HeroParty* BattleArena::getParty() const
+{
+    return party;
+}
+
+std::vector<Monster *>* BattleArena::getMonsters() const
+{
+    return monsters;
 }
 
 void BattleArena::spellCast(Hero* hero, Spell* spell, Monster* monster)
@@ -276,7 +289,7 @@ void BattleArena::spellCast(Hero* hero, Spell* spell, Monster* monster)
 
     if(monster->getCurrentHealthPower() <= 0)
     {
-        std::cout << "Monster " << monster->getName() << " has been killed " << std::endl;
+        std::cout << "Monster " << monster->getName() << " has been killed!" << std::endl;
         killMonster(monster);
     }
 
@@ -300,7 +313,7 @@ void BattleArena::attack(Hero* hero, Monster* monster)
     double dodgeChange = randomDouble();
     if(dodgeChange < stats->getDodgeProbability())
     {
-        std:: cout << "Monster dodged the attack" << std::endl;
+        std:: cout << "Monster dodged the attack!" << std::endl;
         return ;
     }
 
@@ -314,45 +327,28 @@ void BattleArena::attack(Hero* hero, Monster* monster)
 
     if(monster->getCurrentHealthPower() <= 0)
     {
-        std::cout << "Monster " << monster->getName() << " has been killed " << std::endl;
+        std::cout << "Monster " << monster->getName() << " has been killed!" << std::endl;
         killMonster(monster);
     }
 
     contribute(hero, damage);
 }
 
-void BattleArena::usePotion(Hero* hero, Potion* potion)
-{
-	hero->use(potion);
-
-	hero->removeItem(potion);
-}
-
 MonsterStats* BattleArena::calculateStats(Monster* monster)
 {
-	MonsterStats* stats = new MonsterStats(monster);
+    MonsterStats* stats = new MonsterStats(monster);
 
-	std::vector<Effect*> effects = monster->getEffects();
+    std::vector<Effect*> effects = monster->getEffects();
 
-	for(int i = 0; i < effects.size(); i++)
-	{
+    for(int i = 0; i < effects.size(); i++)
+    {
         if(effects[i]->expired())
             continue;
 
-		effects[i]->apply(stats);
-	}
+        effects[i]->apply(stats);
+    }
 
-	return stats;
-}
-
-HeroParty* BattleArena::getParty() const
-{
-    return party;
-}
-
-std::vector<Monster *>* BattleArena::getMonsters() const
-{
-    return monsters;
+    return stats;
 }
 
 void BattleArena::killMonster(Monster *monster)
@@ -420,4 +416,12 @@ void BattleArena::contribute(Hero *hero, int damage)
             return;
         }
     }
+}
+
+Monster *BattleArena::getMonster(int index)
+{
+    if(index > monsters->size())
+        return nullptr;
+
+    return (*monsters)[index - 1];
 }

@@ -1,0 +1,27 @@
+
+Authors :  Kostas Alexopoulos (sdi1600002@di.uoa.gr)
+           Adamantia Sofi     (sdi1600158@di.uoa.gr)
+
+Compilation
+
+$ make
+
+Execution
+
+$ ./TheGrid ./resources
+
+Description
+
+    A work mostly inspired by GOF94 Factory, Prototype and Flyweight patterns
+as well as the Command pattern.
+
+    The marvelous land of TheGrid (the name of the game) is consisted of Tiles that may or not
+allow access to the great hero party that travels through. Our heroes carry a heavy backpack
+with all their inventory, as well as, their equiped armor and weapon.
+
+    Some say that, mysterious substances known as spells allow powerful heroes to use their
+natural mana (their magic power) to inflict unparaller damage. Three categories of spells are known
+the Fire spells powered by the arcane power of the earth, the Ice spells powered by the coldest beaths
+of Odin and lastly the Lighting spells human kind has yet to learn their source.
+
+    On their journey, heroes

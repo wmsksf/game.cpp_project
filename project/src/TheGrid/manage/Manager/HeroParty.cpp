@@ -4,7 +4,7 @@
 #include "../../TheGrid.h"
 
 HeroParty::HeroParty()
-    : heroes(), x(3), y(8) {}
+    : heroes() {}
 
 int HeroParty::getX() const
 {

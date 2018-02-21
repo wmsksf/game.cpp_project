@@ -7,7 +7,7 @@ Inferno,Fire Spell
 Fireball,Fire Spell
 Explosion,Fire Spell
 Meteor,Fire Spell
-Salamander’s Blade,Fire Spell
+Blade Salamander,Fire Spell
 Avalanche,Ice Spell
 Chill,Ice Spell
 Freeze,Ice Spell
@@ -26,5 +26,5 @@ Tempest,Lighting Spell
 Whirlwhind,Lighting Spell
 Cyclone,Lighting Spell
 Vortex,Lighting Spell
-Wyvern’s Wings,Lighting Spell
+Wings of Wyvern,Lighting Spell
 Daze,Lighting Spell

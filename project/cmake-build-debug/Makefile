@@ -1068,86 +1068,113 @@ src/TheGrid/main.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/main.cpp.s
 .PHONY : src/TheGrid/main.cpp.s
 
-src/TheGrid/manage/Command/AttackCommand.o: src/TheGrid/manage/Command/AttackCommand.cpp.o
+src/TheGrid/manage/Command/BattleArena/AttackCommand.o: src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.o
 
-.PHONY : src/TheGrid/manage/Command/AttackCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/AttackCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.o
-
-src/TheGrid/manage/Command/AttackCommand.i: src/TheGrid/manage/Command/AttackCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/AttackCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/AttackCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.i
-
-src/TheGrid/manage/Command/AttackCommand.s: src/TheGrid/manage/Command/AttackCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/AttackCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/AttackCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/AttackCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/AttackCommand.cpp.s
-
-src/TheGrid/manage/Command/BuyCommand.o: src/TheGrid/manage/Command/BuyCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/BuyCommand.o
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.o
 
 # target to build an object file
-src/TheGrid/manage/Command/BuyCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.o
+src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.o
 
-src/TheGrid/manage/Command/BuyCommand.i: src/TheGrid/manage/Command/BuyCommand.cpp.i
+src/TheGrid/manage/Command/BattleArena/AttackCommand.i: src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.i
 
-.PHONY : src/TheGrid/manage/Command/BuyCommand.i
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.i
 
 # target to preprocess a source file
-src/TheGrid/manage/Command/BuyCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.i
+src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.i
 
-src/TheGrid/manage/Command/BuyCommand.s: src/TheGrid/manage/Command/BuyCommand.cpp.s
+src/TheGrid/manage/Command/BattleArena/AttackCommand.s: src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.s
 
-.PHONY : src/TheGrid/manage/Command/BuyCommand.s
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.s
 
 # target to generate assembly for a file
-src/TheGrid/manage/Command/BuyCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BuyCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/BuyCommand.cpp.s
+src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/BattleArena/AttackCommand.cpp.s
 
-src/TheGrid/manage/Command/CastSpellCommand.o: src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.o: src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.o
 
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.o
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.o
 
 # target to build an object file
-src/TheGrid/manage/Command/CastSpellCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.o
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.o
 
-src/TheGrid/manage/Command/CastSpellCommand.i: src/TheGrid/manage/Command/CastSpellCommand.cpp.i
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.i: src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.i
 
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.i
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.i
 
 # target to preprocess a source file
-src/TheGrid/manage/Command/CastSpellCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.i
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.i
 
-src/TheGrid/manage/Command/CastSpellCommand.s: src/TheGrid/manage/Command/CastSpellCommand.cpp.s
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.s: src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.s
 
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.s
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.s
 
 # target to generate assembly for a file
-src/TheGrid/manage/Command/CastSpellCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CastSpellCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/CastSpellCommand.cpp.s
+src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/BattleArena/CastSpellCommand.cpp.s
+
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.o: src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.o
+
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.i: src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.i
+
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.s: src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.cpp.s
+
+src/TheGrid/manage/Command/CheatCommand.o: src/TheGrid/manage/Command/CheatCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/CheatCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/CheatCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CheatCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/CheatCommand.cpp.o
+
+src/TheGrid/manage/Command/CheatCommand.i: src/TheGrid/manage/Command/CheatCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/CheatCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/CheatCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CheatCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/CheatCommand.cpp.i
+
+src/TheGrid/manage/Command/CheatCommand.s: src/TheGrid/manage/Command/CheatCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/CheatCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/CheatCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CheatCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/CheatCommand.cpp.s
 
 src/TheGrid/manage/Command/Command.o: src/TheGrid/manage/Command/Command.cpp.o
 
@@ -1202,33 +1229,6 @@ src/TheGrid/manage/Command/CreateHeroCommand.s: src/TheGrid/manage/Command/Creat
 src/TheGrid/manage/Command/CreateHeroCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/CreateHeroCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/CreateHeroCommand.cpp.s
-
-src/TheGrid/manage/Command/DisplayArenaCommand.o: src/TheGrid/manage/Command/DisplayArenaCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/DisplayArenaCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayArenaCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.cpp.o
-
-src/TheGrid/manage/Command/DisplayArenaCommand.i: src/TheGrid/manage/Command/DisplayArenaCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/DisplayArenaCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayArenaCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.cpp.i
-
-src/TheGrid/manage/Command/DisplayArenaCommand.s: src/TheGrid/manage/Command/DisplayArenaCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/DisplayArenaCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/DisplayArenaCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/DisplayArenaCommand.cpp.s
 
 src/TheGrid/manage/Command/DisplayMapCommand.o: src/TheGrid/manage/Command/DisplayMapCommand.cpp.o
 
@@ -1338,87 +1338,6 @@ src/TheGrid/manage/Command/HelpCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/HelpCommand.cpp.s
 
-src/TheGrid/manage/Command/HelpinArenaCommand.o: src/TheGrid/manage/Command/HelpinArenaCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/HelpinArenaCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinArenaCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.cpp.o
-
-src/TheGrid/manage/Command/HelpinArenaCommand.i: src/TheGrid/manage/Command/HelpinArenaCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/HelpinArenaCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinArenaCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.cpp.i
-
-src/TheGrid/manage/Command/HelpinArenaCommand.s: src/TheGrid/manage/Command/HelpinArenaCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/HelpinArenaCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinArenaCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/HelpinArenaCommand.cpp.s
-
-src/TheGrid/manage/Command/HelpinMarketCommand.o: src/TheGrid/manage/Command/HelpinMarketCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/HelpinMarketCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinMarketCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.cpp.o
-
-src/TheGrid/manage/Command/HelpinMarketCommand.i: src/TheGrid/manage/Command/HelpinMarketCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/HelpinMarketCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinMarketCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.cpp.i
-
-src/TheGrid/manage/Command/HelpinMarketCommand.s: src/TheGrid/manage/Command/HelpinMarketCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/HelpinMarketCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HelpinMarketCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/HelpinMarketCommand.cpp.s
-
-src/TheGrid/manage/Command/HeroPartyListCommand.o: src/TheGrid/manage/Command/HeroPartyListCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/HeroPartyListCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HeroPartyListCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.cpp.o
-
-src/TheGrid/manage/Command/HeroPartyListCommand.i: src/TheGrid/manage/Command/HeroPartyListCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/HeroPartyListCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HeroPartyListCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.cpp.i
-
-src/TheGrid/manage/Command/HeroPartyListCommand.s: src/TheGrid/manage/Command/HeroPartyListCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/HeroPartyListCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/HeroPartyListCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/HeroPartyListCommand.cpp.s
-
 src/TheGrid/manage/Command/HeroStatsCommand.o: src/TheGrid/manage/Command/HeroStatsCommand.cpp.o
 
 .PHONY : src/TheGrid/manage/Command/HeroStatsCommand.o
@@ -1473,59 +1392,140 @@ src/TheGrid/manage/Command/InventoryListCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/InventoryListCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/InventoryListCommand.cpp.s
 
-src/TheGrid/manage/Command/MarketListCommand.o: src/TheGrid/manage/Command/MarketListCommand.cpp.o
+src/TheGrid/manage/Command/Market/BuyCommand.o: src/TheGrid/manage/Command/Market/BuyCommand.cpp.o
 
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/MarketListCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MarketListCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.cpp.o
-
-src/TheGrid/manage/Command/MarketListCommand.i: src/TheGrid/manage/Command/MarketListCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/MarketListCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MarketListCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.cpp.i
-
-src/TheGrid/manage/Command/MarketListCommand.s: src/TheGrid/manage/Command/MarketListCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/MarketListCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MarketListCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/MarketListCommand.cpp.s
-
-src/TheGrid/manage/Command/MoneyofHeroCommand.o: src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.o
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.o
 
 # target to build an object file
-src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.o
+src/TheGrid/manage/Command/Market/BuyCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/BuyCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.cpp.o
 
-src/TheGrid/manage/Command/MoneyofHeroCommand.i: src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.i
+src/TheGrid/manage/Command/Market/BuyCommand.i: src/TheGrid/manage/Command/Market/BuyCommand.cpp.i
 
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.i
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.i
 
 # target to preprocess a source file
-src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.i
+src/TheGrid/manage/Command/Market/BuyCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/BuyCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.cpp.i
 
-src/TheGrid/manage/Command/MoneyofHeroCommand.s: src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.s
+src/TheGrid/manage/Command/Market/BuyCommand.s: src/TheGrid/manage/Command/Market/BuyCommand.cpp.s
 
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.s
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.s
 
 # target to generate assembly for a file
-src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/MoneyofHeroCommand.cpp.s
+src/TheGrid/manage/Command/Market/BuyCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/BuyCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/Market/BuyCommand.cpp.s
+
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.o: src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.o
+
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.i: src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.i
+
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.s: src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/Market/HeroPartyListCommand.cpp.s
+
+src/TheGrid/manage/Command/Market/MarketListCommand.o: src/TheGrid/manage/Command/Market/MarketListCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Market/MarketListCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MarketListCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.cpp.o
+
+src/TheGrid/manage/Command/Market/MarketListCommand.i: src/TheGrid/manage/Command/Market/MarketListCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Market/MarketListCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MarketListCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.cpp.i
+
+src/TheGrid/manage/Command/Market/MarketListCommand.s: src/TheGrid/manage/Command/Market/MarketListCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Market/MarketListCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MarketListCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/Market/MarketListCommand.cpp.s
+
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.o: src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.o
+
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.i: src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.i
+
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.s: src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/Market/MoneyofHeroCommand.cpp.s
+
+src/TheGrid/manage/Command/Market/SellCommand.o: src/TheGrid/manage/Command/Market/SellCommand.cpp.o
+
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.o
+
+# target to build an object file
+src/TheGrid/manage/Command/Market/SellCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/SellCommand.cpp.o
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.cpp.o
+
+src/TheGrid/manage/Command/Market/SellCommand.i: src/TheGrid/manage/Command/Market/SellCommand.cpp.i
+
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.i
+
+# target to preprocess a source file
+src/TheGrid/manage/Command/Market/SellCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/SellCommand.cpp.i
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.cpp.i
+
+src/TheGrid/manage/Command/Market/SellCommand.s: src/TheGrid/manage/Command/Market/SellCommand.cpp.s
+
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.s
+
+# target to generate assembly for a file
+src/TheGrid/manage/Command/Market/SellCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/Market/SellCommand.cpp.s
+.PHONY : src/TheGrid/manage/Command/Market/SellCommand.cpp.s
 
 src/TheGrid/manage/Command/MoveCommand.o: src/TheGrid/manage/Command/MoveCommand.cpp.o
 
@@ -1580,33 +1580,6 @@ src/TheGrid/manage/Command/QuitGameCommand.s: src/TheGrid/manage/Command/QuitGam
 src/TheGrid/manage/Command/QuitGameCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/QuitGameCommand.cpp.s
 .PHONY : src/TheGrid/manage/Command/QuitGameCommand.cpp.s
-
-src/TheGrid/manage/Command/SellCommand.o: src/TheGrid/manage/Command/SellCommand.cpp.o
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.o
-
-# target to build an object file
-src/TheGrid/manage/Command/SellCommand.cpp.o:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.o
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.o
-
-src/TheGrid/manage/Command/SellCommand.i: src/TheGrid/manage/Command/SellCommand.cpp.i
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.i
-
-# target to preprocess a source file
-src/TheGrid/manage/Command/SellCommand.cpp.i:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.i
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.i
-
-src/TheGrid/manage/Command/SellCommand.s: src/TheGrid/manage/Command/SellCommand.cpp.s
-
-.PHONY : src/TheGrid/manage/Command/SellCommand.s
-
-# target to generate assembly for a file
-src/TheGrid/manage/Command/SellCommand.cpp.s:
-	$(MAKE) -f CMakeFiles/nono.dir/build.make CMakeFiles/nono.dir/src/TheGrid/manage/Command/SellCommand.cpp.s
-.PHONY : src/TheGrid/manage/Command/SellCommand.cpp.s
 
 src/TheGrid/manage/Command/UsePotionCommand.o: src/TheGrid/manage/Command/UsePotionCommand.cpp.o
 
@@ -2046,24 +2019,24 @@ help:
 	@echo "... src/TheGrid/main.o"
 	@echo "... src/TheGrid/main.i"
 	@echo "... src/TheGrid/main.s"
-	@echo "... src/TheGrid/manage/Command/AttackCommand.o"
-	@echo "... src/TheGrid/manage/Command/AttackCommand.i"
-	@echo "... src/TheGrid/manage/Command/AttackCommand.s"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.o"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.i"
-	@echo "... src/TheGrid/manage/Command/BuyCommand.s"
-	@echo "... src/TheGrid/manage/Command/CastSpellCommand.o"
-	@echo "... src/TheGrid/manage/Command/CastSpellCommand.i"
-	@echo "... src/TheGrid/manage/Command/CastSpellCommand.s"
+	@echo "... src/TheGrid/manage/Command/BattleArena/AttackCommand.o"
+	@echo "... src/TheGrid/manage/Command/BattleArena/AttackCommand.i"
+	@echo "... src/TheGrid/manage/Command/BattleArena/AttackCommand.s"
+	@echo "... src/TheGrid/manage/Command/BattleArena/CastSpellCommand.o"
+	@echo "... src/TheGrid/manage/Command/BattleArena/CastSpellCommand.i"
+	@echo "... src/TheGrid/manage/Command/BattleArena/CastSpellCommand.s"
+	@echo "... src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.o"
+	@echo "... src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.i"
+	@echo "... src/TheGrid/manage/Command/BattleArena/DisplayArenaCommand.s"
+	@echo "... src/TheGrid/manage/Command/CheatCommand.o"
+	@echo "... src/TheGrid/manage/Command/CheatCommand.i"
+	@echo "... src/TheGrid/manage/Command/CheatCommand.s"
 	@echo "... src/TheGrid/manage/Command/Command.o"
 	@echo "... src/TheGrid/manage/Command/Command.i"
 	@echo "... src/TheGrid/manage/Command/Command.s"
 	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.o"
 	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.i"
 	@echo "... src/TheGrid/manage/Command/CreateHeroCommand.s"
-	@echo "... src/TheGrid/manage/Command/DisplayArenaCommand.o"
-	@echo "... src/TheGrid/manage/Command/DisplayArenaCommand.i"
-	@echo "... src/TheGrid/manage/Command/DisplayArenaCommand.s"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.o"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.i"
 	@echo "... src/TheGrid/manage/Command/DisplayMapCommand.s"
@@ -2076,36 +2049,33 @@ help:
 	@echo "... src/TheGrid/manage/Command/HelpCommand.o"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.i"
 	@echo "... src/TheGrid/manage/Command/HelpCommand.s"
-	@echo "... src/TheGrid/manage/Command/HelpinArenaCommand.o"
-	@echo "... src/TheGrid/manage/Command/HelpinArenaCommand.i"
-	@echo "... src/TheGrid/manage/Command/HelpinArenaCommand.s"
-	@echo "... src/TheGrid/manage/Command/HelpinMarketCommand.o"
-	@echo "... src/TheGrid/manage/Command/HelpinMarketCommand.i"
-	@echo "... src/TheGrid/manage/Command/HelpinMarketCommand.s"
-	@echo "... src/TheGrid/manage/Command/HeroPartyListCommand.o"
-	@echo "... src/TheGrid/manage/Command/HeroPartyListCommand.i"
-	@echo "... src/TheGrid/manage/Command/HeroPartyListCommand.s"
 	@echo "... src/TheGrid/manage/Command/HeroStatsCommand.o"
 	@echo "... src/TheGrid/manage/Command/HeroStatsCommand.i"
 	@echo "... src/TheGrid/manage/Command/HeroStatsCommand.s"
 	@echo "... src/TheGrid/manage/Command/InventoryListCommand.o"
 	@echo "... src/TheGrid/manage/Command/InventoryListCommand.i"
 	@echo "... src/TheGrid/manage/Command/InventoryListCommand.s"
-	@echo "... src/TheGrid/manage/Command/MarketListCommand.o"
-	@echo "... src/TheGrid/manage/Command/MarketListCommand.i"
-	@echo "... src/TheGrid/manage/Command/MarketListCommand.s"
-	@echo "... src/TheGrid/manage/Command/MoneyofHeroCommand.o"
-	@echo "... src/TheGrid/manage/Command/MoneyofHeroCommand.i"
-	@echo "... src/TheGrid/manage/Command/MoneyofHeroCommand.s"
+	@echo "... src/TheGrid/manage/Command/Market/BuyCommand.o"
+	@echo "... src/TheGrid/manage/Command/Market/BuyCommand.i"
+	@echo "... src/TheGrid/manage/Command/Market/BuyCommand.s"
+	@echo "... src/TheGrid/manage/Command/Market/HeroPartyListCommand.o"
+	@echo "... src/TheGrid/manage/Command/Market/HeroPartyListCommand.i"
+	@echo "... src/TheGrid/manage/Command/Market/HeroPartyListCommand.s"
+	@echo "... src/TheGrid/manage/Command/Market/MarketListCommand.o"
+	@echo "... src/TheGrid/manage/Command/Market/MarketListCommand.i"
+	@echo "... src/TheGrid/manage/Command/Market/MarketListCommand.s"
+	@echo "... src/TheGrid/manage/Command/Market/MoneyofHeroCommand.o"
+	@echo "... src/TheGrid/manage/Command/Market/MoneyofHeroCommand.i"
+	@echo "... src/TheGrid/manage/Command/Market/MoneyofHeroCommand.s"
+	@echo "... src/TheGrid/manage/Command/Market/SellCommand.o"
+	@echo "... src/TheGrid/manage/Command/Market/SellCommand.i"
+	@echo "... src/TheGrid/manage/Command/Market/SellCommand.s"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.o"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.i"
 	@echo "... src/TheGrid/manage/Command/MoveCommand.s"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.o"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.i"
 	@echo "... src/TheGrid/manage/Command/QuitGameCommand.s"
-	@echo "... src/TheGrid/manage/Command/SellCommand.o"
-	@echo "... src/TheGrid/manage/Command/SellCommand.i"
-	@echo "... src/TheGrid/manage/Command/SellCommand.s"
 	@echo "... src/TheGrid/manage/Command/UsePotionCommand.o"
 	@echo "... src/TheGrid/manage/Command/UsePotionCommand.i"
 	@echo "... src/TheGrid/manage/Command/UsePotionCommand.s"

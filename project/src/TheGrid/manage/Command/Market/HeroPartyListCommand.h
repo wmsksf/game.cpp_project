@@ -2,7 +2,7 @@
 #ifndef NONO_HEROPARTYLISTCOMMAND_H
 #define NONO_HEROPARTYLISTCOMMAND_H
 
-#include "Command.h"
+#include "../Command.h"
 
 class HeroPartyListCommand : public Command
 {

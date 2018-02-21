@@ -6,7 +6,7 @@ HelpCommand::HelpCommand()
 
 bool HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    std::cout << "All commands of the Grid :" << std::endl;
+    std::cout << std::endl << "All commands of the Grid :" << std::endl;
 
     std::vector<Command*>* commands = theGrid->getCommandManager()->getCommands();
 
@@ -14,6 +14,7 @@ bool HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
     {
         std::cout << (*it)->getUsage() << std::endl;
     }
+    std::cout << std::endl;
 
     delete commands;
 

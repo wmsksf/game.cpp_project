@@ -12,16 +12,22 @@
 #include "manage/Command/EquipWeaponCommand.h"
 #include "manage/Command/EquipArmorCommand.h"
 #include "manage/Command/HeroStatsCommand.h"
+#include "manage/Command/UsePotionCommand.h"
+#include "manage/Command/CheatCommand.h"
 
-TheGrid::TheGrid()
+//the main class -the game-
+//containing the grid, the entities and
+//the data from txt files
+
+TheGrid::TheGrid(const std::string& resourceFolder)
 {
 	std::cout << "Initializing TheGrid ... " << std::endl;
 
 	nameFactory = new NameFactory();
 
-	nameFactory->load("../resources/Items.txt");
-	nameFactory->load("../resources/Spells.txt");
-	nameFactory->load("../resources/Monsters.txt");
+	nameFactory->load(resourceFolder + "Items.txt");
+	nameFactory->load(resourceFolder + "Spells.txt");
+	nameFactory->load(resourceFolder + "Monsters.txt");
 
 	initCommandManager();
 
@@ -40,7 +46,7 @@ HeroParty* TheGrid::getParty() const
 
 void TheGrid::quit()
 {
-	std::cout << "Quiting Game" << std::endl;
+	std::cout << "Quiting Game..." << std::endl;
 	exit(0);
 }
 
@@ -61,6 +67,8 @@ CommandManager* TheGrid::getCommandManager() const
 
 void TheGrid::start()
 {
+	getCurrentTile()->enter(this);
+
 	std::cout << "First check your commands..." << std::endl;
 
 	commandManager->execute(this,"help");
@@ -90,8 +98,10 @@ void TheGrid::initCommandManager()
 	commands->push_back(new HeroStatsCommand());
 	commands->push_back(new EquipArmorCommand());
 	commands->push_back(new EquipWeaponCommand());
+	commands->push_back(new UsePotionCommand());
 	commands->push_back(new QuitGameCommand());
 	commands->push_back(new HelpCommand());
+	commands->push_back(new CheatCommand());
 
 	commandManager = new CommandManager(commands);
 }
@@ -101,6 +111,7 @@ HeroFactory* TheGrid::getHeroFactory()
 	return heroFactory;
 }
 
-NameFactory *TheGrid::getNameFactory() {
+NameFactory *TheGrid::getNameFactory()
+{
 	return nameFactory;
 }

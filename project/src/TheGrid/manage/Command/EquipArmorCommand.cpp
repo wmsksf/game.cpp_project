@@ -1,6 +1,7 @@
 
 #include "EquipArmorCommand.h"
 #include "../../TheGrid.h"
+#include "../Random/Utils.h"
 
 EquipArmorCommand::EquipArmorCommand()
                 :Command("equipArmor", "[equipArmor <hero_name> <armor_name>] Command to equip armor"){}
@@ -12,16 +13,20 @@ bool EquipArmorCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
         return invalidUsage();
     }
 
+    std::vector<std::string> armorParts(args.begin() + 1, args.end());
+
     Hero* hero = theGrid->getParty()->getHero(args[0]);
 
     if(args.size() == 1)
     {
         std::cout << "You should pick an armor!" << std::endl;
+
         hero->printItemsByCategory("Armor");
+
         return false;
     }
 
-    std::string armorName = args[1];
+    std::string armorName = join(armorParts, " ");
 
     Item* item = hero->getItem(armorName);
 
@@ -39,7 +44,7 @@ bool EquipArmorCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 
     if(hero->getLevel() < item->getRequiredLevel())
     {
-        std::cout << "Level too low" << std::endl;
+        std::cout << "Level too low!" << std::endl;
         return false;
     }
 

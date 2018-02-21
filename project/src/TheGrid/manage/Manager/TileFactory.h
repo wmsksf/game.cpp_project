@@ -13,12 +13,11 @@ class TileFactory
 private:
 	ItemFactory* itemFactory;
 
-	Market* createMarket();
-
 public:
 	TileFactory(ItemFactory* itemFactory);
 
 	Tile* createTile();
+	Market* createMarket();
 };
 
 #endif //NONO_TILEFACTORY_H

@@ -2,8 +2,8 @@
 #ifndef NONO_ATTACKCOMMAND_H
 #define NONO_ATTACKCOMMAND_H
 
-#include "Command.h"
-#include "../Manager/BattleArena.h"
+#include "../Command.h"
+#include "../../Manager/BattleArena.h"
 
 class AttackCommand : public Command
 {

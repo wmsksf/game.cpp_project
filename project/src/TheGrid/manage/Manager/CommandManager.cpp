@@ -22,6 +22,9 @@ bool CommandManager::execute(TheGrid* theGrid, const std::string &line)
 
 	std::vector<std::string> args = split(line, " ");
 
+	if(args.size( ) == 0)
+		return false;
+
 	std::string name = args[0];
 	args.erase(args.begin());
 
