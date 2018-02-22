@@ -39,16 +39,20 @@ void BattleArena::displayBattleInfo()
 		party->getHero(i)->displayStats();
 	}
 
-	std::cout << "MONSTERS:" << std::endl;
+	std::cout << std::endl << "MONSTERS:" << std::endl;
 
 	for(int i = 0; i < monsters->size(); i++)
 	{
 		(*monsters)[i]->displayStats();
 	}
+
+    std::cout << std::endl;
 }
 
 void BattleArena::showMonsters()
 {
+    std::cout << std::endl;
+
     for(int i = 0; i < monsters->size(); i++)
     {
         std::cout << "[" << i + 1 << "] ";
@@ -61,7 +65,7 @@ void BattleArena::showMonsters()
 
 Monster* BattleArena::monsterDialog()
 {
-    std::cout << "Which monster to attack <monster_id>?" << std::endl;
+    std::cout << std::endl << "Which monster to attack <monster_id>?" << std::endl;
 
     showMonsters();
 
@@ -86,11 +90,12 @@ void BattleArena::heroRound(Hero* hero)
 {
 	while(true)
 	{
-		std::cout << "Mighty hero " << hero->getName() << " what is your command ?";
-		std::cout << std::endl;
+		std::cout << std::endl << "Mighty hero " << hero->getName()
+                  << " what is your command ?" << std::endl;
 
 		std::cout << "You may either attack, castSpell, usePotion..." << std::endl;
-		std::cout << "Or equipArmor, equipWeapon..." << std::endl;
+		std::cout << "Or equipArmor, equipWeapon..." << std::endl << std::endl;
+        std::cout << "In desperate times... displayArena or even quitGame..." << std::endl;
 
 		std::string line;
 		std::getline(std::cin, line);
@@ -124,8 +129,9 @@ void BattleArena::monsterRound(Monster* monster)
 
     if(dodgeChance < dodgeProbability)
     {
-        std::cout << "Monster " << monster->getName() << " tried to attack but player "
-                  << hero->getName() << " dodged the attack!" << std::endl;
+        std::cout << std::endl << "Monster " << monster->getName()
+                  << " tried to attack but player " << hero->getName() <<
+                  " dodged the attack!" << std::endl;
         return;
     }
 
@@ -139,12 +145,12 @@ void BattleArena::monsterRound(Monster* monster)
 
     hero->setCurrentHealthPower(hero->getCurrentHealthPower() - damage);
 
-    std::cout << "Monster " << monster->getName() << " inflicted "<< damage
+    std::cout << std::endl << "Monster " << monster->getName() << " inflicted "<< damage
               << " to hero " << hero->getName() << std::endl;
 
     if(!hero->isConscious())
     {
-        std::cout << "Hero " << hero->getName() << " has fainted!" << std::endl;
+        std::cout << std::endl << "Hero " << hero->getName() << " has fainted!" << std::endl;
     }
 
     contribute(hero, damage);
@@ -152,7 +158,7 @@ void BattleArena::monsterRound(Monster* monster)
 
 void BattleArena::start()
 {
-    std::cout << "Mighty heroes you have entered a battle!!" << std::endl;
+    std::cout << std::endl << "Mighty heroes you have entered a battle!!" << std::endl;
 
     showMonsters();
 
@@ -227,8 +233,10 @@ void BattleArena::reward()
         int heroMoneyReward = moneyReward * contr;
         int heroExperienceReward = experienceReward * contr;
 
-        std::cout << "Hero " << hero->getName() << " rewarded with " << heroMoneyReward
-                  << " coins and " << heroExperienceReward << " experience points" << std::endl;
+        std::cout << std::endl << "Hero " << hero->getName()
+                  << " rewarded with " << heroMoneyReward
+                  << " coins and " << heroExperienceReward
+                  << " experience points" << std::endl;
 
         hero->setMoney(hero->getMoney() + heroMoneyReward);
         hero->gainExperience(heroExperienceReward);
@@ -269,7 +277,7 @@ void BattleArena::spellCast(Hero* hero, Spell* spell, Monster* monster)
 {
     if(hero->getCurrentMagicPower() < spell->getRequiredMagicPower())
     {
-        std::cout << "Not enough magic power!!" << std::endl;
+        std::cout << std::endl << "Not enough magic power!!" << std::endl;
         return ;
     }
 
@@ -284,12 +292,14 @@ void BattleArena::spellCast(Hero* hero, Spell* spell, Monster* monster)
 
     monster->applyEffect(spell->getEffect());
 
-    std::cout << "Inflicted " << damage << " damage to monster "
+    std::cout << std::endl << "Inflicted " << damage << " damage to monster "
               << monster->getName() << std::endl;
 
     if(monster->getCurrentHealthPower() <= 0)
     {
-        std::cout << "Monster " << monster->getName() << " has been killed!" << std::endl;
+        std::cout << std::endl << "Monster " << monster->getName()
+                  << " has been killed!" << std::endl;
+
         killMonster(monster);
     }
 
@@ -313,7 +323,7 @@ void BattleArena::attack(Hero* hero, Monster* monster)
     double dodgeChange = randomDouble();
     if(dodgeChange < stats->getDodgeProbability())
     {
-        std:: cout << "Monster dodged the attack!" << std::endl;
+        std::cout << std::endl << "Monster dodged the attack!" << std::endl;
         return ;
     }
 
@@ -321,13 +331,15 @@ void BattleArena::attack(Hero* hero, Monster* monster)
 
     monster->setCurrentHealthPower(monster->getCurrentHealthPower() - damage);
 
-    std::cout << "Inflicted " << damage << " damage to monster "
+    std::cout << std::endl << "Inflicted " << damage << " damage to monster "
               << monster->getName() << " [ " << monster->getCurrentHealthPower()
               << " / " << monster->getMaxHealthPower() << " ]" << std::endl;
 
     if(monster->getCurrentHealthPower() <= 0)
     {
-        std::cout << "Monster " << monster->getName() << " has been killed!" << std::endl;
+        std::cout << std::endl << "Monster " << monster->getName()
+                  << " has been killed!" << std::endl;
+
         killMonster(monster);
     }
 

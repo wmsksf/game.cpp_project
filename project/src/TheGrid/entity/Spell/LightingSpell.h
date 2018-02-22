@@ -9,9 +9,9 @@ class LightingSpell : public Spell
 public:
     LightingSpell(const std::string &name);
 
-    Spell *clone() override;
+    Spell* clone() override;
 
-    Effect *getEffect();
+    Effect* getEffect();
 };
 
 #endif //NONO_LIGHTINGSPELL_H

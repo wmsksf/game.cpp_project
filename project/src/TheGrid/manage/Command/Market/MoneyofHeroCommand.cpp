@@ -16,11 +16,12 @@ bool MoneyofHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &arg
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero!" << args[0] << std::endl;
+        std::cout << std::endl << "Unknown hero " << args[0]  << "!" << std::endl;
         return false;
     }
 
-    std::cout << args[0] << " has : " << hero->getMoney() << " money." << std::endl;
+    std::cout << std::endl << args[0] << " has : " << hero->getMoney() << " money."
+              << std::endl;
 
     return true;
 }

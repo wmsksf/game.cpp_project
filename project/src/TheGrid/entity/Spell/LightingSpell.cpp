@@ -9,10 +9,12 @@ LightingSpell::LightingSpell(const std::string &name)
                        randomInRange(6, 18), randomInRange(12, 20),
                        randomInRange(10, 20), randomInRange(30, 40)) {}
 
-Effect *LightingSpell::getEffect() {
+Effect* LightingSpell::getEffect()
+{
     return new LightingSpellEffect();
 }
 
-Spell *LightingSpell::clone() {
+Spell* LightingSpell::clone()
+{
     return new LightingSpell(*this);
 }

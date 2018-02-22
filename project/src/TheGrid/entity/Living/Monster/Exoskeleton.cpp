@@ -17,7 +17,7 @@ Exoskeleton::Exoskeleton(const std::string &name, int level)
 
 void Exoskeleton::displayStats()
 {
-    std::cout << "EXOSKELETON..." << std::endl;
+    std::cout << std::endl << "EXOSKELETON..." << std::endl;
 
     Monster::displayStats();
 }

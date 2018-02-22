@@ -20,7 +20,8 @@ bool CreateHeroCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 
     if(theGrid->getParty()->getPartySize() >= 3)
     {
-        std::cout << "Worthy player you can create up to three heroes!" << std::endl;
+        std::cout << std::endl << "Worthy player you can create up to three heroes!"
+                  << std::endl;
         return false;
     }
 

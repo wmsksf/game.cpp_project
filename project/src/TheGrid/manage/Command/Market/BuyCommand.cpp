@@ -18,7 +18,7 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero!" << args[0] << std::endl;
+        std::cout << std::endl << "Unknown hero " << args[0] << "!" << std::endl;
         return false;
     }
 
@@ -33,7 +33,7 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
         if(item == nullptr)
         {
-            std::cout << "Unable to find item." << std::endl;
+            std::cout << std::endl << "Unable to find item." << std::endl;
             return false;
         }
 
@@ -44,7 +44,8 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         }
         else
         {
-            std::cout << "You don't have enough money to buy the item." << std::endl;
+            std::cout << std::endl << "You don't have enough money to buy the item."
+                      << std::endl;
             return false;
         }
     }
@@ -54,7 +55,7 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
         if(spell == nullptr)
         {
-            std::cout << "Unable to find spell." << std::endl;
+            std::cout << std::endl << "Unable to find spell." << std::endl;
             return  false;
         }
 
@@ -65,7 +66,8 @@ bool BuyCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
         }
         else
         {
-            std::cout << "You don't have enough money to buy the spell." << std::endl;
+            std::cout << std::endl << "You don't have enough money to buy the spell."
+                      << std::endl;
             return false;
         }
     }

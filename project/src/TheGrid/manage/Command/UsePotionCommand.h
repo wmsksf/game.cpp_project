@@ -7,9 +7,6 @@
 
 class UsePotionCommand : public Command
 {
-private:
-    BattleArena* battleArena;
-
 public:
     UsePotionCommand();
 

@@ -8,7 +8,7 @@ bool MoveCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
 	if(theGrid->getParty()->getPartySize() == 0)
 	{
-		std::cout << "You must create heroes first!!" << std::endl;
+		std::cout << std::endl << "You must create heroes first!!" << std::endl;
 		return false;
 	}
 

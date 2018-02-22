@@ -17,7 +17,7 @@ Dragon::Dragon(const std::string &name, int level)
 
 void Dragon::displayStats()
 {
-    std::cout << "DRAGON..." << std::endl;
+    std::cout << std::endl << "DRAGON..." << std::endl;
 
     Monster::displayStats();
 }

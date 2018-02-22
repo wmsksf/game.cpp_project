@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 FireSpellEffect::FireSpellEffect()
-
 		:Effect()
 {
 	damage = randomInRange(1, 5);

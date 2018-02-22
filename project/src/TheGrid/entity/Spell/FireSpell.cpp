@@ -12,12 +12,12 @@ FireSpell::FireSpell(const std::string &name)
                randomInRange(10, 18),
                randomInRange(20, 32)) {}
 
-Effect *FireSpell::getEffect()
+Effect* FireSpell::getEffect()
 {
     return new FireSpellEffect();
 }
 
-Spell *FireSpell::clone()
+Spell* FireSpell::clone()
 {
     return new FireSpell(*this);
 }

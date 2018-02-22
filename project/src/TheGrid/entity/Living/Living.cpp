@@ -58,10 +58,12 @@ int Living::getLevel() const
     return level;
 }
 
-int Living::getHealthRegen() const {
+int Living::getHealthRegen() const
+{
     return healthRegen;
 }
 
-void Living::setHealthRegen(int healthRegen) {
+void Living::setHealthRegen(int healthRegen)
+{
     Living::healthRegen = healthRegen;
 }

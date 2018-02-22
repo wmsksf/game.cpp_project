@@ -22,6 +22,7 @@ public:
     int getPartySize();
     Hero* getHero(const std::string& name);
     Hero* getHero(int index);
+
     void addHero(Hero* hero);
 
     int getX() const;

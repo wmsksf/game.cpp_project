@@ -21,7 +21,7 @@ bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero!" << args[0] << std::endl;
+        std::cout << std::endl << "Unknown hero " << args[0] << "!" << std::endl;
         return false;
     }
 
@@ -32,7 +32,7 @@ bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
         if(item == nullptr)
         {
-            std::cout << "Unable to find item." << std::endl;
+            std::cout << std::endl << "Unable to find item." << std::endl;
             return false;
         }
 
@@ -45,7 +45,7 @@ bool SellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
         if(spell == nullptr)
         {
-            std::cout << "Unable to find spell." << std::endl;
+            std::cout << std::endl << "Unable to find spell." << std::endl;
             return false;
         }
 

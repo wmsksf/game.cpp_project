@@ -8,7 +8,8 @@ Hero::Hero(const std::string &name)
 		: Living(name, 1),
           money(1000),
 		  experience(0),
-		  experienceForLevel(experienceForLevelUp(2)) {}
+		  experienceForLevel(experienceForLevelUp(2)),
+		  equipedArmor(), equipedWeapon() {}
 
 void Hero::displayStats()
 {
@@ -23,7 +24,8 @@ void Hero::displayStats()
 	std::cout << "\t" << magicRegen << " [magic regeneration]" << std::endl;
 
 	std::cout << "\t" << money << " [money]" << std::endl;
-	std::cout << "\t" << experience << "/" << experienceForLevel << " [experience]" << std::endl;
+	std::cout << "\t" << experience << "/" << experienceForLevel << " [experience]"
+			  << std::endl << std::endl;
 }
 
 int Hero::getStrength() const
@@ -193,7 +195,8 @@ void Hero::printInventory()
 void Hero::printItemsByCategory(const std::string &category)
 {
 	std::vector<Item*> items = inventory.getItemsByCategory(category);
-	std::cout << "[" << category << "] " << items.size() << " items" << std::endl;
+	std::cout << std::endl << "[" << category << "] " << items.size()
+			  << " items" << std::endl;
 
 	for(int i = 0; i < items.size(); i++)
 	{

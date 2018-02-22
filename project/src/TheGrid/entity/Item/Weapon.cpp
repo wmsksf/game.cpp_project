@@ -11,11 +11,13 @@ Weapon::Weapon(const std::string& name)
          dualWeild(randomBool()) {}
 
 
-Weapon::Weapon(const std::string &name, int requiredLevel, int price, int damage, bool dualWeild)
-    : Item(name, "Weapon", price, requiredLevel), damage(damage), dualWeild(dualWeild)
-{
+Weapon::Weapon(const std::string &name,
+               int requiredLevel,
+               int price, int damage,
+               bool dualWeild)
+    : Item(name, "Weapon", price, requiredLevel),
+      damage(damage), dualWeild(dualWeild) {}
 
-}
 bool Weapon::isDualWeild() const
 {
     return dualWeild;

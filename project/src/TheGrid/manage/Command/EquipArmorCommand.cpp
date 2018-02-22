@@ -19,7 +19,7 @@ bool EquipArmorCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 
     if(args.size() == 1)
     {
-        std::cout << "You should pick an armor!" << std::endl;
+        std::cout << std::endl << "You should pick an armor!" << std::endl;
 
         hero->printItemsByCategory("Armor");
 
@@ -32,13 +32,14 @@ bool EquipArmorCommand::execute(TheGrid *theGrid, std::vector<std::string> &args
 
     if(item == nullptr)
     {
-        std::cout << "Unable to find armor, please try another..." << std::endl;
+        std::cout << std::endl << "Unable to find armor, please try another..."
+                  << std::endl;
         return false;
     }
 
     if(item->getCategory().compare("Armor") != 0)
     {
-        std::cout << "Please pick an Armor!!" << std::endl;
+        std::cout << std::endl << "Please pick an Armor!!" << std::endl;
         return false;
     }
 

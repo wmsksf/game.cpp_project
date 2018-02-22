@@ -17,7 +17,7 @@ Spirit::Spirit(const std::string &name, int level)
 
 void Spirit::displayStats()
 {
-    std::cout << "SPIRIT..." << std::endl;
+    std::cout << std::endl << "SPIRIT..." << std::endl;
 
     Monster::displayStats();
 }

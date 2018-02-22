@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 LightingSpellEffect::LightingSpellEffect()
-
             :Effect()
 {
     damage = randomDouble();

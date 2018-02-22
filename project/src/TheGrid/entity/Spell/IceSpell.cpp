@@ -9,10 +9,12 @@ IceSpell::IceSpell(const std::string &name)
 		        randomInRange(5, 12), randomInRange(10, 20),
 		        randomInRange(8, 15), randomInRange(18, 25)) {}
 
-Effect *IceSpell::getEffect() {
+Effect* IceSpell::getEffect()
+{
 	return new IceSpellEffect();
 }
 
-Spell *IceSpell::clone() {
+Spell* IceSpell::clone()
+{
 	return new IceSpell(*this);
 }

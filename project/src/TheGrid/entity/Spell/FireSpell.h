@@ -9,9 +9,9 @@ class FireSpell : public Spell
 public:
     FireSpell(const std::string &name);
 
-    Effect *getEffect();
+    Effect* getEffect();
 
-    Spell *clone() override;
+    Spell* clone();
 };
 
 #endif //NONO_FIRESPELL_H

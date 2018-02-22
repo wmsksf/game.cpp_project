@@ -8,12 +8,15 @@ $ make
 
 Execution
 
-$ ./TheGrid ./resources
+$ ./TheGrid ./resources/
 
 Description
 
     A work mostly inspired by GOF94 Factory, Prototype and Flyweight patterns
-as well as the Command pattern.
+as well as the Command pattern, containing mostly pointers and also the reifiedreason why
+kostas hates CPP.
+
+Lore
 
     The marvelous land of TheGrid (the name of the game) is consisted of Tiles that may or not
 allow access to the great hero party that travels through. Our heroes carry a heavy backpack
@@ -24,4 +27,8 @@ natural mana (their magic power) to inflict unparaller damage. Three categories 
 the Fire spells powered by the arcane power of the earth, the Ice spells powered by the coldest beaths
 of Odin and lastly the Lighting spells human kind has yet to learn their source.
 
-    On their journey, heroes
+    On their journey, heroes will meet lands filled with terror, places where noone else has dared
+ to enter and everyone dreaded the all powerful monsters that live there. Only on rare occasions
+ they will find towns (markets) where they will be able to buy and sell their equipment.
+
+ 	That's it summoner, get ready and be careful NOT to cheat!!

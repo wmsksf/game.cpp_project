@@ -71,7 +71,7 @@ private:
 
 	void regenerate();
 
-    void contribute(Hero *hero, int damage);
+    void contribute(Hero* hero, int damage);
 };
 
 #endif //NONO_BATTLEARENA_H

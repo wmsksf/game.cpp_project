@@ -6,9 +6,6 @@
 #include "../../manage/Command/Market/MarketListCommand.h"
 #include "../../manage/Command/Market/HeroPartyListCommand.h"
 #include "../../manage/Command/Market/MoneyofHeroCommand.h"
-#include "../../manage/Command/InventoryListCommand.h"
-#include "../../manage/Command/QuitGameCommand.h"
-#include "../../manage/Command/HeroStatsCommand.h"
 
 Market::Market(std::vector<Item*>* marketofItems,
                 std::vector<Spell*>* marketofSpells)
@@ -40,24 +37,26 @@ void Market::printMarket()
 
 void Market::printItems()
 {
-    std::cout << " Items:" << std::endl;
+    std::cout << std::endl << " Items: " << "[" << marketofItems->size() << " items]"
+              << std::endl;
 
     for(int i = 0; i < marketofItems->size(); i++)
     {
-        std::cout << "[" << i + 1 << "]" << (*marketofItems)[i]->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << (*marketofItems)[i]->getDescription()
+                  << std::endl;
     }
-
-    std::cout << std::endl;
 }
 
 
 void Market::printSpells()
 {
-    std::cout << " Spells" << std::endl;
+    std::cout << std::endl << " Spells: " << "[" << marketofSpells->size() << " spells]"
+              << std::endl;
 
     for(int i = 0; i < marketofSpells->size(); i++)
     {
-        std::cout << "[" << i + 1 << "]" << (*marketofSpells)[i]->getDescription() << std::endl;
+        std::cout << "[" << i + 1 << "]" << (*marketofSpells)[i]->getDescription()
+                  << std::endl;
     }
 
     std::cout << std::endl;
@@ -99,7 +98,7 @@ void Market::receiveSpell(Spell* spell)
 
 void Market::enter(TheGrid* theGrid)
 {
-    std::cout << "Welcome to the Market mighty Hero party!" << std::endl;
+    std::cout << std::endl << "Welcome to the Market mighty Hero party!" << std::endl;
 
     theGrid->getCommandManager()->registerManager(marketManager);
 }

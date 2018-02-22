@@ -4,7 +4,7 @@
 #include "../../TheGrid.h"
 
 InventoryListCommand::InventoryListCommand()
-        : Command("showInventory", "[showInventory <hero_name>] Command to show items and spells in inventory")
+        : Command("displayInventory", "[displayInventory <hero_name>] Command to display items and spells in inventory")
 {}
 
 bool InventoryListCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
@@ -18,10 +18,9 @@ bool InventoryListCommand::execute(TheGrid *theGrid, std::vector<std::string> &a
 
     if(hero == nullptr)
     {
-        std::cout << "Unknown hero " << args[0] << std::endl;
+        std::cout << std::endl << "Unknown hero " << args[0] << "!" << std::endl;
         return false;
     }
 
-    std::cout << std::endl;
     hero->printInventory();
 }

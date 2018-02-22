@@ -19,7 +19,7 @@ bool EquipWeaponCommand::execute(TheGrid *theGrid, std::vector<std::string> &arg
 
     if(args.size() == 1)
     {
-        std::cout << "You should pick a weapon!" << std::endl;
+        std::cout << std::endl << "You should pick a weapon!" << std::endl;
 
         hero->printItemsByCategory("Weapon");
 
@@ -32,19 +32,20 @@ bool EquipWeaponCommand::execute(TheGrid *theGrid, std::vector<std::string> &arg
 
     if(item == nullptr)
     {
-        std::cout << "Unable to find weapon, please try another..." << std::endl;
+        std::cout << std::endl << "Unable to find weapon, please try another..."
+                  << std::endl;
         return false;
     }
 
     if(item->getCategory().compare("Weapon") != 0)
     {
-        std::cout << "Please pick a weapon!" << std::endl;
+        std::cout << std::endl << "Please pick a weapon!!" << std::endl;
         return false;
     }
 
     if(hero->getLevel() < item->getRequiredLevel())
     {
-        std::cout << "Level too low!" << std::endl;
+        std::cout << std::endl << "Level too low!" << std::endl;
         return false;
     }
 

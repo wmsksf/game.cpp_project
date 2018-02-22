@@ -10,7 +10,7 @@ NameFactory::NameFactory()
         : entityNames(), frequencyMap() {}
 
 NameFactory::NameFactory(const std::string &filename)
-    : entityNames(), frequencyMap()
+    :entityNames(), frequencyMap()
 {
     load(filename);
 }
@@ -44,7 +44,7 @@ void NameFactory::load(const std::string &filename)
     //check for error
     if(!infile.is_open())
     {
-        std::cout << "failed to open file" << std::endl;
+        std::cout << std::endl << "Failed to open file!" << std::endl;
         exit(1);
     }
 

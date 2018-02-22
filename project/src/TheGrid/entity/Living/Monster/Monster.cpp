@@ -47,11 +47,13 @@ int Monster::getMoneyReward()
 	return 100 + (level * 12);
 }
 
-const std::vector<Effect *> &Monster::getEffects() {
+const std::vector<Effect *> &Monster::getEffects()
+{
     return effects;
 }
 
-void Monster::applyEffect(Effect *effect) {
+void Monster::applyEffect(Effect *effect)
+{
 	effects.push_back(effect);
 }
 

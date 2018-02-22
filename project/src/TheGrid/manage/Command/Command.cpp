@@ -17,6 +17,6 @@ const std::string &Command::getUsage() const
 
 bool Command::invalidUsage()
 {
-	std::cout << "Invalid Usage :" << getUsage() << std::endl;
+	std::cout << std::endl << "Invalid Usage :" << getUsage() << std::endl;
     return false;
 }

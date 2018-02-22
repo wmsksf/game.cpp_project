@@ -30,4 +30,3 @@ void Warrior::levelUp()
 	dexterity += 8;
 	agility += 15;
 }
-

@@ -21,7 +21,7 @@
 
 TheGrid::TheGrid(const std::string& resourceFolder)
 {
-	std::cout << "Initializing TheGrid ... " << std::endl;
+	std::cout << "Initializing TheGrid... " << std::endl;
 
 	nameFactory = new NameFactory();
 
@@ -46,7 +46,7 @@ HeroParty* TheGrid::getParty() const
 
 void TheGrid::quit()
 {
-	std::cout << "Quiting Game..." << std::endl;
+	std::cout << std::endl << "Quiting Game..." << std::endl;
 	exit(0);
 }
 
@@ -69,9 +69,9 @@ void TheGrid::start()
 {
 	getCurrentTile()->enter(this);
 
-	std::cout << "First check your commands..." << std::endl;
-
-	commandManager->execute(this,"help");
+	std::cout << std::endl << "The journey begins!! " << std::endl <<
+			  "Please keep in mind in need for help you can always type help..."
+			  << std::endl << std::endl << "Good luck and enjoy te game!..." << std::endl;
 
 	std::string line;
 

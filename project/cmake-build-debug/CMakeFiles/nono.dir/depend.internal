@@ -125,14 +125,11 @@ CMakeFiles/nono.dir/src/TheGrid/entity/Grid/Market.cpp.o
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Effect/Effect.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Spell/Spell.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Command.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/BuyCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/HeroPartyListCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/MarketListCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/MoneyofHeroCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/SellCommand.h
- /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/CommandManager.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/EntityName.h
  /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Manager/HeroFactory.h

@@ -10,7 +10,7 @@ public:
     Warrior(const std::string &name);
 
 protected:
-	virtual void levelUp();
+	void levelUp();
 };
 
 #endif //NONO_WARRIOR_H

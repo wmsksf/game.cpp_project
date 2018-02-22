@@ -2,7 +2,8 @@
 #include "Inventory.h"
 #include "../../Spell/Spell.h"
 
-Inventory::Inventory() {}
+Inventory::Inventory()
+		:items(), spells() {}
 
 Item* Inventory::getItem(const std::string &name)
 {
@@ -64,8 +65,8 @@ void Inventory::addItem(Item* item)
 {
 	if(containsItem(item))
 	{
-		std::cout << "You have already purchased this item!";
-		std::cout << std::endl;
+		std::cout << std::endl << "You have already purchased this item!"
+				  << std::endl;
 
 		return ;
 	}
@@ -77,8 +78,8 @@ void Inventory::addSpell(Spell* spell)
 {
 	if(containsSpell(spell))
 	{
-		std::cout << "You have already purchased this item!";
-		std::cout << std::endl;
+		std::cout << std::endl << "You have already purchased this item!"
+				  << std::endl;
 
 		return ;
 	}
@@ -136,20 +137,20 @@ void Inventory::removeSpell(Spell* spell)
 
 void Inventory::display()
 {
-	std::cout << "Inventory [" << items.size() << " items]" << std::endl;
+	std::cout << std::endl << "Inventory [" << items.size() << " items]" << std::endl;
 
 	for( int i = 0; i < items.size(); i++)
 	{
-		std::cout << "[" << i <<"] " << items[i]->getDescription() << std::endl;
-		std::cout << "/t[" << items[i]->getPrice() << " price]" << std::endl;
+		std::cout << "[" << i + 1 << "] " << items[i]->getDescription() << std::endl;
+		std::cout << "\t[" << items[i]->getPrice() << " price]" << std::endl;
 	}
 
 	std::cout << "Inventory [" << spells.size() << " spells]" << std::endl;
 
 	for( int i = 0; i < spells.size(); i++)
 	{
-		std::cout << "[" << i <<"] " << spells[i]->getDescription() << std::endl;
-		std::cout << "/t[" << spells[i]->getPrice() << " price]" << std::endl;
+		std::cout << "[" << i + 1 << "] " << spells[i]->getDescription() << std::endl;
+		std::cout << "\t[" << spells[i]->getPrice() << " price]" << std::endl;
 	}
 }
 

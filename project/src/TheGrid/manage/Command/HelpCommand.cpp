@@ -6,7 +6,7 @@ HelpCommand::HelpCommand()
 
 bool HelpCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
-    std::cout << std::endl << "All commands of the Grid :" << std::endl;
+    std::cout << std::endl << "Your commands worthy player :" << std::endl;
 
     std::vector<Command*>* commands = theGrid->getCommandManager()->getCommands();
 

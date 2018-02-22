@@ -97,12 +97,6 @@ Market.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/HeroPartyListCommand.h
 ../../manage/Command/Market/MoneyofHeroCommand.h
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/Market/MoneyofHeroCommand.h
-../../manage/Command/InventoryListCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/InventoryListCommand.h
-../../manage/Command/QuitGameCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/QuitGameCommand.h
-../../manage/Command/HeroStatsCommand.h
-/home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/manage/Command/HeroStatsCommand.h
 
 /home/admntiasf/workingdirectory/wmsk/wmsk/project/src/TheGrid/entity/Grid/Market.h
 vector

@@ -12,7 +12,11 @@ private:
 
 public:
     Weapon(const std::string &name);
-	Weapon(const std::string &name, int requiredLevel, int price, int damage, bool dualWeild);
+
+	Weapon(const std::string &name,
+		   int requiredLevel,
+		   int price, int damage,
+		   bool dualWeild);
 
     bool isDualWeild() const;
 	void setDualWeild(bool dualWeild);

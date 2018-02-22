@@ -9,7 +9,7 @@ class MoneyofHeroCommand : public Command
 public:
     MoneyofHeroCommand();
 
-    bool execute(TheGrid *theGrid, std::vector<std::string> &args) override;
+    bool execute(TheGrid *theGrid, std::vector<std::string> &args);
 };
 
 

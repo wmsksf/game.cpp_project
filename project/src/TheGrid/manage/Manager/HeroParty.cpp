@@ -4,7 +4,7 @@
 #include "../../TheGrid.h"
 
 HeroParty::HeroParty()
-    : heroes() {}
+    :heroes() {}
 
 int HeroParty::getX() const
 {
@@ -110,7 +110,7 @@ double HeroParty::getAverageLevel()
     return (double) sum / (double) heroes.size();
 }
 
-void HeroParty::addHero(Hero *hero)
+void HeroParty::addHero(Hero* hero)
 {
     heroes.push_back(hero);
 }

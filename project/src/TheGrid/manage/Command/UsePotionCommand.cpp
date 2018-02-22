@@ -35,7 +35,7 @@ bool UsePotionCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(potion == nullptr)
     {
-        std::cout << "Could not find potion." << std::endl;
+        std::cout << std::endl << "Could not find potion." << std::endl;
         std::cout << "Check your potions once again..." << std::endl;
 
         hero->printItemsByCategory("Potion");

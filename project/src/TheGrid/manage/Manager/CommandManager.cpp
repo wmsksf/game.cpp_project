@@ -32,8 +32,10 @@ bool CommandManager::execute(TheGrid* theGrid, const std::string &line)
 	{
 		if((*commands)[i]->matches(name))
 		{
-			(*commands)[i]->execute(theGrid, args);
-			return true;
+			bool result = (*commands)[i]->execute(theGrid, args);
+
+			if(result)
+				return true;
 		}
 	}
 

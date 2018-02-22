@@ -1,21 +1,17 @@
-//
-// Created by admntiasf on 21/2/2018.
-//
 
 #include "CheatCommand.h"
 #include "../../entity/Living/Hero/Hero.h"
 
 #include "../../TheGrid.h"
 
-CheatCommand::CheatCommand() :Command("cheat", "[cheat <hero_name>] Command to cheat, only for debuggers and noobs"){
-
-}
+CheatCommand::CheatCommand()
+        :Command("cheat", "[cheat <hero_name>] Command to cheat, only for debuggers and noobs") {}
 
 bool CheatCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 {
     if(theGrid->getParty()->getPartySize() == 0)
     {
-        std::cout << "You must create a hero first." << std::endl;
+        std::cout << std::endl << "You must create a hero first." << std::endl;
         return false;
     }
 
@@ -40,4 +36,3 @@ bool CheatCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     return true;
 }
-

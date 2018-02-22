@@ -33,15 +33,18 @@ std::vector<Monster*>* MonsterFactory::createMonsters(HeroParty *party)
 
 Exoskeleton* MonsterFactory::createExoskeleton(HeroParty* party)
 {
-    return new Exoskeleton(nameFactory->createName("Exoskeleton"), monsterLevel(party->getAverageLevel()));
+    return new Exoskeleton(nameFactory->createName("Exoskeleton"),
+                           monsterLevel(party->getAverageLevel()));
 }
 
 Spirit* MonsterFactory::createSpirit(HeroParty* party)
 {
-    return new Spirit(nameFactory->createName("Spirit"), monsterLevel(party->getAverageLevel()));
+    return new Spirit(nameFactory->createName("Spirit"),
+                      monsterLevel(party->getAverageLevel()));
 }
 
 Dragon* MonsterFactory::createDragon(HeroParty* party)
 {
-    return new Dragon(nameFactory->createName("Dragon"), monsterLevel(party->getAverageLevel()));
+    return new Dragon(nameFactory->createName("Dragon"),
+                      monsterLevel(party->getAverageLevel()));
 }

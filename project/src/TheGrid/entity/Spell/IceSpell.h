@@ -9,9 +9,9 @@ class IceSpell : public Spell
 public:
     IceSpell(const std::string &name);
 
-    Effect *getEffect();
+    Effect*getEffect();
 
-    Spell *clone() override;
+    Spell* clone();
 };
 
 #endif //NONO_ICESPELL_H

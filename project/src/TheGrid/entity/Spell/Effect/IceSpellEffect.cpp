@@ -3,7 +3,6 @@
 #include "../../../manage/Random/Random.h"
 
 IceSpellEffect::IceSpellEffect()
-
         :Effect()
 {
     damage = (randomInRange(1,5));

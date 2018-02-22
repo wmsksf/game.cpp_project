@@ -30,7 +30,7 @@ public:
     int getExperienceWorth();
     int getMoneyReward();
 
-    const std::vector<Effect *> &getEffects();
+    const std::vector<Effect*> &getEffects();
 
     void applyEffect(Effect* effect);
 

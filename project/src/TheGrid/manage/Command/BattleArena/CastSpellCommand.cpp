@@ -18,7 +18,7 @@ bool CastSpellCommand::execute(TheGrid *theGrid, std::vector<std::string> &args)
 
     if(hero->getLevel() < spell->getRequiredLvl())
     {
-        std::cout << "Level too low!" << std::endl;
+        std::cout << std::endl << "Level too low!" << std::endl;
         return false;
     }
 
@@ -31,11 +31,12 @@ Spell* CastSpellCommand::getSpell(Hero* hero)
 {
     if(hero->getInventory().noSpells())
     {
-        std::cout << "Your inventory is empty... Cannot cast any spell." << std::endl;
+        std::cout << std::endl << "Your inventory is empty... Cannot cast any spell."
+                  << std::endl;
         return nullptr;
     }
 
-    std::cout << "Which spell to cast <spell_name>?" << std::endl;
+    std::cout << std::endl << "Which spell to cast <spell_name>?" << std::endl;
 
     hero->printSpells();
 
@@ -46,7 +47,7 @@ Spell* CastSpellCommand::getSpell(Hero* hero)
 
     while(spell == nullptr)
     {
-        std::cout << "Unknown spell..." << std::endl;
+        std::cout << std::endl << "Unknown spell..." << std::endl;
         std::cout << "You may have given the name wrong..." << std::endl;
         std::cout << "Please check your inventory once again." << std::endl;
 

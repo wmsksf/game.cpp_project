@@ -13,7 +13,9 @@ private:
 
 public:
 
-    EntityName(const std::string &name, const std::string &type, int frequency);
+    EntityName(const std::string &name,
+               const std::string &type,
+               int frequency);
 
     const std::string &getName() const;
 
